@@ -1,4 +1,4 @@
-# Bossart_PSCAD_Libs
+# PSID2PSCAD
 
 PSCAD Libraries for verification of `PowerSimulationsDynamics.jl`
 
