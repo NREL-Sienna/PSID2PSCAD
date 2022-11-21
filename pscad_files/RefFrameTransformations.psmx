@@ -1,0 +1,40 @@
+<Meta name="RefFrameTransformations">
+  <messagelist>
+    <message status="normal" label="build" groupid="400002" scope="RefFrameTransformations" id="971288292" classid="MessageObj"><![CDATA[Begin compiling with PSCAD Version 5.0.1]]></message>
+    <message status="normal" label="build" groupid="100006" link="641294237" id="641294237" classid="FileNavigator"><![CDATA[Generating 'C:\Users\Matt Bossart\OneDrive - UCB-O365\Desktop\Transient Stability\Repositories\PSIDValidation\PSCAD\case_sauerpai_3bus_inverter\pscad_files\RefFrameTransformations.gf46\RefFrameTransformations.map'.]]><file scope="RefFrameTransformations">C:\Users\Matt Bossart\OneDrive - UCB-O365\Desktop\Transient Stability\Repositories\PSIDValidation\PSCAD\case_sauerpai_3bus_inverter\pscad_files\RefFrameTransformations.gf46\RefFrameTransformations.map</file></message>
+    <message status="normal" label="build" groupid="100015" scope="RefFrameTransformations" id="1883476239" classid="MessageObj"><![CDATA[The total number of live nodes: 3]]></message>
+    <message status="normal" label="build" groupid="0" link="833616150" id="833616150" classid="FileNavigator"><![CDATA[Coding .mak file: 'C:\Users\Matt Bossart\OneDrive - UCB-O365\Desktop\Transient Stability\Repositories\PSIDValidation\PSCAD\case_sauerpai_3bus_inverter\pscad_files\RefFrameTransformations.gf46\\RefFrameTransformations.mak']]><file scope="RefFrameTransformations">C:\Users\Matt Bossart\OneDrive - UCB-O365\Desktop\Transient Stability\Repositories\PSIDValidation\PSCAD\case_sauerpai_3bus_inverter\pscad_files\RefFrameTransformations.gf46\\RefFrameTransformations.mak</file></message>
+    <message status="normal" label="build" groupid="400000" scope="RefFrameTransformations" id="905216844" classid="MessageObj"><![CDATA[Time for Compile: 189ms  Make: 0ms]]></message>
+    <message status="normal" label="build" groupid="400000" scope="RefFrameTransformations" id="1262045295" classid="MessageObj"><![CDATA[Solve Time = 0ms]]></message>
+    <message status="normal" label="build" groupid="100016" scope="RefFrameTransformations" id="1611270244" classid="MessageObj"><![CDATA[Will execute (1): call C:\Program Files (x86)\GFortran\4.6\bin\gf46vars.bat]]></message>
+    <message status="normal" label="build" groupid="100016" scope="RefFrameTransformations" id="1133061910" classid="MessageObj"><![CDATA[Will execute (1): call "C:\Program Files (x86)\GFortran\4.6\bin\gf46vars.bat"]]></message>
+    <message status="normal" label="build" groupid="100016" scope="RefFrameTransformations" id="1485216436" classid="MessageObj"><![CDATA[Will execute (2): make -j -f RefFrameTransformations.mak]]></message>
+    <message status="normal" label="build" groupid="100016" scope="RefFrameTransformations" id="2076888226" classid="MessageObj"><![CDATA[Will execute (2): "C:\Users\Matt Bossart\OneDrive - UCB-O365\Desktop\Transient Stability\Repositories\PSIDValidation\PSCAD\case_sauerpai_3bus_inverter\pscad_files\RefFrameTransformations.gf46\RefFrameTransformations_mak.bat"]]></message>
+    <message status="normal" label="build" groupid="100005" scope="RefFrameTransformations" id="1207476661" classid="MessageObj"><![CDATA[Creating EMTDC executable...]]></message>
+    <message status="normal" label="build" groupid="0" scope="RefFrameTransformations" id="1778893550" classid="MessageObj"><![CDATA[C:\Users\Matt Bossart\OneDrive - UCB-O365\Desktop\Transient Stability\Repositories\PSIDValidation\PSCAD\case_sauerpai_3bus_inverter\pscad_files\RefFrameTransformations.gf46>call "C:\Program Files (x86)\GFortran\4.6\bin\gf46vars.bat" ]]></message>
+    <message status="normal" label="build" groupid="100004" scope="RefFrameTransformations" id="595106232" classid="MessageObj"><![CDATA[Compiling 'Main.f' into object code.]]></message>
+    <message status="normal" label="build" groupid="100013" scope="RefFrameTransformations" id="1389819446" classid="MessageObj"><![CDATA[Linking objects and libraries into binary 'RefFrameTransformations.exe']]></message>
+    <message status="normal" label="build" groupid="400003" scope="RefFrameTransformations" id="739600352" classid="MessageObj"><![CDATA[Finished compiling with PSCAD Version 5.0.1]]></message>
+  </messagelist>
+  <ViewContext>
+    <Window defn="RefFrameTransformations:Main" call="0" />
+  </ViewContext>
+  <List classid="View">
+    <View name="Main" zoomscale="0.96" scrollx="0" scrolly="0" />
+  </List>
+  <Output device="EMTDC" version="2010" date="2022/10/21" time="17:32:09.000000">
+    <Domain name="Time" unit="s" mult="0.0" skew="0.0">
+      <Sample rate="4000.0" end="6000" />
+    </Domain>
+    <List classid="Analog">
+      <Analog name="Main(0):V1" index="1" gindex="100663297" id="1539991977:0" label="" dim="3" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):V2" index="4" gindex="100663300" id="1851117912:0" label="" dim="3" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):Vq_psid" index="7" gindex="100663303" id="211221097:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):Vd_psid" index="8" gindex="100663304" id="1374277039:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):Vq" index="9" gindex="100663305" id="1311371576:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):Vd" index="10" gindex="100663306" id="1580569770:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):theta_delay" index="11" gindex="100663307" id="1727023419:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+    </List>
+    <List classid="Digital" />
+  </Output>
+</Meta>

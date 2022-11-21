@@ -1,0 +1,27 @@
+<Meta name="PSID_Library_Inverters">
+  <messagelist />
+  <List classid="Settings" />
+  <ViewContext>
+    <Window defn="PSID_Library_Inverters:FIXED_SAUER_PAI" call="0" />
+  </ViewContext>
+  <List classid="View">
+    <View name="Main" zoomlevel="4" scrollx="0" scrolly="0" zoomscale="0.96" />
+    <View name="OuterControl" zoomlevel="4" scrollx="152" scrolly="134" />
+    <View name="PSID_VSM" zoomlevel="6" scrollx="0" scrolly="0" />
+    <View name="DARCO_VSM" zoomlevel="6" scrollx="0" scrolly="186" zoomscale="0.96" />
+    <View name="DROOP_GFM" zoomlevel="6" scrollx="0" scrolly="176" zoomscale="0.96" />
+    <View name="GFL" zoomlevel="6" scrollx="0" scrolly="24" zoomscale="0.96" />
+    <View name="DEMETRIOUS_SG" zoomlevel="6" scrollx="0" scrolly="0" zoomscale="1.2" />
+    <View name="DEMETRIOUS_SC" zoomlevel="4" scrollx="0" scrolly="48" zoomscale="1.5" />
+    <View name="DEMETRIOUS_SC_1" zoomscale="1.5" scrollx="0" scrolly="0" />
+    <View name="SEXS_GAST" zoomscale="0.96" scrollx="0" scrolly="0" />
+    <View name="SEXS_GAST_2" zoomscale="1.5" scrollx="59" scrolly="180" />
+    <View name="SIMPLE_MACHINE" zoomscale="0.96" scrollx="0" scrolly="0" />
+    <View name="GAST" zoomscale="1.2" scrollx="0" scrolly="31" />
+    <View name="SEXS" zoomscale="1.2" scrollx="0" scrolly="0" />
+    <View name="SIMPLE_MACHINE_1" zoomscale="1.5" scrollx="0" scrolly="0" />
+    <View name="FIXED_SAUER_PAI" zoomscale="0.96" scrollx="0" scrolly="0" />
+    <View name="INFINITE_BUS" zoomscale="0.96" scrollx="0" scrolly="0" />
+  </List>
+  <Catalog count="0" />
+</Meta>
