@@ -1,15 +1,22 @@
 <Meta name="PSID_Library_Inverters">
-  <messagelist />
+  <messagelist>
+    <message status="error" label="build" groupid="300503" id="866510789" classid="CmpNavigator">
+      <User scope="PSID_Library_Inverters" name="PSID_Library:GAST" status="error" link="1645426511" /><![CDATA[Unable to resolve definition 'PSID_Library:GAST']]></message>
+    <message status="error" label="build" groupid="300503" id="1741426321" classid="CmpNavigator">
+      <User scope="PSID_Library_Inverters" name="PSID_Library:GAST" status="error" link="1645426511" /><![CDATA[Unable to resolve definition 'PSID_Library:GAST']]></message>
+    <message status="error" label="build" groupid="300503" id="1639591506" classid="CmpNavigator">
+      <User scope="PSID_Library_Inverters" name="PSID_Library:GAST" status="error" link="1645426511" /><![CDATA[Unable to resolve definition 'PSID_Library:GAST']]></message>
+  </messagelist>
   <List classid="Settings" />
   <ViewContext>
-    <Window defn="PSID_Library_Inverters:FIXED_SAUER_PAI" call="0" />
+    <Window defn="PSID_Library_Inverters:Main" call="0" />
   </ViewContext>
   <List classid="View">
-    <View name="Main" zoomlevel="4" scrollx="0" scrolly="0" zoomscale="0.96" />
+    <View name="Main" zoomlevel="4" scrollx="241" scrolly="141" zoomscale="1.875" />
     <View name="OuterControl" zoomlevel="4" scrollx="152" scrolly="134" />
     <View name="PSID_VSM" zoomlevel="6" scrollx="0" scrolly="0" />
-    <View name="DARCO_VSM" zoomlevel="6" scrollx="0" scrolly="186" zoomscale="0.96" />
-    <View name="DROOP_GFM" zoomlevel="6" scrollx="0" scrolly="176" zoomscale="0.96" />
+    <View name="DARCO_VSM" zoomlevel="6" scrollx="0" scrolly="0" zoomscale="0.96" />
+    <View name="DROOP_GFM" zoomlevel="6" scrollx="40" scrolly="345" zoomscale="1.2" />
     <View name="GFL" zoomlevel="6" scrollx="0" scrolly="24" zoomscale="0.96" />
     <View name="DEMETRIOUS_SG" zoomlevel="6" scrollx="0" scrolly="0" zoomscale="1.2" />
     <View name="DEMETRIOUS_SC" zoomlevel="4" scrollx="0" scrolly="48" zoomscale="1.5" />
@@ -22,6 +29,12 @@
     <View name="SIMPLE_MACHINE_1" zoomscale="1.5" scrollx="0" scrolly="0" />
     <View name="FIXED_SAUER_PAI" zoomscale="0.96" scrollx="0" scrolly="0" />
     <View name="INFINITE_BUS" zoomscale="0.96" scrollx="0" scrolly="0" />
+    <View name="SAUERPAI_SEXS_GASTG_IEEEST" zoomscale="0.6144" scrollx="0" scrolly="0" />
+    <View name="SAUERPAI_SEXS_GASTG_PSSFIXED" zoomscale="1.2" scrollx="0" scrolly="585" />
+    <View name="SAUERPAI_SEXS_HYGOV_IEEEST" zoomscale="0.96" scrollx="0" scrolly="499" />
+    <View name="SAUERPAI_SEXS_HYGOV_PSSFIXED" zoomscale="1.2" scrollx="0" scrolly="676" />
+    <View name="SAUERPAI_SEXS_TGOV1_IEEEST" zoomscale="1.2" scrollx="0" scrolly="676" />
+    <View name="SAUERPAI_SEXS_TGOV1_PSSFIXED" zoomscale="1.5" scrollx="0" scrolly="481" />
   </List>
   <Catalog count="0" />
 </Meta>
