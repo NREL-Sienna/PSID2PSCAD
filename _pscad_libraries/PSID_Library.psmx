@@ -1,14 +1,49 @@
 <Meta name="PSID_Library">
-  <messagelist />
+  <messagelist>
+    <message status="warning" label="build" groupid="206502" id="1927972476" classid="CmpNavigator">
+      <User scope="PSID_Library" name="master:integral" status="warning" link="879215536" /><![CDATA[Signal 'GEN' type conversion may lose accuracy at connection 'R']]></message>
+    <message status="warning" label="build" groupid="206502" id="36113806" classid="CmpNavigator">
+      <User scope="PSID_Library" name="master:integral" status="warning" link="730570091" /><![CDATA[Signal 'GEN' type conversion may lose accuracy at connection 'R']]></message>
+    <message status="warning" label="build" groupid="206502" id="518089135" classid="CmpNavigator">
+      <User scope="PSID_Library" name="master:integral" status="warning" link="2124658985" /><![CDATA[Signal 'GEN' type conversion may lose accuracy at connection 'R']]></message>
+    <message status="warning" label="build" groupid="206502" id="53281862" classid="CmpNavigator">
+      <User scope="PSID_Library" name="master:integral" status="warning" link="1188742786" /><![CDATA[Signal 'GEN' type conversion may lose accuracy at connection 'R']]></message>
+    <message status="warning" label="build" groupid="206502" id="957534813" classid="CmpNavigator">
+      <User scope="PSID_Library" name="master:integral" status="warning" link="1096188767" /><![CDATA[Signal 'GEN' type conversion may lose accuracy at connection 'R']]></message>
+    <message status="warning" label="build" groupid="206502" id="171571493" classid="CmpNavigator">
+      <User scope="PSID_Library" name="master:integral" status="warning" link="877303017" /><![CDATA[Signal 'GEN' type conversion may lose accuracy at connection 'R']]></message>
+    <message status="warning" label="build" groupid="206502" id="2024150374" classid="CmpNavigator">
+      <User scope="PSID_Library" name="master:integral" status="warning" link="1117486909" /><![CDATA[Signal 'GEN' type conversion may lose accuracy at connection 'R']]></message>
+    <message status="warning" label="build" groupid="206502" id="294784863" classid="CmpNavigator">
+      <User scope="PSID_Library" name="master:leadlag" status="warning" link="1721607065" /><![CDATA[Signal 'GEN' type conversion may lose accuracy at connection 'R']]></message>
+    <message status="warning" label="build" groupid="206502" id="1689548392" classid="CmpNavigator">
+      <User scope="PSID_Library" name="master:realpole" status="warning" link="506883605" /><![CDATA[Signal 'GEN' type conversion may lose accuracy at connection 'R']]></message>
+    <message status="warning" label="build" groupid="206502" id="1162533528" classid="CmpNavigator">
+      <User scope="PSID_Library" name="master:realpole" status="warning" link="11072055" /><![CDATA[Signal 'INV' type conversion may lose accuracy at connection 'R']]></message>
+    <message status="warning" label="build" groupid="206502" id="555312385" classid="CmpNavigator">
+      <User scope="PSID_Library" name="master:integral" status="warning" link="492855705" /><![CDATA[Signal 'INV' type conversion may lose accuracy at connection 'R']]></message>
+    <message status="warning" label="build" groupid="206502" id="1772289810" classid="CmpNavigator">
+      <User scope="PSID_Library" name="master:realpole" status="warning" link="1499652905" /><![CDATA[Signal 'INV' type conversion may lose accuracy at connection 'R']]></message>
+    <message status="warning" label="build" groupid="206502" id="720667040" classid="CmpNavigator">
+      <User scope="PSID_Library" name="master:realpole" status="warning" link="13584325" /><![CDATA[Signal 'INV' type conversion may lose accuracy at connection 'R']]></message>
+    <message status="warning" label="build" groupid="206502" id="129160475" classid="CmpNavigator">
+      <User scope="PSID_Library" name="master:integral" status="warning" link="2071166572" /><![CDATA[Signal 'INV' type conversion may lose accuracy at connection 'R']]></message>
+    <message status="warning" label="build" groupid="206502" id="21589817" classid="CmpNavigator">
+      <User scope="PSID_Library" name="master:integral" status="warning" link="1544546380" /><![CDATA[Signal 'INV' type conversion may lose accuracy at connection 'R']]></message>
+    <message status="warning" label="build" groupid="206502" id="577638052" classid="CmpNavigator">
+      <User scope="PSID_Library" name="master:integral" status="warning" link="1271894104" /><![CDATA[Signal 'INV' type conversion may lose accuracy at connection 'R']]></message>
+    <message status="warning" label="build" groupid="206502" id="266729120" classid="CmpNavigator">
+      <User scope="PSID_Library" name="master:integral" status="warning" link="138022980" /><![CDATA[Signal 'INV' type conversion may lose accuracy at connection 'R']]></message>
+  </messagelist>
   <List classid="Settings" />
   <ViewContext>
-    <Window defn="PSID_Library:Main" call="0" />
+    <Window defn="PSID_Library:SteamTurbineGov1" call="0" />
   </ViewContext>
   <List classid="View">
-    <View name="Main" zoomlevel="4" scrollx="94" scrolly="831" zoomscale="1.5" />
+    <View name="Main" zoomlevel="4" scrollx="0" scrolly="0" zoomscale="1.5" />
     <View name="TGTypeII" zoomlevel="4" scrollx="0" scrolly="252" zoomscale="0.96" />
     <View name="TGOV1" zoomlevel="4" scrollx="184" scrolly="185" zoomscale="1.5" />
-    <View name="SEXS" zoomlevel="1" scrollx="0" scrolly="0" zoomscale="0.768" />
+    <View name="SEXS" zoomlevel="1" scrollx="0" scrolly="0" zoomscale="1.5" />
     <View name="CurrentControl" zoomlevel="3" scrollx="0" scrolly="0" />
     <View name="KauraPLL" zoomlevel="5" scrollx="0" scrolly="0" zoomscale="0.96" />
     <View name="AverageConverter" zoomlevel="6" scrollx="0" scrolly="0" zoomscale="0.768" />
@@ -50,12 +85,12 @@
     <View name="dq_abc_psid" zoomscale="0.96" scrollx="0" scrolly="0" />
     <View name="timestep_delay_angle" zoomscale="0.768" scrollx="0" scrolly="0" />
     <View name="PSSFixed" zoomscale="1.2" scrollx="0" scrolly="0" />
-    <View name="GASTG" zoomscale="0.768" scrollx="0" scrolly="0" />
+    <View name="GASTG" zoomscale="1.5" scrollx="0" scrolly="0" />
     <View name="GAST_2" zoomscale="0.768" scrollx="47" scrolly="0" />
     <View name="IEEEST" zoomscale="0.96" scrollx="0" scrolly="243" />
     <View name="SecOdrPole" zoomscale="1.2" scrollx="0" scrolly="18" />
     <View name="GASTG_1" zoomscale="0.6144" scrollx="0" scrolly="0" />
-    <View name="HydroTurbineGov" zoomscale="0.768" scrollx="0" scrolly="0" />
+    <View name="HydroTurbineGov" zoomscale="1.2" scrollx="0" scrolly="0" />
     <View name="SteamTurbineGov1" zoomscale="0.96" scrollx="0" scrolly="0" />
   </List>
   <Catalog count="0" />

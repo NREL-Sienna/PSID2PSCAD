@@ -53,6 +53,55 @@ function _add_to_enabled_gens_layer(
 end
 
 function _add_to_enabled_gens_layer(
+    g::DynamicGenerator{SauerPaiMachine, SingleMass, SEXS, GasTG, IEEEST},
+    project,
+)
+    psid_name = get_name(g)
+    project.find("PSID_Library_Inverters:SAUERPAI_SEXS_GASTG_IEEEST", psid_name).add_to_layer("enabled_gens")
+end
+
+function _add_to_enabled_gens_layer(
+    g::DynamicGenerator{SauerPaiMachine, SingleMass, SEXS, GasTG, PSSFixed},
+    project,
+)
+    psid_name = get_name(g)
+    project.find("PSID_Library_Inverters:SAUERPAI_SEXS_GASTG_PSSFIXED", psid_name).add_to_layer("enabled_gens")
+end
+
+function _add_to_enabled_gens_layer(
+    g::DynamicGenerator{SauerPaiMachine, SingleMass, SEXS, HydroTurbineGov, IEEEST},
+    project,
+)
+    psid_name = get_name(g)
+    project.find("PSID_Library_Inverters:SAUERPAI_SEXS_HYGOV_IEEEST", psid_name).add_to_layer("enabled_gens")
+end
+
+function _add_to_enabled_gens_layer(
+    g::DynamicGenerator{SauerPaiMachine, SingleMass, SEXS, HydroTurbineGov, PSSFixed},
+    project,
+)
+    psid_name = get_name(g)
+    project.find("PSID_Library_Inverters:SAUERPAI_SEXS_HYGOV_PSSFIXED", psid_name).add_to_layer("enabled_gens")
+end
+
+function _add_to_enabled_gens_layer(
+    g::DynamicGenerator{SauerPaiMachine, SingleMass, SEXS, SteamTurbineGov1, IEEEST},
+    project,
+)
+    psid_name = get_name(g)
+    project.find("PSID_Library_Inverters:SAUERPAI_SEXS_TGOV1_IEEEST", psid_name).add_to_layer("enabled_gens")
+end
+
+function _add_to_enabled_gens_layer(
+    g::DynamicGenerator{SauerPaiMachine, SingleMass, SEXS, SteamTurbineGov1, PSSFixed},
+    project,
+)
+    psid_name = get_name(g)
+    project.find("PSID_Library_Inverters:SAUERPAI_SEXS_TGOV1_PSSFIXED", psid_name).add_to_layer("enabled_gens")
+end
+
+
+function _add_to_enabled_gens_layer(
     g::DynamicGenerator{SauerPaiMachine, SingleMass, AVRFixed, TGFixed, PSSFixed},
     project,
 )
@@ -63,7 +112,7 @@ function _add_to_enabled_gens_layer(
     #project.find("PSID_Library_Inverters:SIMPLE_MACHINE", psid_name).add_to_layer("enabled_gens")           #SWITCH HERE TO DECIDE WHICH MACHINE MODEL 
 end
 
-function _add_to_enabled_gens_layer(g::Source)
+function _add_to_enabled_gens_layer(g::Source, project)
     psid_name = get_name(g)
     project.find("PSID_Library_Inverters:INFINITE_BUS", psid_name).add_to_layer(
         "enabled_gens",
@@ -243,23 +292,73 @@ end
 
 function write_parameters!(pscad_params, machine::SauerPaiMachine)
     @warn "Saturation not considered in SauerPai machine"
-    pscad_params["R"] = get_R(machine)
-    pscad_params["Td0_p"] = get_Td0_p(machine)
-    pscad_params["Td0_pp"] = get_Td0_pp(machine)
-    pscad_params["Tq0_p"] = get_Tq0_p(machine)
-    pscad_params["Tq0_pp"] = get_Tq0_pp(machine)
-    pscad_params["Xd"] = get_Xd(machine)
-    pscad_params["Xq"] = get_Xq(machine)
-    pscad_params["Xd_p"] = get_Xd_p(machine)
-    pscad_params["Xq_p"] = get_Xq_p(machine)
-    pscad_params["Xd_pp"] = get_Xd_pp(machine)
-    pscad_params["Xq_pp"] = get_Xq_pp(machine)
-    pscad_params["Xl"] = get_Xl(machine)  #Xl = Xp if Airgap factor = 1 
+    pscad_params["machine_R"] = get_R(machine)
+    pscad_params["machine_Td0_p"] = get_Td0_p(machine)
+    pscad_params["machine_Td0_pp"] = get_Td0_pp(machine)
+    pscad_params["machine_Tq0_p"] = get_Tq0_p(machine)
+    pscad_params["machine_Tq0_pp"] = get_Tq0_pp(machine)
+    pscad_params["machine_Xd"] = get_Xd(machine)
+    pscad_params["machine_Xq"] = get_Xq(machine)
+    pscad_params["machine_Xd_p"] = get_Xd_p(machine)
+    pscad_params["machine_Xq_p"] = get_Xq_p(machine)
+    pscad_params["machine_Xd_pp"] = get_Xd_pp(machine)
+    pscad_params["machine_Xq_pp"] = get_Xq_pp(machine)
+    pscad_params["machine_Xl"] = get_Xl(machine)  #Xl = Xp if Airgap factor = 1 
 end
 
 function write_parameters!(pscad_params, shaft::SingleMass)
-    pscad_params["H"] = get_H(shaft)
-    pscad_params["D"] = get_D(shaft)
+    pscad_params["shaft_H"] = get_H(shaft)
+    pscad_params["shaft_D"] = get_D(shaft)
+end
+
+function write_parameters!(pscad_params, avr::SEXS)
+    pscad_params["avr_Ta_Tb"] = get_Ta_Tb(avr)
+    pscad_params["avr_Tb"] = get_Tb(avr)
+    pscad_params["avr_K"] = get_K(avr)
+    pscad_params["avr_Te"] = get_Te(avr)
+    pscad_params["avr_V_min"] = get_V_lim(avr)[1]
+    pscad_params["avr_V_max"] = get_V_lim(avr)[2]
+end
+
+function write_parameters!(pscad_params, prime_mover::GasTG)
+    pscad_params["primemover_R"] = get_R(prime_mover)
+    pscad_params["primemover_T1"] = get_T1(prime_mover)
+    pscad_params["primemover_T2"] = get_T2(prime_mover)
+    pscad_params["primemover_T3"] = get_T3(prime_mover)
+    pscad_params["primemover_AT"] = get_AT(prime_mover)
+    pscad_params["primemover_Kt"] = get_Kt(prime_mover)
+    pscad_params["primemover_V_min"] = get_V_lim(prime_mover)[1]
+    pscad_params["primemover_V_max"] = get_V_lim(prime_mover)[2]
+    pscad_params["primemover_D_turb"] = get_D_turb(prime_mover)
+end
+
+function write_parameters!(pscad_params, prime_mover::HydroTurbineGov)
+    pscad_params["primemover_R_perm"] = get_R(prime_mover)  #PSCAD not case-sensitive
+    pscad_params["primemover_R_temp"] = get_r(prime_mover)  #PSCAD not case-sensitive
+    pscad_params["primemover_Tr"] = get_Tr(prime_mover) 
+    pscad_params["primemover_Tf"] = get_Tf(prime_mover)
+    pscad_params["primemover_Tg"] = get_Tg(prime_mover)
+    pscad_params["primemover_VELM"] = get_VELM(prime_mover)
+    pscad_params["primemover_gate_position_min"] = get_gate_position_limits(prime_mover).min
+    pscad_params["primemover_gate_position_max"] = get_gate_position_limits(prime_mover).max
+    pscad_params["primemover_Tw"] = get_Tw(prime_mover)
+    pscad_params["primemover_At"] = get_At(prime_mover)
+    pscad_params["primemover_D_T"] = get_D_T(prime_mover)
+    pscad_params["primemover_q_nl"] = get_q_nl(prime_mover)
+end
+
+function write_parameters!(pscad_params, prime_mover::SteamTurbineGov1)
+    pscad_params["primemover_R"] = get_R(prime_mover)
+    pscad_params["primemover_T1"] = get_T1(prime_mover)
+    pscad_params["primemover_valve_position_min"] = get_valve_position_limits(prime_mover).min
+    pscad_params["primemover_valve_position_max"] = get_valve_position_limits(prime_mover).max
+    pscad_params["primemover_T2"] = get_T2(prime_mover)
+    pscad_params["primemover_T3"] = get_T3(prime_mover)
+    pscad_params["primemover_D_T"] = get_D_T(prime_mover)
+    pscad_params["primemover_T_rate"] = get_T_rate(prime_mover)
+end
+
+function write_parameters!(pscad_params, pss::PSSFixed) 
 end
 
 function write_parameters!(pscad_params, avr::ESAC1A)
@@ -446,28 +545,7 @@ function write_parameters(psid_component::Bus, pscad_component_name, pscad_proje
     PP.update_parameter_by_dictionary(pscad_component, pscad_params)
 end
 
-function write_parameters!(pscad_params, avr::SEXS)
-    pscad_params["T_A_over_T_B"] = get_Ta_Tb(avr)
-    pscad_params["T_B"] = get_Tb(avr)
-    pscad_params["K"] = get_K(avr)
-    pscad_params["T_E"] = get_Te(avr)
-    pscad_params["E_MIN"] = get_V_lim(avr)[1]
-    pscad_params["E_MAX"] = get_V_lim(avr)[2]
-end
 
-function write_parameters!(pscad_params, prime_mover::GasTG)
-    pscad_params["R"] = get_R(prime_mover)
-    pscad_params["T1"] = get_T1(prime_mover)
-    pscad_params["T2"] = get_T2(prime_mover)
-    pscad_params["T3"] = get_T3(prime_mover)
-    pscad_params["AT"] = get_AT(prime_mover)
-    pscad_params["KT"] = get_Kt(prime_mover)
-    pscad_params["VMIN"] = get_V_lim(prime_mover)[1]
-    pscad_params["VMAX"] = get_V_lim(prime_mover)[2]
-    pscad_params["DTURB"] = get_D_turb(prime_mover)
-end
-
-function write_parameters!(pscad_params, pss::PSSFixed) end
 
 function write_parameters(
     psid_component::DynamicGenerator,
@@ -476,7 +554,7 @@ function write_parameters(
 )
     pscad_component = pscad_project.find(pscad_component_name, layer = "enabled_gens")
     pscad_params = pscad_component.parameters()
-
+    @warn pscad_params
     write_parameters!(pscad_params, psid_component.machine)
     write_parameters!(pscad_params, psid_component.shaft)
     write_parameters!(pscad_params, psid_component.avr)
@@ -559,7 +637,7 @@ function write_initial_conditions(
         pscad_params[name] = x0_dict[get_name(psid_component)][state]
     end
     for (i, state) in enumerate(get_states(psid_component.prime_mover))
-        name = "primemover_x0_" * string(i)
+        name = "tg_x0_" * string(i)
         pscad_params[name] = x0_dict[get_name(psid_component)][state]
     end
     PP.update_parameter_by_dictionary(pscad_component, pscad_params)

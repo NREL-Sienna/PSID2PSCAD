@@ -21,7 +21,7 @@
     <param name="Warn" value="0" />
     <param name="Check" value="0" />
     <param name="description" value="" />
-    <param name="revisor" value="Matt Bossart, 1669820408" />
+    <param name="revisor" value="Matt Bossart, 1671133966" />
     <param name="sparsity_threshold" value="200" />
   </paramlist>
   <Layers>
@@ -14136,9 +14136,503 @@
         <param name="ymax" value="1" />
       </paramlist>
     </Settings>
+    <Settings classid="GraphFrameSettings" id="481797070" link="707714452">
+      <path>
+        <ref link="1121605733" />
+        <ref link="314200446" />
+      </path>
+      <paramlist>
+        <param name="xmin" value="-1" />
+        <param name="xmax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="OverlayGraphSettings" id="1643761784" link="580080222">
+      <path>
+        <ref link="1121605733" />
+        <ref link="314200446" />
+      </path>
+      <paramlist>
+        <param name="ymin" value="-1" />
+        <param name="ymax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="GraphFrameSettings" id="690155799" link="1820287077">
+      <path>
+        <ref link="1121605733" />
+        <ref link="314200446" />
+      </path>
+      <paramlist>
+        <param name="xmin" value="-1" />
+        <param name="xmax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="OverlayGraphSettings" id="977231278" link="987675169">
+      <path>
+        <ref link="1121605733" />
+        <ref link="314200446" />
+      </path>
+      <paramlist>
+        <param name="ymin" value="-1" />
+        <param name="ymax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="OverlayGraphSettings" id="598893204" link="997091285">
+      <path>
+        <ref link="1121605733" />
+        <ref link="314200446" />
+      </path>
+      <paramlist>
+        <param name="ymin" value="-1" />
+        <param name="ymax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="OverlayGraphSettings" id="43647582" link="1359199024">
+      <path>
+        <ref link="1121605733" />
+        <ref link="314200446" />
+      </path>
+      <paramlist>
+        <param name="ymin" value="-1" />
+        <param name="ymax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="OverlayGraphSettings" id="645705530" link="1019295967">
+      <path>
+        <ref link="1121605733" />
+        <ref link="314200446" />
+      </path>
+      <paramlist>
+        <param name="ymin" value="-1" />
+        <param name="ymax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="GraphFrameSettings" id="1854692616" link="1791746228">
+      <path>
+        <ref link="1121605733" />
+        <ref link="314200446" />
+      </path>
+      <paramlist>
+        <param name="xmin" value="-1" />
+        <param name="xmax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="OverlayGraphSettings" id="1848150781" link="676534044">
+      <path>
+        <ref link="1121605733" />
+        <ref link="314200446" />
+      </path>
+      <paramlist>
+        <param name="ymin" value="-1" />
+        <param name="ymax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="OverlayGraphSettings" id="986530650" link="1854044170">
+      <path>
+        <ref link="1121605733" />
+        <ref link="314200446" />
+      </path>
+      <paramlist>
+        <param name="ymin" value="-1" />
+        <param name="ymax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="GraphFrameSettings" id="60326498" link="1631671657">
+      <path>
+        <ref link="1121605733" />
+        <ref link="314200446" />
+      </path>
+      <paramlist>
+        <param name="xmin" value="-1" />
+        <param name="xmax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="OverlayGraphSettings" id="1028222204" link="836402048">
+      <path>
+        <ref link="1121605733" />
+        <ref link="314200446" />
+      </path>
+      <paramlist>
+        <param name="ymin" value="-1" />
+        <param name="ymax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="OverlayGraphSettings" id="1668353154" link="1493692158">
+      <path>
+        <ref link="1121605733" />
+        <ref link="314200446" />
+      </path>
+      <paramlist>
+        <param name="ymin" value="-1" />
+        <param name="ymax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="OverlayGraphSettings" id="2010115053" link="1512811439">
+      <path>
+        <ref link="1121605733" />
+        <ref link="314200446" />
+      </path>
+      <paramlist>
+        <param name="ymin" value="-1" />
+        <param name="ymax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="GraphFrameSettings" id="981391900" link="1971849011">
+      <path>
+        <ref link="1121605733" />
+        <ref link="314200446" />
+      </path>
+      <paramlist>
+        <param name="xmin" value="-1" />
+        <param name="xmax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="OverlayGraphSettings" id="457105708" link="755815073">
+      <path>
+        <ref link="1121605733" />
+        <ref link="314200446" />
+      </path>
+      <paramlist>
+        <param name="ymin" value="-1" />
+        <param name="ymax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="OverlayGraphSettings" id="1064566170" link="855845606">
+      <path>
+        <ref link="1121605733" />
+        <ref link="314200446" />
+      </path>
+      <paramlist>
+        <param name="ymin" value="-1" />
+        <param name="ymax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="OverlayGraphSettings" id="1830661981" link="1858901540">
+      <path>
+        <ref link="1121605733" />
+        <ref link="314200446" />
+      </path>
+      <paramlist>
+        <param name="ymin" value="-1" />
+        <param name="ymax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="GraphFrameSettings" id="1650768896" link="851640439">
+      <path>
+        <ref link="1121605733" />
+        <ref link="314200446" />
+      </path>
+      <paramlist>
+        <param name="xmin" value="-1" />
+        <param name="xmax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="OverlayGraphSettings" id="1632132160" link="1833049930">
+      <path>
+        <ref link="1121605733" />
+        <ref link="314200446" />
+      </path>
+      <paramlist>
+        <param name="ymin" value="-1" />
+        <param name="ymax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="OverlayGraphSettings" id="1587988995" link="1895114917">
+      <path>
+        <ref link="1121605733" />
+        <ref link="314200446" />
+      </path>
+      <paramlist>
+        <param name="ymin" value="-1" />
+        <param name="ymax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="OverlayGraphSettings" id="1591221638" link="1387850366">
+      <path>
+        <ref link="1121605733" />
+        <ref link="314200446" />
+      </path>
+      <paramlist>
+        <param name="ymin" value="-1" />
+        <param name="ymax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="OverlayGraphSettings" id="621914923" link="1998000805">
+      <path>
+        <ref link="1121605733" />
+        <ref link="314200446" />
+      </path>
+      <paramlist>
+        <param name="ymin" value="-1" />
+        <param name="ymax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="GraphFrameSettings" id="1886306715" link="1028995495">
+      <path>
+        <ref link="1121605733" />
+        <ref link="314200446" />
+      </path>
+      <paramlist>
+        <param name="xmin" value="-1" />
+        <param name="xmax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="OverlayGraphSettings" id="213378370" link="1749212171">
+      <path>
+        <ref link="1121605733" />
+        <ref link="314200446" />
+      </path>
+      <paramlist>
+        <param name="ymin" value="-1" />
+        <param name="ymax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="OverlayGraphSettings" id="1606226529" link="982281421">
+      <path>
+        <ref link="1121605733" />
+        <ref link="314200446" />
+      </path>
+      <paramlist>
+        <param name="ymin" value="-1" />
+        <param name="ymax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="GraphFrameSettings" id="1069527201" link="707714452">
+      <path>
+        <ref link="1121605733" />
+      </path>
+      <paramlist>
+        <param name="xmin" value="-1" />
+        <param name="xmax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="OverlayGraphSettings" id="1352031055" link="580080222">
+      <path>
+        <ref link="1121605733" />
+      </path>
+      <paramlist>
+        <param name="ymin" value="-1" />
+        <param name="ymax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="GraphFrameSettings" id="385273785" link="1820287077">
+      <path>
+        <ref link="1121605733" />
+      </path>
+      <paramlist>
+        <param name="xmin" value="-1" />
+        <param name="xmax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="OverlayGraphSettings" id="824448269" link="987675169">
+      <path>
+        <ref link="1121605733" />
+      </path>
+      <paramlist>
+        <param name="ymin" value="-1" />
+        <param name="ymax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="OverlayGraphSettings" id="1469294534" link="997091285">
+      <path>
+        <ref link="1121605733" />
+      </path>
+      <paramlist>
+        <param name="ymin" value="-1" />
+        <param name="ymax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="OverlayGraphSettings" id="1688460361" link="1359199024">
+      <path>
+        <ref link="1121605733" />
+      </path>
+      <paramlist>
+        <param name="ymin" value="-1" />
+        <param name="ymax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="OverlayGraphSettings" id="1498711769" link="1019295967">
+      <path>
+        <ref link="1121605733" />
+      </path>
+      <paramlist>
+        <param name="ymin" value="-1" />
+        <param name="ymax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="GraphFrameSettings" id="2106079560" link="1791746228">
+      <path>
+        <ref link="1121605733" />
+      </path>
+      <paramlist>
+        <param name="xmin" value="-1" />
+        <param name="xmax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="OverlayGraphSettings" id="1282377782" link="676534044">
+      <path>
+        <ref link="1121605733" />
+      </path>
+      <paramlist>
+        <param name="ymin" value="-1" />
+        <param name="ymax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="OverlayGraphSettings" id="1065042259" link="1854044170">
+      <path>
+        <ref link="1121605733" />
+      </path>
+      <paramlist>
+        <param name="ymin" value="-1" />
+        <param name="ymax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="GraphFrameSettings" id="1568788943" link="1631671657">
+      <path>
+        <ref link="1121605733" />
+      </path>
+      <paramlist>
+        <param name="xmin" value="-1" />
+        <param name="xmax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="OverlayGraphSettings" id="1826016051" link="836402048">
+      <path>
+        <ref link="1121605733" />
+      </path>
+      <paramlist>
+        <param name="ymin" value="-1" />
+        <param name="ymax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="OverlayGraphSettings" id="1778416234" link="1493692158">
+      <path>
+        <ref link="1121605733" />
+      </path>
+      <paramlist>
+        <param name="ymin" value="-1" />
+        <param name="ymax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="OverlayGraphSettings" id="2015515950" link="1512811439">
+      <path>
+        <ref link="1121605733" />
+      </path>
+      <paramlist>
+        <param name="ymin" value="-1" />
+        <param name="ymax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="GraphFrameSettings" id="1853754194" link="1971849011">
+      <path>
+        <ref link="1121605733" />
+      </path>
+      <paramlist>
+        <param name="xmin" value="-1" />
+        <param name="xmax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="OverlayGraphSettings" id="661124170" link="755815073">
+      <path>
+        <ref link="1121605733" />
+      </path>
+      <paramlist>
+        <param name="ymin" value="-1" />
+        <param name="ymax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="OverlayGraphSettings" id="1921828299" link="855845606">
+      <path>
+        <ref link="1121605733" />
+      </path>
+      <paramlist>
+        <param name="ymin" value="-1" />
+        <param name="ymax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="OverlayGraphSettings" id="1740122315" link="1858901540">
+      <path>
+        <ref link="1121605733" />
+      </path>
+      <paramlist>
+        <param name="ymin" value="-1" />
+        <param name="ymax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="GraphFrameSettings" id="584581997" link="851640439">
+      <path>
+        <ref link="1121605733" />
+      </path>
+      <paramlist>
+        <param name="xmin" value="-1" />
+        <param name="xmax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="OverlayGraphSettings" id="626974851" link="1833049930">
+      <path>
+        <ref link="1121605733" />
+      </path>
+      <paramlist>
+        <param name="ymin" value="-1" />
+        <param name="ymax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="OverlayGraphSettings" id="565866057" link="1895114917">
+      <path>
+        <ref link="1121605733" />
+      </path>
+      <paramlist>
+        <param name="ymin" value="-1" />
+        <param name="ymax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="OverlayGraphSettings" id="1746649484" link="1387850366">
+      <path>
+        <ref link="1121605733" />
+      </path>
+      <paramlist>
+        <param name="ymin" value="-1" />
+        <param name="ymax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="OverlayGraphSettings" id="104706323" link="1998000805">
+      <path>
+        <ref link="1121605733" />
+      </path>
+      <paramlist>
+        <param name="ymin" value="-1" />
+        <param name="ymax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="GraphFrameSettings" id="2138443934" link="1028995495">
+      <path>
+        <ref link="1121605733" />
+      </path>
+      <paramlist>
+        <param name="xmin" value="-1" />
+        <param name="xmax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="OverlayGraphSettings" id="1151817381" link="1749212171">
+      <path>
+        <ref link="1121605733" />
+      </path>
+      <paramlist>
+        <param name="ymin" value="-1" />
+        <param name="ymax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="OverlayGraphSettings" id="529040827" link="982281421">
+      <path>
+        <ref link="1121605733" />
+      </path>
+      <paramlist>
+        <param name="ymin" value="-1" />
+        <param name="ymax" value="1" />
+      </paramlist>
+    </Settings>
   </List>
   <definitions>
-    <Definition classid="UserCmpDefn" name="LCLFilter" build="" crc="7847684" view="false" instances="0" date="1667760426" id="1618076215" w="320" h="400" url="" group="">
+    <Definition classid="UserCmpDefn" name="LCLFilter" build="" crc="7847684" view="false" instances="0" date="1671133656" id="1618076215" w="320" h="400" url="" group="">
       <paramlist>
         <param name="Description" value="" />
       </paramlist>
@@ -16779,7 +17273,7 @@
         </Frame>
       </schematic>
     </Definition>
-    <Definition classid="UserCmpDefn" name="ReferenceFrameConversion_INV" build="" crc="82220928" view="false" instances="0" date="1667760426" id="1427823627" w="320" h="400" url="" group="">
+    <Definition classid="UserCmpDefn" name="ReferenceFrameConversion_INV" build="" crc="82220928" view="false" instances="0" date="1671133656" id="1427823627" w="320" h="400" url="" group="">
       <paramlist>
         <param name="Description" value="" />
       </paramlist>
@@ -17832,7 +18326,7 @@
         </User>
       </schematic>
     </Definition>
-    <Definition classid="UserCmpDefn" name="ActivePI_ReactivePI" group="" url="" version="" build="" crc="55279505" instances="0" key="" view="false" date="1666467590" id="1023623776">
+    <Definition classid="UserCmpDefn" name="ActivePI_ReactivePI" group="" url="" version="" build="" crc="55279505" instances="0" key="" view="false" date="1671133657" id="1023623776">
       <paramlist name="">
         <param name="Description" value="" />
       </paramlist>
@@ -19966,7 +20460,7 @@
         </Gfx>
       </graphics>
     </Definition>
-    <Definition classid="UserCmpDefn" name="CurrentModeControl" group="" url="" version="" build="" crc="73248887" instances="0" key="" view="false" date="1666467590" id="700101540">
+    <Definition classid="UserCmpDefn" name="CurrentModeControl" group="" url="" version="" build="" crc="73248887" instances="0" key="" view="false" date="1671133657" id="700101540">
       <paramlist name="">
         <param name="Description" value="" />
       </paramlist>
@@ -21273,7 +21767,7 @@
         </Gfx>
       </graphics>
     </Definition>
-    <Definition classid="UserCmpDefn" name="ReducedOrderPLL" group="" url="" version="" build="" crc="132730158" instances="0" key="" view="false" date="1666467590" id="1515094901">
+    <Definition classid="UserCmpDefn" name="ReducedOrderPLL" group="" url="" version="" build="" crc="120236218" instances="0" key="" view="false" date="1671133656" id="1515094901">
       <paramlist name="">
         <param name="Description" value="" />
       </paramlist>
@@ -21383,12 +21877,12 @@
             <param name="Name" value="V_abc" />
           </paramlist>
         </User>
-        <User classid="UserCmp" name="master:export" id="210326102" x="1404" y="108" w="73" h="24" z="350" orient="4" defn="master:export" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:export" id="210326102" x="1404" y="108" w="73" h="24" z="320" orient="4" defn="master:export" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="68967217">
             <param name="Name" value="w_pll" />
           </paramlist>
         </User>
-        <User classid="UserCmp" name="master:export" id="1742748073" x="1674" y="180" w="93" h="24" z="340" orient="4" defn="master:export" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:export" id="1742748073" x="1674" y="180" w="93" h="24" z="310" orient="4" defn="master:export" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="68967217">
             <param name="Name" value="theta_pll" />
           </paramlist>
@@ -31852,7 +32346,7 @@ https://www.powerworld.com/WebHelp/Content/TransientModels_HTML/Exciter%20IEEET1
         </Gfx>
       </graphics>
     </Definition>
-    <Definition classid="UserCmpDefn" name="ri_abc" group="" url="" version="" build="" crc="97760590" instances="0" key="" view="false" date="1667760427" id="1279234079">
+    <Definition classid="UserCmpDefn" name="ri_abc" group="" url="" version="" build="" crc="97760590" instances="0" key="" view="false" date="1671133656" id="1279234079">
       <paramlist name="">
         <param name="Description" value="" />
       </paramlist>
@@ -35316,7 +35810,7 @@ https://www.powerworld.com/WebHelp/Content/TransientModels_HTML/Exciter%20IEEET1
         </Gfx>
       </graphics>
     </Definition>
-    <Definition classid="UserCmpDefn" name="FixedDCSource" group="" url="" version="" build="" crc="54267588" instances="0" key="" view="false" date="1667760428" id="40583395">
+    <Definition classid="UserCmpDefn" name="FixedDCSource" group="" url="" version="" build="" crc="54267588" instances="0" key="" view="false" date="1671133655" id="40583395">
       <paramlist name="">
         <param name="Description" value="" />
       </paramlist>
@@ -35659,7 +36153,7 @@ https://www.powerworld.com/WebHelp/Content/TransientModels_HTML/Exciter%20IEEET1
         </Gfx>
       </graphics>
     </Definition>
-    <Definition classid="UserCmpDefn" name="AverageConverter" group="" url="" version="" build="" crc="59710214" instances="0" key="" view="false" date="1667760428" id="467840428">
+    <Definition classid="UserCmpDefn" name="AverageConverter" group="" url="" version="" build="" crc="59710214" instances="0" key="" view="false" date="1671133657" id="467840428">
       <paramlist name="">
         <param name="Description" value="" />
       </paramlist>
@@ -43053,7 +43547,7 @@ Milano, page 359
         <grouping />
       </schematic>
     </Definition>
-    <Definition classid="UserCmpDefn" name="Main" id="1166570604" group="" url="" version="" build="" crc="90500623" view="false" date="0">
+    <Definition classid="UserCmpDefn" name="Main" id="1166570604" group="" url="" version="" build="" crc="35015290" view="false" date="0">
       <paramlist name="">
         <param name="Description" value="" />
       </paramlist>
@@ -45205,7 +45699,7 @@ https://info.ornl.gov/sites/publications/files/Pub47049.pdf]]></Sticky>
           </paramlist>
         </User>
         <User classid="UserCmp" id="691555753" name="PSID_Library:HydroTurbineGov" x="288" y="864" w="267" h="73" z="-1" orient="0" defn="PSID_Library:HydroTurbineGov" link="-1" q="4" disable="false">
-          <paramlist name="" link="-1" crc="99064503">
+          <paramlist name="" link="-1" crc="65004739">
             <param name="f_base" value="0" />
             <param name="R" value="0.0" />
             <param name="T1" value="0" />
@@ -45230,6 +45724,8 @@ https://info.ornl.gov/sites/publications/files/Pub47049.pdf]]></Sticky>
             <param name="D_T" value="0" />
             <param name="q_nl" value="0" />
             <param name="x0_4" value="innercontrol_x0_2" />
+            <param name="R_perm" value="0.0" />
+            <param name="R_temp" value="0" />
           </paramlist>
         </User>
         <User classid="UserCmp" id="314200446" name="PSID_Library:SteamTurbineGov1" x="594" y="864" w="267" h="73" z="-1" orient="0" defn="PSID_Library:SteamTurbineGov1" link="-1" q="4" disable="false">
@@ -47029,7 +47525,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
         </Gfx>
       </graphics>
     </Definition>
-    <Definition classid="UserCmpDefn" name="ReferenceFrameConversion_GEN" build="" crc="31204289" view="false" instances="0" date="1667760423" id="2058478115" w="320" h="400" url="" group="">
+    <Definition classid="UserCmpDefn" name="ReferenceFrameConversion_GEN" build="" crc="31204289" view="false" instances="0" date="1671133653" id="2058478115" w="320" h="400" url="" group="">
       <paramlist>
         <param name="Description" value="" />
       </paramlist>
@@ -47454,7 +47950,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
         </Wire>
       </schematic>
     </Definition>
-    <Definition classid="UserCmpDefn" name="SauerPaiMachine" build="" crc="76865658" view="false" instances="0" date="1667760425" id="1825217716" w="320" h="400" url="" group="">
+    <Definition classid="UserCmpDefn" name="SauerPaiMachine" build="" crc="76865658" view="false" instances="0" date="1671133655" id="1825217716" w="320" h="400" url="" group="">
       <paramlist>
         <param name="Description" value="" />
       </paramlist>
@@ -50149,7 +50645,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
         </Wire>
       </schematic>
     </Definition>
-    <Definition classid="UserCmpDefn" name="CurrentSourceInterface" build="" crc="1594408" view="false" instances="0" date="1667760425" id="600557575" w="320" h="400" url="" group="">
+    <Definition classid="UserCmpDefn" name="CurrentSourceInterface" build="" crc="1594408" view="false" instances="0" date="1671133654" id="600557575" w="320" h="400" url="" group="">
       <paramlist>
         <param name="Description" value="" />
       </paramlist>
@@ -52109,7 +52605,7 @@ What is the characteristic impedance?
         </User>
       </schematic>
     </Definition>
-    <Definition classid="UserCmpDefn" name="SingleMass" build="" crc="8561334" view="false" instances="0" date="1667760424" id="1780857034" w="320" h="400" url="" group="">
+    <Definition classid="UserCmpDefn" name="SingleMass" build="" crc="8561334" view="false" instances="0" date="1671133654" id="1780857034" w="320" h="400" url="" group="">
       <paramlist>
         <param name="Description" value="" />
       </paramlist>
@@ -53151,7 +53647,7 @@ What is the characteristic impedance?
         </Wire>
       </schematic>
     </Definition>
-    <Definition classid="UserCmpDefn" name="abc_dq_psid" group="" url="" version="" build="" crc="58958004" instances="0" key="" view="false" date="1667760424" id="1690178130">
+    <Definition classid="UserCmpDefn" name="abc_dq_psid" group="" url="" version="" build="" crc="58958004" instances="0" key="" view="false" date="1671133654" id="1690178130">
       <paramlist name="">
         <param name="Description" value="" />
       </paramlist>
@@ -53897,7 +54393,7 @@ What is the characteristic impedance?
         </Gfx>
       </graphics>
     </Definition>
-    <Definition classid="UserCmpDefn" name="dq_abc_psid" group="" url="" version="" build="" crc="56330904" instances="0" key="" view="false" date="1667760423" id="1213191902">
+    <Definition classid="UserCmpDefn" name="dq_abc_psid" group="" url="" version="" build="" crc="56330904" instances="0" key="" view="false" date="1671133654" id="1213191902">
       <paramlist name="">
         <param name="Description" value="" />
       </paramlist>
@@ -54640,7 +55136,7 @@ What is the characteristic impedance?
         </Gfx>
       </graphics>
     </Definition>
-    <Definition classid="UserCmpDefn" name="timestep_delay_angle" group="" url="" version="" build="" crc="58435646" instances="0" key="" view="false" date="1667760423" id="913401546">
+    <Definition classid="UserCmpDefn" name="timestep_delay_angle" group="" url="" version="" build="" crc="58435646" instances="0" key="" view="false" date="1671133653" id="913401546">
       <paramlist name="">
         <param name="Description" value="" />
       </paramlist>
@@ -54872,7 +55368,7 @@ What is the characteristic impedance?
         </Gfx>
       </graphics>
     </Definition>
-    <Definition classid="UserCmpDefn" name="SEXS" build="" crc="37937619" view="false" instances="0" date="1667760423" id="990107576" w="320" h="400" url="" group="">
+    <Definition classid="UserCmpDefn" name="SEXS" build="" crc="77873301" view="false" instances="0" date="1671133655" id="990107576" w="320" h="400" url="" group="">
       <paramlist>
         <param name="Description" value="" />
       </paramlist>
@@ -55221,7 +55717,7 @@ What is the characteristic impedance?
             <param name="Name" value="V_ref" />
           </paramlist>
         </User>
-        <User id="101247460" classid="UserCmp" defn="master:export" x="1188" y="126" h="24" w="64" z="40" q="4" orient="2" link="-1" disable="false">
+        <User id="101247460" classid="UserCmp" defn="master:export" x="1188" y="126" h="24" w="64" z="270" q="4" orient="2" link="-1" disable="false">
           <paramlist name="" link="-1" crc="68967217">
             <param name="Name" value="V_f" />
           </paramlist>
@@ -55251,17 +55747,17 @@ What is the characteristic impedance?
             <param name="Name" value="V_min" />
           </paramlist>
         </User>
-        <User classid="UserCmp" name="master:import" id="1399889273" x="72" y="612" w="74" h="25" z="210" orient="0" defn="master:import" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:import" id="1399889273" x="72" y="612" w="74" h="25" z="130" orient="0" defn="master:import" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="117509081">
             <param name="Name" value="x0_1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" name="master:import" id="1246330391" x="72" y="630" w="74" h="25" z="220" orient="0" defn="master:import" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:import" id="1246330391" x="72" y="630" w="74" h="25" z="140" orient="0" defn="master:import" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="117509081">
             <param name="Name" value="x0_2" />
           </paramlist>
         </User>
-        <User id="578065450" classid="UserCmp" defn="master:import" x="72" y="738" h="25" w="70" z="300" q="4" orient="0" link="-1" disable="false">
+        <User id="578065450" classid="UserCmp" defn="master:import" x="72" y="738" h="25" w="70" z="150" q="4" orient="0" link="-1" disable="false">
           <paramlist name="" link="-1" crc="117509081">
             <param name="Name" value="GEN" />
           </paramlist>
@@ -55282,7 +55778,7 @@ What is the characteristic impedance?
             <param name="Dim" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:div" id="1205388433" x="144" y="198" w="80" h="60" z="530" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:div" id="1205388433" x="144" y="198" w="80" h="60" z="280" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="74852640">
             <param name="Dim" value="1" />
             <param name="Name" value="" />
@@ -55296,7 +55792,7 @@ What is the characteristic impedance?
             <param name="Dim" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:mult" id="1524900511" x="108" y="234" w="80" h="56" z="450" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:mult" id="1524900511" x="108" y="234" w="80" h="56" z="260" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="29714769">
             <param name="DPath" value="1" />
             <param name="Name" value="" />
@@ -55308,7 +55804,7 @@ What is the characteristic impedance?
             <param name="Name" value="f_base" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:sumjct" id="200713103" x="774" y="126" w="80" h="83" z="270" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:sumjct" id="200713103" x="774" y="126" w="80" h="83" z="230" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="16672553">
             <param name="DPath" value="1" />
             <param name="A" value="0" />
@@ -55322,7 +55818,7 @@ What is the characteristic impedance?
             <param name="Dim" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:realpole" id="506883605" x="1044" y="126" w="80" h="64" z="290" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:realpole" id="506883605" x="1044" y="126" w="80" h="64" z="250" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="96177319">
             <param name="Limit" value="1" />
             <param name="COM" value="Real_Pole" />
@@ -55336,15 +55832,15 @@ What is the characteristic impedance?
             <param name="Name" value="" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:leadlag" id="1721607065" x="900" y="126" w="80" h="58" z="280" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:leadlag" id="1721607065" x="900" y="126" w="80" h="58" z="240" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="4469631">
             <param name="Limit" value="0" />
             <param name="COM" value="Lead_Lag" />
             <param name="Reset" value="1" />
             <param name="YO" value="x0_2" />
             <param name="G" value="1.0" />
-            <param name="T1" value="T_A" />
-            <param name="T2" value="T_B" />
+            <param name="T1" value="Ta" />
+            <param name="T2" value="Tb" />
             <param name="Max" value="10.0" />
             <param name="Min" value="-10.0" />
             <param name="Dim" value="1" />
@@ -55411,16 +55907,16 @@ What is the characteristic impedance?
             <param name="Name" value="GEN" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:mult" id="53707283" x="180" y="360" w="80" h="56" z="220" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:mult" id="53707283" x="180" y="360" w="80" h="56" z="200" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="29714769">
             <param name="DPath" value="1" />
             <param name="Name" value="" />
             <param name="Dim" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" name="master:datalabel" id="494934653" x="216" y="360" w="28" h="23" z="1" orient="0" defn="master:datalabel" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:datalabel" id="494934653" x="216" y="360" w="20" h="23" z="1" orient="0" defn="master:datalabel" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="127230955">
-            <param name="Name" value="T_A" />
+            <param name="Name" value="Ta" />
           </paramlist>
         </User>
         <Wire classid="WireOrthogonal" id="379173996" name="" x="108" y="360" w="64" h="10" orient="0" disable="false">
@@ -55433,17 +55929,17 @@ What is the characteristic impedance?
           <vertex x="54" y="18" />
           <vertex x="72" y="18" />
         </Wire>
-        <User classid="UserCmp" name="master:import" id="697104300" x="72" y="450" w="84" h="25" z="110" orient="0" defn="master:import" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:import" id="697104300" x="72" y="450" w="84" h="25" z="120" orient="0" defn="master:import" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="117509081">
             <param name="Name" value="V_max" />
           </paramlist>
         </User>
-        <User id="2078523362" classid="UserCmp" defn="master:import" x="72" y="108" h="25" w="60" z="20" q="4" orient="0" link="-1" disable="false">
+        <User id="2078523362" classid="UserCmp" defn="master:import" x="72" y="108" h="25" w="60" z="30" q="4" orient="0" link="-1" disable="false">
           <paramlist name="" link="-1" crc="117509081">
             <param name="Name" value="Vs" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:sumjct" id="1947309687" x="594" y="126" w="80" h="83" z="0" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:sumjct" id="1947309687" x="594" y="126" w="80" h="83" z="210" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="16672553">
             <param name="DPath" value="1" />
             <param name="A" value="0" />
@@ -55457,21 +55953,21 @@ What is the characteristic impedance?
             <param name="Dim" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:square" id="1369304864" x="522" y="162" w="80" h="36" z="0" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:square" id="1369304864" x="522" y="162" w="80" h="36" z="190" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="123652463">
             <param name="Dim" value="1" />
             <param name="Name" value="" />
             <param name="DPath" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:sqrt" id="1985335408" x="666" y="126" w="80" h="36" z="0" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:sqrt" id="1985335408" x="666" y="126" w="80" h="36" z="220" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="110615855">
             <param name="Dim" value="1" />
             <param name="Name" value="" />
             <param name="DPath" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:datatap" id="208996050" x="144" y="18" w="28" h="26" z="0" orient="6" link="-1" layer="" q="4" disable="false">
+        <User classid="UserCmp" defn="master:datatap" id="208996050" x="144" y="18" w="28" h="26" z="160" orient="6" link="-1" layer="" q="4" disable="false">
           <paramlist link="-1" name="" crc="38224701">
             <param name="Index" value="1" />
             <param name="Dim" value="1" />
@@ -55481,7 +55977,7 @@ What is the characteristic impedance?
             <param name="Name" value="" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:datatap" id="692911077" x="180" y="18" w="28" h="26" z="0" orient="6" link="-1" layer="" q="4" disable="false">
+        <User classid="UserCmp" defn="master:datatap" id="692911077" x="180" y="18" w="28" h="26" z="170" orient="6" link="-1" layer="" q="4" disable="false">
           <paramlist link="-1" name="" crc="38224701">
             <param name="Index" value="2" />
             <param name="Dim" value="1" />
@@ -55514,7 +56010,7 @@ What is the characteristic impedance?
           <vertex x="0" y="0" />
           <vertex x="18" y="0" />
         </Wire>
-        <User classid="UserCmp" defn="master:square" id="2145244" x="522" y="90" w="80" h="36" z="0" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:square" id="2145244" x="522" y="90" w="80" h="36" z="180" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="123652463">
             <param name="Dim" value="1" />
             <param name="Name" value="" />
@@ -55532,7 +56028,7 @@ What is the characteristic impedance?
         </Wire>
       </schematic>
     </Definition>
-    <Definition classid="UserCmpDefn" name="PSSFixed" build="" crc="78108210" view="false" instances="0" date="1667760424" id="360526612" w="320" h="400" url="" group="">
+    <Definition classid="UserCmpDefn" name="PSSFixed" build="" crc="133247180" view="false" instances="0" date="1671133653" id="360526612" w="320" h="400" url="" group="">
       <paramlist>
         <param name="Description" value="" />
       </paramlist>
@@ -55711,14 +56207,14 @@ What is the characteristic impedance?
           </paramlist>
         </User>
         <grouping />
-        <User id="1480750039" classid="UserCmp" defn="master:export" x="450" y="108" h="24" w="58" z="50" q="4" orient="2" link="-1" disable="false">
+        <User id="1480750039" classid="UserCmp" defn="master:export" x="450" y="108" h="24" w="58" z="30" q="4" orient="2" link="-1" disable="false">
           <paramlist name="" link="-1" crc="68967217">
             <param name="Name" value="Vs" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:gain" id="1455723424" x="270" y="108" w="80" h="36" z="30" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:gain" id="1455723424" x="270" y="108" w="80" h="36" z="20" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="34173863">
-            <param name="G" value="1.0" />
+            <param name="G" value="0.0" />
             <param name="COM" value="Gain" />
             <param name="Dim" value="1" />
             <param name="Name" value="" />
@@ -55735,7 +56231,7 @@ What is the characteristic impedance?
         </Wire>
       </schematic>
     </Definition>
-    <Definition classid="UserCmpDefn" name="GASTG" build="" crc="26742321" view="false" instances="0" date="1667760424" id="875659644" w="320" h="400" url="" group="">
+    <Definition classid="UserCmpDefn" name="GASTG" build="" crc="109957509" view="false" instances="0" date="1667760424" id="875659644" w="320" h="400" url="" group="">
       <paramlist>
         <param name="Description" value="" />
       </paramlist>
@@ -56108,24 +56604,24 @@ What is the characteristic impedance?
             <param name="Name" value="P_ref" />
           </paramlist>
         </User>
-        <User id="224440617" classid="UserCmp" defn="master:export" x="1134" y="144" h="24" w="80" z="50" q="4" orient="2" link="-1" disable="false">
+        <User id="224440617" classid="UserCmp" defn="master:export" x="1134" y="144" h="24" w="80" z="300" q="4" orient="2" link="-1" disable="false">
           <paramlist name="" link="-1" crc="68967217">
             <param name="Name" value="tau_m" />
           </paramlist>
         </User>
-        <User id="1878457113" classid="UserCmp" defn="master:import" x="72" y="144" h="25" w="84" z="40" q="4" orient="0" link="-1" disable="false">
+        <User id="1878457113" classid="UserCmp" defn="master:import" x="72" y="144" h="25" w="84" z="30" q="4" orient="0" link="-1" disable="false">
           <paramlist name="" link="-1" crc="117509081">
             <param name="Name" value="omega" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:div" id="423476439" x="432" y="144" w="80" h="60" z="260" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:div" id="423476439" x="432" y="144" w="80" h="60" z="200" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="74852640">
             <param name="Dim" value="1" />
             <param name="Name" value="" />
             <param name="DPath" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:sumjct" id="551446684" x="540" y="144" w="80" h="64" z="270" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:sumjct" id="551446684" x="540" y="144" w="80" h="64" z="210" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="16672553">
             <param name="DPath" value="1" />
             <param name="A" value="0" />
@@ -56139,7 +56635,7 @@ What is the characteristic impedance?
             <param name="Dim" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:gain" id="14622921" x="702" y="54" w="80" h="36" z="250" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:gain" id="14622921" x="702" y="54" w="80" h="36" z="190" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="34173863">
             <param name="G" value="D_turb" />
             <param name="COM" value="Gain" />
@@ -56148,7 +56644,7 @@ What is the characteristic impedance?
             <param name="DPath" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:realpole" id="1328794401" x="792" y="144" w="80" h="64" z="330" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:realpole" id="1328794401" x="792" y="144" w="80" h="64" z="240" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="96177319">
             <param name="Limit" value="1" />
             <param name="COM" value="Real_Pole" />
@@ -56162,7 +56658,7 @@ What is the characteristic impedance?
             <param name="Name" value="" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:sumjct" id="111778166" x="1044" y="144" w="80" h="61" z="380" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:sumjct" id="111778166" x="1044" y="144" w="80" h="61" z="290" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="16672553">
             <param name="DPath" value="1" />
             <param name="A" value="0" />
@@ -56176,7 +56672,7 @@ What is the characteristic impedance?
             <param name="Dim" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:sumjct" id="239710783" x="360" y="144" w="80" h="64" z="50" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:sumjct" id="239710783" x="360" y="144" w="80" h="64" z="40" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="16672553">
             <param name="DPath" value="1" />
             <param name="A" value="0" />
@@ -56261,7 +56757,7 @@ What is the characteristic impedance?
             <param name="Name" value="AT" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:maxmin" id="1534399125" x="666" y="144" w="80" h="60" z="320" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:maxmin" id="1534399125" x="666" y="144" w="80" h="60" z="230" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="103689034">
             <param name="DPath" value="1" />
             <param name="Type" value="0" />
@@ -56280,7 +56776,7 @@ What is the characteristic impedance?
           <vertex x="90" y="0" />
           <vertex x="90" y="-90" />
         </Wire>
-        <User classid="UserCmp" defn="master:realpole" id="1901110965" x="972" y="270" w="80" h="64" z="350" orient="4" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:realpole" id="1901110965" x="972" y="270" w="80" h="64" z="260" orient="4" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="96177319">
             <param name="Limit" value="1" />
             <param name="COM" value="Real_Pole" />
@@ -56294,7 +56790,7 @@ What is the characteristic impedance?
             <param name="Name" value="" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:realpole" id="1984931033" x="918" y="144" w="80" h="64" z="340" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:realpole" id="1984931033" x="918" y="144" w="80" h="64" z="250" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="96177319">
             <param name="Limit" value="1" />
             <param name="COM" value="Real_Pole" />
@@ -56312,7 +56808,7 @@ What is the characteristic impedance?
           <vertex x="0" y="0" />
           <vertex x="54" y="0" />
         </Wire>
-        <User classid="UserCmp" defn="master:sumjct" id="1367484993" x="684" y="270" w="80" h="64" z="310" orient="4" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:sumjct" id="1367484993" x="684" y="270" w="80" h="64" z="220" orient="4" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="16672553">
             <param name="DPath" value="1" />
             <param name="A" value="0" />
@@ -56326,7 +56822,7 @@ What is the characteristic impedance?
             <param name="Dim" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:gain" id="1103012613" x="792" y="270" w="80" h="36" z="370" orient="4" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:gain" id="1103012613" x="792" y="270" w="80" h="36" z="280" orient="4" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="34173863">
             <param name="G" value="Kt" />
             <param name="COM" value="Gain" />
@@ -56340,7 +56836,7 @@ What is the characteristic impedance?
           <vertex x="0" y="90" />
           <vertex x="18" y="90" />
         </Wire>
-        <User classid="UserCmp" defn="master:sumjct" id="1871272770" x="882" y="270" w="80" h="64" z="360" orient="4" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:sumjct" id="1871272770" x="882" y="270" w="80" h="64" z="270" orient="4" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="16672553">
             <param name="DPath" value="1" />
             <param name="A" value="0" />
@@ -56377,13 +56873,9 @@ What is the characteristic impedance?
           <vertex x="0" y="0" />
           <vertex x="18" y="0" />
         </Wire>
-        <Wire classid="WireOrthogonal" id="745655243" name="" x="1008" y="270" w="10" h="136" orient="0" disable="false">
-          <vertex x="0" y="0" />
-          <vertex x="0" y="-126" />
-        </Wire>
-        <User classid="UserCmp" name="master:datalabel" id="1049084996" x="972" y="306" w="38" h="23" z="1" orient="0" defn="master:datalabel" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:datalabel" id="1049084996" x="972" y="306" w="28" h="23" z="1" orient="0" defn="master:datalabel" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="127230955">
-            <param name="Name" value="InitGv" />
+            <param name="Name" value="GEN" />
           </paramlist>
         </User>
         <Wire classid="WireOrthogonal" id="1921980078" name="" x="918" y="270" w="28" h="10" orient="0" disable="false">
@@ -56404,71 +56896,83 @@ What is the characteristic impedance?
             <param name="Name" value="E" />
           </paramlist>
         </User>
-        <User id="1345486019" classid="UserCmp" defn="master:import" x="36" y="270" h="25" w="54" z="40" q="4" orient="0" link="-1" disable="false">
+        <User id="1345486019" classid="UserCmp" defn="master:import" x="36" y="270" h="25" w="54" z="70" q="4" orient="0" link="-1" disable="false">
           <paramlist name="" link="-1" crc="117509081">
             <param name="Name" value="R" />
           </paramlist>
         </User>
-        <User id="917163755" classid="UserCmp" defn="master:import" x="36" y="288" h="25" w="62" z="40" q="4" orient="0" link="-1" disable="false">
+        <User id="917163755" classid="UserCmp" defn="master:import" x="36" y="288" h="25" w="62" z="80" q="4" orient="0" link="-1" disable="false">
           <paramlist name="" link="-1" crc="117509081">
             <param name="Name" value="T1" />
           </paramlist>
         </User>
-        <User id="1898356552" classid="UserCmp" defn="master:import" x="36" y="306" h="25" w="62" z="40" q="4" orient="0" link="-1" disable="false">
+        <User id="1898356552" classid="UserCmp" defn="master:import" x="36" y="306" h="25" w="62" z="90" q="4" orient="0" link="-1" disable="false">
           <paramlist name="" link="-1" crc="117509081">
             <param name="Name" value="T2" />
           </paramlist>
         </User>
-        <User id="761783684" classid="UserCmp" defn="master:import" x="36" y="324" h="25" w="62" z="40" q="4" orient="0" link="-1" disable="false">
+        <User id="761783684" classid="UserCmp" defn="master:import" x="36" y="324" h="25" w="62" z="100" q="4" orient="0" link="-1" disable="false">
           <paramlist name="" link="-1" crc="117509081">
             <param name="Name" value="T3" />
           </paramlist>
         </User>
-        <User id="1182693876" classid="UserCmp" defn="master:import" x="36" y="342" h="25" w="63" z="40" q="4" orient="0" link="-1" disable="false">
+        <User id="1182693876" classid="UserCmp" defn="master:import" x="36" y="342" h="25" w="63" z="110" q="4" orient="0" link="-1" disable="false">
           <paramlist name="" link="-1" crc="117509081">
             <param name="Name" value="AT" />
           </paramlist>
         </User>
-        <User id="934185306" classid="UserCmp" defn="master:import" x="36" y="360" h="25" w="59" z="40" q="4" orient="0" link="-1" disable="false">
+        <User id="934185306" classid="UserCmp" defn="master:import" x="36" y="360" h="25" w="59" z="120" q="4" orient="0" link="-1" disable="false">
           <paramlist name="" link="-1" crc="117509081">
             <param name="Name" value="Kt" />
           </paramlist>
         </User>
-        <User id="2019293528" classid="UserCmp" defn="master:import" x="36" y="378" h="25" w="81" z="40" q="4" orient="0" link="-1" disable="false">
+        <User id="2019293528" classid="UserCmp" defn="master:import" x="36" y="378" h="25" w="81" z="130" q="4" orient="0" link="-1" disable="false">
           <paramlist name="" link="-1" crc="117509081">
             <param name="Name" value="V_min" />
           </paramlist>
         </User>
-        <User id="1958981811" classid="UserCmp" defn="master:import" x="36" y="396" h="25" w="84" z="40" q="4" orient="0" link="-1" disable="false">
+        <User id="1958981811" classid="UserCmp" defn="master:import" x="36" y="396" h="25" w="84" z="140" q="4" orient="0" link="-1" disable="false">
           <paramlist name="" link="-1" crc="117509081">
             <param name="Name" value="V_max" />
           </paramlist>
         </User>
-        <User id="1366470923" classid="UserCmp" defn="master:import" x="36" y="468" h="25" w="74" z="40" q="4" orient="0" link="-1" disable="false">
+        <User id="1366470923" classid="UserCmp" defn="master:import" x="36" y="468" h="25" w="74" z="160" q="4" orient="0" link="-1" disable="false">
           <paramlist name="" link="-1" crc="117509081">
             <param name="Name" value="x0_1" />
           </paramlist>
         </User>
-        <User id="1172027079" classid="UserCmp" defn="master:import" x="36" y="486" h="25" w="74" z="40" q="4" orient="0" link="-1" disable="false">
+        <User id="1172027079" classid="UserCmp" defn="master:import" x="36" y="486" h="25" w="74" z="170" q="4" orient="0" link="-1" disable="false">
           <paramlist name="" link="-1" crc="117509081">
             <param name="Name" value="x0_2" />
           </paramlist>
         </User>
-        <User id="228349134" classid="UserCmp" defn="master:import" x="36" y="504" h="25" w="74" z="40" q="4" orient="0" link="-1" disable="false">
+        <User id="228349134" classid="UserCmp" defn="master:import" x="36" y="504" h="25" w="74" z="180" q="4" orient="0" link="-1" disable="false">
           <paramlist name="" link="-1" crc="117509081">
             <param name="Name" value="x0_3" />
           </paramlist>
         </User>
-        <User id="809089599" classid="UserCmp" defn="master:import" x="36" y="198" h="25" w="70" z="40" q="4" orient="0" link="-1" disable="false">
+        <User id="809089599" classid="UserCmp" defn="master:import" x="36" y="198" h="25" w="70" z="50" q="4" orient="0" link="-1" disable="false">
           <paramlist name="" link="-1" crc="117509081">
             <param name="Name" value="GEN" />
           </paramlist>
         </User>
-        <User id="1630224655" classid="UserCmp" defn="master:import" x="36" y="414" h="25" w="85" z="40" q="4" orient="0" link="-1" disable="false">
+        <User id="1630224655" classid="UserCmp" defn="master:import" x="36" y="414" h="25" w="85" z="150" q="4" orient="0" link="-1" disable="false">
           <paramlist name="" link="-1" crc="117509081">
             <param name="Name" value="D_turb" />
           </paramlist>
         </User>
+        <User id="594628969" classid="UserCmp" defn="master:import" x="36" y="216" h="25" w="83" z="60" q="4" orient="0" link="-1" disable="false">
+          <paramlist name="" link="-1" crc="117509081">
+            <param name="Name" value="f_base" />
+          </paramlist>
+        </User>
+        <Wire classid="WireOrthogonal" id="1807448439" name="" x="1008" y="270" w="100" h="136" orient="0" disable="false">
+          <vertex x="0" y="0" />
+          <vertex x="54" y="0" />
+          <vertex x="54" y="-54" />
+          <vertex x="-36" y="-54" />
+          <vertex x="-36" y="-126" />
+        </Wire>
       </schematic>
     </Definition>
     <Definition classid="UserCmpDefn" name="IEEEST" build="" crc="93458912" view="false" instances="0" date="1667760424" id="722286177" w="320" h="400" url="" group="">
@@ -57844,7 +58348,7 @@ What is the characteristic impedance?
         </Gfx>
       </graphics>
     </Definition>
-    <Definition classid="UserCmpDefn" name="HydroTurbineGov" build="" crc="73094891" view="false" instances="0" date="1667760424" id="324365984" w="320" h="400" url="" group="">
+    <Definition classid="UserCmpDefn" name="HydroTurbineGov" build="" crc="111308907" view="false" instances="0" date="1667760424" id="324365984" w="320" h="400" url="" group="">
       <paramlist>
         <param name="Description" value="" />
       </paramlist>
@@ -58108,13 +58612,13 @@ What is the characteristic impedance?
             <vis><![CDATA[true]]></vis>
             <help><![CDATA[]]></help>
           </parameter>
-          <parameter desc="R" name="R" group="Parameters" unit="" min="-1E+308" max="1E+308" content_type="Constant" type="Real" helpmode="Append" intent="Input" dim="1" animate="false">
+          <parameter desc="R_perm" name="R_perm" group="Parameters" unit="" min="-1E+308" max="1E+308" content_type="Constant" type="Real" helpmode="Append" intent="Input" dim="1" animate="false">
             <value><![CDATA[0.0]]></value>
             <cond />
             <help><![CDATA[Resistance after EMF in machine per unit]]></help>
             <vis />
           </parameter>
-          <parameter desc="r" name="r" group="Parameters" unit="" min="-1E+308" max="1E+308" content_type="Constant" type="Real" helpmode="Append" intent="Input" dim="1" animate="false">
+          <parameter desc="R_temp" name="R_temp" group="Parameters" unit="" min="-1E+308" max="1E+308" content_type="Constant" type="Real" helpmode="Append" intent="Input" dim="1" animate="false">
             <value><![CDATA[0]]></value>
             <cond />
             <help><![CDATA[Reactance after EMF in d-axis per unit]]></help>
@@ -58241,12 +58745,12 @@ What is the characteristic impedance?
             <param name="Name" value="P_ref" />
           </paramlist>
         </User>
-        <User id="1697111799" classid="UserCmp" defn="master:export" x="1674" y="342" h="24" w="80" z="50" q="4" orient="2" link="-1" disable="false">
+        <User id="1697111799" classid="UserCmp" defn="master:export" x="1674" y="342" h="24" w="80" z="490" q="4" orient="2" link="-1" disable="false">
           <paramlist name="" link="-1" crc="68967217">
             <param name="Name" value="tau_m" />
           </paramlist>
         </User>
-        <User id="1180462654" classid="UserCmp" defn="master:import" x="72" y="144" h="25" w="84" z="40" q="4" orient="0" link="-1" disable="false">
+        <User id="1180462654" classid="UserCmp" defn="master:import" x="72" y="144" h="25" w="84" z="30" q="4" orient="0" link="-1" disable="false">
           <paramlist name="" link="-1" crc="117509081">
             <param name="Name" value="omega" />
           </paramlist>
@@ -58261,57 +58765,57 @@ What is the characteristic impedance?
             <param name="Name" value="GEN" />
           </paramlist>
         </User>
-        <User id="972885102" classid="UserCmp" defn="master:import" x="108" y="270" h="25" w="54" z="40" q="4" orient="0" link="-1" disable="false">
+        <User id="972885102" classid="UserCmp" defn="master:import" x="108" y="270" h="25" w="89" z="70" q="4" orient="0" link="-1" disable="false">
           <paramlist name="" link="-1" crc="117509081">
-            <param name="Name" value="R" />
+            <param name="Name" value="R_perm" />
           </paramlist>
         </User>
-        <User id="259699906" classid="UserCmp" defn="master:import" x="108" y="288" h="25" w="51" z="40" q="4" orient="0" link="-1" disable="false">
+        <User id="259699906" classid="UserCmp" defn="master:import" x="108" y="288" h="25" w="90" z="80" q="4" orient="0" link="-1" disable="false">
           <paramlist name="" link="-1" crc="117509081">
-            <param name="Name" value="r" />
+            <param name="Name" value="R_temp" />
           </paramlist>
         </User>
-        <User id="320930583" classid="UserCmp" defn="master:import" x="108" y="306" h="25" w="59" z="40" q="4" orient="0" link="-1" disable="false">
+        <User id="320930583" classid="UserCmp" defn="master:import" x="108" y="306" h="25" w="59" z="90" q="4" orient="0" link="-1" disable="false">
           <paramlist name="" link="-1" crc="117509081">
             <param name="Name" value="Tr" />
           </paramlist>
         </User>
-        <User id="592615568" classid="UserCmp" defn="master:import" x="108" y="324" h="25" w="59" z="40" q="4" orient="0" link="-1" disable="false">
+        <User id="592615568" classid="UserCmp" defn="master:import" x="108" y="324" h="25" w="59" z="100" q="4" orient="0" link="-1" disable="false">
           <paramlist name="" link="-1" crc="117509081">
             <param name="Name" value="Tf" />
           </paramlist>
         </User>
-        <User id="2006549842" classid="UserCmp" defn="master:import" x="108" y="342" h="25" w="62" z="40" q="4" orient="0" link="-1" disable="false">
+        <User id="2006549842" classid="UserCmp" defn="master:import" x="108" y="342" h="25" w="62" z="120" q="4" orient="0" link="-1" disable="false">
           <paramlist name="" link="-1" crc="117509081">
             <param name="Name" value="Tg" />
           </paramlist>
         </User>
-        <User id="587085968" classid="UserCmp" defn="master:import" x="108" y="360" h="25" w="77" z="40" q="4" orient="0" link="-1" disable="false">
+        <User id="587085968" classid="UserCmp" defn="master:import" x="108" y="360" h="25" w="77" z="130" q="4" orient="0" link="-1" disable="false">
           <paramlist name="" link="-1" crc="117509081">
             <param name="Name" value="VELM" />
           </paramlist>
         </User>
-        <User id="200855172" classid="UserCmp" defn="master:import" x="108" y="378" h="25" w="147" z="40" q="4" orient="0" link="-1" disable="false">
+        <User id="200855172" classid="UserCmp" defn="master:import" x="108" y="378" h="25" w="147" z="140" q="4" orient="0" link="-1" disable="false">
           <paramlist name="" link="-1" crc="117509081">
             <param name="Name" value="gate_position_min" />
           </paramlist>
         </User>
-        <User id="1437586395" classid="UserCmp" defn="master:import" x="108" y="396" h="25" w="150" z="40" q="4" orient="0" link="-1" disable="false">
+        <User id="1437586395" classid="UserCmp" defn="master:import" x="108" y="396" h="25" w="150" z="150" q="4" orient="0" link="-1" disable="false">
           <paramlist name="" link="-1" crc="117509081">
             <param name="Name" value="gate_position_max" />
           </paramlist>
         </User>
-        <User id="1724356832" classid="UserCmp" defn="master:import" x="108" y="576" h="25" w="74" z="40" q="4" orient="0" link="-1" disable="false">
+        <User id="1724356832" classid="UserCmp" defn="master:import" x="108" y="576" h="25" w="74" z="220" q="4" orient="0" link="-1" disable="false">
           <paramlist name="" link="-1" crc="117509081">
             <param name="Name" value="x0_1" />
           </paramlist>
         </User>
-        <User id="14028753" classid="UserCmp" defn="master:import" x="108" y="594" h="25" w="74" z="40" q="4" orient="0" link="-1" disable="false">
+        <User id="14028753" classid="UserCmp" defn="master:import" x="108" y="594" h="25" w="74" z="230" q="4" orient="0" link="-1" disable="false">
           <paramlist name="" link="-1" crc="117509081">
             <param name="Name" value="x0_2" />
           </paramlist>
         </User>
-        <User id="881673395" classid="UserCmp" defn="master:import" x="108" y="612" h="25" w="74" z="40" q="4" orient="0" link="-1" disable="false">
+        <User id="881673395" classid="UserCmp" defn="master:import" x="108" y="612" h="25" w="74" z="240" q="4" orient="0" link="-1" disable="false">
           <paramlist name="" link="-1" crc="117509081">
             <param name="Name" value="x0_3" />
           </paramlist>
@@ -58321,32 +58825,32 @@ What is the characteristic impedance?
             <param name="Name" value="GEN" />
           </paramlist>
         </User>
-        <User id="1219007466" classid="UserCmp" defn="master:import" x="108" y="414" h="25" w="65" z="40" q="4" orient="0" link="-1" disable="false">
+        <User id="1219007466" classid="UserCmp" defn="master:import" x="108" y="414" h="25" w="65" z="170" q="4" orient="0" link="-1" disable="false">
           <paramlist name="" link="-1" crc="117509081">
             <param name="Name" value="Tw" />
           </paramlist>
         </User>
-        <User id="917344722" classid="UserCmp" defn="master:import" x="108" y="630" h="25" w="74" z="40" q="4" orient="0" link="-1" disable="false">
+        <User id="917344722" classid="UserCmp" defn="master:import" x="108" y="630" h="25" w="74" z="250" q="4" orient="0" link="-1" disable="false">
           <paramlist name="" link="-1" crc="117509081">
             <param name="Name" value="x0_4" />
           </paramlist>
         </User>
-        <User id="1896192536" classid="UserCmp" defn="master:import" x="108" y="432" h="25" w="60" z="40" q="4" orient="0" link="-1" disable="false">
+        <User id="1896192536" classid="UserCmp" defn="master:import" x="108" y="432" h="25" w="60" z="190" q="4" orient="0" link="-1" disable="false">
           <paramlist name="" link="-1" crc="117509081">
             <param name="Name" value="At" />
           </paramlist>
         </User>
-        <User id="1067121431" classid="UserCmp" defn="master:import" x="108" y="450" h="25" w="70" z="40" q="4" orient="0" link="-1" disable="false">
+        <User id="1067121431" classid="UserCmp" defn="master:import" x="108" y="450" h="25" w="70" z="200" q="4" orient="0" link="-1" disable="false">
           <paramlist name="" link="-1" crc="117509081">
             <param name="Name" value="D_T" />
           </paramlist>
         </User>
-        <User id="2059805341" classid="UserCmp" defn="master:import" x="108" y="468" h="25" w="70" z="40" q="4" orient="0" link="-1" disable="false">
+        <User id="2059805341" classid="UserCmp" defn="master:import" x="108" y="468" h="25" w="70" z="210" q="4" orient="0" link="-1" disable="false">
           <paramlist name="" link="-1" crc="117509081">
             <param name="Name" value="q_nl" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:sumjct" id="950033993" x="540" y="90" w="80" h="64" z="50" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:sumjct" id="950033993" x="540" y="90" w="80" h="64" z="260" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="16672553">
             <param name="DPath" value="1" />
             <param name="A" value="0" />
@@ -58378,7 +58882,7 @@ What is the characteristic impedance?
           <vertex x="0" y="0" />
           <vertex x="0" y="-18" />
         </Wire>
-        <User classid="UserCmp" defn="master:sumjct" id="913695010" x="666" y="90" w="80" h="83" z="50" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:sumjct" id="913695010" x="666" y="90" w="80" h="83" z="340" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="16672553">
             <param name="DPath" value="1" />
             <param name="A" value="0" />
@@ -58396,7 +58900,7 @@ What is the characteristic impedance?
           <vertex x="0" y="0" />
           <vertex x="54" y="0" />
         </Wire>
-        <User classid="UserCmp" defn="master:realpole" id="244199710" x="774" y="90" w="80" h="58" z="460" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:realpole" id="244199710" x="774" y="90" w="80" h="58" z="350" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="96177319">
             <param name="Limit" value="0" />
             <param name="COM" value="Real_Pole" />
@@ -58418,16 +58922,16 @@ What is the characteristic impedance?
           <vertex x="0" y="0" />
           <vertex x="36" y="0" />
         </Wire>
-        <User classid="UserCmp" defn="master:gain" id="182943101" x="792" y="180" w="80" h="36" z="430" orient="2" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:gain" id="182943101" x="792" y="180" w="80" h="36" z="330" orient="2" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="34173863">
-            <param name="G" value="R" />
+            <param name="G" value="R_perm" />
             <param name="COM" value="Gain" />
             <param name="Dim" value="1" />
             <param name="Name" value="" />
             <param name="DPath" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:integral" id="1026175136" x="936" y="108" w="80" h="74" z="480" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:integral" id="1026175136" x="936" y="108" w="80" h="74" z="300" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="126573893">
             <param name="Extrn" value="0" />
             <param name="Reset" value="1" />
@@ -58443,7 +58947,7 @@ What is the characteristic impedance?
             <param name="Name" value="" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:hardlimit" id="1651858500" x="1188" y="36" w="80" h="59" z="490" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:hardlimit" id="1651858500" x="1188" y="36" w="80" h="59" z="380" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="16843219">
             <param name="UL" value="gate_position_max" />
             <param name="LL" value="gate_position_min" />
@@ -58462,7 +58966,7 @@ What is the characteristic impedance?
           <vertex x="0" y="0" />
           <vertex x="90" y="0" />
         </Wire>
-        <User classid="UserCmp" defn="master:ratelimit" id="1652938114" x="1008" y="108" w="80" h="59" z="0" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:ratelimit" id="1652938114" x="1008" y="108" w="80" h="59" z="310" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="104623579">
             <param name="IR" value="VELM" />
             <param name="DR" value="neg_VELM" />
@@ -58476,19 +58980,19 @@ What is the characteristic impedance?
           <vertex x="0" y="126" />
           <vertex x="-432" y="126" />
         </Wire>
-        <User classid="UserCmp" name="master:datalabel" id="359548133" x="342" y="252" w="54" h="23" z="1" orient="0" defn="master:datalabel" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:datalabel" id="359548133" x="342" y="252" w="94" h="23" z="1" orient="0" defn="master:datalabel" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="127230955">
-            <param name="Name" value="r_inverse" />
+            <param name="Name" value="R_temp_inverse" />
           </paramlist>
         </User>
-        <User classid="UserCmp" name="master:const" id="537380606" x="198" y="252" w="76" h="22" z="20" orient="0" defn="master:const" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:const" id="537380606" x="198" y="252" w="76" h="22" z="60" orient="0" defn="master:const" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="10628662">
             <param name="Name" value="" />
             <param name="Value" value="1.0" />
             <param name="Dim" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:div" id="1851876736" x="270" y="252" w="80" h="60" z="360" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:div" id="1851876736" x="270" y="252" w="80" h="60" z="270" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="74852640">
             <param name="Dim" value="1" />
             <param name="Name" value="" />
@@ -58503,7 +59007,7 @@ What is the characteristic impedance?
           <vertex x="0" y="0" />
           <vertex x="36" y="0" />
         </Wire>
-        <User classid="UserCmp" defn="master:realpole" id="639907252" x="1314" y="36" w="80" h="58" z="500" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:realpole" id="639907252" x="1314" y="36" w="80" h="58" z="390" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="96177319">
             <param name="Limit" value="0" />
             <param name="COM" value="Real_Pole" />
@@ -58522,21 +59026,21 @@ What is the characteristic impedance?
             <param name="Name" value="GEN" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:div" id="1388363671" x="828" y="306" w="80" h="60" z="510" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:div" id="1388363671" x="828" y="306" w="80" h="60" z="400" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="74852640">
             <param name="Dim" value="1" />
             <param name="Name" value="" />
             <param name="DPath" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:square" id="1597187236" x="900" y="306" w="80" h="36" z="520" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:square" id="1597187236" x="900" y="306" w="80" h="36" z="410" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="123652463">
             <param name="Dim" value="1" />
             <param name="Name" value="" />
             <param name="DPath" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:sumjct" id="1980464645" x="990" y="306" w="80" h="64" z="530" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:sumjct" id="1980464645" x="990" y="306" w="80" h="64" z="420" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="16672553">
             <param name="DPath" value="1" />
             <param name="A" value="0" />
@@ -58550,14 +59054,14 @@ What is the characteristic impedance?
             <param name="Dim" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" name="master:const" id="1585512125" x="954" y="342" w="76" h="22" z="160" orient="6" defn="master:const" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:const" id="1585512125" x="954" y="342" w="76" h="22" z="180" orient="6" defn="master:const" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="10628662">
             <param name="Name" value="" />
             <param name="Value" value="1.0" />
             <param name="Dim" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:integral" id="842594074" x="1116" y="306" w="80" h="74" z="540" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:integral" id="842594074" x="1116" y="306" w="80" h="74" z="430" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="126573893">
             <param name="Extrn" value="0" />
             <param name="Reset" value="1" />
@@ -58617,7 +59121,7 @@ What is the characteristic impedance?
             <param name="Name" value="q_nl" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:sumjct" id="1820224905" x="1224" y="306" w="80" h="64" z="550" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:sumjct" id="1820224905" x="1224" y="306" w="80" h="64" z="440" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="16672553">
             <param name="DPath" value="1" />
             <param name="A" value="0" />
@@ -58631,14 +59135,14 @@ What is the characteristic impedance?
             <param name="Dim" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:mult" id="967880166" x="1296" y="306" w="56" h="80" z="560" orient="1" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:mult" id="967880166" x="1296" y="306" w="56" h="80" z="450" orient="1" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="29714769">
             <param name="DPath" value="1" />
             <param name="Name" value="" />
             <param name="Dim" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:gain" id="1434703120" x="1386" y="342" w="80" h="36" z="570" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:gain" id="1434703120" x="1386" y="342" w="80" h="36" z="460" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="34173863">
             <param name="G" value="At" />
             <param name="COM" value="Gain" />
@@ -58647,7 +59151,7 @@ What is the characteristic impedance?
             <param name="DPath" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:sumjct" id="917701297" x="1530" y="342" w="80" h="61" z="590" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:sumjct" id="917701297" x="1530" y="342" w="80" h="61" z="480" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="16672553">
             <param name="DPath" value="1" />
             <param name="A" value="0" />
@@ -58676,14 +59180,14 @@ What is the characteristic impedance?
             <param name="Name" value="dw" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:mult" id="1089927754" x="1530" y="234" w="56" h="80" z="580" orient="1" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:mult" id="1089927754" x="1530" y="234" w="56" h="80" z="470" orient="1" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="29714769">
             <param name="DPath" value="1" />
             <param name="Name" value="" />
             <param name="Dim" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:gain" id="812750696" x="1530" y="162" w="36" h="80" z="420" orient="1" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:gain" id="812750696" x="1530" y="162" w="36" h="80" z="280" orient="1" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="34173863">
             <param name="G" value="D_T" />
             <param name="COM" value="Gain" />
@@ -58722,7 +59226,7 @@ What is the characteristic impedance?
           <vertex x="0" y="54" />
           <vertex x="90" y="54" />
         </Wire>
-        <User classid="UserCmp" defn="master:sumjct" id="1910835199" x="1116" y="36" w="80" h="64" z="550" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:sumjct" id="1910835199" x="1116" y="36" w="80" h="64" z="370" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="16672553">
             <param name="DPath" value="1" />
             <param name="A" value="0" />
@@ -58758,9 +59262,9 @@ What is the characteristic impedance?
           <vertex x="0" y="0" />
           <vertex x="18" y="0" />
         </Wire>
-        <User classid="UserCmp" defn="master:gain" id="1899838307" x="1008" y="36" w="80" h="36" z="420" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:gain" id="1899838307" x="1008" y="36" w="94" h="36" z="360" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="34173863">
-            <param name="G" value="r_inverse" />
+            <param name="G" value="R_temp_inverse" />
             <param name="COM" value="Gain" />
             <param name="Dim" value="1" />
             <param name="Name" value="" />
@@ -58776,16 +59280,16 @@ What is the characteristic impedance?
             <param name="Name" value="Ki_inverse" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:mult" id="1500164982" x="540" y="288" w="80" h="56" z="560" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:mult" id="1500164982" x="540" y="288" w="80" h="56" z="110" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="29714769">
             <param name="DPath" value="1" />
             <param name="Name" value="" />
             <param name="Dim" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" name="master:datalabel" id="1570559018" x="540" y="324" w="12" h="23" z="1" orient="0" defn="master:datalabel" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:datalabel" id="1570559018" x="540" y="324" w="48" h="23" z="1" orient="0" defn="master:datalabel" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="127230955">
-            <param name="Name" value="r" />
+            <param name="Name" value="R_temp" />
           </paramlist>
         </User>
         <User classid="UserCmp" name="master:datalabel" id="1353289125" x="504" y="288" w="18" h="23" z="1" orient="0" defn="master:datalabel" link="-1" q="4" disable="false">
@@ -58797,14 +59301,14 @@ What is the characteristic impedance?
           <vertex x="0" y="0" />
           <vertex x="18" y="0" />
         </Wire>
-        <User classid="UserCmp" defn="master:mult" id="1233338633" x="198" y="360" w="80" h="56" z="560" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:mult" id="1233338633" x="198" y="360" w="80" h="56" z="290" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="29714769">
             <param name="DPath" value="1" />
             <param name="Name" value="" />
             <param name="Dim" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" id="355840453" name="master:const" x="234" y="396" w="76" h="22" z="-1" orient="2" defn="master:const" link="-1" q="4" disable="false">
+        <User classid="UserCmp" id="355840453" name="master:const" x="234" y="396" w="76" h="22" z="160" orient="2" defn="master:const" link="-1" q="4" disable="false">
           <paramlist name="" link="-1" crc="10628662">
             <param name="Name" value="" />
             <param name="Value" value="-1.0" />
@@ -58824,7 +59328,7 @@ What is the characteristic impedance?
           <vertex x="0" y="0" />
           <vertex x="18" y="0" />
         </Wire>
-        <User classid="UserCmp" defn="master:div" id="1721540387" x="1080" y="108" w="80" h="60" z="510" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:div" id="1721540387" x="1080" y="108" w="80" h="60" z="320" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="74852640">
             <param name="Dim" value="1" />
             <param name="Name" value="" />
@@ -58851,6 +59355,11 @@ What is the characteristic impedance?
             <param name="bg_color" value="15792890" />
           </paramlist><![CDATA[PIblock implementation of state 2 to match PSID
 ]]></Sticky>
+        <User id="44447034" classid="UserCmp" defn="master:import" x="72" y="216" h="25" w="83" z="50" q="4" orient="0" link="-1" disable="false">
+          <paramlist name="" link="-1" crc="117509081">
+            <param name="Name" value="f_base" />
+          </paramlist>
+        </User>
       </schematic>
     </Definition>
     <Definition classid="UserCmpDefn" name="SteamTurbineGov1" build="" crc="95273524" view="false" instances="0" date="1667760424" id="1132640844" w="320" h="400" url="" group="">
@@ -59475,78 +59984,78 @@ What is the characteristic impedance?
     </paramlist>
   </GlobalSubstitutions>
   <hierarchy>
-    <call link="669479522" name="PSID_Library:Station" z="-1" view="false" instance="0">
+    <call link="642152327" name="PSID_Library:Station" z="-1" view="false" instance="0">
       <call link="1121605733" name="PSID_Library:Main" z="-1" view="false" instance="0">
-        <call link="314200446" name="PSID_Library:SteamTurbineGov1" z="-1" view="true" instance="0" />
         <call link="590877718" name="PSID_Library:TGOV1" z="-1" view="false" instance="0" />
-        <call link="289925425" name="PSID_Library:SEXS_2" z="-1" view="false" instance="0" />
-        <call link="1935923328" name="PSID_Library:VirtualInertia_ReactiveDroop" z="-1" view="false" instance="0" />
+        <call link="791628388" name="PSID_Library:AverageConverter" z="-1" view="false" instance="0" />
+        <call link="117063645" name="PSID_Library:dq_ri" z="-1" view="false" instance="0" />
+        <call link="1212736682" name="PSID_Library:KauraPLL" z="-1" view="false" instance="0">
+          <call link="2065055101" name="PSID_Library:timestep_delay_angle" z="330" view="false" instance="0" />
+          <call link="1583651100" name="PSID_Library:abc_dq_psid" z="340" view="false" instance="0" />
+        </call>
+        <call link="1997484035" name="PSID_Library:VoltageModeControl" z="-1" view="false" instance="0" />
+        <call link="1536472840" name="PSID_Library:ri_dq" z="-1" view="false" instance="0" />
+        <call link="353908200" name="PSID_Library:FixedDCSource" z="-1" view="false" instance="0" />
+        <call link="1900225599" name="PSID_Library:TGTypeII" z="-1" view="false" instance="0" />
         <call link="970744943" name="PSID_Library:ri_abc" z="-1" view="false" instance="0" />
         <call link="1711448333" name="PSID_Library:magangle_ri" z="-1" view="false" instance="0" />
-        <call link="1749606776" name="PSID_Library:AVRSimple" z="-1" view="false" instance="0" />
-        <call link="353908200" name="PSID_Library:FixedDCSource" z="-1" view="false" instance="0" />
         <call link="920231050" name="PSID_Library:IEEET1" z="-1" view="false" instance="0">
           <call link="1513031148" name="PSID_Library:exciter_saturation" z="140" view="false" instance="0" />
           <call link="746068508" name="PSID_Library:exciter_saturation" z="360" view="false" instance="1" />
         </call>
-        <call link="573480777" name="PSID_Library:exciter_saturation" z="-1" view="false" instance="2" />
         <call link="32368114" name="PSID_Library:BPA_GG" z="-1" view="false" instance="0" />
+        <call link="1257164115" name="PSID_Library:GGOV1" z="-1" view="false" instance="0">
+          <call link="471511252" name="PSID_Library:DeadBand" z="890" view="false" instance="0" />
+        </call>
+        <call link="1584018673" name="PSID_Library:DeadBand" z="-1" view="false" instance="1" />
         <call link="1496654770" name="PSID_Library:RateLimiter" z="-1" view="false" instance="0" />
         <call link="1868501625" name="PSID_Library:FixedFrequency" z="-1" view="false" instance="0" />
         <call link="1340636822" name="PSID_Library:ActiveDroop_ReactiveDroop" z="-1" view="false" instance="0" />
         <call link="285503644" name="PSID_Library:ReducedOrderPLL" z="-1" view="false" instance="0">
-          <call link="975203037" name="PSID_Library:abc_dq_psid" z="200" view="false" instance="0" />
-          <call link="1708939662" name="PSID_Library:timestep_delay_angle" z="300" view="false" instance="0" />
+          <call link="975203037" name="PSID_Library:abc_dq_psid" z="200" view="false" instance="1" />
+          <call link="1708939662" name="PSID_Library:timestep_delay_angle" z="300" view="false" instance="1" />
         </call>
         <call link="771555009" name="PSID_Library:CurrentModeControl" z="-1" view="false" instance="0" />
         <call link="1689773799" name="PSID_Library:ActivePI_ReactivePI" z="-1" view="false" instance="0" />
         <call link="1099669844" name="PSID_Library:GAST_2" z="-1" view="false" instance="0" />
+        <call link="573480777" name="PSID_Library:exciter_saturation" z="-1" view="false" instance="2" />
         <call link="302217636" name="PSID_Library:volley_circuit_breaker_logic" z="-1" view="false" instance="0" />
-        <call link="1997484035" name="PSID_Library:VoltageModeControl" z="-1" view="false" instance="0" />
         <call link="1093407088" name="PSID_Library:ReferenceFrameConversion_INV" z="-1" view="false" instance="0">
-          <call link="1686720077" name="PSID_Library:timestep_delay_angle" z="60" view="false" instance="1" />
+          <call link="1686720077" name="PSID_Library:timestep_delay_angle" z="60" view="false" instance="2" />
           <call link="1115078297" name="PSID_Library:dq_abc_psid" z="70" view="false" instance="0" />
-          <call link="1416558759" name="PSID_Library:abc_dq_psid" z="80" view="false" instance="1" />
-          <call link="294237646" name="PSID_Library:abc_dq_psid" z="90" view="false" instance="2" />
-          <call link="1142133084" name="PSID_Library:abc_dq_psid" z="100" view="false" instance="3" />
+          <call link="1416558759" name="PSID_Library:abc_dq_psid" z="80" view="false" instance="2" />
+          <call link="294237646" name="PSID_Library:abc_dq_psid" z="90" view="false" instance="3" />
+          <call link="1142133084" name="PSID_Library:abc_dq_psid" z="100" view="false" instance="4" />
         </call>
-        <call link="1154150259" name="PSID_Library:ReferenceFrameConversion_GEN" z="-1" view="false" instance="0">
-          <call link="1659966761" name="PSID_Library:timestep_delay_angle" z="40" view="false" instance="2" />
-          <call link="1136399958" name="PSID_Library:dq_abc_psid" z="50" view="false" instance="1" />
-          <call link="1050186494" name="PSID_Library:abc_dq_psid" z="60" view="false" instance="4" />
-        </call>
-        <call link="791628388" name="PSID_Library:AverageConverter" z="-1" view="false" instance="0" />
-        <call link="417400883" name="PSID_Library:SauerPaiMachine" z="-1" view="false" instance="0" />
         <call link="1585140405" name="PSID_Library:LCLFilter" z="-1" view="false" instance="0">
           <call link="645843216" name="PSID_Library:ri_abc" z="890" view="false" instance="1" />
         </call>
-        <call link="1900225599" name="PSID_Library:TGTypeII" z="-1" view="false" instance="0" />
-        <call link="1883499949" name="PSID_Library:CurrentSourceInterface" z="-1" view="false" instance="0" />
-        <call link="85566424" name="PSID_Library:AVRFixed" z="-1" view="false" instance="0" />
-        <call link="1257164115" name="PSID_Library:GGOV1" z="-1" view="false" instance="0">
-          <call link="471511252" name="PSID_Library:DeadBand" z="890" view="false" instance="0" />
+        <call link="1154150259" name="PSID_Library:ReferenceFrameConversion_GEN" z="-1" view="false" instance="0">
+          <call link="1659966761" name="PSID_Library:timestep_delay_angle" z="40" view="false" instance="3" />
+          <call link="1136399958" name="PSID_Library:dq_abc_psid" z="50" view="false" instance="1" />
+          <call link="1050186494" name="PSID_Library:abc_dq_psid" z="60" view="false" instance="5" />
         </call>
+        <call link="417400883" name="PSID_Library:SauerPaiMachine" z="-1" view="false" instance="0" />
         <call link="457892986" name="PSID_Library:SingleMass" z="-1" view="false" instance="0" />
-        <call link="1584018673" name="PSID_Library:DeadBand" z="-1" view="false" instance="1" />
-        <call link="1518507892" name="PSID_Library:dq_abc_psid" z="-1" view="false" instance="2" />
-        <call link="1171105701" name="PSID_Library:abc_dq_psid" z="-1" view="false" instance="5" />
-        <call link="49018463" name="PSID_Library:SecOdrPole" z="-1" view="false" instance="0" />
-        <call link="117063645" name="PSID_Library:dq_ri" z="-1" view="false" instance="0" />
+        <call link="1883499949" name="PSID_Library:CurrentSourceInterface" z="-1" view="false" instance="0" />
+        <call link="1980808861" name="PSID_Library:TGFixed" z="-1" view="false" instance="0" />
+        <call link="1171105701" name="PSID_Library:abc_dq_psid" z="-1" view="false" instance="6" />
         <call link="1834683724" name="PSID_Library:IEEEST" z="-1" view="false" instance="0">
-          <call link="1589910882" name="PSID_Library:SecOdrPole" z="-1" view="false" instance="1" />
-          <call link="617299442" name="PSID_Library:SecOdrPole" z="-1" view="false" instance="2" />
+          <call link="1589910882" name="PSID_Library:SecOdrPole" z="-1" view="false" instance="0" />
+          <call link="617299442" name="PSID_Library:SecOdrPole" z="-1" view="false" instance="1" />
         </call>
-        <call link="1779563302" name="PSID_Library:GASTG" z="-1" view="false" instance="0" />
         <call link="1728083034" name="PSID_Library:PSSFixed" z="-1" view="false" instance="0" />
         <call link="40718861" name="PSID_Library:SEXS" z="-1" view="false" instance="0" />
-        <call link="1536472840" name="PSID_Library:ri_dq" z="-1" view="false" instance="0" />
-        <call link="691555753" name="PSID_Library:HydroTurbineGov" z="-1" view="false" instance="0" />
-        <call link="812723526" name="PSID_Library:timestep_delay_angle" z="-1" view="false" instance="3" />
-        <call link="1980808861" name="PSID_Library:TGFixed" z="-1" view="false" instance="0" />
-        <call link="1212736682" name="PSID_Library:KauraPLL" z="-1" view="false" instance="0">
-          <call link="2065055101" name="PSID_Library:timestep_delay_angle" z="330" view="false" instance="4" />
-          <call link="1583651100" name="PSID_Library:abc_dq_psid" z="340" view="false" instance="6" />
-        </call>
+        <call link="1749606776" name="PSID_Library:AVRSimple" z="-1" view="false" instance="0" />
+        <call link="1935923328" name="PSID_Library:VirtualInertia_ReactiveDroop" z="-1" view="false" instance="0" />
+        <call link="812723526" name="PSID_Library:timestep_delay_angle" z="-1" view="false" instance="4" />
+        <call link="289925425" name="PSID_Library:SEXS_2" z="-1" view="false" instance="0" />
+        <call link="691555753" name="PSID_Library:HydroTurbineGov" z="-1" view="true" instance="0" />
+        <call link="49018463" name="PSID_Library:SecOdrPole" z="-1" view="false" instance="2" />
+        <call link="1779563302" name="PSID_Library:GASTG" z="-1" view="false" instance="0" />
+        <call link="1518507892" name="PSID_Library:dq_abc_psid" z="-1" view="false" instance="2" />
+        <call link="85566424" name="PSID_Library:AVRFixed" z="-1" view="false" instance="0" />
+        <call link="314200446" name="PSID_Library:SteamTurbineGov1" z="-1" view="false" instance="0" />
       </call>
     </call>
   </hierarchy>
