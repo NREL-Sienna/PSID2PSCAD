@@ -596,7 +596,7 @@ function write_initial_conditions(
     x0_dict,
 )
     pscad_component_name = filter(x -> !isspace(x), pscad_component_name)
-    pscad_component = pscad_project.find(pscad_component_name)
+    pscad_component = pscad_project.find("Bus", pscad_component_name)
     pscad_params = pscad_component.parameters()
     pscad_params["VA"] = get_angle(psid_component)
     pscad_params["VM"] = get_magnitude(psid_component)
