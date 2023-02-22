@@ -87,6 +87,167 @@ function enable_dynamic_injection_by_type(sys, project)
     end
 end
 
+function build_system(sys::System, project, coorDict) 
+    components = collect(get_components(Component, sys))
+    main = project.user_canvas("Main")
+    for c in components
+        @info "building component: $(get_name(c)) of type $(typeof(c))"
+        build_component(c, get_name(c), main, coorDict)
+    end
+end
+
+function build_component(
+    psid_component::Bus,
+    pscad_component_name,
+    pscad_canvas,
+    coorDict)
+
+    BusDict = Dict()
+    for (key, value) in coorDict
+        if value[2] == "tall"
+            BusDict[key] = (value[1][1],value[1][2]-5),(value[1][1],value[1][2]+5)
+        elseif value[2] == "wide"
+            BusDict[key] = (value[1][1]-5,value[1][2]),(value[1][1]+5,value[1][2])
+        else
+            @error "error: not tall or wide"
+        end
+    end
+    new_bus = pscad_canvas.create_bus(BusDict[pscad_component_name][1],BusDict[pscad_component_name][2])
+    new_bus.parameters(Name=pscad_component_name)
+end
+
+function build_component(
+    psid_component::DynamicGenerator{SauerPaiMachine, SingleMass, SEXS, SteamTurbineGov1, PSSFixed},
+    pscad_component_name,
+    pscad_canvas,
+    coorDict)
+    
+    split_parts = split(pscad_component_name,"-")
+    Busname = "Bus "*split_parts[2]
+    if coorDict[Busname][3] == "n"
+        new_mach = pscad_canvas.add_component("PSID_Library_Inverters", "SAUERPAI_SEXS_TGOV1_PSSFIXED", coorDict[Busname][1][1]-10,coorDict[Busname][1][2]+7)
+    elseif coorDict[Busname][3] == "s"
+        new_mach = pscad_canvas.add_component("PSID_Library_Inverters", "SAUERPAI_SEXS_TGOV1_PSSFIXED", coorDict[Busname][1][1]-10,coorDict[Busname][1][2]-7)
+    elseif coorDict[Busname][3] == "e"
+        new_mach = pscad_canvas.add_component("PSID_Library_Inverters", "SAUERPAI_SEXS_TGOV1_PSSFIXED", coorDict[Busname][1][1]+7,coorDict[Busname][1][2]+10)
+    elseif coorDict[Busname][3] == "w"
+        new_mach = pscad_canvas.add_component("PSID_Library_Inverters", "SAUERPAI_SEXS_TGOV1_PSSFIXED", coorDict[Busname][1][1]-7,coorDict[Busname][1][2]+10)
+    else
+        @error "No direction specified for component placement"
+        println(Busname)
+    end
+    new_mach.set_parameters(Name = pscad_component_name) 
+    new_wire = pscad_canvas.create_wire(new_mach.get_port_location("POI"),coorDict[Busname][1])
+end
+
+function build_component(
+    psid_component::DynamicInverter{AverageConverter, OuterControl{ActivePowerDroop, ReactivePowerDroop}, VoltageModeControl, FixedDCSource, FixedFrequency, LCLFilter},
+    pscad_component_name,
+    pscad_canvas,
+    coorDict)
+
+    split_parts = split(pscad_component_name,"-")
+    Busname = "Bus "*split_parts[2]
+    if coorDict[Busname][3] == "n"
+        new_inv = pscad_canvas.add_component("PSID_Library_Inverters", "DROOP_GFM", coorDict[Busname][1][1]-3,coorDict[Busname][1][2]+7)
+    elseif coorDict[Busname][3] == "s"
+        new_inv = pscad_canvas.add_component("PSID_Library_Inverters", "DROOP_GFM", coorDict[Busname][1][1]-3,coorDict[Busname][1][2]-7)
+    elseif coorDict[Busname][3] == "e"
+        new_inv = pscad_canvas.add_component("PSID_Library_Inverters", "DROOP_GFM", coorDict[Busname][1][1]+7,coorDict[Busname][1][2]+5)
+    elseif coorDict[Busname][3] == "w"
+        new_inv = pscad_canvas.add_component("PSID_Library_Inverters", "DROOP_GFM", coorDict[Busname][1][1]-7,coorDict[Busname][1][2]+5)
+    else
+        @error "No direction specified for component placement"
+        println(Busname)
+    end
+    new_inv.set_parameters(Name = pscad_component_name) 
+    new_wire = pscad_canvas.create_wire(new_inv.get_port_location("POI"),coorDict[Busname][1])
+    
+end
+
+function build_component(
+    psid_component::DynamicInverter{AverageConverter, OuterControl{ActivePowerPI, ReactivePowerPI}, CurrentModeControl, FixedDCSource, KauraPLL, LCLFilter},
+    pscad_component_name,
+    pscad_canvas,
+    coorDict)
+
+    split_parts = split(pscad_component_name,"-")
+    Busname = "Bus "*split_parts[2]
+    if coorDict[Busname][3] == "n"
+        new_inv = pscad_canvas.add_component("PSID_Library_Inverters", "GFL", coorDict[Busname][1][1]+4,coorDict[Busname][1][2]+7)
+    elseif coorDict[Busname][3] == "s"
+        new_inv = pscad_canvas.add_component("PSID_Library_Inverters", "GFL", coorDict[Busname][1][1]+4,coorDict[Busname][1][2]-7)
+    elseif coorDict[Busname][3] == "e"
+        new_inv = pscad_canvas.add_component("PSID_Library_Inverters", "GFL", coorDict[Busname][1][1]+7,coorDict[Busname][1][2])
+    elseif coorDict[Busname][3] == "w"
+        new_inv = pscad_canvas.add_component("PSID_Library_Inverters", "GFL", coorDict[Busname][1][1]-7,coorDict[Busname][1][2])
+    else
+        @error "No direction specified for component placement"
+        println(Busname)
+    end
+    new_inv.set_parameters(Name = pscad_component_name) 
+    new_wire = pscad_canvas.create_wire(new_inv.get_port_location("POI"),coorDict[Busname][1])
+    
+end
+
+function build_component(
+    psid_component::Line,
+    pscad_component_name,
+    pscad_canvas,
+    coorDict)
+    split_parts = split(pscad_component_name,"-")
+    midpoint = floor(Int,(coorDict[split_parts[1]][1][1]+coorDict[split_parts[2]][1][1])/2),floor(Int,(coorDict[split_parts[1]][1][2]+coorDict[split_parts[2]][1][2])/2)
+    new_pi = pscad_canvas.add_component("master", "newpi", midpoint[1], midpoint[2])
+    new_pi.set_parameters(Name = pscad_component_name)
+    new_wire = pscad_canvas.add_wire(new_pi.get_port_location("N1"),coorDict[split_parts[2]][1])
+    new_wire2 = pscad_canvas.add_wire(new_pi.get_port_location("N2"),coorDict[split_parts[1]][1])
+end
+
+function build_component(
+    psid_component::Transformer2W,
+    pscad_component_name,
+    pscad_canvas,
+    coorDict)
+    split_parts = split(pscad_component_name,"-")
+    midpoint = floor(Int,(coorDict[split_parts[1]][1][1]+coorDict[split_parts[2]][1][1])/2),floor(Int,(coorDict[split_parts[1]][1][2]+coorDict[split_parts[2]][1][2])/2)
+    new_xfmr = pscad_canvas.add_component("master", "xfmr-3p2w", midpoint[1], midpoint[2])
+    new_xfmr.set_parameters(Name = pscad_component_name)
+    new_wire = pscad_canvas.add_wire(new_xfmr.get_port_location("N1"),coorDict[split_parts[2]][1])
+    new_wire2 = pscad_canvas.add_wire(new_xfmr.get_port_location("N2"),coorDict[split_parts[1]][1])
+end
+
+function build_component( 
+    psid_component::PowerLoad,
+    pscad_component_name,
+    pscad_canvas,
+    coorDict)
+    
+    loadbus = get_name(get_bus(psid_component))
+    new_load = pscad_canvas.add_component("master", "fixed_load", coorDict[loadbus][1][1]+2,coorDict[loadbus][1][2]+2)
+    new_load.set_parameters(Name = pscad_component_name) 
+    new_wire = pscad_canvas.create_wire(new_load.get_port_location("IA"),coorDict[loadbus][1])
+end
+
+function build_component(psid_component::Arc, pscad_component_name, pscad_canvas, coorDict)
+    @warn "Skipping type Arc"
+end
+
+function build_component(psid_component::LoadZone, pscad_component_name, pscad_canvas, coorDict)
+    @warn "Skipping type LoadZone"
+end
+
+function build_component(psid_component::Area, pscad_component_name, pscad_canvas, coorDict)
+    @warn "Skipping type Area"
+end
+
+function build_component(psid_component::GenericBattery, pscad_component_name, pscad_canvas, coorDict)
+    @warn "Skipping type GenericBattery"
+end
+
+function build_component(psid_component::ThermalStandard, pscad_component_name, pscad_canvas, coorDict)
+    @warn "Skipping type ThermalStandard"
+end
+
 function parameterize_system(sys::System, project)
     sim = Simulation!(MassMatrixModel, sys, pwd(), (0.0, 0.0))
     ss = small_signal_analysis(sim)
