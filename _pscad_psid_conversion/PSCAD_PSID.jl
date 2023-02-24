@@ -1,7 +1,6 @@
 function set_project_parameters!(project; kwargs...)
     project_params = project.parameters()
     for k in kwargs
-        @warn k
         project_params[string(k[1])] = k[2]
     end
     PP.update_parameter_by_dictionary(project, project_params)
@@ -100,7 +99,6 @@ function _add_to_enabled_gens_layer(
     project.find("PSID_Library_Inverters:SAUERPAI_SEXS_TGOV1_PSSFIXED", psid_name).add_to_layer("enabled_gens")
 end
 
-
 function _add_to_enabled_gens_layer(
     g::DynamicGenerator{SauerPaiMachine, SingleMass, AVRFixed, TGFixed, PSSFixed},
     project,
@@ -136,7 +134,7 @@ function enable_dynamic_injection_by_type(sys, project)
     end
 end
 
-function build_system(sys::System, project, coorDict) 
+function build_system(sys::System, project, coorDict)
     components = collect(get_components(Component, sys))
     main = project.user_canvas("Main")
     for c in components
@@ -145,156 +143,261 @@ function build_system(sys::System, project, coorDict)
     end
 end
 
-function build_component(
-    psid_component::Bus,
-    pscad_component_name,
-    pscad_canvas,
-    coorDict)
-
+function build_component(psid_component::Bus, pscad_component_name, pscad_canvas, coorDict)
     BusDict = Dict()
     for (key, value) in coorDict
         if value[2] == "tall"
-            BusDict[key] = (value[1][1],value[1][2]-5),(value[1][1],value[1][2]+5)
+            BusDict[key] = (value[1][1], value[1][2] - 5), (value[1][1], value[1][2] + 5)
         elseif value[2] == "wide"
-            BusDict[key] = (value[1][1]-5,value[1][2]),(value[1][1]+5,value[1][2])
+            BusDict[key] = (value[1][1] - 5, value[1][2]), (value[1][1] + 5, value[1][2])
         else
             @error "error: not tall or wide"
         end
     end
-    new_bus = pscad_canvas.create_bus(BusDict[pscad_component_name][1],BusDict[pscad_component_name][2])
-    new_bus.parameters(Name=pscad_component_name)
+    new_bus = pscad_canvas.create_bus(
+        BusDict[pscad_component_name][1],
+        BusDict[pscad_component_name][2],
+    )
+    new_bus.parameters(Name = pscad_component_name)
 end
 
 function build_component(
-    psid_component::DynamicGenerator{SauerPaiMachine, SingleMass, SEXS, SteamTurbineGov1, PSSFixed},
+    psid_component::DynamicGenerator{
+        SauerPaiMachine,
+        SingleMass,
+        SEXS,
+        SteamTurbineGov1,
+        PSSFixed,
+    },
     pscad_component_name,
     pscad_canvas,
-    coorDict)
-    
-    split_parts = split(pscad_component_name,"-")
-    Busname = "Bus "*split_parts[2]
+    coorDict,
+)
+    split_parts = split(pscad_component_name, "-")
+    Busname = "Bus_" * split_parts[2]   #TODO - don't hardcode busname 
     if coorDict[Busname][3] == "n"
-        new_mach = pscad_canvas.add_component("PSID_Library_Inverters", "SAUERPAI_SEXS_TGOV1_PSSFIXED", coorDict[Busname][1][1]-10,coorDict[Busname][1][2]+7)
+        new_mach = pscad_canvas.add_component(
+            "PSID_Library_Inverters",
+            "SAUERPAI_SEXS_TGOV1_PSSFIXED",
+            coorDict[Busname][1][1] - 10,
+            coorDict[Busname][1][2] + 7,
+        )
     elseif coorDict[Busname][3] == "s"
-        new_mach = pscad_canvas.add_component("PSID_Library_Inverters", "SAUERPAI_SEXS_TGOV1_PSSFIXED", coorDict[Busname][1][1]-10,coorDict[Busname][1][2]-7)
+        new_mach = pscad_canvas.add_component(
+            "PSID_Library_Inverters",
+            "SAUERPAI_SEXS_TGOV1_PSSFIXED",
+            coorDict[Busname][1][1] - 10,
+            coorDict[Busname][1][2] - 7,
+        )
     elseif coorDict[Busname][3] == "e"
-        new_mach = pscad_canvas.add_component("PSID_Library_Inverters", "SAUERPAI_SEXS_TGOV1_PSSFIXED", coorDict[Busname][1][1]+7,coorDict[Busname][1][2]+10)
+        new_mach = pscad_canvas.add_component(
+            "PSID_Library_Inverters",
+            "SAUERPAI_SEXS_TGOV1_PSSFIXED",
+            coorDict[Busname][1][1] + 7,
+            coorDict[Busname][1][2] + 10,
+        )
     elseif coorDict[Busname][3] == "w"
-        new_mach = pscad_canvas.add_component("PSID_Library_Inverters", "SAUERPAI_SEXS_TGOV1_PSSFIXED", coorDict[Busname][1][1]-7,coorDict[Busname][1][2]+10)
+        new_mach = pscad_canvas.add_component(
+            "PSID_Library_Inverters",
+            "SAUERPAI_SEXS_TGOV1_PSSFIXED",
+            coorDict[Busname][1][1] - 7,
+            coorDict[Busname][1][2] + 10,
+        )
     else
         @error "No direction specified for component placement"
         println(Busname)
     end
-    new_mach.set_parameters(Name = pscad_component_name) 
-    new_wire = pscad_canvas.create_wire(new_mach.get_port_location("POI"),coorDict[Busname][1])
+    new_mach.set_parameters(Name = pscad_component_name)
+    new_wire =
+        pscad_canvas.create_wire(new_mach.get_port_location("POI"), coorDict[Busname][1])
 end
 
 function build_component(
-    psid_component::DynamicInverter{AverageConverter, OuterControl{ActivePowerDroop, ReactivePowerDroop}, VoltageModeControl, FixedDCSource, FixedFrequency, LCLFilter},
+    psid_component::DynamicInverter{
+        AverageConverter,
+        OuterControl{ActivePowerDroop, ReactivePowerDroop},
+        VoltageModeControl,
+        FixedDCSource,
+        FixedFrequency,
+        LCLFilter,
+    },
     pscad_component_name,
     pscad_canvas,
-    coorDict)
-
-    split_parts = split(pscad_component_name,"-")
-    Busname = "Bus "*split_parts[2]
+    coorDict,
+)
+    split_parts = split(pscad_component_name, "-")
+    Busname = "Bus_" * split_parts[2]  #TODO - don't hardcode busname 
     if coorDict[Busname][3] == "n"
-        new_inv = pscad_canvas.add_component("PSID_Library_Inverters", "DROOP_GFM", coorDict[Busname][1][1]-3,coorDict[Busname][1][2]+7)
+        new_inv = pscad_canvas.add_component(
+            "PSID_Library_Inverters",
+            "DROOP_GFM",
+            coorDict[Busname][1][1] - 3,
+            coorDict[Busname][1][2] + 7,
+        )
     elseif coorDict[Busname][3] == "s"
-        new_inv = pscad_canvas.add_component("PSID_Library_Inverters", "DROOP_GFM", coorDict[Busname][1][1]-3,coorDict[Busname][1][2]-7)
+        new_inv = pscad_canvas.add_component(
+            "PSID_Library_Inverters",
+            "DROOP_GFM",
+            coorDict[Busname][1][1] - 3,
+            coorDict[Busname][1][2] - 7,
+        )
     elseif coorDict[Busname][3] == "e"
-        new_inv = pscad_canvas.add_component("PSID_Library_Inverters", "DROOP_GFM", coorDict[Busname][1][1]+7,coorDict[Busname][1][2]+5)
+        new_inv = pscad_canvas.add_component(
+            "PSID_Library_Inverters",
+            "DROOP_GFM",
+            coorDict[Busname][1][1] + 7,
+            coorDict[Busname][1][2] + 5,
+        )
     elseif coorDict[Busname][3] == "w"
-        new_inv = pscad_canvas.add_component("PSID_Library_Inverters", "DROOP_GFM", coorDict[Busname][1][1]-7,coorDict[Busname][1][2]+5)
+        new_inv = pscad_canvas.add_component(
+            "PSID_Library_Inverters",
+            "DROOP_GFM",
+            coorDict[Busname][1][1] - 7,
+            coorDict[Busname][1][2] + 5,
+        )
     else
         @error "No direction specified for component placement"
         println(Busname)
     end
-    new_inv.set_parameters(Name = pscad_component_name) 
-    new_wire = pscad_canvas.create_wire(new_inv.get_port_location("POI"),coorDict[Busname][1])
-    
+    new_inv.set_parameters(Name = pscad_component_name)
+    new_wire =
+        pscad_canvas.create_wire(new_inv.get_port_location("POI"), coorDict[Busname][1])
 end
 
 function build_component(
-    psid_component::DynamicInverter{AverageConverter, OuterControl{ActivePowerPI, ReactivePowerPI}, CurrentModeControl, FixedDCSource, KauraPLL, LCLFilter},
+    psid_component::DynamicInverter{
+        AverageConverter,
+        OuterControl{ActivePowerPI, ReactivePowerPI},
+        CurrentModeControl,
+        FixedDCSource,
+        KauraPLL,
+        LCLFilter,
+    },
     pscad_component_name,
     pscad_canvas,
-    coorDict)
-
-    split_parts = split(pscad_component_name,"-")
-    Busname = "Bus "*split_parts[2]
+    coorDict,
+)
+    split_parts = split(pscad_component_name, "-")
+    Busname = "Bus_" * split_parts[2]  #TODO - don't hardcode busname 
     if coorDict[Busname][3] == "n"
-        new_inv = pscad_canvas.add_component("PSID_Library_Inverters", "GFL", coorDict[Busname][1][1]+4,coorDict[Busname][1][2]+7)
+        new_inv = pscad_canvas.add_component(
+            "PSID_Library_Inverters",
+            "GFL_KAURA_PLL",
+            coorDict[Busname][1][1] + 4,
+            coorDict[Busname][1][2] + 7,
+        )
     elseif coorDict[Busname][3] == "s"
-        new_inv = pscad_canvas.add_component("PSID_Library_Inverters", "GFL", coorDict[Busname][1][1]+4,coorDict[Busname][1][2]-7)
+        new_inv = pscad_canvas.add_component(
+            "PSID_Library_Inverters",
+            "GFL_KAURA_PLL",
+            coorDict[Busname][1][1] + 4,
+            coorDict[Busname][1][2] - 7,
+        )
     elseif coorDict[Busname][3] == "e"
-        new_inv = pscad_canvas.add_component("PSID_Library_Inverters", "GFL", coorDict[Busname][1][1]+7,coorDict[Busname][1][2])
+        new_inv = pscad_canvas.add_component(
+            "PSID_Library_Inverters",
+            "GFL_KAURA_PLL",
+            coorDict[Busname][1][1] + 7,
+            coorDict[Busname][1][2],
+        )
     elseif coorDict[Busname][3] == "w"
-        new_inv = pscad_canvas.add_component("PSID_Library_Inverters", "GFL", coorDict[Busname][1][1]-7,coorDict[Busname][1][2])
+        new_inv = pscad_canvas.add_component(
+            "PSID_Library_Inverters",
+            "GFL_KAURA_PLL",
+            coorDict[Busname][1][1] - 7,
+            coorDict[Busname][1][2],
+        )
     else
         @error "No direction specified for component placement"
         println(Busname)
     end
-    new_inv.set_parameters(Name = pscad_component_name) 
-    new_wire = pscad_canvas.create_wire(new_inv.get_port_location("POI"),coorDict[Busname][1])
-    
+    new_inv.set_parameters(Name = pscad_component_name)
+    new_wire =
+        pscad_canvas.create_wire(new_inv.get_port_location("POI"), coorDict[Busname][1])
 end
 
-function build_component(
-    psid_component::Line,
-    pscad_component_name,
-    pscad_canvas,
-    coorDict)
-    split_parts = split(pscad_component_name,"-")
-    midpoint = floor(Int,(coorDict[split_parts[1]][1][1]+coorDict[split_parts[2]][1][1])/2),floor(Int,(coorDict[split_parts[1]][1][2]+coorDict[split_parts[2]][1][2])/2)
+function build_component(psid_component::Line, pscad_component_name, pscad_canvas, coorDict)
+    split_parts = split(pscad_component_name, "-")
+    midpoint =
+        floor(Int, (coorDict[split_parts[1]][1][1] + coorDict[split_parts[2]][1][1]) / 2),
+        floor(Int, (coorDict[split_parts[1]][1][2] + coorDict[split_parts[2]][1][2]) / 2)
     new_pi = pscad_canvas.add_component("master", "newpi", midpoint[1], midpoint[2])
     new_pi.set_parameters(Name = pscad_component_name)
-    new_wire = pscad_canvas.add_wire(new_pi.get_port_location("N1"),coorDict[split_parts[2]][1])
-    new_wire2 = pscad_canvas.add_wire(new_pi.get_port_location("N2"),coorDict[split_parts[1]][1])
+    new_wire =
+        pscad_canvas.add_wire(new_pi.get_port_location("N1"), coorDict[split_parts[2]][1])
+    new_wire2 =
+        pscad_canvas.add_wire(new_pi.get_port_location("N2"), coorDict[split_parts[1]][1])
 end
 
 function build_component(
     psid_component::Transformer2W,
     pscad_component_name,
     pscad_canvas,
-    coorDict)
-    split_parts = split(pscad_component_name,"-")
-    midpoint = floor(Int,(coorDict[split_parts[1]][1][1]+coorDict[split_parts[2]][1][1])/2),floor(Int,(coorDict[split_parts[1]][1][2]+coorDict[split_parts[2]][1][2])/2)
+    coorDict,
+)
+    split_parts = split(pscad_component_name, "-")
+    midpoint =
+        floor(Int, (coorDict[split_parts[1]][1][1] + coorDict[split_parts[2]][1][1]) / 2),
+        floor(Int, (coorDict[split_parts[1]][1][2] + coorDict[split_parts[2]][1][2]) / 2)
     new_xfmr = pscad_canvas.add_component("master", "xfmr-3p2w", midpoint[1], midpoint[2])
     new_xfmr.set_parameters(Name = pscad_component_name)
-    new_wire = pscad_canvas.add_wire(new_xfmr.get_port_location("N1"),coorDict[split_parts[2]][1])
-    new_wire2 = pscad_canvas.add_wire(new_xfmr.get_port_location("N2"),coorDict[split_parts[1]][1])
+    new_wire =
+        pscad_canvas.add_wire(new_xfmr.get_port_location("N1"), coorDict[split_parts[2]][1])
+    new_wire2 =
+        pscad_canvas.add_wire(new_xfmr.get_port_location("N2"), coorDict[split_parts[1]][1])
 end
 
-function build_component( 
+function build_component(
     psid_component::PowerLoad,
     pscad_component_name,
     pscad_canvas,
-    coorDict)
-    
+    coorDict,
+)
     loadbus = get_name(get_bus(psid_component))
-    new_load = pscad_canvas.add_component("master", "fixed_load", coorDict[loadbus][1][1]+2,coorDict[loadbus][1][2]+2)
-    new_load.set_parameters(Name = pscad_component_name) 
-    new_wire = pscad_canvas.create_wire(new_load.get_port_location("IA"),coorDict[loadbus][1])
+    new_load = pscad_canvas.add_component(
+        "master",
+        "fixed_load",
+        coorDict[loadbus][1][1] + 2,
+        coorDict[loadbus][1][2] + 2,
+    )
+    new_load.set_parameters(Name = pscad_component_name)
+    new_wire =
+        pscad_canvas.create_wire(new_load.get_port_location("IA"), coorDict[loadbus][1])
 end
 
 function build_component(psid_component::Arc, pscad_component_name, pscad_canvas, coorDict)
-    @warn "Skipping type Arc"
+    @info "Skipping build for type Arc"
 end
 
-function build_component(psid_component::LoadZone, pscad_component_name, pscad_canvas, coorDict)
-    @warn "Skipping type LoadZone"
+function build_component(
+    psid_component::LoadZone,
+    pscad_component_name,
+    pscad_canvas,
+    coorDict,
+)
+    @info "Skipping build for type LoadZone"
 end
 
 function build_component(psid_component::Area, pscad_component_name, pscad_canvas, coorDict)
-    @warn "Skipping type Area"
+    @info "Skipping build for type Area"
 end
 
-function build_component(psid_component::GenericBattery, pscad_component_name, pscad_canvas, coorDict)
-    @warn "Skipping type GenericBattery"
+function build_component(
+    psid_component::GenericBattery,
+    pscad_component_name,
+    pscad_canvas,
+    coorDict,
+)
+    @info "Skipping build for type GenericBattery"
 end
 
-function build_component(psid_component::ThermalStandard, pscad_component_name, pscad_canvas, coorDict)
-    @warn "Skipping type ThermalStandard"
+function build_component(
+    psid_component::ThermalStandard,
+    pscad_component_name,
+    pscad_canvas,
+    coorDict,
+)
+    @info "Skipping build for type ThermalStandard"
 end
 
 function parameterize_system(sys::System, project)
@@ -496,7 +599,7 @@ end
 function write_parameters!(pscad_params, prime_mover::HydroTurbineGov)
     pscad_params["primemover_R_perm"] = get_R(prime_mover)  #PSCAD not case-sensitive
     pscad_params["primemover_R_temp"] = get_r(prime_mover)  #PSCAD not case-sensitive
-    pscad_params["primemover_Tr"] = get_Tr(prime_mover) 
+    pscad_params["primemover_Tr"] = get_Tr(prime_mover)
     pscad_params["primemover_Tf"] = get_Tf(prime_mover)
     pscad_params["primemover_Tg"] = get_Tg(prime_mover)
     pscad_params["primemover_VELM"] = get_VELM(prime_mover)
@@ -511,27 +614,28 @@ end
 function write_parameters!(pscad_params, prime_mover::SteamTurbineGov1)
     pscad_params["primemover_R"] = get_R(prime_mover)
     pscad_params["primemover_T1"] = get_T1(prime_mover)
-    pscad_params["primemover_valve_position_min"] = get_valve_position_limits(prime_mover).min
-    pscad_params["primemover_valve_position_max"] = get_valve_position_limits(prime_mover).max
+    pscad_params["primemover_valve_position_min"] =
+        get_valve_position_limits(prime_mover).min
+    pscad_params["primemover_valve_position_max"] =
+        get_valve_position_limits(prime_mover).max
     pscad_params["primemover_T2"] = get_T2(prime_mover)
     pscad_params["primemover_T3"] = get_T3(prime_mover)
     pscad_params["primemover_D_T"] = get_D_T(prime_mover)
     pscad_params["primemover_T_rate"] = get_T_rate(prime_mover)
 end
 
-function write_parameters!(pscad_params, pss::PSSFixed) 
-end
+function write_parameters!(pscad_params, pss::PSSFixed) end
 
 function write_parameters!(pscad_params, avr::ESAC1A)
-    @warn "Write function for ESAC1A not implemented"
+    @info "Write function for ESAC1A not implemented"
 end
 
 function write_parameters!(pscad_params, tg::TGFixed)
-    @warn "Write function for TGFixed not implemented"
+    @info "Write function for TGFixed not implemented"
 end
 
 function write_parameters!(pscad_params, avr::AVRFixed)
-    @warn "Write function for AVRFixed not implemented"
+    @info "Write function for AVRFixed not implemented"
 end
 
 function write_parameters(
@@ -567,38 +671,44 @@ function write_parameters(
 end
 
 function write_parameters(psid_component::Arc, pscad_component_name, pscad_project)
-    @warn "No parameters written for type Arc"
+    @info "No parameters written for type Arc"
 end
 
 function write_parameters(psid_component::LoadZone, pscad_component_name, pscad_project)
-    @warn "No parameters written for type LoadZone"
+    @info "No parameters written for type LoadZone"
 end
 function write_parameters(psid_component::Area, pscad_component_name, pscad_project)
-    @warn "No parameters written for type Area"
+    @info "No parameters written for type Area"
 end
 
-function write_rating!(pscad_params, thermal::ThermalStandard, dynamic::DynamicInverter)
+
+function write_rating!(pscad_params, static::S, dynamic::DynamicInverter) where {S <: StaticInjection}
     pscad_params["f_base"] = 60.0
     pscad_params["S_base"] = get_base_power(dynamic)
-    pscad_params["V_base"] = get_base_voltage(get_bus(thermal))
+    pscad_params["V_base"] = get_base_voltage(get_bus(static))
 end
 
-function write_rating!(pscad_params, thermal::ThermalStandard, dynamic::DynamicGenerator)
+function write_rating!(pscad_params, static::S, dynamic::DynamicInverter) where {S <: StaticInjection}
     pscad_params["w_base"] = 60.0 * 2 * pi
     pscad_params["I_phase"] =
-        get_base_power(dynamic) / get_base_voltage(get_bus(thermal)) / sqrt(3)
-    pscad_params["V_ln"] = get_base_voltage(get_bus(thermal)) / sqrt(3)
+        get_base_power(dynamic) / get_base_voltage(get_bus(static)) / sqrt(3)
+    pscad_params["V_ln"] = get_base_voltage(get_bus(static)) / sqrt(3)
     pscad_params["f_base"] = 60.0
     pscad_params["S_base"] = get_base_power(dynamic)
-    pscad_params["V_base"] = get_base_voltage(get_bus(thermal))
+    pscad_params["V_base"] = get_base_voltage(get_bus(static))
 end
 
 function write_parameters(
-    psid_component::ThermalStandard,
+    psid_component::S,
     pscad_component_name,
     pscad_project,
-)
-    pscad_component = pscad_project.find(pscad_component_name, layer = "enabled_gens")
+)  where {S <: StaticInjection}
+    pscad_component = nothing
+    try
+        pscad_component = pscad_project.find(pscad_component_name)
+    catch e
+        pscad_component = pscad_project.find(pscad_component_name, layer = "enabled_gens")
+    end
     pscad_params = pscad_component.parameters()
     psid_dynamic_injector = get_dynamic_injector(psid_component)
 
@@ -682,7 +792,12 @@ function write_ideal_source(
 end
 
 function write_parameters(psid_component::Source, pscad_component_name, pscad_project)
-    pscad_component = pscad_project.find(pscad_component_name, layer = "enabled_gens")
+    pscad_component = nothing
+    try
+        pscad_component = pscad_project.find(pscad_component_name)
+    catch e
+        pscad_component = pscad_project.find(pscad_component_name, layer = "enabled_gens")
+    end
     pscad_params = pscad_component.parameters()
 
     pscad_params["V_base"] = get_base_voltage(get_bus(psid_component))
@@ -706,16 +821,18 @@ function write_parameters(psid_component::Bus, pscad_component_name, pscad_proje
     PP.update_parameter_by_dictionary(pscad_component, pscad_params)
 end
 
-
-
 function write_parameters(
     psid_component::DynamicGenerator,
     pscad_component_name,
     pscad_project,
 )
-    pscad_component = pscad_project.find(pscad_component_name, layer = "enabled_gens")
+    pscad_component = nothing
+    try
+        pscad_component = pscad_project.find(pscad_component_name)
+    catch e
+        pscad_component = pscad_project.find(pscad_component_name, layer = "enabled_gens")
+    end
     pscad_params = pscad_component.parameters()
-    @warn pscad_params
     write_parameters!(pscad_params, psid_component.machine)
     write_parameters!(pscad_params, psid_component.shaft)
     write_parameters!(pscad_params, psid_component.avr)
@@ -734,7 +851,12 @@ function write_parameters(
     pscad_component_name,
     pscad_project,
 )
-    pscad_component = pscad_project.find(pscad_component_name, layer = "enabled_gens")
+    pscad_component = nothing
+    try
+        pscad_component = pscad_project.find(pscad_component_name)
+    catch e
+        pscad_component = pscad_project.find(pscad_component_name, layer = "enabled_gens")
+    end
     pscad_params = pscad_component.parameters()
 
     write_parameters!(pscad_params, psid_component.filter)
@@ -770,7 +892,12 @@ function write_initial_conditions(
     pscad_project,
     x0_dict,
 )
-    pscad_component = pscad_project.find(pscad_component_name, layer = "enabled_gens")
+    pscad_component = nothing
+    try
+        pscad_component = pscad_project.find(pscad_component_name)
+    catch e
+        pscad_component = pscad_project.find(pscad_component_name, layer = "enabled_gens")
+    end
     pscad_params = pscad_component.parameters()
     pscad_params["V_pf"] = get_magnitude(get_bus(psid_component))
     pscad_params["theta_pf"] = get_angle(get_bus(psid_component))
@@ -783,7 +910,12 @@ function write_initial_conditions(
     pscad_project,
     x0_dict,
 )
-    pscad_component = pscad_project.find(pscad_component_name, layer = "enabled_gens")
+    pscad_component = nothing
+    try
+        pscad_component = pscad_project.find(pscad_component_name)
+    catch e
+        pscad_component = pscad_project.find(pscad_component_name, layer = "enabled_gens")
+    end
     pscad_params = pscad_component.parameters()
     for (i, state) in enumerate(get_states(psid_component.machine))
         name = "machine_x0_" * string(i)
@@ -810,7 +942,12 @@ function write_initial_conditions(
     pscad_project,
     x0_dict,
 )
-    pscad_component = pscad_project.find(pscad_component_name, layer = "enabled_gens")
+    pscad_component = nothing
+    try
+        pscad_component = pscad_project.find(pscad_component_name)
+    catch e
+        pscad_component = pscad_project.find(pscad_component_name, layer = "enabled_gens")
+    end
     pscad_params = pscad_component.parameters()
     for (i, state) in enumerate(get_states(psid_component.filter))
         name = "filter_x0_" * string(i)
@@ -845,7 +982,12 @@ function write_setpoints(
     pscad_project,
     setpoints_dict,
 )
-    pscad_component = pscad_project.find(pscad_component_name, layer = "enabled_gens")
+    pscad_component = nothing
+    try
+        pscad_component = pscad_project.find(pscad_component_name)
+    catch e
+        pscad_component = pscad_project.find(pscad_component_name, layer = "enabled_gens")
+    end
     pscad_params = pscad_component.parameters()
 
     pscad_params["V_ref"] = setpoints_dict[get_name(psid_component)]["V_ref"]
