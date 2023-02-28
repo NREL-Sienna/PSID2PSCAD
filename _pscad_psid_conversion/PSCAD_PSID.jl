@@ -134,22 +134,23 @@ function enable_dynamic_injection_by_type(sys, project)
     end
 end
 
-function build_system(sys::System, project, coorDict)
+function build_system(sys::System, project, coorDict; add_line_breakers = false, add_multimeters = false)
     components = collect(get_components(Component, sys))
     main = project.user_canvas("Main")
     for c in components
         @info "building component: $(get_name(c)) of type $(typeof(c))"
-        build_component(c, get_name(c), main, coorDict)
+        build_component(c, get_name(c), main, coorDict, sys; add_line_breakers, add_multimeters)
     end
 end
 
-function build_component(psid_component::Bus, pscad_component_name, pscad_canvas, coorDict)
+bus_length_const = 6
+function build_component(psid_component::Bus, pscad_component_name, pscad_canvas, coorDict, sys; add_line_breakers = false, add_multimeters = false)
     BusDict = Dict()
     for (key, value) in coorDict
-        if value[2] == "tall"
-            BusDict[key] = (value[1][1], value[1][2] - 5), (value[1][1], value[1][2] + 5)
-        elseif value[2] == "wide"
-            BusDict[key] = (value[1][1] - 5, value[1][2]), (value[1][1] + 5, value[1][2])
+        if value.orientation == "tall"
+            BusDict[key] = (value.centerpoint[1], value.centerpoint[2] - bus_length_const), (value.centerpoint[1], value.centerpoint[2] + bus_length_const)
+        elseif value.orientation == "wide"
+            BusDict[key] = (value.centerpoint[1] - bus_length_const, value.centerpoint[2]), (value.centerpoint[1] + bus_length_const, value.centerpoint[2])
         else
             @error "error: not tall or wide"
         end
@@ -159,6 +160,31 @@ function build_component(psid_component::Bus, pscad_component_name, pscad_canvas
         BusDict[pscad_component_name][2],
     )
     new_bus.parameters(Name = pscad_component_name)
+
+    if add_multimeters == true
+        if coorDict[pscad_component_name].orientation == "tall"
+            multimeter_offset_x = 2
+            multimeter_offset_y = 5 
+        else    
+            multimeter_offset_x = 6
+            multimeter_offset_y = 1 
+        end
+        new_multi = pscad_canvas.add_component(
+            "master",
+            "multimeter",
+            coorDict[pscad_component_name].centerpoint[1] + multimeter_offset_x,
+            coorDict[pscad_component_name].centerpoint[2] + multimeter_offset_y
+            )
+        multi_name = "m_"*pscad_component_name
+        new_multi.set_parameters(
+            Name = multi_name,
+            #RMS = "YES, ANALOG",
+            #MeasPh = "YES, RADIANS",
+            #Vrms = "v_"*pscad_component_name,
+            #Ph = "theta_"*pscad_component_name
+            )
+        new_wire = pscad_canvas.add_wire(new_multi.get_port_location("A"), coorDict[pscad_component_name].centerpoint)
+    end
 end
 
 function build_component(
@@ -172,36 +198,39 @@ function build_component(
     pscad_component_name,
     pscad_canvas,
     coorDict,
+    sys;
+    add_line_breakers = false,
+    add_multimeters = false
 )
-    split_parts = split(pscad_component_name, "-")
-    Busname = "Bus_" * split_parts[2]   #TODO - don't hardcode busname 
-    if coorDict[Busname][3] == "n"
+    static_injector = get_component(StaticInjection, sys, pscad_component_name)
+    Busname = get_name(get_bus(static_injector))
+    if coorDict[Busname].devices_location == "s"
         new_mach = pscad_canvas.add_component(
             "PSID_Library_Inverters",
             "SAUERPAI_SEXS_TGOV1_PSSFIXED",
-            coorDict[Busname][1][1] - 10,
-            coorDict[Busname][1][2] + 7,
+            coorDict[Busname].centerpoint[1] - 10,
+            coorDict[Busname].centerpoint[2] + 7,
         )
-    elseif coorDict[Busname][3] == "s"
+    elseif coorDict[Busname].devices_location == "n"
         new_mach = pscad_canvas.add_component(
             "PSID_Library_Inverters",
             "SAUERPAI_SEXS_TGOV1_PSSFIXED",
-            coorDict[Busname][1][1] - 10,
-            coorDict[Busname][1][2] - 7,
+            coorDict[Busname].centerpoint[1] - 10,
+            coorDict[Busname].centerpoint[2] - 7,
         )
-    elseif coorDict[Busname][3] == "e"
+    elseif coorDict[Busname].devices_location == "e"
         new_mach = pscad_canvas.add_component(
             "PSID_Library_Inverters",
             "SAUERPAI_SEXS_TGOV1_PSSFIXED",
-            coorDict[Busname][1][1] + 7,
-            coorDict[Busname][1][2] + 10,
+            coorDict[Busname].centerpoint[1] + 7,
+            coorDict[Busname].centerpoint[2] + 10,
         )
-    elseif coorDict[Busname][3] == "w"
+    elseif coorDict[Busname].devices_location == "w"
         new_mach = pscad_canvas.add_component(
             "PSID_Library_Inverters",
             "SAUERPAI_SEXS_TGOV1_PSSFIXED",
-            coorDict[Busname][1][1] - 7,
-            coorDict[Busname][1][2] + 10,
+            coorDict[Busname].centerpoint[1] - 7,
+            coorDict[Busname].centerpoint[2] + 10,
         )
     else
         @error "No direction specified for component placement"
@@ -224,36 +253,39 @@ function build_component(
     pscad_component_name,
     pscad_canvas,
     coorDict,
+    sys;
+    add_line_breakers = false, 
+    add_multimeters = false
 )
-    split_parts = split(pscad_component_name, "-")
-    Busname = "Bus_" * split_parts[2]  #TODO - don't hardcode busname 
-    if coorDict[Busname][3] == "n"
+    static_injector = get_component(StaticInjection, sys, pscad_component_name)
+    Busname = get_name(get_bus(static_injector))
+    if coorDict[Busname].devices_location == "s"
         new_inv = pscad_canvas.add_component(
             "PSID_Library_Inverters",
             "DROOP_GFM",
-            coorDict[Busname][1][1] - 3,
-            coorDict[Busname][1][2] + 7,
+            coorDict[Busname].centerpoint[1] - 3,
+            coorDict[Busname].centerpoint[2] + 7,
         )
-    elseif coorDict[Busname][3] == "s"
+    elseif coorDict[Busname].devices_location == "n"
         new_inv = pscad_canvas.add_component(
             "PSID_Library_Inverters",
             "DROOP_GFM",
-            coorDict[Busname][1][1] - 3,
-            coorDict[Busname][1][2] - 7,
+            coorDict[Busname].centerpoint[1] - 3,
+            coorDict[Busname].centerpoint[2] - 7,
         )
-    elseif coorDict[Busname][3] == "e"
+    elseif coorDict[Busname].devices_location == "e"
         new_inv = pscad_canvas.add_component(
             "PSID_Library_Inverters",
             "DROOP_GFM",
-            coorDict[Busname][1][1] + 7,
-            coorDict[Busname][1][2] + 5,
+            coorDict[Busname].centerpoint[1] + 7,
+            coorDict[Busname].centerpoint[2] + 5,
         )
-    elseif coorDict[Busname][3] == "w"
+    elseif coorDict[Busname].devices_location == "w"
         new_inv = pscad_canvas.add_component(
             "PSID_Library_Inverters",
             "DROOP_GFM",
-            coorDict[Busname][1][1] - 7,
-            coorDict[Busname][1][2] + 5,
+            coorDict[Busname].centerpoint[1] - 7,
+            coorDict[Busname].centerpoint[2] + 5,
         )
     else
         @error "No direction specified for component placement"
@@ -276,36 +308,39 @@ function build_component(
     pscad_component_name,
     pscad_canvas,
     coorDict,
+    sys; 
+    add_line_breakers = false, 
+    add_multimeters = false
 )
-    split_parts = split(pscad_component_name, "-")
-    Busname = "Bus_" * split_parts[2]  #TODO - don't hardcode busname 
-    if coorDict[Busname][3] == "n"
+    static_injector = get_component(StaticInjection, sys, pscad_component_name)
+    Busname = get_name(get_bus(static_injector))
+    if coorDict[Busname].devices_location == "s"
         new_inv = pscad_canvas.add_component(
             "PSID_Library_Inverters",
             "GFL_KAURA_PLL",
-            coorDict[Busname][1][1] + 4,
-            coorDict[Busname][1][2] + 7,
+            coorDict[Busname].centerpoint[1] + 4,
+            coorDict[Busname].centerpoint[2] + 7,
         )
-    elseif coorDict[Busname][3] == "s"
+    elseif coorDict[Busname].devices_location == "n"
         new_inv = pscad_canvas.add_component(
             "PSID_Library_Inverters",
             "GFL_KAURA_PLL",
-            coorDict[Busname][1][1] + 4,
-            coorDict[Busname][1][2] - 7,
+            coorDict[Busname].centerpoint[1] + 4,
+            coorDict[Busname].centerpoint[2] - 7,
         )
-    elseif coorDict[Busname][3] == "e"
+    elseif coorDict[Busname].devices_location == "e"
         new_inv = pscad_canvas.add_component(
             "PSID_Library_Inverters",
             "GFL_KAURA_PLL",
-            coorDict[Busname][1][1] + 7,
-            coorDict[Busname][1][2],
+            coorDict[Busname].centerpoint[1] + 7,
+            coorDict[Busname].centerpoint[2],
         )
-    elseif coorDict[Busname][3] == "w"
+    elseif coorDict[Busname].devices_location == "w"
         new_inv = pscad_canvas.add_component(
             "PSID_Library_Inverters",
             "GFL_KAURA_PLL",
-            coorDict[Busname][1][1] - 7,
-            coorDict[Busname][1][2],
+            coorDict[Busname].centerpoint[1] - 7,
+            coorDict[Busname].centerpoint[2],
         )
     else
         @error "No direction specified for component placement"
@@ -316,17 +351,56 @@ function build_component(
         pscad_canvas.create_wire(new_inv.get_port_location("POI"), coorDict[Busname][1])
 end
 
-function build_component(psid_component::Line, pscad_component_name, pscad_canvas, coorDict)
+function build_component(psid_component::Line, pscad_component_name, pscad_canvas, coorDict, sys; add_line_breakers = false, add_multimeters = false)
     split_parts = split(pscad_component_name, "-")
     midpoint =
-        floor(Int, (coorDict[split_parts[1]][1][1] + coorDict[split_parts[2]][1][1]) / 2),
-        floor(Int, (coorDict[split_parts[1]][1][2] + coorDict[split_parts[2]][1][2]) / 2)
+        floor(Int, (coorDict[split_parts[1]].centerpoint[1] + coorDict[split_parts[2]].centerpoint[1]) / 2),
+        floor(Int, (coorDict[split_parts[1]].centerpoint[2] + coorDict[split_parts[2]].centerpoint[2]) / 2)
     new_pi = pscad_canvas.add_component("master", "newpi", midpoint[1], midpoint[2])
     new_pi.set_parameters(Name = pscad_component_name)
-    new_wire =
-        pscad_canvas.add_wire(new_pi.get_port_location("N1"), coorDict[split_parts[2]][1])
-    new_wire2 =
-        pscad_canvas.add_wire(new_pi.get_port_location("N2"), coorDict[split_parts[1]][1])
+
+    if add_line_breakers == true
+        left_br_offset = -3
+        right_br_offset = 3
+        br_coors1 = (midpoint[1]+left_br_offset, midpoint[2])
+        br_coors2 = (midpoint[1]+right_br_offset, midpoint[2])
+        new_br1 = pscad_canvas.add_component(
+            "master",
+            "breaker3",
+            br_coors1[1],
+            br_coors1[2]
+            )
+        new_br2 = pscad_canvas.add_component(
+            "master",
+            "breaker3",
+            br_coors2[1],
+            br_coors2[2]
+            )
+        if coorDict[split_parts[2]].centerpoint[1] > coorDict[split_parts[1]].centerpoint[1]
+            new_wire3 = pscad_canvas.add_wire(coorDict[split_parts[1]].centerpoint, new_br1.get_port_location("N2"))
+            new_wire4 = pscad_canvas.add_wire(coorDict[split_parts[2]].centerpoint, new_br2.get_port_location("N1"))
+        elseif coorDict[split_parts[2]].centerpoint[1] < coorDict[split_parts[1]].centerpoint[1] 
+            new_wire3 = pscad_canvas.add_wire(coorDict[split_parts[2]].centerpoint, new_br1.get_port_location("N2"))
+            new_wire4 = pscad_canvas.add_wire(coorDict[split_parts[1]].centerpoint, new_br2.get_port_location("N1"))
+        else 
+            bus1_left_end = (coorDict[split_parts[1]].centerpoint[1]-bus_length_const, coorDict[split_parts[1]].centerpoint[2])
+            bus2_right_end = (coorDict[split_parts[2]].centerpoint[1]+bus_length_const, coorDict[split_parts[2]].centerpoint[2])
+            new_wire3 = pscad_canvas.add_wire(bus1_left_end, new_br1.get_port_location("N2")) 
+            new_wire4 = pscad_canvas.add_wire(bus2_right_end, new_br2.get_port_location("N1"))
+        end
+    else
+        if coorDict[split_parts[2]].centerpoint[1] > coorDict[split_parts[1]].centerpoint[1]
+            new_wire =
+            pscad_canvas.add_wire(new_pi.get_port_location("N2"), coorDict[split_parts[2]].centerpoint)
+            new_wire2 =
+            pscad_canvas.add_wire(new_pi.get_port_location("N1"), coorDict[split_parts[1]].centerpoint)
+        else
+            new_wire =
+            pscad_canvas.add_wire(new_pi.get_port_location("N1"), coorDict[split_parts[2]].centerpoint)
+            new_wire2 =
+            pscad_canvas.add_wire(new_pi.get_port_location("N2"), coorDict[split_parts[1]].centerpoint)
+        end
+    end
 end
 
 function build_component(
@@ -334,17 +408,27 @@ function build_component(
     pscad_component_name,
     pscad_canvas,
     coorDict,
+    sys; 
+    add_line_breakers = false, 
+    add_multimeters = false
 )
     split_parts = split(pscad_component_name, "-")
     midpoint =
-        floor(Int, (coorDict[split_parts[1]][1][1] + coorDict[split_parts[2]][1][1]) / 2),
-        floor(Int, (coorDict[split_parts[1]][1][2] + coorDict[split_parts[2]][1][2]) / 2)
+        floor(Int, (coorDict[split_parts[1]].centerpoint[1] + coorDict[split_parts[2]].centerpoint[1]) / 2),
+        floor(Int, (coorDict[split_parts[1]].centerpoint[2] + coorDict[split_parts[2]].centerpoint[2]) / 2)
     new_xfmr = pscad_canvas.add_component("master", "xfmr-3p2w", midpoint[1], midpoint[2])
     new_xfmr.set_parameters(Name = pscad_component_name)
-    new_wire =
-        pscad_canvas.add_wire(new_xfmr.get_port_location("N1"), coorDict[split_parts[2]][1])
-    new_wire2 =
-        pscad_canvas.add_wire(new_xfmr.get_port_location("N2"), coorDict[split_parts[1]][1])
+    if coorDict[split_parts[2]].centerpoint[1] > coorDict[split_parts[1]].centerpoint[1]
+        new_wire =
+        pscad_canvas.add_wire(new_xfmr.get_port_location("N2"), coorDict[split_parts[2]].centerpoint)
+        new_wire2 =
+        pscad_canvas.add_wire(new_xfmr.get_port_location("N1"), coorDict[split_parts[1]].centerpoint)
+    else
+        new_wire =
+        pscad_canvas.add_wire(new_xfmr.get_port_location("N1"), coorDict[split_parts[2]].centerpoint)
+        new_wire2 =
+        pscad_canvas.add_wire(new_xfmr.get_port_location("N2"), coorDict[split_parts[1]].centerpoint)
+    end
 end
 
 function build_component(
@@ -352,20 +436,23 @@ function build_component(
     pscad_component_name,
     pscad_canvas,
     coorDict,
+    sys; 
+    add_line_breakers = false, 
+    add_multimeters = false
 )
     loadbus = get_name(get_bus(psid_component))
     new_load = pscad_canvas.add_component(
         "master",
         "fixed_load",
-        coorDict[loadbus][1][1] + 2,
-        coorDict[loadbus][1][2] + 2,
+        coorDict[loadbus].centerpoint[1] + 2,
+        coorDict[loadbus].centerpoint[2] + 2,
     )
     new_load.set_parameters(Name = pscad_component_name)
     new_wire =
         pscad_canvas.create_wire(new_load.get_port_location("IA"), coorDict[loadbus][1])
 end
 
-function build_component(psid_component::Arc, pscad_component_name, pscad_canvas, coorDict)
+function build_component(psid_component::Arc, pscad_component_name, pscad_canvas, coorDict, sys; add_line_breakers = false, add_multimeters = false)
     @info "Skipping build for type Arc"
 end
 
@@ -374,11 +461,14 @@ function build_component(
     pscad_component_name,
     pscad_canvas,
     coorDict,
+    sys; 
+    add_line_breakers = false, 
+    add_multimeters = false
 )
     @info "Skipping build for type LoadZone"
 end
 
-function build_component(psid_component::Area, pscad_component_name, pscad_canvas, coorDict)
+function build_component(psid_component::Area, pscad_component_name, pscad_canvas, coorDict, sys; add_line_breakers = false, add_multimeters = false)
     @info "Skipping build for type Area"
 end
 
@@ -387,6 +477,9 @@ function build_component(
     pscad_component_name,
     pscad_canvas,
     coorDict,
+    sys; 
+    add_line_breakers = false, 
+    add_multimeters = false
 )
     @info "Skipping build for type GenericBattery"
 end
@@ -396,6 +489,9 @@ function build_component(
     pscad_component_name,
     pscad_canvas,
     coorDict,
+    sys; 
+    add_line_breakers = false, 
+    add_multimeters = false
 )
     @info "Skipping build for type ThermalStandard"
 end
