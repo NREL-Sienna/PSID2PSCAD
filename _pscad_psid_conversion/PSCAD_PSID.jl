@@ -237,6 +237,9 @@ function build_component(
         println(Busname)
     end
     new_mach.set_parameters(Name = pscad_component_name)
+    new_mach.set_parameters(P_out = "P_"*pscad_component_name)
+    new_mach.set_parameters(Q_out = "Q_"*pscad_component_name)
+    new_mach.set_parameters(f_out = "f_"*pscad_component_name)
     new_wire =
         pscad_canvas.create_wire(new_mach.get_port_location("POI"), coorDict[Busname][1])
 end
@@ -292,6 +295,9 @@ function build_component(
         println(Busname)
     end
     new_inv.set_parameters(Name = pscad_component_name)
+    new_inv.set_parameters(P_out = "P_"*pscad_component_name)
+    new_inv.set_parameters(Q_out = "Q_"*pscad_component_name)
+    new_inv.set_parameters(f_out = "f_"*pscad_component_name)
     new_wire =
         pscad_canvas.create_wire(new_inv.get_port_location("POI"), coorDict[Busname][1])
 end
@@ -347,6 +353,9 @@ function build_component(
         println(Busname)
     end
     new_inv.set_parameters(Name = pscad_component_name)
+    new_inv.set_parameters(P_out = "P_"*pscad_component_name)
+    new_inv.set_parameters(Q_out = "Q_"*pscad_component_name)
+    new_inv.set_parameters(f_out = "f_"*pscad_component_name)
     new_wire =
         pscad_canvas.create_wire(new_inv.get_port_location("POI"), coorDict[Busname][1])
 end
