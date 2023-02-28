@@ -784,7 +784,7 @@ function write_rating!(pscad_params, static::S, dynamic::DynamicInverter) where 
     pscad_params["V_base"] = get_base_voltage(get_bus(static))
 end
 
-function write_rating!(pscad_params, static::S, dynamic::DynamicInverter) where {S <: StaticInjection}
+function write_rating!(pscad_params, static::S, dynamic::DynamicGenerator) where {S <: StaticInjection}
     pscad_params["w_base"] = 60.0 * 2 * pi
     pscad_params["I_phase"] =
         get_base_power(dynamic) / get_base_voltage(get_bus(static)) / sqrt(3)
