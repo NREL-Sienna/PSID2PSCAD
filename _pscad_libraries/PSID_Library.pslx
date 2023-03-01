@@ -21,7 +21,7 @@
     <param name="Warn" value="0" />
     <param name="Check" value="0" />
     <param name="description" value="" />
-    <param name="revisor" value="Matt Bossart, 1674772840" />
+    <param name="revisor" value="Matt Bossart, 1677681130" />
     <param name="sparsity_threshold" value="200" />
   </paramlist>
   <Layers>
@@ -14887,9 +14887,409 @@
         <param name="ymax" value="1" />
       </paramlist>
     </Settings>
+    <Settings classid="GraphFrameSettings" id="176630024" link="707714452">
+      <path>
+        <ref link="1121605733" />
+        <ref link="789112817" />
+      </path>
+      <paramlist>
+        <param name="xmin" value="-1" />
+        <param name="xmax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="OverlayGraphSettings" id="831959419" link="580080222">
+      <path>
+        <ref link="1121605733" />
+        <ref link="789112817" />
+      </path>
+      <paramlist>
+        <param name="ymin" value="-1" />
+        <param name="ymax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="GraphFrameSettings" id="1158139142" link="1820287077">
+      <path>
+        <ref link="1121605733" />
+        <ref link="789112817" />
+      </path>
+      <paramlist>
+        <param name="xmin" value="-1" />
+        <param name="xmax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="OverlayGraphSettings" id="1426918146" link="987675169">
+      <path>
+        <ref link="1121605733" />
+        <ref link="789112817" />
+      </path>
+      <paramlist>
+        <param name="ymin" value="-1" />
+        <param name="ymax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="OverlayGraphSettings" id="666371335" link="997091285">
+      <path>
+        <ref link="1121605733" />
+        <ref link="789112817" />
+      </path>
+      <paramlist>
+        <param name="ymin" value="-1" />
+        <param name="ymax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="OverlayGraphSettings" id="437525551" link="1359199024">
+      <path>
+        <ref link="1121605733" />
+        <ref link="789112817" />
+      </path>
+      <paramlist>
+        <param name="ymin" value="-1" />
+        <param name="ymax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="OverlayGraphSettings" id="110131943" link="1019295967">
+      <path>
+        <ref link="1121605733" />
+        <ref link="789112817" />
+      </path>
+      <paramlist>
+        <param name="ymin" value="-1" />
+        <param name="ymax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="GraphFrameSettings" id="2015142280" link="1791746228">
+      <path>
+        <ref link="1121605733" />
+        <ref link="789112817" />
+      </path>
+      <paramlist>
+        <param name="xmin" value="-1" />
+        <param name="xmax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="OverlayGraphSettings" id="625030767" link="676534044">
+      <path>
+        <ref link="1121605733" />
+        <ref link="789112817" />
+      </path>
+      <paramlist>
+        <param name="ymin" value="-1" />
+        <param name="ymax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="OverlayGraphSettings" id="225509846" link="1854044170">
+      <path>
+        <ref link="1121605733" />
+        <ref link="789112817" />
+      </path>
+      <paramlist>
+        <param name="ymin" value="-1" />
+        <param name="ymax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="GraphFrameSettings" id="97388143" link="1631671657">
+      <path>
+        <ref link="1121605733" />
+        <ref link="789112817" />
+      </path>
+      <paramlist>
+        <param name="xmin" value="-1" />
+        <param name="xmax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="OverlayGraphSettings" id="1554533200" link="836402048">
+      <path>
+        <ref link="1121605733" />
+        <ref link="789112817" />
+      </path>
+      <paramlist>
+        <param name="ymin" value="-1" />
+        <param name="ymax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="OverlayGraphSettings" id="1553004575" link="1493692158">
+      <path>
+        <ref link="1121605733" />
+        <ref link="789112817" />
+      </path>
+      <paramlist>
+        <param name="ymin" value="-1" />
+        <param name="ymax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="OverlayGraphSettings" id="1760220309" link="1512811439">
+      <path>
+        <ref link="1121605733" />
+        <ref link="789112817" />
+      </path>
+      <paramlist>
+        <param name="ymin" value="-1" />
+        <param name="ymax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="GraphFrameSettings" id="480572988" link="1971849011">
+      <path>
+        <ref link="1121605733" />
+        <ref link="789112817" />
+      </path>
+      <paramlist>
+        <param name="xmin" value="-1" />
+        <param name="xmax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="OverlayGraphSettings" id="1515145121" link="755815073">
+      <path>
+        <ref link="1121605733" />
+        <ref link="789112817" />
+      </path>
+      <paramlist>
+        <param name="ymin" value="-1" />
+        <param name="ymax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="OverlayGraphSettings" id="47337724" link="855845606">
+      <path>
+        <ref link="1121605733" />
+        <ref link="789112817" />
+      </path>
+      <paramlist>
+        <param name="ymin" value="-1" />
+        <param name="ymax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="OverlayGraphSettings" id="2144347956" link="1858901540">
+      <path>
+        <ref link="1121605733" />
+        <ref link="789112817" />
+      </path>
+      <paramlist>
+        <param name="ymin" value="-1" />
+        <param name="ymax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="GraphFrameSettings" id="1021569339" link="851640439">
+      <path>
+        <ref link="1121605733" />
+        <ref link="789112817" />
+      </path>
+      <paramlist>
+        <param name="xmin" value="-1" />
+        <param name="xmax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="OverlayGraphSettings" id="2027478160" link="1833049930">
+      <path>
+        <ref link="1121605733" />
+        <ref link="789112817" />
+      </path>
+      <paramlist>
+        <param name="ymin" value="-1" />
+        <param name="ymax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="OverlayGraphSettings" id="1687222931" link="1895114917">
+      <path>
+        <ref link="1121605733" />
+        <ref link="789112817" />
+      </path>
+      <paramlist>
+        <param name="ymin" value="-1" />
+        <param name="ymax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="OverlayGraphSettings" id="65110111" link="1387850366">
+      <path>
+        <ref link="1121605733" />
+        <ref link="789112817" />
+      </path>
+      <paramlist>
+        <param name="ymin" value="-1" />
+        <param name="ymax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="OverlayGraphSettings" id="960105223" link="1998000805">
+      <path>
+        <ref link="1121605733" />
+        <ref link="789112817" />
+      </path>
+      <paramlist>
+        <param name="ymin" value="-1" />
+        <param name="ymax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="GraphFrameSettings" id="1524957409" link="1028995495">
+      <path>
+        <ref link="1121605733" />
+        <ref link="789112817" />
+      </path>
+      <paramlist>
+        <param name="xmin" value="-1" />
+        <param name="xmax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="OverlayGraphSettings" id="1336222476" link="1749212171">
+      <path>
+        <ref link="1121605733" />
+        <ref link="789112817" />
+      </path>
+      <paramlist>
+        <param name="ymin" value="-1" />
+        <param name="ymax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="OverlayGraphSettings" id="559013581" link="982281421">
+      <path>
+        <ref link="1121605733" />
+        <ref link="789112817" />
+      </path>
+      <paramlist>
+        <param name="ymin" value="-1" />
+        <param name="ymax" value="1" />
+      </paramlist>
+    </Settings>
   </List>
   <definitions>
-    <Definition classid="UserCmpDefn" name="LCLFilter" build="" crc="68159700" view="false" instances="0" date="1674772460" id="1618076215" w="320" h="400" url="" group="">
+    <Definition classid="UserCmpDefn" name="simple_brk_logic" build="" crc="10627251" view="false" instances="0" date="0" id="407277916" w="320" h="400">
+      <paramlist>
+        <param name="Description" value="" />
+      </paramlist>
+      <graphics size="4">
+        <Port classid="Port" id="776666919" x="0" y="-36">
+          <paramlist>
+            <param name="name" value="breaker_name" />
+            <param name="dim" value="1" />
+            <param name="internal" value="false" />
+            <param name="cond" value="true" />
+            <param name="mode" value="2" />
+            <param name="datatype" value="3" />
+            <param name="electype" value="0" />
+          </paramlist>
+        </Port>
+        <Gfx classid="Graphics.Rectangle" id="627743692" x="-17" y="-17" w="34" h="35">
+          <paramlist>
+            <param name="color" value="Black" />
+            <param name="dasharray" value="0" />
+            <param name="thickness" value="0" />
+            <param name="port" value="" />
+            <param name="fill_style" value="1" />
+            <param name="fill_fg" value="#ffffffc0" />
+            <param name="fill_bg" value="#ffffffc0" />
+            <param name="cond" value="true" />
+          </paramlist>
+        </Gfx>
+        <Gfx classid="Graphics.Line" id="2076082658" x="0" y="-17">
+          <vertex x="0" y="0" />
+          <vertex x="0" y="-19" />
+          <paramlist>
+            <param name="color" value="Green" />
+            <param name="dasharray" value="0" />
+            <param name="thickness" value="0" />
+            <param name="port" value="brk_name" />
+            <param name="cond" value="true" />
+          </paramlist>
+        </Gfx>
+        <paramlist>
+          <param name="show_border" value="0" />
+          <param name="show_grid" value="0" />
+          <param name="size" value="0" />
+          <param name="orient" value="1" />
+        </paramlist>
+      </graphics>
+      <form name="" splitter="60" w="320" h="400" commentlines="4" help-width="490">
+        <category name="Configuration" visible="true">
+          <cond><![CDATA[true]]></cond>
+          <parameter name="Name" desc="Name" group="" type="Text" helpmode="Overwrite" allowemptystr="true" min="0" max="0">
+            <value><![CDATA[]]></value>
+            <cond><![CDATA[true]]></cond>
+            <help><![CDATA[The name of the component]]></help>
+            <regex><![CDATA[]]></regex>
+            <error_msg><![CDATA[]]></error_msg>
+            <vis />
+          </parameter>
+          <parameter name="enable" desc="enable" type="Choice" group="" helpmode="Append" animate="false">
+            <value><![CDATA[0]]></value>
+            <cond><![CDATA[true]]></cond>
+            <vis><![CDATA[true]]></vis>
+            <help><![CDATA[]]></help>
+            <choice><![CDATA[1 = true]]></choice>
+            <choice><![CDATA[0 = false]]></choice>
+          </parameter>
+          <parameter name="t_break" desc="t_break" type="Real" group="" helpmode="Append" content_type="Variable" intent="Input" dim="1" animate="false" unit="" min="-1E+308" max="1E+308">
+            <value><![CDATA[0.0]]></value>
+            <cond><![CDATA[true]]></cond>
+            <vis><![CDATA[true]]></vis>
+            <help><![CDATA[]]></help>
+          </parameter>
+        </category>
+      </form>
+      <schematic classid="UserCanvas">
+        <paramlist>
+          <param name="show_grid" value="0" />
+          <param name="size" value="0" />
+          <param name="orient" value="1" />
+          <param name="show_border" value="0" />
+          <param name="monitor_bus_voltage" value="0" />
+          <param name="show_signal" value="0" />
+          <param name="show_virtual" value="0" />
+          <param name="show_sequence" value="0" />
+          <param name="auto_sequence" value="1" />
+          <param name="show_terminals" value="0" />
+          <param name="virtual_filter" value="" />
+          <param name="animation_freq" value="500" />
+        </paramlist>
+        <grouping />
+        <User classid="UserCmp" id="1479431654" name="master:tbreakn" x="702" y="720" w="78" h="59" z="-1" orient="4" defn="master:tbreakn" link="-1" q="4" disable="false">
+          <paramlist name="" link="-1" crc="130641473">
+            <param name="Name" value="" />
+            <param name="NUMS" value="1" />
+            <param name="INIT" value="0" />
+            <param name="TO1" value="t_break" />
+            <param name="TO2" value="1.05" />
+          </paramlist>
+        </User>
+        <User classid="UserCmp" id="84255800" name="master:consti" x="738" y="756" w="76" h="22" z="-1" orient="0" defn="master:consti" link="-1" q="4" disable="false">
+          <paramlist name="" link="-1" crc="74846674">
+            <param name="Name" value="" />
+            <param name="Value" value="0" />
+            <param name="Dim" value="1" />
+          </paramlist>
+        </User>
+        <User classid="UserCmp" id="778045240" name="master:select" x="810" y="756" w="82" h="91" z="-1" orient="0" defn="master:select" link="-1" q="4" disable="false">
+          <paramlist name="" link="-1" crc="108938206">
+            <param name="Name" value="" />
+            <param name="A" value="1" />
+            <param name="DPath" value="1" />
+            <param name="COM" value="Selector" />
+            <param name="Dim" value="1" />
+          </paramlist>
+        </User>
+        <User classid="UserCmp" id="1352349753" name="master:import" x="756" y="828" w="83" h="25" z="40" orient="0" defn="master:import" link="-1" q="4" disable="false">
+          <paramlist name="" link="-1" crc="117509081">
+            <param name="Name" value="enable" />
+          </paramlist>
+        </User>
+        <User classid="UserCmp" id="1012637499" name="master:import" x="702" y="666" w="89" h="25" z="40" orient="0" defn="master:import" link="-1" q="4" disable="false">
+          <paramlist name="" link="-1" crc="117509081">
+            <param name="Name" value="t_break" />
+          </paramlist>
+        </User>
+        <User classid="UserCmp" id="1517982401" name="master:export" x="882" y="756" w="123" h="24" z="100" orient="4" defn="master:export" link="-1" q="4" disable="false">
+          <paramlist name="" link="-1" crc="68967217">
+            <param name="Name" value="breaker_name" />
+          </paramlist>
+        </User>
+        <Wire classid="WireOrthogonal" id="2143976810" name="" x="792" y="828" w="28" h="46" orient="0" disable="false">
+          <vertex x="0" y="0" />
+          <vertex x="18" y="0" />
+          <vertex x="18" y="-36" />
+        </Wire>
+        <Wire classid="WireOrthogonal" id="1887135805" name="" x="738" y="720" w="46" h="10" orient="0" disable="false">
+          <vertex x="0" y="0" />
+          <vertex x="36" y="0" />
+        </Wire>
+      </schematic>
+    </Definition>
+    <Definition classid="UserCmpDefn" name="LCLFilter" build="" crc="68159700" view="false" instances="0" date="1677209045" id="1618076215" w="320" h="400" url="" group="">
       <paramlist>
         <param name="Description" value="" />
       </paramlist>
@@ -17530,7 +17930,7 @@
         </Frame>
       </schematic>
     </Definition>
-    <Definition classid="UserCmpDefn" name="ReferenceFrameConversion_INV" build="" crc="17498588" view="false" instances="0" date="1674772459" id="1427823627" w="320" h="400" url="" group="">
+    <Definition classid="UserCmpDefn" name="ReferenceFrameConversion_INV" build="" crc="17498588" view="false" instances="0" date="1677209045" id="1427823627" w="320" h="400" url="" group="">
       <paramlist>
         <param name="Description" value="" />
       </paramlist>
@@ -18583,7 +18983,7 @@
         </User>
       </schematic>
     </Definition>
-    <Definition classid="UserCmpDefn" name="ActivePI_ReactivePI" group="" url="" version="" build="" crc="20054363" instances="0" key="" view="false" date="1674772461" id="1023623776">
+    <Definition classid="UserCmpDefn" name="ActivePI_ReactivePI" group="" url="" version="" build="" crc="20054363" instances="0" key="" view="false" date="1677209046" id="1023623776">
       <paramlist name="">
         <param name="Description" value="" />
       </paramlist>
@@ -20717,7 +21117,7 @@
         </Gfx>
       </graphics>
     </Definition>
-    <Definition classid="UserCmpDefn" name="CurrentModeControl" group="" url="" version="" build="" crc="121687851" instances="0" key="" view="false" date="1674772461" id="700101540">
+    <Definition classid="UserCmpDefn" name="CurrentModeControl" group="" url="" version="" build="" crc="121687851" instances="0" key="" view="false" date="1677209047" id="700101540">
       <paramlist name="">
         <param name="Description" value="" />
       </paramlist>
@@ -22915,7 +23315,7 @@
         </Gfx>
       </graphics>
     </Definition>
-    <Definition classid="UserCmpDefn" name="ActiveDroop_ReactiveDroop" group="" url="" version="" build="" crc="122960399" instances="0" key="" view="false" date="1666467253" id="1143056703">
+    <Definition classid="UserCmpDefn" name="ActiveDroop_ReactiveDroop" group="" url="" version="" build="" crc="49001422" instances="0" key="" view="false" date="1677209049" id="1143056703">
       <paramlist name="">
         <param name="Description" value="" />
       </paramlist>
@@ -23082,22 +23482,22 @@
           <param name="virtual_filter" value="" />
           <param name="animation_freq" value="500" />
         </paramlist>
-        <User classid="UserCmp" name="master:export" id="1622380586" x="1620" y="180" w="131" h="24" z="660" orient="4" defn="master:export" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:export" id="1622380586" x="1620" y="180" w="131" h="24" z="640" orient="4" defn="master:export" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="68967217">
             <param name="Name" value="delta_theta_olc" />
           </paramlist>
         </User>
-        <User classid="UserCmp" name="master:export" id="746206955" x="1260" y="288" w="77" h="24" z="650" orient="4" defn="master:export" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:export" id="746206955" x="1260" y="288" w="77" h="24" z="630" orient="4" defn="master:export" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="68967217">
             <param name="Name" value="w_olc" />
           </paramlist>
         </User>
-        <User classid="UserCmp" name="master:export" id="1016340857" x="1350" y="540" w="97" h="24" z="630" orient="4" defn="master:export" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:export" id="1016340857" x="1350" y="540" w="97" h="24" z="610" orient="4" defn="master:export" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="68967217">
             <param name="Name" value="V_ref_olc" />
           </paramlist>
         </User>
-        <User classid="UserCmp" name="master:export" id="1105070872" x="1350" y="504" w="93" h="24" z="640" orient="4" defn="master:export" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:export" id="1105070872" x="1350" y="504" w="93" h="24" z="620" orient="4" defn="master:export" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="68967217">
             <param name="Name" value="I_ref_olc" />
           </paramlist>
@@ -23613,7 +24013,7 @@
           <vertex x="0" y="0" />
           <vertex x="18" y="0" />
         </Wire>
-        <User classid="UserCmp" name="master:pgb" id="608955653" x="288" y="810" w="103" h="40" z="620" orient="0" defn="master:pgb" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:pgb" id="608955653" x="288" y="810" w="103" h="40" z="600" orient="0" defn="master:pgb" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="65740200">
             <param name="Name" value="delta_theta_olc" />
             <param name="Group" value="" />
@@ -24752,7 +25152,7 @@
         </Gfx>
       </graphics>
     </Definition>
-    <Definition classid="UserCmpDefn" name="FixedFrequency" group="" url="" version="" build="" crc="23884893" instances="0" key="" view="false" date="1666467253" id="1637480071">
+    <Definition classid="UserCmpDefn" name="FixedFrequency" group="" url="" version="" build="" crc="23884893" instances="0" key="" view="false" date="1677209048" id="1637480071">
       <paramlist name="">
         <param name="Description" value="" />
       </paramlist>
@@ -32603,7 +33003,7 @@ https://www.powerworld.com/WebHelp/Content/TransientModels_HTML/Exciter%20IEEET1
         </Gfx>
       </graphics>
     </Definition>
-    <Definition classid="UserCmpDefn" name="ri_abc" group="" url="" version="" build="" crc="39743059" instances="0" key="" view="false" date="1674772461" id="1279234079">
+    <Definition classid="UserCmpDefn" name="ri_abc" group="" url="" version="" build="" crc="39743059" instances="0" key="" view="false" date="1677209046" id="1279234079">
       <paramlist name="">
         <param name="Description" value="" />
       </paramlist>
@@ -36067,7 +36467,7 @@ https://www.powerworld.com/WebHelp/Content/TransientModels_HTML/Exciter%20IEEET1
         </Gfx>
       </graphics>
     </Definition>
-    <Definition classid="UserCmpDefn" name="FixedDCSource" group="" url="" version="" build="" crc="54267588" instances="0" key="" view="false" date="1674772459" id="40583395">
+    <Definition classid="UserCmpDefn" name="FixedDCSource" group="" url="" version="" build="" crc="54267588" instances="0" key="" view="false" date="1677209044" id="40583395">
       <paramlist name="">
         <param name="Description" value="" />
       </paramlist>
@@ -36410,7 +36810,7 @@ https://www.powerworld.com/WebHelp/Content/TransientModels_HTML/Exciter%20IEEET1
         </Gfx>
       </graphics>
     </Definition>
-    <Definition classid="UserCmpDefn" name="AverageConverter" group="" url="" version="" build="" crc="59710214" instances="0" key="" view="false" date="1674772462" id="467840428">
+    <Definition classid="UserCmpDefn" name="AverageConverter" group="" url="" version="" build="" crc="59710214" instances="0" key="" view="false" date="1677209047" id="467840428">
       <paramlist name="">
         <param name="Description" value="" />
       </paramlist>
@@ -36812,7 +37212,7 @@ https://www.powerworld.com/WebHelp/Content/TransientModels_HTML/Exciter%20IEEET1
         </Gfx>
       </graphics>
     </Definition>
-    <Definition classid="UserCmpDefn" name="KauraPLL" group="" url="" version="" build="" crc="92253212" instances="0" key="" view="false" date="1667760427" id="1511733146">
+    <Definition classid="UserCmpDefn" name="KauraPLL" group="" url="" version="" build="" crc="31163226" instances="0" key="" view="false" date="1677209044" id="1511733146">
       <paramlist name="">
         <param name="Description" value="" />
       </paramlist>
@@ -36930,12 +37330,12 @@ https://www.powerworld.com/WebHelp/Content/TransientModels_HTML/Exciter%20IEEET1
             <param name="Name" value="V_abc" />
           </paramlist>
         </User>
-        <User classid="UserCmp" name="master:export" id="1252948384" x="1440" y="108" w="73" h="24" z="380" orient="4" defn="master:export" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:export" id="1252948384" x="1440" y="108" w="73" h="24" z="450" orient="4" defn="master:export" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="68967217">
             <param name="Name" value="w_pll" />
           </paramlist>
         </User>
-        <User classid="UserCmp" name="master:export" id="33046346" x="1746" y="198" w="93" h="24" z="370" orient="4" defn="master:export" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:export" id="33046346" x="1746" y="198" w="93" h="24" z="440" orient="4" defn="master:export" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="68967217">
             <param name="Name" value="theta_pll" />
           </paramlist>
@@ -37321,7 +37721,7 @@ https://www.powerworld.com/WebHelp/Content/TransientModels_HTML/Exciter%20IEEET1
           <vertex x="0" y="0" />
           <vertex x="18" y="0" />
         </Wire>
-        <User classid="UserCmp" name="master:pgb" id="1940391173" x="270" y="594" w="55" h="40" z="460" orient="0" defn="master:pgb" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:pgb" id="1940391173" x="270" y="594" w="55" h="40" z="420" orient="0" defn="master:pgb" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="65740200">
             <param name="Name" value="v_q_pll" />
             <param name="Group" value="" />
@@ -37336,7 +37736,7 @@ https://www.powerworld.com/WebHelp/Content/TransientModels_HTML/Exciter%20IEEET1
             <param name="Min" value="-2.0" />
           </paramlist>
         </User>
-        <User classid="UserCmp" name="master:pgb" id="873241022" x="270" y="558" w="55" h="40" z="470" orient="0" defn="master:pgb" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:pgb" id="873241022" x="270" y="558" w="55" h="40" z="430" orient="0" defn="master:pgb" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="65740200">
             <param name="Name" value="v_d_pll" />
             <param name="Group" value="" />
@@ -37351,7 +37751,7 @@ https://www.powerworld.com/WebHelp/Content/TransientModels_HTML/Exciter%20IEEET1
             <param name="Min" value="-2.0" />
           </paramlist>
         </User>
-        <User classid="UserCmp" name="master:pgb" id="1446627256" x="270" y="630" w="72" h="40" z="440" orient="0" defn="master:pgb" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:pgb" id="1446627256" x="270" y="630" w="72" h="40" z="410" orient="0" defn="master:pgb" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="65740200">
             <param name="Name" value="epsilon_pll" />
             <param name="Group" value="" />
@@ -37370,7 +37770,7 @@ https://www.powerworld.com/WebHelp/Content/TransientModels_HTML/Exciter%20IEEET1
           <vertex x="0" y="0" />
           <vertex x="18" y="0" />
         </Wire>
-        <User classid="UserCmp" name="master:pgb" id="528497647" x="270" y="666" w="65" h="40" z="430" orient="0" defn="master:pgb" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:pgb" id="528497647" x="270" y="666" w="65" h="40" z="400" orient="0" defn="master:pgb" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="65740200">
             <param name="Name" value="theta_pll" />
             <param name="Group" value="" />
@@ -37511,7 +37911,7 @@ https://www.powerworld.com/WebHelp/Content/TransientModels_HTML/Exciter%20IEEET1
             <param name="Name" value="v_d_pll_unfiltered" />
           </paramlist>
         </User>
-        <User classid="UserCmp" name="master:pgb" id="866164788" x="252" y="702" w="114" h="40" z="480" orient="0" defn="master:pgb" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:pgb" id="866164788" x="252" y="702" w="114" h="40" z="390" orient="0" defn="master:pgb" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="65740200">
             <param name="Name" value="v_d_pll_unfiltered" />
             <param name="Group" value="" />
@@ -37536,7 +37936,7 @@ https://www.powerworld.com/WebHelp/Content/TransientModels_HTML/Exciter%20IEEET1
             <param name="Name" value="v_q_pll_unfiltered" />
           </paramlist>
         </User>
-        <User classid="UserCmp" name="master:pgb" id="1874700434" x="252" y="756" w="114" h="40" z="450" orient="0" defn="master:pgb" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:pgb" id="1874700434" x="252" y="756" w="114" h="40" z="380" orient="0" defn="master:pgb" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="65740200">
             <param name="Name" value="v_q_pll_unfiltered" />
             <param name="Group" value="" />
@@ -37556,7 +37956,7 @@ https://www.powerworld.com/WebHelp/Content/TransientModels_HTML/Exciter%20IEEET1
             <param name="Name" value="delta_w_pll_internal" />
           </paramlist>
         </User>
-        <User classid="UserCmp" name="master:pgb" id="2010443872" x="252" y="810" w="126" h="40" z="360" orient="0" defn="master:pgb" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:pgb" id="2010443872" x="252" y="810" w="126" h="40" z="370" orient="0" defn="master:pgb" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="65740200">
             <param name="Name" value="delta_w_pll_internal" />
             <param name="Group" value="" />
@@ -37999,7 +38399,7 @@ https://www.powerworld.com/WebHelp/Content/TransientModels_HTML/Exciter%20IEEET1
         </Gfx>
       </graphics>
     </Definition>
-    <Definition classid="UserCmpDefn" name="VoltageModeControl" group="" url="" version="" build="" crc="128886027" instances="0" key="" view="false" date="1667760427" id="248922385">
+    <Definition classid="UserCmpDefn" name="VoltageModeControl" group="" url="" version="" build="" crc="128886027" instances="0" key="" view="false" date="1677209049" id="248922385">
       <paramlist name="">
         <param name="Description" value="" />
       </paramlist>
@@ -43804,7 +44204,7 @@ Milano, page 359
         <grouping />
       </schematic>
     </Definition>
-    <Definition classid="UserCmpDefn" name="Main" id="1166570604" group="" url="" version="" build="" crc="119950628" view="false" date="0">
+    <Definition classid="UserCmpDefn" name="Main" id="1166570604" group="" url="" version="" build="" crc="41903428" view="false" date="0">
       <paramlist name="">
         <param name="Description" value="" />
       </paramlist>
@@ -45689,7 +46089,7 @@ https://info.ornl.gov/sites/publications/files/Pub47049.pdf]]></Sticky>
             <param name="ymax" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" id="302217636" name="PSID_Library:volley_circuit_breaker_logic" x="2268" y="918" w="98" h="63" z="-1" orient="0" defn="PSID_Library:volley_circuit_breaker_logic" link="-1" q="4" disable="false">
+        <User classid="UserCmp" id="302217636" name="PSID_Library:volley_circuit_breaker_logic" x="2268" y="918" w="98" h="66" z="-1" orient="0" defn="PSID_Library:volley_circuit_breaker_logic" link="-1" q="4" disable="false">
           <paramlist name="" link="-1" crc="17490394">
             <param name="Name" value="" />
           </paramlist>
@@ -46010,6 +46410,13 @@ https://info.ornl.gov/sites/publications/files/Pub47049.pdf]]></Sticky>
             <param name="T2" value="0" />
             <param name="T3" value="0" />
             <param name="T_rate" value="0" />
+          </paramlist>
+        </User>
+        <User classid="UserCmp" id="789112817" name="PSID_Library:simple_brk_logic" x="2394" y="918" w="40" h="61" z="-1" orient="0" defn="PSID_Library:simple_brk_logic" link="-1" q="4" disable="false">
+          <paramlist name="" link="-1" crc="112376185">
+            <param name="Name" value="" />
+            <param name="enable" value="0" />
+            <param name="t_break" value="0.0" />
           </paramlist>
         </User>
       </schematic>
@@ -47782,7 +48189,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
         </Gfx>
       </graphics>
     </Definition>
-    <Definition classid="UserCmpDefn" name="ReferenceFrameConversion_GEN" build="" crc="1322555" view="false" instances="0" date="1674772462" id="2058478115" w="320" h="400" url="" group="">
+    <Definition classid="UserCmpDefn" name="ReferenceFrameConversion_GEN" build="" crc="1322555" view="false" instances="0" date="1677209038" id="2058478115" w="320" h="400" url="" group="">
       <paramlist>
         <param name="Description" value="" />
       </paramlist>
@@ -48207,7 +48614,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
         </Wire>
       </schematic>
     </Definition>
-    <Definition classid="UserCmpDefn" name="SauerPaiMachine" build="" crc="18675565" view="false" instances="0" date="1674772463" id="1825217716" w="320" h="400" url="" group="">
+    <Definition classid="UserCmpDefn" name="SauerPaiMachine" build="" crc="18675565" view="false" instances="0" date="1677209042" id="1825217716" w="320" h="400" url="" group="">
       <paramlist>
         <param name="Description" value="" />
       </paramlist>
@@ -50902,7 +51309,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
         </Wire>
       </schematic>
     </Definition>
-    <Definition classid="UserCmpDefn" name="CurrentSourceInterface" build="" crc="112498156" view="false" instances="0" date="1674772464" id="600557575" w="320" h="400" url="" group="">
+    <Definition classid="UserCmpDefn" name="CurrentSourceInterface" build="" crc="112498156" view="false" instances="0" date="1677209043" id="600557575" w="320" h="400" url="" group="">
       <paramlist>
         <param name="Description" value="" />
       </paramlist>
@@ -52862,7 +53269,7 @@ What is the characteristic impedance?
         </User>
       </schematic>
     </Definition>
-    <Definition classid="UserCmpDefn" name="SingleMass" build="" crc="107558810" view="false" instances="0" date="1674772463" id="1780857034" w="320" h="400" url="" group="">
+    <Definition classid="UserCmpDefn" name="SingleMass" build="" crc="107558810" view="false" instances="0" date="1677209041" id="1780857034" w="320" h="400" url="" group="">
       <paramlist>
         <param name="Description" value="" />
       </paramlist>
@@ -53948,7 +54355,7 @@ Need to test.
         </Wire>
       </schematic>
     </Definition>
-    <Definition classid="UserCmpDefn" name="abc_dq_psid" group="" url="" version="" build="" crc="18298543" instances="0" key="" view="false" date="1674772460" id="1690178130">
+    <Definition classid="UserCmpDefn" name="abc_dq_psid" group="" url="" version="" build="" crc="18298543" instances="0" key="" view="false" date="1677209040" id="1690178130">
       <paramlist name="">
         <param name="Description" value="" />
       </paramlist>
@@ -54694,7 +55101,7 @@ Need to test.
         </Gfx>
       </graphics>
     </Definition>
-    <Definition classid="UserCmpDefn" name="dq_abc_psid" group="" url="" version="" build="" crc="79563412" instances="0" key="" view="false" date="1674772460" id="1213191902">
+    <Definition classid="UserCmpDefn" name="dq_abc_psid" group="" url="" version="" build="" crc="79563412" instances="0" key="" view="false" date="1677209039" id="1213191902">
       <paramlist name="">
         <param name="Description" value="" />
       </paramlist>
@@ -55437,7 +55844,7 @@ Need to test.
         </Gfx>
       </graphics>
     </Definition>
-    <Definition classid="UserCmpDefn" name="timestep_delay_angle" group="" url="" version="" build="" crc="66017651" instances="0" key="" view="false" date="1674772460" id="913401546">
+    <Definition classid="UserCmpDefn" name="timestep_delay_angle" group="" url="" version="" build="" crc="66017651" instances="0" key="" view="false" date="1677209039" id="913401546">
       <paramlist name="">
         <param name="Description" value="" />
       </paramlist>
@@ -55669,7 +56076,7 @@ Need to test.
         </Gfx>
       </graphics>
     </Definition>
-    <Definition classid="UserCmpDefn" name="SEXS" build="" crc="12173782" view="false" instances="0" date="1674772462" id="990107576" w="320" h="400" url="" group="">
+    <Definition classid="UserCmpDefn" name="SEXS" build="" crc="12173782" view="false" instances="0" date="1677209040" id="990107576" w="320" h="400" url="" group="">
       <paramlist>
         <param name="Description" value="" />
       </paramlist>
@@ -56329,7 +56736,7 @@ Need to test.
         </Wire>
       </schematic>
     </Definition>
-    <Definition classid="UserCmpDefn" name="PSSFixed" build="" crc="133247180" view="false" instances="0" date="1674772463" id="360526612" w="320" h="400" url="" group="">
+    <Definition classid="UserCmpDefn" name="PSSFixed" build="" crc="133247180" view="false" instances="0" date="1677209042" id="360526612" w="320" h="400" url="" group="">
       <paramlist>
         <param name="Description" value="" />
       </paramlist>
@@ -59663,7 +60070,7 @@ Need to test.
         </User>
       </schematic>
     </Definition>
-    <Definition classid="UserCmpDefn" name="SteamTurbineGov1" build="" crc="112176012" view="false" instances="0" date="1674772463" id="1132640844" w="320" h="400" url="" group="">
+    <Definition classid="UserCmpDefn" name="SteamTurbineGov1" build="" crc="112176012" view="false" instances="0" date="1677209041" id="1132640844" w="320" h="400" url="" group="">
       <paramlist>
         <param name="Description" value="" />
       </paramlist>
@@ -60406,78 +60813,79 @@ Need to test.
     </paramlist>
   </GlobalSubstitutions>
   <hierarchy>
-    <call link="1491070496" name="PSID_Library:Station" z="-1" view="false" instance="0">
+    <call link="1774770651" name="PSID_Library:Station" z="-1" view="false" instance="0">
       <call link="1121605733" name="PSID_Library:Main" z="-1" view="false" instance="0">
-        <call link="1900225599" name="PSID_Library:TGTypeII" z="-1" view="false" instance="0" />
-        <call link="289925425" name="PSID_Library:SEXS_2" z="-1" view="false" instance="0" />
-        <call link="1997484035" name="PSID_Library:VoltageModeControl" z="-1" view="false" instance="0" />
-        <call link="1212736682" name="PSID_Library:KauraPLL" z="-1" view="false" instance="0">
-          <call link="2065055101" name="PSID_Library:timestep_delay_angle" z="330" view="false" instance="0" />
-          <call link="1583651100" name="PSID_Library:abc_dq_psid" z="340" view="false" instance="0" />
-        </call>
+        <call link="590877718" name="PSID_Library:TGOV1" z="-1" view="false" instance="0" />
         <call link="791628388" name="PSID_Library:AverageConverter" z="-1" view="false" instance="0" />
         <call link="353908200" name="PSID_Library:FixedDCSource" z="-1" view="false" instance="0" />
+        <call link="117063645" name="PSID_Library:dq_ri" z="-1" view="false" instance="0" />
+        <call link="1536472840" name="PSID_Library:ri_dq" z="-1" view="false" instance="0" />
+        <call link="970744943" name="PSID_Library:ri_abc" z="-1" view="false" instance="0" />
         <call link="1935923328" name="PSID_Library:VirtualInertia_ReactiveDroop" z="-1" view="false" instance="0" />
+        <call link="1711448333" name="PSID_Library:magangle_ri" z="-1" view="false" instance="0" />
         <call link="920231050" name="PSID_Library:IEEET1" z="-1" view="false" instance="0">
           <call link="1513031148" name="PSID_Library:exciter_saturation" z="140" view="false" instance="0" />
           <call link="746068508" name="PSID_Library:exciter_saturation" z="360" view="false" instance="1" />
         </call>
-        <call link="573480777" name="PSID_Library:exciter_saturation" z="-1" view="false" instance="2" />
         <call link="32368114" name="PSID_Library:BPA_GG" z="-1" view="false" instance="0" />
         <call link="1257164115" name="PSID_Library:GGOV1" z="-1" view="false" instance="0">
           <call link="471511252" name="PSID_Library:DeadBand" z="890" view="false" instance="0" />
         </call>
+        <call link="289925425" name="PSID_Library:SEXS_2" z="-1" view="false" instance="0" />
         <call link="1584018673" name="PSID_Library:DeadBand" z="-1" view="false" instance="1" />
+        <call link="1749606776" name="PSID_Library:AVRSimple" z="-1" view="false" instance="0" />
         <call link="1496654770" name="PSID_Library:RateLimiter" z="-1" view="false" instance="0" />
         <call link="1868501625" name="PSID_Library:FixedFrequency" z="-1" view="false" instance="0" />
+        <call link="1900225599" name="PSID_Library:TGTypeII" z="-1" view="false" instance="0" />
         <call link="1340636822" name="PSID_Library:ActiveDroop_ReactiveDroop" z="-1" view="false" instance="0" />
-        <call link="1749606776" name="PSID_Library:AVRSimple" z="-1" view="false" instance="0" />
-        <call link="970744943" name="PSID_Library:ri_abc" z="-1" view="false" instance="0" />
         <call link="285503644" name="PSID_Library:ReducedOrderPLL" z="-1" view="false" instance="0">
-          <call link="975203037" name="PSID_Library:abc_dq_psid" z="200" view="false" instance="1" />
-          <call link="1708939662" name="PSID_Library:timestep_delay_angle" z="300" view="false" instance="1" />
+          <call link="975203037" name="PSID_Library:abc_dq_psid" z="200" view="false" instance="0" />
+          <call link="1708939662" name="PSID_Library:timestep_delay_angle" z="300" view="false" instance="0" />
         </call>
-        <call link="1711448333" name="PSID_Library:magangle_ri" z="-1" view="false" instance="0" />
-        <call link="771555009" name="PSID_Library:CurrentModeControl" z="-1" view="false" instance="0" />
-        <call link="1536472840" name="PSID_Library:ri_dq" z="-1" view="false" instance="0" />
-        <call link="117063645" name="PSID_Library:dq_ri" z="-1" view="false" instance="0" />
         <call link="1689773799" name="PSID_Library:ActivePI_ReactivePI" z="-1" view="false" instance="0" />
         <call link="302217636" name="PSID_Library:volley_circuit_breaker_logic" z="-1" view="false" instance="0" />
+        <call link="1099669844" name="PSID_Library:GAST_2" z="-1" view="false" instance="0" />
         <call link="1093407088" name="PSID_Library:ReferenceFrameConversion_INV" z="-1" view="false" instance="0">
-          <call link="1686720077" name="PSID_Library:timestep_delay_angle" z="60" view="false" instance="2" />
+          <call link="1686720077" name="PSID_Library:timestep_delay_angle" z="60" view="false" instance="1" />
           <call link="1115078297" name="PSID_Library:dq_abc_psid" z="70" view="false" instance="0" />
-          <call link="1416558759" name="PSID_Library:abc_dq_psid" z="80" view="false" instance="2" />
-          <call link="294237646" name="PSID_Library:abc_dq_psid" z="90" view="false" instance="3" />
-          <call link="1142133084" name="PSID_Library:abc_dq_psid" z="100" view="false" instance="4" />
+          <call link="1416558759" name="PSID_Library:abc_dq_psid" z="80" view="false" instance="1" />
+          <call link="294237646" name="PSID_Library:abc_dq_psid" z="90" view="false" instance="2" />
+          <call link="1142133084" name="PSID_Library:abc_dq_psid" z="100" view="false" instance="3" />
         </call>
         <call link="1585140405" name="PSID_Library:LCLFilter" z="-1" view="false" instance="0">
           <call link="645843216" name="PSID_Library:ri_abc" z="890" view="false" instance="1" />
         </call>
-        <call link="1099669844" name="PSID_Library:GAST_2" z="-1" view="false" instance="0" />
+        <call link="771555009" name="PSID_Library:CurrentModeControl" z="-1" view="false" instance="0" />
+        <call link="417400883" name="PSID_Library:SauerPaiMachine" z="-1" view="false" instance="0" />
         <call link="1883499949" name="PSID_Library:CurrentSourceInterface" z="-1" view="false" instance="0" />
+        <call link="573480777" name="PSID_Library:exciter_saturation" z="-1" view="false" instance="2" />
         <call link="85566424" name="PSID_Library:AVRFixed" z="-1" view="false" instance="0" />
-        <call link="457892986" name="PSID_Library:SingleMass" z="-1" view="true" instance="0" />
+        <call link="457892986" name="PSID_Library:SingleMass" z="-1" view="false" instance="0" />
         <call link="1980808861" name="PSID_Library:TGFixed" z="-1" view="false" instance="0" />
-        <call link="1171105701" name="PSID_Library:abc_dq_psid" z="-1" view="false" instance="5" />
+        <call link="1518507892" name="PSID_Library:dq_abc_psid" z="-1" view="false" instance="1" />
+        <call link="691555753" name="PSID_Library:HydroTurbineGov" z="-1" view="false" instance="0" />
+        <call link="40718861" name="PSID_Library:SEXS" z="-1" view="false" instance="0" />
+        <call link="812723526" name="PSID_Library:timestep_delay_angle" z="-1" view="false" instance="2" />
+        <call link="314200446" name="PSID_Library:SteamTurbineGov1" z="-1" view="false" instance="0" />
+        <call link="1171105701" name="PSID_Library:abc_dq_psid" z="-1" view="false" instance="4" />
+        <call link="49018463" name="PSID_Library:SecOdrPole" z="-1" view="false" instance="0" />
+        <call link="1997484035" name="PSID_Library:VoltageModeControl" z="-1" view="false" instance="0" />
+        <call link="1834683724" name="PSID_Library:IEEEST" z="-1" view="false" instance="0">
+          <call link="1589910882" name="PSID_Library:SecOdrPole" z="-1" view="false" instance="1" />
+          <call link="617299442" name="PSID_Library:SecOdrPole" z="-1" view="false" instance="2" />
+        </call>
         <call link="1154150259" name="PSID_Library:ReferenceFrameConversion_GEN" z="-1" view="false" instance="0">
           <call link="1659966761" name="PSID_Library:timestep_delay_angle" z="40" view="false" instance="3" />
-          <call link="1136399958" name="PSID_Library:dq_abc_psid" z="50" view="false" instance="1" />
-          <call link="1050186494" name="PSID_Library:abc_dq_psid" z="60" view="false" instance="6" />
+          <call link="1136399958" name="PSID_Library:dq_abc_psid" z="50" view="false" instance="2" />
+          <call link="1050186494" name="PSID_Library:abc_dq_psid" z="60" view="false" instance="5" />
         </call>
-        <call link="1834683724" name="PSID_Library:IEEEST" z="-1" view="false" instance="0">
-          <call link="1589910882" name="PSID_Library:SecOdrPole" z="-1" view="false" instance="0" />
-          <call link="617299442" name="PSID_Library:SecOdrPole" z="-1" view="false" instance="1" />
+        <call link="1212736682" name="PSID_Library:KauraPLL" z="-1" view="false" instance="0">
+          <call link="2065055101" name="PSID_Library:timestep_delay_angle" z="330" view="false" instance="4" />
+          <call link="1583651100" name="PSID_Library:abc_dq_psid" z="340" view="false" instance="6" />
         </call>
-        <call link="40718861" name="PSID_Library:SEXS" z="-1" view="false" instance="0" />
-        <call link="812723526" name="PSID_Library:timestep_delay_angle" z="-1" view="false" instance="4" />
         <call link="1779563302" name="PSID_Library:GASTG" z="-1" view="false" instance="0" />
-        <call link="417400883" name="PSID_Library:SauerPaiMachine" z="-1" view="false" instance="0" />
+        <call link="789112817" name="PSID_Library:simple_brk_logic" z="-1" view="true" instance="0" />
         <call link="1728083034" name="PSID_Library:PSSFixed" z="-1" view="false" instance="0" />
-        <call link="49018463" name="PSID_Library:SecOdrPole" z="-1" view="false" instance="2" />
-        <call link="1518507892" name="PSID_Library:dq_abc_psid" z="-1" view="false" instance="2" />
-        <call link="691555753" name="PSID_Library:HydroTurbineGov" z="-1" view="false" instance="0" />
-        <call link="590877718" name="PSID_Library:TGOV1" z="-1" view="false" instance="0" />
-        <call link="314200446" name="PSID_Library:SteamTurbineGov1" z="-1" view="false" instance="0" />
       </call>
     </call>
   </hierarchy>

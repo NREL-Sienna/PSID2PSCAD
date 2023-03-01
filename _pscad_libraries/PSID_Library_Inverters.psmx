@@ -1,15 +1,11 @@
 <Meta name="PSID_Library_Inverters">
   <messagelist>
-    <message status="error" label="build" groupid="300503" id="1921157709" classid="CmpNavigator">
-      <User scope="PSID_Library_Inverters" name="PSID_Library:GAST" status="error" link="1645426511" /><![CDATA[Unable to resolve definition 'PSID_Library:GAST']]></message>
-    <message status="error" label="build" groupid="300503" id="1299989614" classid="CmpNavigator">
-      <User scope="PSID_Library_Inverters" name="PSID_Library:GAST" status="error" link="1645426511" /><![CDATA[Unable to resolve definition 'PSID_Library:GAST']]></message>
-    <message status="error" label="build" groupid="300503" id="1230632468" classid="CmpNavigator">
-      <User scope="PSID_Library_Inverters" name="PSID_Library:GAST" status="error" link="1645426511" /><![CDATA[Unable to resolve definition 'PSID_Library:GAST']]></message>
+    <message status="error" label="build" groupid="309001" id="961937604" classid="CmpNavigator">
+      <User scope="PSID_Library_Inverters" name="PSID_Library:KauraPLL" status="error" link="1462166105" /><![CDATA[Input parameter 'InitGv' is floating. The expected signal source 'INV' is undefined. ]]></message>
   </messagelist>
   <List classid="Settings" />
   <ViewContext>
-    <Window defn="PSID_Library_Inverters:Main" call="0" />
+    <Window defn="PSID_Library_Inverters:GFL_KAURA_PLL" call="0" />
   </ViewContext>
   <List classid="View">
     <View name="Main" zoomlevel="4" scrollx="0" scrolly="72" zoomscale="1.5" />
@@ -34,8 +30,8 @@
     <View name="SAUERPAI_SEXS_HYGOV_IEEEST" zoomscale="0.49152" scrollx="0" scrolly="81" />
     <View name="SAUERPAI_SEXS_HYGOV_PSSFIXED" zoomscale="0.768" scrollx="0" scrolly="0" />
     <View name="SAUERPAI_SEXS_TGOV1_IEEEST" zoomscale="0.768" scrollx="0" scrolly="0" />
-    <View name="SAUERPAI_SEXS_TGOV1_PSSFIXED" zoomscale="0.49152" scrollx="0" scrolly="0" />
-    <View name="GFL_KAURA_PLL" zoomscale="0.96" scrollx="0" scrolly="465" />
+    <View name="SAUERPAI_SEXS_TGOV1_PSSFIXED" zoomscale="0.768" scrollx="0" scrolly="0" />
+    <View name="GFL_KAURA_PLL" zoomscale="0.96" scrollx="0" scrolly="201" />
     <View name="GFL_REDUCED_PLL" zoomscale="1.5" scrollx="0" scrolly="108" />
   </List>
   <Catalog count="0" />
