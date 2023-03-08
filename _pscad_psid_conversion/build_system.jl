@@ -252,7 +252,7 @@ function build_component(
             inv_coors[2]
         )
     elseif coorDict[Busname].devices_location == "e"
-        inv_coors = (coorDict[Busname].centerpoint[1] + 7, coorDict[Busname].centerpoint[2])
+        inv_coors = (coorDict[Busname].centerpoint[1] + 7, coorDict[Busname].centerpoint[2] - 2)
         new_inv = pscad_canvas.add_component(
             "PSID_Library_Inverters",
             "GFL_KAURA_PLL",
@@ -386,6 +386,12 @@ function build_component(
         new_wire2 =
         pscad_canvas.add_wire(new_xfmr.get_port_location("N2"), coorDict[split_parts[1]].centerpoint)
     end
+    new_xfmr.set_parameters(YD1 = 0, YD2 = 0)
+    new_gnd = pscad_canvas.add_component("master", "ground", midpoint[1], midpoint[2]+3)
+    new_wire_to_gnd = 
+    pscad_canvas.add_wire(new_xfmr.get_port_location("G1"), new_gnd.get_port_location("A"))
+    new_wire_to_gnd2 = 
+    pscad_canvas.add_wire(new_xfmr.get_port_location("G2"), new_gnd.get_port_location("A"))
 end
 
 function build_component(

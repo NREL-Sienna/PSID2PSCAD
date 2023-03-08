@@ -245,6 +245,8 @@ function write_parameters(
     pscad_params = pscad_component.parameters()
 
     pscad_params["Xl"] = get_x(psid_component)
+    pscad_params["YD1"] = 0 # 0 means grounded wye
+    pscad_params["YD2"] = 0 # 0 means grounded wye
     if get_r(psid_component) != 0.0
         @error "PSID component has r not equal to 0, but can't set in PSCAD"
     end
