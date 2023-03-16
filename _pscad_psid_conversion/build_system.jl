@@ -63,6 +63,59 @@ function build_component(psid_component::Bus, pscad_component_name, pscad_canvas
 end
 
 function build_component(
+    psid_component::Source,
+    pscad_component_name,
+    pscad_canvas,
+    coorDict,
+    sys;
+    add_gen_breakers = false,
+    add_load_breakers = false,
+    add_line_breakers = false,
+    add_multimeters = false
+)
+    Busname = get_name(get_bus(psid_component))
+    if coorDict[Busname].devices_location == "s"
+        source_coors = (coorDict[Busname].centerpoint[1] - 16, coorDict[Busname].centerpoint[2] + 7)
+        new_source = pscad_canvas.add_component(
+            "master",
+            "source_3",
+            source_coors[1],
+            source_coors[2],
+        )
+    elseif coorDict[Busname].devices_location == "n"
+        source_coors = (coorDict[Busname].centerpoint[1] - 16, coorDict[Busname].centerpoint[2] - 7)
+        new_source = pscad_canvas.add_component(
+            "master",
+            "source_3",
+            source_coors[1],
+            source_coors[2],
+        )
+    elseif coorDict[Busname].devices_location == "e"
+        source_coors = (coorDict[Busname].centerpoint[1] + 7, coorDict[Busname].centerpoint[2] + 10)
+        new_source = pscad_canvas.add_component(
+            "master",
+            "source_3",
+            source_coors[1],
+            source_coors[2],
+        )
+    elseif coorDict[Busname].devices_location == "w"
+        source_coors = (coorDict[Busname].centerpoint[1] - 13, coorDict[Busname].centerpoint[2] + 10)
+        new_source = pscad_canvas.add_component(
+            "master",
+            "source_3",
+            source_coors[1],
+            source_coors[2],
+        )
+    else
+        @error "No direction specified for component placement"
+        println(Busname)
+    end
+    new_source.set_parameters(Name = pscad_component_name)
+
+    pscad_canvas.create_wire(new_source.get_port_location("N"), coorDict[Busname].centerpoint)
+end
+
+function build_component(
     psid_component::DynamicGenerator{
         SauerPaiMachine,
         SingleMass,
@@ -291,6 +344,161 @@ function build_component(
         pscad_canvas.create_wire(new_inv.get_port_location("POI"), coorDict[Busname].centerpoint)
     end
 end
+
+function build_component(
+    psid_component::DynamicInverter{
+        AverageConverter,
+        OuterControl{ActivePowerPI, ReactivePowerPI},
+        CurrentModeControl,
+        FixedDCSource,
+        ReducedOrderPLL,
+        LCLFilter,
+    },
+    pscad_component_name,
+    pscad_canvas,
+    coorDict,
+    sys; 
+    add_gen_breakers = false,
+    add_load_breakers = false,
+    add_line_breakers = false, 
+    add_multimeters = false
+)
+    static_injector = get_component(StaticInjection, sys, pscad_component_name)
+    Busname = get_name(get_bus(static_injector))
+    if coorDict[Busname].devices_location == "s"
+        inv_coors = (coorDict[Busname].centerpoint[1] + 10, coorDict[Busname].centerpoint[2] + 7)
+        new_inv = pscad_canvas.add_component(
+            "PSID_Library_Inverters",
+            "GFL_REDUCED_PLL",
+            inv_coors[1],
+            inv_coors[2]
+        )
+    elseif coorDict[Busname].devices_location == "n"
+        inv_coors = (coorDict[Busname].centerpoint[1] + 10, coorDict[Busname].centerpoint[2] - 7)
+        new_inv = pscad_canvas.add_component(
+            "PSID_Library_Inverters",
+            "GFL_REDUCED_PLL",
+            inv_coors[1],
+            inv_coors[2]
+        )
+    elseif coorDict[Busname].devices_location == "e"
+        inv_coors = (coorDict[Busname].centerpoint[1] + 7, coorDict[Busname].centerpoint[2] - 2)
+        new_inv = pscad_canvas.add_component(
+            "PSID_Library_Inverters",
+            "GFL_REDUCED_PLL",
+            inv_coors[1],
+            inv_coors[2]
+        )
+    elseif coorDict[Busname].devices_location == "w"
+        inv_coors = (coorDict[Busname].centerpoint[1] - 13, coorDict[Busname].centerpoint[2])
+        new_inv = pscad_canvas.add_component(
+            "PSID_Library_Inverters",
+            "GFL_REDUCED_PLL",
+            inv_coors[1],
+            inv_coors[2]
+        )
+    else
+        @error "No direction specified for component placement"
+        println(Busname)
+    end
+    new_inv.set_parameters(Name = pscad_component_name)
+    if add_gen_breakers == true
+        inv_br_offset = 8
+        inv_br_coors = (inv_coors[1] + inv_br_offset, inv_coors[2])
+        inv_br = pscad_canvas.add_component(
+            "master",
+            "breaker3",
+            inv_br_coors[1],
+            inv_br_coors[2]
+            )
+        br_name =  "br_"*replace(pscad_component_name, "-" => "_")*"_1"
+        inv_br.set_parameters(NAME = br_name)        #TODO - should give these meaningful names based on :from and :to in PSID
+        _add_breaker_logic_peripherals(pscad_canvas, br_name, inv_br_coors)
+        new_wire =
+            pscad_canvas.create_wire(inv_br.get_port_location("N1"), coorDict[Busname].centerpoint)
+    else
+        new_wire =
+        pscad_canvas.create_wire(new_inv.get_port_location("POI"), coorDict[Busname].centerpoint)
+    end
+end
+
+function build_component(
+    psid_component::DynamicInverter{
+        AverageConverter,
+        OuterControl{VirtualInertia, ReactivePowerDroop},
+        VoltageModeControl,
+        FixedDCSource,
+        KauraPLL,
+        LCLFilter,
+    },
+    pscad_component_name,
+    pscad_canvas,
+    coorDict,
+    sys; 
+    add_gen_breakers = false,
+    add_load_breakers = false,
+    add_line_breakers = false, 
+    add_multimeters = false
+)
+    static_injector = get_component(StaticInjection, sys, pscad_component_name)
+    Busname = get_name(get_bus(static_injector))
+    if coorDict[Busname].devices_location == "s"
+        inv_coors = (coorDict[Busname].centerpoint[1] + 10, coorDict[Busname].centerpoint[2] + 7)
+        new_inv = pscad_canvas.add_component(
+            "PSID_Library_Inverters",
+            "DARCO_VSM",
+            inv_coors[1],
+            inv_coors[2]
+        )
+    elseif coorDict[Busname].devices_location == "n"
+        inv_coors = (coorDict[Busname].centerpoint[1] + 10, coorDict[Busname].centerpoint[2] - 7)
+        new_inv = pscad_canvas.add_component(
+            "PSID_Library_Inverters",
+            "DARCO_VSM",
+            inv_coors[1],
+            inv_coors[2]
+        )
+    elseif coorDict[Busname].devices_location == "e"
+        inv_coors = (coorDict[Busname].centerpoint[1] + 7, coorDict[Busname].centerpoint[2] - 2)
+        new_inv = pscad_canvas.add_component(
+            "PSID_Library_Inverters",
+            "DARCO_VSM",
+            inv_coors[1],
+            inv_coors[2]
+        )
+    elseif coorDict[Busname].devices_location == "w"
+        inv_coors = (coorDict[Busname].centerpoint[1] - 13, coorDict[Busname].centerpoint[2])
+        new_inv = pscad_canvas.add_component(
+            "PSID_Library_Inverters",
+            "DARCO_VSM",
+            inv_coors[1],
+            inv_coors[2]
+        )
+    else
+        @error "No direction specified for component placement"
+        println(Busname)
+    end
+    new_inv.set_parameters(Name = pscad_component_name)
+    if add_gen_breakers == true
+        inv_br_offset = 8
+        inv_br_coors = (inv_coors[1] + inv_br_offset, inv_coors[2])
+        inv_br = pscad_canvas.add_component(
+            "master",
+            "breaker3",
+            inv_br_coors[1],
+            inv_br_coors[2]
+            )
+        br_name =  "br_"*replace(pscad_component_name, "-" => "_")*"_1"
+        inv_br.set_parameters(NAME = br_name)        #TODO - should give these meaningful names based on :from and :to in PSID
+        _add_breaker_logic_peripherals(pscad_canvas, br_name, inv_br_coors)
+        new_wire =
+            pscad_canvas.create_wire(inv_br.get_port_location("N1"), coorDict[Busname].centerpoint)
+    else
+        new_wire =
+        pscad_canvas.create_wire(new_inv.get_port_location("POI"), coorDict[Busname].centerpoint)
+    end
+end
+
 
 function build_component(psid_component::Line, pscad_component_name, pscad_canvas, coorDict, sys; add_gen_breakers = false, add_load_breakers = false, add_line_breakers = false, add_multimeters = false)
     split_parts = split(pscad_component_name, "-")
