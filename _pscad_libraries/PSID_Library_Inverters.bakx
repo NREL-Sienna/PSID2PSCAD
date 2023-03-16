@@ -21,7 +21,7 @@
     <param name="Warn" value="0" />
     <param name="Check" value="0" />
     <param name="description" value="" />
-    <param name="revisor" value="Matt Bossart, 1677207820" />
+    <param name="revisor" value="Matt Bossart, 1677683284" />
     <param name="sparsity_threshold" value="200" />
   </paramlist>
   <Layers>
@@ -29798,7 +29798,7 @@
         </Gfx>
       </graphics>
     </Definition>
-    <Definition classid="UserCmpDefn" name="DROOP_GFM" group="" url="" version="" build="" crc="67376769" instances="0" key="" view="false" date="1671120175" id="744715342">
+    <Definition classid="UserCmpDefn" name="DROOP_GFM" group="" url="" version="" build="" crc="67376769" instances="0" key="" view="false" date="1677209048" id="744715342">
       <paramlist name="">
         <param name="Description" value="" />
       </paramlist>
@@ -32709,7 +32709,7 @@
         <grouping />
       </schematic>
     </Definition>
-    <Definition classid="UserCmpDefn" name="Main" id="1668162628" group="" url="" version="" build="" crc="22609555" view="false" date="0">
+    <Definition classid="UserCmpDefn" name="Main" id="1668162628" group="" url="" version="" build="" crc="120648248" view="false" date="0">
       <paramlist name="">
         <param name="Description" value="" />
       </paramlist>
@@ -33423,7 +33423,7 @@
             <param name="f_out" value="Freq_out" />
           </paramlist>
         </User>
-        <User classid="UserCmp" id="750910413" name="PSID_Library_Inverters:SAUERPAI_SEXS_GASTG_IEEEST" x="396" y="234" w="118" h="78" z="-1" orient="0" defn="PSID_Library_Inverters:SAUERPAI_SEXS_GASTG_IEEEST" link="-1" q="4" disable="false">
+        <User classid="UserCmp" id="750910413" name="PSID_Library_Inverters:SAUERPAI_SEXS_GASTG_IEEEST" x="396" y="234" w="119" h="78" z="-1" orient="0" defn="PSID_Library_Inverters:SAUERPAI_SEXS_GASTG_IEEEST" link="-1" q="4" disable="false">
           <paramlist name="" link="-1" crc="18129811">
             <param name="Name" value="" />
             <param name="f_base" value="60" />
@@ -33573,7 +33573,7 @@
             <param name="primemover_x0_3" value="0" />
           </paramlist>
         </User>
-        <User classid="UserCmp" id="798203330" name="PSID_Library_Inverters:SAUERPAI_SEXS_GASTG_PSSFIXED" x="396" y="324" w="118" h="78" z="-1" orient="0" defn="PSID_Library_Inverters:SAUERPAI_SEXS_GASTG_PSSFIXED" link="-1" q="4" disable="false">
+        <User classid="UserCmp" id="798203330" name="PSID_Library_Inverters:SAUERPAI_SEXS_GASTG_PSSFIXED" x="396" y="324" w="119" h="78" z="-1" orient="0" defn="PSID_Library_Inverters:SAUERPAI_SEXS_GASTG_PSSFIXED" link="-1" q="4" disable="false">
           <paramlist name="" link="-1" crc="111202234">
             <param name="Name" value="" />
             <param name="f_base" value="60" />
@@ -33694,7 +33694,7 @@
             <param name="primemover_D_turb" value="0" />
           </paramlist>
         </User>
-        <User classid="UserCmp" id="108144603" name="PSID_Library_Inverters:SAUERPAI_SEXS_HYGOV_IEEEST" x="522" y="234" w="118" h="78" z="-1" orient="0" defn="PSID_Library_Inverters:SAUERPAI_SEXS_HYGOV_IEEEST" link="-1" q="4" disable="false">
+        <User classid="UserCmp" id="108144603" name="PSID_Library_Inverters:SAUERPAI_SEXS_HYGOV_IEEEST" x="522" y="234" w="119" h="78" z="-1" orient="0" defn="PSID_Library_Inverters:SAUERPAI_SEXS_HYGOV_IEEEST" link="-1" q="4" disable="false">
           <paramlist name="" link="-1" crc="107858088">
             <param name="Name" value="" />
             <param name="f_base" value="60" />
@@ -33847,7 +33847,7 @@
             <param name="primemover_q_nl" value="0" />
           </paramlist>
         </User>
-        <User classid="UserCmp" id="1980245536" name="PSID_Library_Inverters:SAUERPAI_SEXS_HYGOV_PSSFIXED" x="522" y="324" w="118" h="78" z="-1" orient="0" defn="PSID_Library_Inverters:SAUERPAI_SEXS_HYGOV_PSSFIXED" link="-1" q="4" disable="false">
+        <User classid="UserCmp" id="1980245536" name="PSID_Library_Inverters:SAUERPAI_SEXS_HYGOV_PSSFIXED" x="522" y="324" w="119" h="78" z="-1" orient="0" defn="PSID_Library_Inverters:SAUERPAI_SEXS_HYGOV_PSSFIXED" link="-1" q="4" disable="false">
           <paramlist name="" link="-1" crc="109936304">
             <param name="Name" value="" />
             <param name="f_base" value="60" />
@@ -33962,7 +33962,7 @@
             <param name="primemover_q_nl" value="0" />
           </paramlist>
         </User>
-        <User classid="UserCmp" id="1213387110" name="PSID_Library_Inverters:SAUERPAI_SEXS_TGOV1_IEEEST" x="720" y="234" w="118" h="78" z="-1" orient="0" defn="PSID_Library_Inverters:SAUERPAI_SEXS_TGOV1_IEEEST" link="-1" q="4" disable="false">
+        <User classid="UserCmp" id="1213387110" name="PSID_Library_Inverters:SAUERPAI_SEXS_TGOV1_IEEEST" x="720" y="234" w="119" h="78" z="-1" orient="0" defn="PSID_Library_Inverters:SAUERPAI_SEXS_TGOV1_IEEEST" link="-1" q="4" disable="false">
           <paramlist name="" link="-1" crc="126701363">
             <param name="Name" value="" />
             <param name="f_base" value="60" />
@@ -34105,7 +34105,7 @@
             <param name="pss_Vcl" value="0" />
           </paramlist>
         </User>
-        <User classid="UserCmp" id="1765688990" name="PSID_Library_Inverters:SAUERPAI_SEXS_TGOV1_PSSFIXED" x="720" y="324" w="118" h="78" z="-1" orient="0" defn="PSID_Library_Inverters:SAUERPAI_SEXS_TGOV1_PSSFIXED" link="-1" q="4" disable="false">
+        <User classid="UserCmp" id="1765688990" name="PSID_Library_Inverters:SAUERPAI_SEXS_TGOV1_PSSFIXED" x="720" y="324" w="119" h="78" z="-1" orient="0" defn="PSID_Library_Inverters:SAUERPAI_SEXS_TGOV1_PSSFIXED" link="-1" q="4" disable="false">
           <paramlist name="" link="-1" crc="104761221">
             <param name="Name" value="" />
             <param name="f_base" value="60" />
@@ -48600,7 +48600,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
         </Gfx>
       </graphics>
     </Definition>
-    <Definition classid="UserCmpDefn" name="SAUERPAI_SEXS_TGOV1_PSSFIXED" group="" url="" version="" build="" crc="90769185" instances="0" key="" view="false" date="1671135956" id="887792995">
+    <Definition classid="UserCmpDefn" name="SAUERPAI_SEXS_TGOV1_PSSFIXED" group="" url="" version="" build="" crc="90769185" instances="0" key="" view="false" date="1677209038" id="887792995">
       <paramlist name="">
         <param name="Description" value="" />
       </paramlist>
@@ -49826,7 +49826,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
         </Gfx>
       </graphics>
     </Definition>
-    <Definition classid="UserCmpDefn" name="GFL_KAURA_PLL" group="" url="" version="" build="" crc="26340565" instances="0" key="" view="false" date="1671135954" id="1255707902">
+    <Definition classid="UserCmpDefn" name="GFL_KAURA_PLL" group="" url="" version="" build="" crc="85570781" instances="0" key="" view="false" date="1671135954" id="1255707902">
       <paramlist name="">
         <param name="Description" value="" />
       </paramlist>
@@ -50189,17 +50189,17 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
           <param name="virtual_filter" value="" />
           <param name="animation_freq" value="500" />
         </paramlist>
-        <User classid="UserCmp" name="master:export" id="802856412" x="918" y="126" w="80" h="24" z="560" orient="4" defn="master:export" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:export" id="802856412" x="918" y="126" w="80" h="24" z="570" orient="4" defn="master:export" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="68967217">
             <param name="Name" value="Q_out" />
           </paramlist>
         </User>
-        <User classid="UserCmp" name="master:export" id="128239133" x="918" y="108" w="78" h="24" z="570" orient="4" defn="master:export" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:export" id="128239133" x="918" y="108" w="78" h="24" z="580" orient="4" defn="master:export" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="68967217">
             <param name="Name" value="P_out" />
           </paramlist>
         </User>
-        <User classid="UserCmp" name="master:export" id="47356536" x="918" y="144" w="75" h="24" z="550" orient="4" defn="master:export" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:export" id="47356536" x="918" y="144" w="75" h="24" z="560" orient="4" defn="master:export" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="68967217">
             <param name="Name" value="f_out" />
           </paramlist>
@@ -50210,7 +50210,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
             <param name="AL2" value="" />
           </paramlist>
         </User>
-        <User classid="UserCmp" name="PSID_Library:AverageConverter" id="2046628562" x="468" y="360" w="133" h="80" z="540" orient="0" defn="PSID_Library:AverageConverter" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="PSID_Library:AverageConverter" id="2046628562" x="468" y="360" w="133" h="80" z="550" orient="0" defn="PSID_Library:AverageConverter" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="85637438">
             <param name="Name" value="" />
           </paramlist>
@@ -50245,7 +50245,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
             <param name="Name" value="S_base" />
           </paramlist>
         </User>
-        <User classid="UserCmp" name="PSID_Library:FixedDCSource" id="539411229" x="612" y="342" w="146" h="80" z="480" orient="0" defn="PSID_Library:FixedDCSource" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="PSID_Library:FixedDCSource" id="539411229" x="612" y="342" w="146" h="80" z="490" orient="0" defn="PSID_Library:FixedDCSource" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="44713234">
             <param name="Name" value="" />
             <param name="voltage" value="voltage" />
@@ -50446,7 +50446,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
             <param name="Name" value="outercontrol_x0_1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" name="PSID_Library:ActivePI_ReactivePI" id="1168180068" x="486" y="504" w="233" h="116" z="520" orient="0" defn="PSID_Library:ActivePI_ReactivePI" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="PSID_Library:ActivePI_ReactivePI" id="1168180068" x="486" y="504" w="233" h="116" z="530" orient="0" defn="PSID_Library:ActivePI_ReactivePI" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="85039597">
             <param name="Name" value="" />
             <param name="kq" value="kq" />
@@ -50503,7 +50503,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
             <param name="ymax" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" name="PSID_Library:CurrentModeControl" id="2075316472" x="450" y="396" w="133" h="116" z="530" orient="0" defn="PSID_Library:CurrentModeControl" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="PSID_Library:CurrentModeControl" id="2075316472" x="450" y="396" w="133" h="116" z="540" orient="0" defn="PSID_Library:CurrentModeControl" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="75012887">
             <param name="Name" value="" />
             <param name="kpv" value="kpv" />
@@ -51079,7 +51079,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
           <vertex x="0" y="0" />
           <vertex x="0" y="90" />
         </Wire>
-        <User classid="UserCmp" id="1559633434" name="PSID_Library:LCLFilter" x="486" y="72" w="205" h="92" z="500" orient="0" defn="PSID_Library:LCLFilter" link="-1" q="4" disable="false">
+        <User classid="UserCmp" id="1559633434" name="PSID_Library:LCLFilter" x="486" y="72" w="205" h="92" z="510" orient="0" defn="PSID_Library:LCLFilter" link="-1" q="4" disable="false">
           <paramlist name="" link="-1" crc="57376948">
             <param name="Name" value="" />
             <param name="Name_0" value="" />
@@ -51102,12 +51102,12 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
             <param name="x0_6" value="filter_x0_6" />
           </paramlist>
         </User>
-        <User classid="UserCmp" id="817365154" name="PSID_Library:ReferenceFrameConversion_INV" x="486" y="198" w="250" h="81" z="490" orient="0" defn="PSID_Library:ReferenceFrameConversion_INV" link="-1" q="4" disable="false">
+        <User classid="UserCmp" id="817365154" name="PSID_Library:ReferenceFrameConversion_INV" x="486" y="198" w="250" h="81" z="500" orient="0" defn="PSID_Library:ReferenceFrameConversion_INV" link="-1" q="4" disable="false">
           <paramlist name="" link="-1" crc="28307411">
             <param name="Name" value="" />
           </paramlist>
         </User>
-        <User classid="UserCmp" name="PSID_Library:KauraPLL" id="1462166105" x="468" y="522" w="164" h="61" z="-1" orient="0" defn="PSID_Library:KauraPLL" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="PSID_Library:KauraPLL" id="1462166105" x="468" y="522" w="164" h="61" z="520" orient="0" defn="PSID_Library:KauraPLL" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="115842699">
             <param name="Name" value="" />
             <param name="w_lp" value="500.0" />
@@ -51120,41 +51120,41 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
             <param name="x0_4" value="freqestimator_x0_4" />
             <param name="f_base" value="f_base" />
             <param name="InitGv" value="INV" />
-            <param name="INV" value="InitGv" />
+            <param name="INV" value="INV" />
             <param name="t_INV" value="0" />
           </paramlist>
         </User>
-        <User classid="UserCmp" name="master:import" id="23328345" x="144" y="1170" w="154" h="25" z="510" orient="0" defn="master:import" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:import" id="23328345" x="144" y="1170" w="154" h="25" z="420" orient="0" defn="master:import" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="117509081">
             <param name="Name" value="freqestimator_x0_1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" name="master:import" id="1639505460" x="144" y="1188" w="154" h="25" z="530" orient="0" defn="master:import" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:import" id="1639505460" x="144" y="1188" w="154" h="25" z="440" orient="0" defn="master:import" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="117509081">
             <param name="Name" value="freqestimator_x0_2" />
           </paramlist>
         </User>
-        <User classid="UserCmp" name="master:import" id="1326944599" x="144" y="1206" w="154" h="25" z="550" orient="0" defn="master:import" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:import" id="1326944599" x="144" y="1206" w="154" h="25" z="460" orient="0" defn="master:import" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="117509081">
             <param name="Name" value="freqestimator_x0_3" />
           </paramlist>
         </User>
-        <User classid="UserCmp" name="master:import" id="849913571" x="144" y="1224" w="154" h="25" z="570" orient="0" defn="master:import" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:import" id="849913571" x="144" y="1224" w="154" h="25" z="480" orient="0" defn="master:import" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="117509081">
             <param name="Name" value="freqestimator_x0_4" />
           </paramlist>
         </User>
-        <User classid="UserCmp" name="master:import" id="1257884465" x="270" y="1170" w="100" h="25" z="520" orient="0" defn="master:import" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:import" id="1257884465" x="270" y="1170" w="100" h="25" z="430" orient="0" defn="master:import" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="117509081">
             <param name="Name" value="omega_lp" />
           </paramlist>
         </User>
-        <User classid="UserCmp" name="master:import" id="1501993852" x="270" y="1188" w="78" h="25" z="540" orient="0" defn="master:import" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:import" id="1501993852" x="270" y="1188" w="78" h="25" z="450" orient="0" defn="master:import" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="117509081">
             <param name="Name" value="kp_pll" />
           </paramlist>
         </User>
-        <User classid="UserCmp" name="master:import" id="470940695" x="270" y="1206" w="73" h="25" z="560" orient="0" defn="master:import" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:import" id="470940695" x="270" y="1206" w="73" h="25" z="470" orient="0" defn="master:import" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="117509081">
             <param name="Name" value="ki_pll" />
           </paramlist>
@@ -51299,189 +51299,190 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
     </paramlist>
   </GlobalSubstitutions>
   <hierarchy>
-    <call link="397259982" name="PSID_Library_Inverters:Station" z="-1" view="false" instance="0">
+    <call link="52356596" name="PSID_Library_Inverters:Station" z="-1" view="false" instance="0">
       <call link="223495102" name="PSID_Library_Inverters:Main" z="-1" view="false" instance="0">
-        <call link="621267136" name="PSID_Library_Inverters:GFL_KAURA_PLL" z="-1" view="true" instance="0">
-          <call link="1462166105" name="PSID_Library:KauraPLL" z="-1" view="false" instance="0">
-            <call link="2065055101" name="PSID_Library:timestep_delay_angle" z="330" view="false" instance="0" />
-            <call link="1583651100" name="PSID_Library:abc_dq_psid" z="340" view="false" instance="0" />
-          </call>
-          <call link="539411229" name="PSID_Library:FixedDCSource" z="480" view="false" instance="0" />
-          <call link="817365154" name="PSID_Library:ReferenceFrameConversion_INV" z="490" view="false" instance="0">
-            <call link="1686720077" name="PSID_Library:timestep_delay_angle" z="60" view="false" instance="1" />
+        <call link="238600983" name="PSID_Library_Inverters:DARCO_VSM" z="-1" view="false" instance="0">
+          <call link="537476440" name="PSID_Library:ReferenceFrameConversion_INV" z="580" view="false" instance="0">
+            <call link="1686720077" name="PSID_Library:timestep_delay_angle" z="60" view="false" instance="0" />
             <call link="1115078297" name="PSID_Library:dq_abc_psid" z="70" view="false" instance="0" />
-            <call link="1416558759" name="PSID_Library:abc_dq_psid" z="80" view="false" instance="1" />
-            <call link="294237646" name="PSID_Library:abc_dq_psid" z="90" view="false" instance="2" />
-            <call link="1142133084" name="PSID_Library:abc_dq_psid" z="100" view="false" instance="3" />
+            <call link="1416558759" name="PSID_Library:abc_dq_psid" z="80" view="false" instance="0" />
+            <call link="294237646" name="PSID_Library:abc_dq_psid" z="90" view="false" instance="1" />
+            <call link="1142133084" name="PSID_Library:abc_dq_psid" z="100" view="false" instance="2" />
           </call>
-          <call link="1559633434" name="PSID_Library:LCLFilter" z="500" view="false" instance="0">
+          <call link="1674048550" name="PSID_Library:LCLFilter" z="590" view="false" instance="0">
             <call link="645843216" name="PSID_Library:ri_abc" z="890" view="false" instance="0" />
           </call>
-          <call link="1168180068" name="PSID_Library:ActivePI_ReactivePI" z="520" view="false" instance="0" />
-          <call link="2075316472" name="PSID_Library:CurrentModeControl" z="530" view="false" instance="0" />
-          <call link="2046628562" name="PSID_Library:AverageConverter" z="540" view="false" instance="0" />
+          <call link="356470831" name="PSID_Library:KauraPLL" z="600" view="false" instance="0">
+            <call link="2065055101" name="PSID_Library:timestep_delay_angle" z="330" view="false" instance="1" />
+            <call link="1583651100" name="PSID_Library:abc_dq_psid" z="340" view="false" instance="3" />
+          </call>
+          <call link="157850209" name="PSID_Library:VirtualInertia_ReactiveDroop" z="610" view="false" instance="0" />
+          <call link="645732161" name="PSID_Library:VoltageModeControl" z="620" view="false" instance="0" />
+          <call link="1730679757" name="PSID_Library:FixedDCSource" z="630" view="false" instance="0" />
+          <call link="764540826" name="PSID_Library:AverageConverter" z="640" view="false" instance="0" />
         </call>
-        <call link="238600983" name="PSID_Library_Inverters:DARCO_VSM" z="-1" view="false" instance="0">
-          <call link="537476440" name="PSID_Library:ReferenceFrameConversion_INV" z="580" view="false" instance="1">
+        <call link="461198950" name="PSID_Library_Inverters:DROOP_GFM" z="-1" view="false" instance="0">
+          <call link="219331248" name="PSID_Library:FixedDCSource" z="500" view="false" instance="1" />
+          <call link="1660439571" name="PSID_Library:ReferenceFrameConversion_INV" z="510" view="false" instance="1">
             <call link="1686720077" name="PSID_Library:timestep_delay_angle" z="60" view="false" instance="2" />
             <call link="1115078297" name="PSID_Library:dq_abc_psid" z="70" view="false" instance="1" />
             <call link="1416558759" name="PSID_Library:abc_dq_psid" z="80" view="false" instance="4" />
             <call link="294237646" name="PSID_Library:abc_dq_psid" z="90" view="false" instance="5" />
             <call link="1142133084" name="PSID_Library:abc_dq_psid" z="100" view="false" instance="6" />
           </call>
-          <call link="1674048550" name="PSID_Library:LCLFilter" z="590" view="false" instance="1">
+          <call link="1670526590" name="PSID_Library:LCLFilter" z="520" view="false" instance="1">
             <call link="645843216" name="PSID_Library:ri_abc" z="890" view="false" instance="1" />
-          </call>
-          <call link="356470831" name="PSID_Library:KauraPLL" z="600" view="false" instance="1">
-            <call link="2065055101" name="PSID_Library:timestep_delay_angle" z="330" view="false" instance="3" />
-            <call link="1583651100" name="PSID_Library:abc_dq_psid" z="340" view="false" instance="7" />
-          </call>
-          <call link="157850209" name="PSID_Library:VirtualInertia_ReactiveDroop" z="610" view="false" instance="0" />
-          <call link="645732161" name="PSID_Library:VoltageModeControl" z="620" view="false" instance="0" />
-          <call link="1730679757" name="PSID_Library:FixedDCSource" z="630" view="false" instance="1" />
-          <call link="764540826" name="PSID_Library:AverageConverter" z="640" view="false" instance="1" />
-        </call>
-        <call link="461198950" name="PSID_Library_Inverters:DROOP_GFM" z="-1" view="false" instance="0">
-          <call link="219331248" name="PSID_Library:FixedDCSource" z="500" view="false" instance="2" />
-          <call link="1660439571" name="PSID_Library:ReferenceFrameConversion_INV" z="510" view="false" instance="2">
-            <call link="1686720077" name="PSID_Library:timestep_delay_angle" z="60" view="false" instance="4" />
-            <call link="1115078297" name="PSID_Library:dq_abc_psid" z="70" view="false" instance="2" />
-            <call link="1416558759" name="PSID_Library:abc_dq_psid" z="80" view="false" instance="8" />
-            <call link="294237646" name="PSID_Library:abc_dq_psid" z="90" view="false" instance="9" />
-            <call link="1142133084" name="PSID_Library:abc_dq_psid" z="100" view="false" instance="10" />
-          </call>
-          <call link="1670526590" name="PSID_Library:LCLFilter" z="520" view="false" instance="2">
-            <call link="645843216" name="PSID_Library:ri_abc" z="890" view="false" instance="2" />
           </call>
           <call link="822903436" name="PSID_Library:FixedFrequency" z="530" view="false" instance="0" />
           <call link="966491600" name="PSID_Library:ActiveDroop_ReactiveDroop" z="540" view="false" instance="0" />
           <call link="2079101627" name="PSID_Library:VoltageModeControl" z="550" view="false" instance="1" />
-          <call link="2040622412" name="PSID_Library:AverageConverter" z="560" view="false" instance="2" />
+          <call link="2040622412" name="PSID_Library:AverageConverter" z="560" view="false" instance="1" />
         </call>
         <call link="439422545" name="PSID_Library_Inverters:GFL_REDUCED_PLL" z="-1" view="false" instance="0">
-          <call link="1760640988" name="PSID_Library:FixedDCSource" z="480" view="false" instance="3" />
-          <call link="1229355875" name="PSID_Library:ReferenceFrameConversion_INV" z="490" view="false" instance="3">
-            <call link="1686720077" name="PSID_Library:timestep_delay_angle" z="60" view="false" instance="5" />
-            <call link="1115078297" name="PSID_Library:dq_abc_psid" z="70" view="false" instance="3" />
-            <call link="1416558759" name="PSID_Library:abc_dq_psid" z="80" view="false" instance="11" />
-            <call link="294237646" name="PSID_Library:abc_dq_psid" z="90" view="false" instance="12" />
-            <call link="1142133084" name="PSID_Library:abc_dq_psid" z="100" view="false" instance="13" />
+          <call link="1760640988" name="PSID_Library:FixedDCSource" z="480" view="false" instance="2" />
+          <call link="1229355875" name="PSID_Library:ReferenceFrameConversion_INV" z="490" view="false" instance="2">
+            <call link="1686720077" name="PSID_Library:timestep_delay_angle" z="60" view="false" instance="3" />
+            <call link="1115078297" name="PSID_Library:dq_abc_psid" z="70" view="false" instance="2" />
+            <call link="1416558759" name="PSID_Library:abc_dq_psid" z="80" view="false" instance="7" />
+            <call link="294237646" name="PSID_Library:abc_dq_psid" z="90" view="false" instance="8" />
+            <call link="1142133084" name="PSID_Library:abc_dq_psid" z="100" view="false" instance="9" />
           </call>
-          <call link="1822229676" name="PSID_Library:LCLFilter" z="500" view="false" instance="3">
-            <call link="645843216" name="PSID_Library:ri_abc" z="890" view="false" instance="3" />
+          <call link="1822229676" name="PSID_Library:LCLFilter" z="500" view="false" instance="2">
+            <call link="645843216" name="PSID_Library:ri_abc" z="890" view="false" instance="2" />
           </call>
           <call link="1494865977" name="PSID_Library:ReducedOrderPLL" z="510" view="false" instance="0">
-            <call link="975203037" name="PSID_Library:abc_dq_psid" z="200" view="false" instance="14" />
-            <call link="1708939662" name="PSID_Library:timestep_delay_angle" z="300" view="false" instance="6" />
+            <call link="975203037" name="PSID_Library:abc_dq_psid" z="200" view="false" instance="10" />
+            <call link="1708939662" name="PSID_Library:timestep_delay_angle" z="300" view="false" instance="4" />
           </call>
-          <call link="815459201" name="PSID_Library:ActivePI_ReactivePI" z="520" view="false" instance="1" />
-          <call link="2051780060" name="PSID_Library:CurrentModeControl" z="530" view="false" instance="1" />
-          <call link="784303139" name="PSID_Library:AverageConverter" z="540" view="false" instance="3" />
+          <call link="815459201" name="PSID_Library:ActivePI_ReactivePI" z="520" view="false" instance="0" />
+          <call link="2051780060" name="PSID_Library:CurrentModeControl" z="530" view="false" instance="0" />
+          <call link="784303139" name="PSID_Library:AverageConverter" z="540" view="false" instance="2" />
         </call>
-        <call link="408889240" name="PSID_Library_Inverters:DEMETRIOUS_SC" z="-1" view="false" instance="0">
-          <call link="1253756838" name="PSID_Library:IEEET1" z="460" view="false" instance="0">
+        <call link="788221067" name="PSID_Library_Inverters:DEMETRIOUS_SG" z="-1" view="false" instance="0">
+          <call link="13104666" name="PSID_Library:BPA_GG" z="540" view="false" instance="0" />
+          <call link="1559344279" name="PSID_Library:IEEET1" z="550" view="false" instance="0">
             <call link="1513031148" name="PSID_Library:exciter_saturation" z="140" view="false" instance="0" />
             <call link="746068508" name="PSID_Library:exciter_saturation" z="360" view="false" instance="1" />
           </call>
         </call>
-        <call link="788221067" name="PSID_Library_Inverters:DEMETRIOUS_SG" z="-1" view="false" instance="0">
-          <call link="13104666" name="PSID_Library:BPA_GG" z="540" view="false" instance="0" />
-          <call link="1559344279" name="PSID_Library:IEEET1" z="550" view="false" instance="1">
+        <call link="408889240" name="PSID_Library_Inverters:DEMETRIOUS_SC" z="-1" view="false" instance="0">
+          <call link="1253756838" name="PSID_Library:IEEET1" z="460" view="false" instance="1">
             <call link="1513031148" name="PSID_Library:exciter_saturation" z="140" view="false" instance="2" />
             <call link="746068508" name="PSID_Library:exciter_saturation" z="360" view="false" instance="3" />
           </call>
         </call>
-        <call link="1980245536" name="PSID_Library_Inverters:SAUERPAI_SEXS_HYGOV_PSSFIXED" z="-1" view="false" instance="0">
-          <call link="522972756" name="PSID_Library:HydroTurbineGov" z="-1" view="false" instance="0" />
-          <call link="2098509671" name="PSID_Library:PSSFixed" z="-1" view="false" instance="0" />
-          <call link="1986881265" name="PSID_Library:ReferenceFrameConversion_GEN" z="460" view="false" instance="0">
-            <call link="1659966761" name="PSID_Library:timestep_delay_angle" z="40" view="false" instance="7" />
-            <call link="1136399958" name="PSID_Library:dq_abc_psid" z="50" view="false" instance="4" />
-            <call link="1050186494" name="PSID_Library:abc_dq_psid" z="60" view="false" instance="15" />
-          </call>
-          <call link="1342319537" name="PSID_Library:SingleMass" z="480" view="false" instance="0" />
-          <call link="1079232214" name="PSID_Library:CurrentSourceInterface" z="500" view="false" instance="0" />
-          <call link="1909323435" name="PSID_Library:SauerPaiMachine" z="670" view="false" instance="0" />
-          <call link="1765319643" name="PSID_Library:SEXS" z="700" view="false" instance="0" />
+        <call link="1923570403" name="PSID_Library_Inverters:SEXS_GAST" z="-1" view="false" instance="0">
+          <call link="1585206052" name="PSID_Library:SEXS" z="580" view="false" instance="0" />
         </call>
-        <call link="108144603" name="PSID_Library_Inverters:SAUERPAI_SEXS_HYGOV_IEEEST" z="-1" view="false" instance="0">
-          <call link="247362444" name="PSID_Library:HydroTurbineGov" z="-1" view="false" instance="1" />
-          <call link="1229824629" name="PSID_Library:IEEEST" z="-1" view="false" instance="0">
+        <call link="938464238" name="PSID_Library_Inverters:SIMPLE_MACHINE" z="-1" view="false" instance="0" />
+        <call link="750910413" name="PSID_Library_Inverters:SAUERPAI_SEXS_GASTG_IEEEST" z="-1" view="false" instance="0">
+          <call link="1002398144" name="PSID_Library:IEEEST" z="-1" view="false" instance="0">
             <call link="1589910882" name="PSID_Library:SecOdrPole" z="-1" view="false" instance="0" />
             <call link="617299442" name="PSID_Library:SecOdrPole" z="-1" view="false" instance="1" />
           </call>
-          <call link="438661711" name="PSID_Library:ReferenceFrameConversion_GEN" z="460" view="false" instance="1">
-            <call link="1659966761" name="PSID_Library:timestep_delay_angle" z="40" view="false" instance="8" />
-            <call link="1136399958" name="PSID_Library:dq_abc_psid" z="50" view="false" instance="5" />
-            <call link="1050186494" name="PSID_Library:abc_dq_psid" z="60" view="false" instance="16" />
+          <call link="544287701" name="PSID_Library:ReferenceFrameConversion_GEN" z="460" view="false" instance="0">
+            <call link="1659966761" name="PSID_Library:timestep_delay_angle" z="40" view="false" instance="5" />
+            <call link="1136399958" name="PSID_Library:dq_abc_psid" z="50" view="false" instance="3" />
+            <call link="1050186494" name="PSID_Library:abc_dq_psid" z="60" view="false" instance="11" />
           </call>
-          <call link="124871949" name="PSID_Library:SingleMass" z="480" view="false" instance="1" />
-          <call link="1881609797" name="PSID_Library:CurrentSourceInterface" z="500" view="false" instance="1" />
-          <call link="282512531" name="PSID_Library:SauerPaiMachine" z="670" view="false" instance="1" />
-          <call link="1762595493" name="PSID_Library:SEXS" z="700" view="false" instance="1" />
+          <call link="736631037" name="PSID_Library:SingleMass" z="480" view="false" instance="0" />
+          <call link="832841914" name="PSID_Library:CurrentSourceInterface" z="500" view="false" instance="0" />
+          <call link="1673503645" name="PSID_Library:GASTG" z="660" view="false" instance="0" />
+          <call link="1929561076" name="PSID_Library:SauerPaiMachine" z="670" view="false" instance="0" />
+          <call link="287247289" name="PSID_Library:SEXS" z="700" view="false" instance="1" />
         </call>
-        <call link="1213387110" name="PSID_Library_Inverters:SAUERPAI_SEXS_TGOV1_IEEEST" z="-1" view="false" instance="0">
-          <call link="1429635466" name="PSID_Library:SteamTurbineGov1" z="-1" view="false" instance="0" />
-          <call link="170218251" name="PSID_Library:IEEEST" z="-1" view="false" instance="1">
+        <call link="66594642" name="PSID_Library_Inverters:FIXED_SAUER_PAI" z="-1" view="false" instance="0">
+          <call link="2060554581" name="PSID_Library:PSSFixed" z="-1" view="false" instance="0" />
+          <call link="1018815231" name="PSID_Library:AVRFixed" z="450" view="false" instance="0" />
+          <call link="361948377" name="PSID_Library:ReferenceFrameConversion_GEN" z="460" view="false" instance="1">
+            <call link="1659966761" name="PSID_Library:timestep_delay_angle" z="40" view="false" instance="6" />
+            <call link="1136399958" name="PSID_Library:dq_abc_psid" z="50" view="false" instance="4" />
+            <call link="1050186494" name="PSID_Library:abc_dq_psid" z="60" view="false" instance="12" />
+          </call>
+          <call link="1589381465" name="PSID_Library:TGFixed" z="470" view="false" instance="0" />
+          <call link="1624598015" name="PSID_Library:SingleMass" z="480" view="false" instance="1" />
+          <call link="1522084081" name="PSID_Library:SauerPaiMachine" z="490" view="false" instance="1" />
+          <call link="1967639684" name="PSID_Library:CurrentSourceInterface" z="500" view="false" instance="1" />
+        </call>
+        <call link="1980245536" name="PSID_Library_Inverters:SAUERPAI_SEXS_HYGOV_PSSFIXED" z="-1" view="false" instance="0">
+          <call link="2098509671" name="PSID_Library:PSSFixed" z="-1" view="false" instance="1" />
+          <call link="522972756" name="PSID_Library:HydroTurbineGov" z="-1" view="false" instance="0" />
+          <call link="1986881265" name="PSID_Library:ReferenceFrameConversion_GEN" z="460" view="false" instance="2">
+            <call link="1659966761" name="PSID_Library:timestep_delay_angle" z="40" view="false" instance="7" />
+            <call link="1136399958" name="PSID_Library:dq_abc_psid" z="50" view="false" instance="5" />
+            <call link="1050186494" name="PSID_Library:abc_dq_psid" z="60" view="false" instance="13" />
+          </call>
+          <call link="1342319537" name="PSID_Library:SingleMass" z="480" view="false" instance="2" />
+          <call link="1079232214" name="PSID_Library:CurrentSourceInterface" z="500" view="false" instance="2" />
+          <call link="1909323435" name="PSID_Library:SauerPaiMachine" z="670" view="false" instance="2" />
+          <call link="1765319643" name="PSID_Library:SEXS" z="700" view="false" instance="2" />
+        </call>
+        <call link="108144603" name="PSID_Library_Inverters:SAUERPAI_SEXS_HYGOV_IEEEST" z="-1" view="false" instance="0">
+          <call link="247362444" name="PSID_Library:HydroTurbineGov" z="-1" view="false" instance="1" />
+          <call link="1229824629" name="PSID_Library:IEEEST" z="-1" view="false" instance="1">
             <call link="1589910882" name="PSID_Library:SecOdrPole" z="-1" view="false" instance="2" />
             <call link="617299442" name="PSID_Library:SecOdrPole" z="-1" view="false" instance="3" />
           </call>
-          <call link="827418965" name="PSID_Library:ReferenceFrameConversion_GEN" z="460" view="false" instance="2">
-            <call link="1659966761" name="PSID_Library:timestep_delay_angle" z="40" view="false" instance="9" />
+          <call link="438661711" name="PSID_Library:ReferenceFrameConversion_GEN" z="460" view="false" instance="3">
+            <call link="1659966761" name="PSID_Library:timestep_delay_angle" z="40" view="false" instance="8" />
             <call link="1136399958" name="PSID_Library:dq_abc_psid" z="50" view="false" instance="6" />
-            <call link="1050186494" name="PSID_Library:abc_dq_psid" z="60" view="false" instance="17" />
+            <call link="1050186494" name="PSID_Library:abc_dq_psid" z="60" view="false" instance="14" />
           </call>
-          <call link="1943350089" name="PSID_Library:SingleMass" z="480" view="false" instance="2" />
-          <call link="1006761352" name="PSID_Library:CurrentSourceInterface" z="500" view="false" instance="2" />
-          <call link="1888152530" name="PSID_Library:SauerPaiMachine" z="670" view="false" instance="2" />
-          <call link="862504165" name="PSID_Library:SEXS" z="700" view="false" instance="2" />
+          <call link="124871949" name="PSID_Library:SingleMass" z="480" view="false" instance="3" />
+          <call link="1881609797" name="PSID_Library:CurrentSourceInterface" z="500" view="false" instance="3" />
+          <call link="282512531" name="PSID_Library:SauerPaiMachine" z="670" view="false" instance="3" />
+          <call link="1762595493" name="PSID_Library:SEXS" z="700" view="false" instance="3" />
         </call>
-        <call link="798203330" name="PSID_Library_Inverters:SAUERPAI_SEXS_GASTG_PSSFIXED" z="-1" view="false" instance="0">
-          <call link="2074342879" name="PSID_Library:ReferenceFrameConversion_GEN" z="650" view="false" instance="3">
-            <call link="1659966761" name="PSID_Library:timestep_delay_angle" z="40" view="false" instance="10" />
-            <call link="1136399958" name="PSID_Library:dq_abc_psid" z="50" view="false" instance="7" />
-            <call link="1050186494" name="PSID_Library:abc_dq_psid" z="60" view="false" instance="18" />
-          </call>
-          <call link="1111673280" name="PSID_Library:GASTG" z="660" view="false" instance="0" />
-          <call link="1735400806" name="PSID_Library:SauerPaiMachine" z="670" view="false" instance="3" />
-          <call link="1842009857" name="PSID_Library:SingleMass" z="680" view="false" instance="3" />
-          <call link="1910789646" name="PSID_Library:PSSFixed" z="690" view="false" instance="1" />
-          <call link="12004893" name="PSID_Library:SEXS" z="700" view="false" instance="3" />
-          <call link="218071143" name="PSID_Library:CurrentSourceInterface" z="710" view="false" instance="3" />
-        </call>
-        <call link="750910413" name="PSID_Library_Inverters:SAUERPAI_SEXS_GASTG_IEEEST" z="-1" view="false" instance="0">
-          <call link="1002398144" name="PSID_Library:IEEEST" z="-1" view="false" instance="2">
+        <call link="1213387110" name="PSID_Library_Inverters:SAUERPAI_SEXS_TGOV1_IEEEST" z="-1" view="false" instance="0">
+          <call link="1429635466" name="PSID_Library:SteamTurbineGov1" z="-1" view="false" instance="0" />
+          <call link="170218251" name="PSID_Library:IEEEST" z="-1" view="false" instance="2">
             <call link="1589910882" name="PSID_Library:SecOdrPole" z="-1" view="false" instance="4" />
             <call link="617299442" name="PSID_Library:SecOdrPole" z="-1" view="false" instance="5" />
           </call>
-          <call link="544287701" name="PSID_Library:ReferenceFrameConversion_GEN" z="460" view="false" instance="4">
-            <call link="1659966761" name="PSID_Library:timestep_delay_angle" z="40" view="false" instance="11" />
+          <call link="827418965" name="PSID_Library:ReferenceFrameConversion_GEN" z="460" view="false" instance="4">
+            <call link="1659966761" name="PSID_Library:timestep_delay_angle" z="40" view="false" instance="9" />
+            <call link="1136399958" name="PSID_Library:dq_abc_psid" z="50" view="false" instance="7" />
+            <call link="1050186494" name="PSID_Library:abc_dq_psid" z="60" view="false" instance="15" />
+          </call>
+          <call link="1943350089" name="PSID_Library:SingleMass" z="480" view="false" instance="4" />
+          <call link="1006761352" name="PSID_Library:CurrentSourceInterface" z="500" view="false" instance="4" />
+          <call link="1888152530" name="PSID_Library:SauerPaiMachine" z="670" view="false" instance="4" />
+          <call link="862504165" name="PSID_Library:SEXS" z="700" view="false" instance="4" />
+        </call>
+        <call link="798203330" name="PSID_Library_Inverters:SAUERPAI_SEXS_GASTG_PSSFIXED" z="-1" view="false" instance="0">
+          <call link="2074342879" name="PSID_Library:ReferenceFrameConversion_GEN" z="650" view="false" instance="5">
+            <call link="1659966761" name="PSID_Library:timestep_delay_angle" z="40" view="false" instance="10" />
             <call link="1136399958" name="PSID_Library:dq_abc_psid" z="50" view="false" instance="8" />
-            <call link="1050186494" name="PSID_Library:abc_dq_psid" z="60" view="false" instance="19" />
+            <call link="1050186494" name="PSID_Library:abc_dq_psid" z="60" view="false" instance="16" />
           </call>
-          <call link="736631037" name="PSID_Library:SingleMass" z="480" view="false" instance="4" />
-          <call link="832841914" name="PSID_Library:CurrentSourceInterface" z="500" view="false" instance="4" />
-          <call link="1673503645" name="PSID_Library:GASTG" z="660" view="false" instance="1" />
-          <call link="1929561076" name="PSID_Library:SauerPaiMachine" z="670" view="false" instance="4" />
-          <call link="287247289" name="PSID_Library:SEXS" z="700" view="false" instance="4" />
-        </call>
-        <call link="1923570403" name="PSID_Library_Inverters:SEXS_GAST" z="-1" view="false" instance="0">
-          <call link="1585206052" name="PSID_Library:SEXS" z="580" view="false" instance="5" />
-        </call>
-        <call link="66594642" name="PSID_Library_Inverters:FIXED_SAUER_PAI" z="-1" view="false" instance="0">
-          <call link="2060554581" name="PSID_Library:PSSFixed" z="-1" view="false" instance="2" />
-          <call link="1018815231" name="PSID_Library:AVRFixed" z="450" view="false" instance="0" />
-          <call link="361948377" name="PSID_Library:ReferenceFrameConversion_GEN" z="460" view="false" instance="5">
-            <call link="1659966761" name="PSID_Library:timestep_delay_angle" z="40" view="false" instance="12" />
-            <call link="1136399958" name="PSID_Library:dq_abc_psid" z="50" view="false" instance="9" />
-            <call link="1050186494" name="PSID_Library:abc_dq_psid" z="60" view="false" instance="20" />
-          </call>
-          <call link="1589381465" name="PSID_Library:TGFixed" z="470" view="false" instance="0" />
-          <call link="1624598015" name="PSID_Library:SingleMass" z="480" view="false" instance="5" />
-          <call link="1522084081" name="PSID_Library:SauerPaiMachine" z="490" view="false" instance="5" />
-          <call link="1967639684" name="PSID_Library:CurrentSourceInterface" z="500" view="false" instance="5" />
+          <call link="1111673280" name="PSID_Library:GASTG" z="660" view="false" instance="1" />
+          <call link="1735400806" name="PSID_Library:SauerPaiMachine" z="670" view="false" instance="5" />
+          <call link="1842009857" name="PSID_Library:SingleMass" z="680" view="false" instance="5" />
+          <call link="1910789646" name="PSID_Library:PSSFixed" z="690" view="false" instance="2" />
+          <call link="12004893" name="PSID_Library:SEXS" z="700" view="false" instance="5" />
+          <call link="218071143" name="PSID_Library:CurrentSourceInterface" z="710" view="false" instance="5" />
         </call>
         <call link="1467477007" name="PSID_Library_Inverters:INFINITE_BUS" z="-1" view="false" instance="0" />
+        <call link="621267136" name="PSID_Library_Inverters:GFL_KAURA_PLL" z="-1" view="true" instance="0">
+          <call link="1462166105" name="PSID_Library:KauraPLL" z="520" view="false" instance="1">
+            <call link="2065055101" name="PSID_Library:timestep_delay_angle" z="330" view="false" instance="11" />
+            <call link="1583651100" name="PSID_Library:abc_dq_psid" z="340" view="false" instance="17" />
+          </call>
+          <call link="539411229" name="PSID_Library:FixedDCSource" z="490" view="false" instance="3" />
+          <call link="817365154" name="PSID_Library:ReferenceFrameConversion_INV" z="500" view="false" instance="3">
+            <call link="1686720077" name="PSID_Library:timestep_delay_angle" z="60" view="false" instance="12" />
+            <call link="1115078297" name="PSID_Library:dq_abc_psid" z="70" view="false" instance="9" />
+            <call link="1416558759" name="PSID_Library:abc_dq_psid" z="80" view="false" instance="18" />
+            <call link="294237646" name="PSID_Library:abc_dq_psid" z="90" view="false" instance="19" />
+            <call link="1142133084" name="PSID_Library:abc_dq_psid" z="100" view="false" instance="20" />
+          </call>
+          <call link="1559633434" name="PSID_Library:LCLFilter" z="510" view="false" instance="3">
+            <call link="645843216" name="PSID_Library:ri_abc" z="890" view="false" instance="3" />
+          </call>
+          <call link="1168180068" name="PSID_Library:ActivePI_ReactivePI" z="530" view="false" instance="1" />
+          <call link="2075316472" name="PSID_Library:CurrentModeControl" z="540" view="false" instance="1" />
+          <call link="2046628562" name="PSID_Library:AverageConverter" z="550" view="false" instance="3" />
+        </call>
         <call link="1765688990" name="PSID_Library_Inverters:SAUERPAI_SEXS_TGOV1_PSSFIXED" z="-1" view="false" instance="0">
           <call link="841156577" name="PSID_Library:ReferenceFrameConversion_GEN" z="630" view="false" instance="6">
             <call link="1659966761" name="PSID_Library:timestep_delay_angle" z="40" view="false" instance="13" />
@@ -51495,7 +51496,6 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
           <call link="102653321" name="PSID_Library:PSSFixed" z="680" view="false" instance="3" />
           <call link="1931655674" name="PSID_Library:CurrentSourceInterface" z="690" view="false" instance="6" />
         </call>
-        <call link="938464238" name="PSID_Library_Inverters:SIMPLE_MACHINE" z="-1" view="false" instance="0" />
       </call>
     </call>
   </hierarchy>

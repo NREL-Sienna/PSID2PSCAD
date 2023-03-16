@@ -1,16 +1,75 @@
 <Meta name="PSID_Library">
-  <messagelist />
+  <messagelist>
+    <message status="warning" label="build" groupid="206502" id="2081364583" classid="CmpNavigator">
+      <User scope="PSID_Library" name="master:leadlag" status="warning" link="1721607065" /><![CDATA[Signal 'GEN' type conversion may lose accuracy at connection 'R']]></message>
+    <message status="warning" label="build" groupid="206502" id="1308125079" classid="CmpNavigator">
+      <User scope="PSID_Library" name="master:realpole" status="warning" link="506883605" /><![CDATA[Signal 'GEN' type conversion may lose accuracy at connection 'R']]></message>
+    <message status="warning" label="build" groupid="206502" id="653826552" classid="CmpNavigator">
+      <User scope="PSID_Library" name="master:realpole" status="warning" link="209374773" /><![CDATA[Signal 'GEN' type conversion may lose accuracy at connection 'R']]></message>
+    <message status="warning" label="build" groupid="206502" id="443457587" classid="CmpNavigator">
+      <User scope="PSID_Library" name="master:leadlag" status="warning" link="1283320370" /><![CDATA[Signal 'GEN' type conversion may lose accuracy at connection 'R']]></message>
+    <message status="warning" label="build" groupid="206502" id="839620547" classid="CmpNavigator">
+      <User scope="PSID_Library" name="master:integral" status="warning" link="879215536" /><![CDATA[Signal 'GEN' type conversion may lose accuracy at connection 'R']]></message>
+    <message status="warning" label="build" groupid="206502" id="1483972781" classid="CmpNavigator">
+      <User scope="PSID_Library" name="master:integral" status="warning" link="730570091" /><![CDATA[Signal 'GEN' type conversion may lose accuracy at connection 'R']]></message>
+    <message status="warning" label="build" groupid="206502" id="1565705015" classid="CmpNavigator">
+      <User scope="PSID_Library" name="master:integral" status="warning" link="2124658985" /><![CDATA[Signal 'GEN' type conversion may lose accuracy at connection 'R']]></message>
+    <message status="warning" label="build" groupid="206502" id="1846588540" classid="CmpNavigator">
+      <User scope="PSID_Library" name="master:integral" status="warning" link="1188742786" /><![CDATA[Signal 'GEN' type conversion may lose accuracy at connection 'R']]></message>
+    <message status="warning" label="build" groupid="206502" id="509400711" classid="CmpNavigator">
+      <User scope="PSID_Library" name="master:integral" status="warning" link="1096188767" /><![CDATA[Signal 'GEN' type conversion may lose accuracy at connection 'R']]></message>
+    <message status="warning" label="build" groupid="206502" id="319422051" classid="CmpNavigator">
+      <User scope="PSID_Library" name="master:integral" status="warning" link="877303017" /><![CDATA[Signal 'GEN' type conversion may lose accuracy at connection 'R']]></message>
+    <message status="warning" label="build" groupid="206502" id="231477232" classid="CmpNavigator">
+      <User scope="PSID_Library" name="master:integral" status="warning" link="1117486909" /><![CDATA[Signal 'GEN' type conversion may lose accuracy at connection 'R']]></message>
+    <message status="warning" label="build" groupid="206502" id="1868643615" classid="CmpNavigator">
+      <User scope="PSID_Library" name="master:realpole" status="warning" link="472444405" /><![CDATA[Signal 'INV' type conversion may lose accuracy at connection 'R']]></message>
+    <message status="warning" label="build" groupid="206502" id="2053261962" classid="CmpNavigator">
+      <User scope="PSID_Library" name="master:realpole" status="warning" link="440507626" /><![CDATA[Signal 'INV' type conversion may lose accuracy at connection 'R']]></message>
+    <message status="warning" label="build" groupid="206502" id="64218454" classid="CmpNavigator">
+      <User scope="PSID_Library" name="master:select" status="warning" link="1943296325" /><![CDATA[Signal 'INV' type conversion may lose accuracy at connection 'Ctrl']]></message>
+    <message status="warning" label="build" groupid="206502" id="726139773" classid="CmpNavigator">
+      <User scope="PSID_Library" name="master:integral" status="warning" link="1891684365" /><![CDATA[Signal 'INV' type conversion may lose accuracy at connection 'R']]></message>
+    <message status="warning" label="build" groupid="206502" id="1255420781" classid="CmpNavigator">
+      <User scope="PSID_Library" name="master:realpole" status="warning" link="231561493" /><![CDATA[Signal 'INV' type conversion may lose accuracy at connection 'R']]></message>
+    <message status="warning" label="build" groupid="206502" id="1354112593" classid="CmpNavigator">
+      <User scope="PSID_Library" name="master:integral" status="warning" link="1673256143" /><![CDATA[Signal 'INV' type conversion may lose accuracy at connection 'R']]></message>
+    <message status="warning" label="build" groupid="206502" id="576028110" classid="CmpNavigator">
+      <User scope="PSID_Library" name="master:realpole" status="warning" link="393200150" /><![CDATA[Signal 'INV' type conversion may lose accuracy at connection 'R']]></message>
+    <message status="warning" label="build" groupid="206502" id="864167729" classid="CmpNavigator">
+      <User scope="PSID_Library" name="master:integral" status="warning" link="496252468" /><![CDATA[Signal 'INV' type conversion may lose accuracy at connection 'R']]></message>
+    <message status="warning" label="build" groupid="206502" id="615943853" classid="CmpNavigator">
+      <User scope="PSID_Library" name="master:integral" status="warning" link="1332369744" /><![CDATA[Signal 'INV' type conversion may lose accuracy at connection 'R']]></message>
+    <message status="warning" label="build" groupid="206502" id="1531892592" classid="CmpNavigator">
+      <User scope="PSID_Library" name="master:realpole" status="warning" link="1188308993" /><![CDATA[Signal 'INV' type conversion may lose accuracy at connection 'R']]></message>
+    <message status="warning" label="build" groupid="206502" id="98313071" classid="CmpNavigator">
+      <User scope="PSID_Library" name="master:realpole" status="warning" link="513146012" /><![CDATA[Signal 'INV' type conversion may lose accuracy at connection 'R']]></message>
+    <message status="warning" label="build" groupid="206502" id="790114751" classid="CmpNavigator">
+      <User scope="PSID_Library" name="master:integral" status="warning" link="926160967" /><![CDATA[Signal 'INV' type conversion may lose accuracy at connection 'R']]></message>
+    <message status="warning" label="build" groupid="206502" id="704465913" classid="CmpNavigator">
+      <User scope="PSID_Library" name="master:realpole" status="warning" link="1499652905" /><![CDATA[Signal 'INV' type conversion may lose accuracy at connection 'R']]></message>
+    <message status="warning" label="build" groupid="206502" id="1693334531" classid="CmpNavigator">
+      <User scope="PSID_Library" name="master:realpole" status="warning" link="13584325" /><![CDATA[Signal 'INV' type conversion may lose accuracy at connection 'R']]></message>
+    <message status="warning" label="build" groupid="206502" id="1579306147" classid="CmpNavigator">
+      <User scope="PSID_Library" name="master:integral" status="warning" link="2071166572" /><![CDATA[Signal 'INV' type conversion may lose accuracy at connection 'R']]></message>
+    <message status="warning" label="build" groupid="206502" id="306083339" classid="CmpNavigator">
+      <User scope="PSID_Library" name="master:integral" status="warning" link="1544546380" /><![CDATA[Signal 'INV' type conversion may lose accuracy at connection 'R']]></message>
+    <message status="warning" label="build" groupid="206502" id="126842897" classid="CmpNavigator">
+      <User scope="PSID_Library" name="master:integral" status="warning" link="1271894104" /><![CDATA[Signal 'INV' type conversion may lose accuracy at connection 'R']]></message>
+    <message status="warning" label="build" groupid="206502" id="621347892" classid="CmpNavigator">
+      <User scope="PSID_Library" name="master:integral" status="warning" link="138022980" /><![CDATA[Signal 'INV' type conversion may lose accuracy at connection 'R']]></message>
+  </messagelist>
   <List classid="Settings" />
   <ViewContext>
-    <Window defn="PSID_Library:simple_brk_logic" call="0" />
+    <Window defn="PSID_Library:Main" call="0" />
   </ViewContext>
   <List classid="View">
-    <View name="Main" zoomlevel="4" scrollx="5212" scrolly="1994" zoomscale="2.92969" />
+    <View name="Main" zoomlevel="4" scrollx="794" scrolly="562" zoomscale="0.960001" />
     <View name="TGTypeII" zoomlevel="4" scrollx="0" scrolly="252" zoomscale="0.96" />
     <View name="TGOV1" zoomlevel="4" scrollx="184" scrolly="185" zoomscale="1.5" />
     <View name="SEXS" zoomlevel="1" scrollx="0" scrolly="0" zoomscale="1.5" />
     <View name="CurrentControl" zoomlevel="3" scrollx="0" scrolly="0" />
-    <View name="KauraPLL" zoomlevel="5" scrollx="235" scrolly="0" zoomscale="0.96" />
+    <View name="KauraPLL" zoomlevel="5" scrollx="0" scrolly="0" zoomscale="0.49152" />
     <View name="AverageConverter" zoomlevel="6" scrollx="0" scrolly="0" zoomscale="0.768" />
     <View name="FixedDCSource" zoomlevel="4" scrollx="0" scrolly="0" zoomscale="0.768" />
     <View name="OuterControl_1" zoomlevel="4" scrollx="0" scrolly="11" />
@@ -30,7 +89,7 @@
     <View name="VoltageModeControl" zoomlevel="4" scrollx="50" scrolly="90" zoomscale="0.96" />
     <View name="FixedFrequency" zoomlevel="4" scrollx="0" scrolly="0" zoomscale="0.96" />
     <View name="VirtualInertia_ReactiveDroop" zoomlevel="4" scrollx="0" scrolly="0" zoomscale="0.768" />
-    <View name="ActiveDroop_ReactiveDroop" zoomlevel="3" scrollx="189" scrolly="0" zoomscale="0.96" />
+    <View name="ActiveDroop_ReactiveDroop" zoomlevel="3" scrollx="23" scrolly="23" zoomscale="0.49152" />
     <View name="ReducedOrderPLL" zoomlevel="4" scrollx="0" scrolly="0" zoomscale="0.96" />
     <View name="CurrentModeControl" zoomlevel="5" scrollx="0" scrolly="0" zoomscale="0.768" />
     <View name="ActivePI_ReactivePI" zoomlevel="6" scrollx="62" scrolly="138" zoomscale="0.96" />
