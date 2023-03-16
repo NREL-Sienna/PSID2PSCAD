@@ -400,13 +400,13 @@ function write_parameters(psid_component::Source, pscad_component_name, pscad_pr
     end
     pscad_params = pscad_component.parameters()
 
-    pscad_params["V_base"] = get_base_voltage(get_bus(psid_component))
-    pscad_params["S_base"] = get_base_power(psid_component)
-    pscad_params["V_pf"] = get_magnitude(get_bus(psid_component))
-    pscad_params["theta_pf"] = get_angle(get_bus(psid_component)) * (180 / pi)
-    #pscad_params["P_out"] = get_active_power(psid_component)
-    #pscad_params["Q_out"] = get_reactive_power(psid_component)
-    #pscad_params["Spec"]  = 1   #Sets Spec to be "AT_THE_TERMINAL" 
+    pscad_params["Vbase"] = get_base_voltage(get_bus(psid_component))
+    pscad_params["Sbase"] = get_base_power(psid_component)
+    pscad_params["Vpu"] = get_magnitude(get_bus(psid_component))
+    pscad_params["PhT"] = get_angle(get_bus(psid_component)) * (180 / pi)
+    pscad_params["Pinit"] = get_active_power(psid_component)
+    pscad_params["Qinit"] = get_reactive_power(psid_component)
+    pscad_params["Spec"]  = 1   #Sets Spec to be "AT_THE_TERMINAL" 
 
     PP.update_parameter_by_dictionary(pscad_component, pscad_params)
 end
