@@ -369,22 +369,21 @@ function build_component(
     add_line_breakers = false, 
     add_multimeters = false
 )
-    split_parts = split(pscad_component_name, "-")
+    #Winding #1 => from bus, Winding #2 => to bus  
+    from_bus_name = get_name(get_from(get_arc(psid_component)))
+    to_bus_name = get_name(get_to(get_arc(psid_component)))
     midpoint =
-        floor(Int, (coorDict[split_parts[1]].centerpoint[1] + coorDict[split_parts[2]].centerpoint[1]) / 2),
-        floor(Int, (coorDict[split_parts[1]].centerpoint[2] + coorDict[split_parts[2]].centerpoint[2]) / 2)
+        floor(Int, (coorDict[from_bus_name].centerpoint[1] + coorDict[to_bus_name].centerpoint[1]) / 2),
+        floor(Int, (coorDict[from_bus_name].centerpoint[2] + coorDict[to_bus_name].centerpoint[2]) / 2)
     new_xfmr = pscad_canvas.add_component("master", "xfmr-3p2w", midpoint[1], midpoint[2])
     new_xfmr.set_parameters(Name = pscad_component_name)
-    if coorDict[split_parts[2]].centerpoint[1] > coorDict[split_parts[1]].centerpoint[1]
-        new_wire =
-        pscad_canvas.add_wire(new_xfmr.get_port_location("N2"), coorDict[split_parts[2]].centerpoint)
-        new_wire2 =
-        pscad_canvas.add_wire(new_xfmr.get_port_location("N1"), coorDict[split_parts[1]].centerpoint)
+    if coorDict[to_bus_name].centerpoint[1] > coorDict[from_bus_name].centerpoint[1]
+        pscad_canvas.add_wire(new_xfmr.get_port_location("N1"), coorDict[from_bus_name].centerpoint)
+        pscad_canvas.add_wire(new_xfmr.get_port_location("N2"), coorDict[to_bus_name].centerpoint)
     else
-        new_wire =
-        pscad_canvas.add_wire(new_xfmr.get_port_location("N1"), coorDict[split_parts[2]].centerpoint)
-        new_wire2 =
-        pscad_canvas.add_wire(new_xfmr.get_port_location("N2"), coorDict[split_parts[1]].centerpoint)
+        new_xfmr.mirror()
+        pscad_canvas.add_wire(new_xfmr.get_port_location("N1"), coorDict[from_bus_name].centerpoint)
+        pscad_canvas.add_wire(new_xfmr.get_port_location("N2"), coorDict[to_bus_name].centerpoint)
     end
     new_xfmr.set_parameters(YD1 = 0, YD2 = 0)
     new_gnd = pscad_canvas.add_component("master", "ground", midpoint[1], midpoint[2]+3)
