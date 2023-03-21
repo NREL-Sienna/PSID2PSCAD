@@ -243,10 +243,13 @@ function write_parameters(
 )
     pscad_component = pscad_project.find(pscad_component_name)
     pscad_params = pscad_component.parameters()
-
+    #Winding #1 => from bus, Winding #2 => to bus  
+    pscad_params["V1"] = get_base_voltage(get_from(get_arc(psid_component)))
+    pscad_params["V2"] = get_base_voltage(get_to(get_arc(psid_component)))
     pscad_params["Xl"] = get_x(psid_component)
     pscad_params["YD1"] = 0 # 0 means grounded wye
     pscad_params["YD2"] = 0 # 0 means grounded wye
+    pscad_params["Ideal"] = 1 # Ideal transformer model neglects magnetizing branch
     if get_r(psid_component) != 0.0
         @error "PSID component has r not equal to 0, but can't set in PSCAD"
     end
@@ -400,13 +403,13 @@ function write_parameters(psid_component::Source, pscad_component_name, pscad_pr
     end
     pscad_params = pscad_component.parameters()
 
-    pscad_params["V_base"] = get_base_voltage(get_bus(psid_component))
-    pscad_params["S_base"] = get_base_power(psid_component)
-    pscad_params["V_pf"] = get_magnitude(get_bus(psid_component))
-    pscad_params["theta_pf"] = get_angle(get_bus(psid_component)) * (180 / pi)
-    #pscad_params["P_out"] = get_active_power(psid_component)
-    #pscad_params["Q_out"] = get_reactive_power(psid_component)
-    #pscad_params["Spec"]  = 1   #Sets Spec to be "AT_THE_TERMINAL" 
+    pscad_params["Vbase"] = get_base_voltage(get_bus(psid_component))
+    pscad_params["Sbase"] = get_base_power(psid_component)
+    pscad_params["Vpu"] = get_magnitude(get_bus(psid_component))
+    pscad_params["PhT"] = get_angle(get_bus(psid_component)) * (180 / pi)
+    pscad_params["Pinit"] = get_active_power(psid_component)
+    pscad_params["Qinit"] = get_reactive_power(psid_component)
+    pscad_params["Spec"]  = 1   #Sets Spec to be "AT_THE_TERMINAL" 
 
     PP.update_parameter_by_dictionary(pscad_component, pscad_params)
 end
