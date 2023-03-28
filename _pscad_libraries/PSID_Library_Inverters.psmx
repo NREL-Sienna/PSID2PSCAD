@@ -2,14 +2,14 @@
   <messagelist />
   <List classid="Settings" />
   <ViewContext>
-    <Window defn="PSID_Library:KauraPLL" call="0" />
+    <Window defn="PSID_Library_Inverters:Main" call="0" />
   </ViewContext>
   <List classid="View">
-    <View name="Main" zoomlevel="4" scrollx="0" scrolly="72" zoomscale="1.5" />
+    <View name="Main" zoomlevel="4" scrollx="0" scrolly="36" zoomscale="1.5" />
     <View name="OuterControl" zoomlevel="4" scrollx="152" scrolly="134" />
     <View name="PSID_VSM" zoomlevel="6" scrollx="0" scrolly="0" />
     <View name="DARCO_VSM" zoomlevel="6" scrollx="0" scrolly="744" zoomscale="0.96" />
-    <View name="DROOP_GFM" zoomlevel="6" scrollx="0" scrolly="224" zoomscale="0.96" />
+    <View name="DROOP_GFM" zoomlevel="6" scrollx="0" scrolly="409" zoomscale="1.5" />
     <View name="GFL" zoomlevel="6" scrollx="0" scrolly="0" zoomscale="0.96" />
     <View name="DEMETRIOUS_SG" zoomlevel="6" scrollx="0" scrolly="0" zoomscale="1.2" />
     <View name="DEMETRIOUS_SC" zoomlevel="4" scrollx="0" scrolly="48" zoomscale="1.5" />
@@ -27,8 +27,8 @@
     <View name="SAUERPAI_SEXS_HYGOV_IEEEST" zoomscale="0.49152" scrollx="0" scrolly="81" />
     <View name="SAUERPAI_SEXS_HYGOV_PSSFIXED" zoomscale="0.768" scrollx="0" scrolly="0" />
     <View name="SAUERPAI_SEXS_TGOV1_IEEEST" zoomscale="0.768" scrollx="0" scrolly="0" />
-    <View name="SAUERPAI_SEXS_TGOV1_PSSFIXED" zoomscale="0.768" scrollx="0" scrolly="0" />
-    <View name="GFL_KAURA_PLL" zoomscale="0.96" scrollx="0" scrolly="0" />
+    <View name="SAUERPAI_SEXS_TGOV1_PSSFIXED" zoomscale="1.5" scrollx="196" scrolly="45" />
+    <View name="GFL_KAURA_PLL" zoomscale="1.2" scrollx="0" scrolly="179" />
     <View name="GFL_REDUCED_PLL" zoomscale="1.5" scrollx="0" scrolly="108" />
   </List>
   <Catalog count="0" />

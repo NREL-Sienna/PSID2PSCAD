@@ -30,7 +30,7 @@ function setup_output_channnels(project, quantities_to_record::Vector{Tuple{Symb
     
         #new_channel.set_parameters(Name = channel_name)
         new_signal.set_parameters(Name = channel_name)
-        starting_coord = (starting_coord[1] + 5, starting_coord[2])
+        starting_coord = (starting_coord[1] + 1, starting_coord[2])
     end 
 end 
 
