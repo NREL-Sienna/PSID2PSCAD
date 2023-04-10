@@ -602,7 +602,7 @@ function build_component(
 end
 
 function build_component(
-    psid_component::PowerLoad,
+    psid_component::Union{StandardLoad,PowerLoad},
     pscad_component_name,
     pscad_canvas,
     coorDict,
