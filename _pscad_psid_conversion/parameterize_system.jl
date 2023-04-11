@@ -71,9 +71,9 @@ function write_parameters!(
     pscad_params,
     outer_control::OuterControl{VirtualInertia, ReactivePowerDroop},
 )
-    active_power = get_active_power(outer_control)
+    active_power = PowerSystems.get_active_power_control(outer_control)
     write_parameters!(pscad_params, active_power)
-    reactive_power = get_reactive_power(outer_control)
+    reactive_power = PowerSystems.get_reactive_power_control(outer_control)
     write_parameters!(pscad_params, reactive_power)
 end
 
@@ -81,9 +81,9 @@ function write_parameters!(
     pscad_params,
     outer_control::OuterControl{ActivePowerDroop, ReactivePowerDroop},
 )
-    active_power = get_active_power(outer_control)
+    active_power = PowerSystems.get_active_power_control(outer_control)
     write_parameters!(pscad_params, active_power)
-    reactive_power = get_reactive_power(outer_control)
+    reactive_power = PowerSystems.get_reactive_power_control(outer_control)
     write_parameters!(pscad_params, reactive_power)
 end
 
@@ -91,9 +91,9 @@ function write_parameters!(
     pscad_params,
     outer_control::OuterControl{ActivePowerPI, ReactivePowerPI},
 )
-    active_power = get_active_power(outer_control)
+    active_power = PowerSystems.get_active_power_control(outer_control)
     write_parameters!(pscad_params, active_power)
-    reactive_power = get_reactive_power(outer_control)
+    reactive_power = PowerSystems.get_reactive_power_control(outer_control)
     write_parameters!(pscad_params, reactive_power)
 end
 
@@ -324,6 +324,20 @@ function write_parameters(
     PP.update_parameter_by_dictionary(pscad_component, pscad_params)
 end
 
+function write_parameters(psid_component::StandardLoad, pscad_component_name, pscad_project)
+    @warn "Parameterizing based on StandardLoad with only constant impedance -- ensure load modelling assumptions are correct"
+    pscad_component = pscad_project.find(pscad_component_name)
+    pscad_params = pscad_component.parameters()
+    pscad_params["PO"] =
+        get_base_power(psid_component) * get_impedance_active_power(psid_component) / 3 #pscad takes per phase
+    pscad_params["QO"] =
+        get_base_power(psid_component) * get_impedance_reactive_power(psid_component) / 3  #pscad takes per phase
+    pscad_params["VBO"] = get_base_voltage(get_bus(psid_component)) / sqrt(3) #pscad takes L-G voltage
+    pscad_params["VPU"] = get_magnitude(get_bus(psid_component))
+    pscad_params["PQdef"] = "INITIAL_TERMINAL"    #PQ corresponds to initial conditions
+    PP.update_parameter_by_dictionary(pscad_component, pscad_params)
+end
+
 function write_parameters(psid_component::PowerLoad, pscad_component_name, pscad_project)
     pscad_component = pscad_project.find(pscad_component_name)
     pscad_params = pscad_component.parameters()
@@ -337,7 +351,37 @@ function write_parameters(psid_component::PowerLoad, pscad_component_name, pscad
     PP.update_parameter_by_dictionary(pscad_component, pscad_params)
 end
 
-function write_parameters(psid_component::Line, pscad_component_name, pscad_project) end
+function write_parameters(psid_component::Line, pscad_component_name, pscad_project) 
+    pscad_component_name = filter(x -> !isspace(x), pscad_component_name)
+    pscad_component = pscad_project.find(pscad_component_name)
+    pscad_params = pscad_component.parameters()
+    pscad_params["PU"] = 3 #Enter impedances in PU 
+    pscad_params["VR2"] = get_base_voltage(get_from(get_arc(psid_component)))
+    pscad_params["len"] = 1e5
+    if pscad_component.defn_name[2] == "newpi"
+        r = get_r(psid_component)
+        if r == 0
+            pscad_params["RPUP2"] = 1e-307
+        else
+            pscad_params["RPUP2"] = r * 1e-5
+        end
+
+        x = get_x(psid_component)
+        if x == 0
+            pscad_params["XLPUP2"] = 1e-307
+        else
+            pscad_params["XLPUP2"] = x * 1e-5
+        end
+
+        b_total = get_b(psid_component)[1] + get_b(psid_component)[2]
+        if b_total == 0
+            pscad_params["BPUP2"] = 1e-307
+        else
+            pscad_params["BPUP2"] = b_total * 1e-5
+        end
+    end
+    PP.update_parameter_by_dictionary(pscad_component, pscad_params)
+end
 
 function write_parameters(
     psid_component::DynamicBranch,
@@ -348,6 +392,7 @@ function write_parameters(
     pscad_component = pscad_project.find(pscad_component_name)
     @error "IN LINE"
     pscad_params = pscad_component.parameters()
+    pscad_params["PU"] = 3 #Enter impedances in PU
     pscad_params["VR2"] = get_base_voltage(get_from(get_arc(psid_component)))
     pscad_params["len"] = 1e5
     if pscad_component.defn_name[2] == "newpi"

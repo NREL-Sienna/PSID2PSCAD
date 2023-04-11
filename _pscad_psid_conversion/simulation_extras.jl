@@ -5,7 +5,17 @@ end
 function setup_breaker_operations(project, perturbation::PowerSimulationsDynamics.BranchTrip)
     breaker_name =string("br_", pscad_compat_name(perturbation.branch_name), "_1") 
     breaker_logic = project.find("PSID_Library:simple_brk_logic", breaker_name )
-    breaker_logic.set_parameters(enable = 1, t_break = 1.0)
+    breaker_logic.set_parameters(enable = 1, t_break = perturbation.time)
+    breaker_name =string("br_", pscad_compat_name(perturbation.branch_name), "_2") 
+    breaker_logic = project.find("PSID_Library:simple_brk_logic", breaker_name )
+    breaker_logic.set_parameters(enable = 1, t_break = perturbation.time)
+end  
+
+function setup_breaker_operations(project, perturbation::PowerSimulationsDynamics.GeneratorTrip)
+    perturbation_name = get_name(perturbation.device)
+    breaker_name =string("br_", pscad_compat_name(perturbation_name), "_1") 
+    breaker_logic = project.find("PSID_Library:simple_brk_logic", breaker_name )
+    breaker_logic.set_parameters(enable = 1, t_break = perturbation.time)
 end  
 
 function setup_output_channnels(project, quantities_to_record::Vector{Tuple{Symbol, String}}, starting_coord; force = true)

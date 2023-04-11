@@ -181,7 +181,7 @@ function build_component(
             gen_br_coors[2]
             )
         br_name =  "br_"*replace(pscad_component_name, "-" => "_")*"_1"
-        gen_br.set_parameters(NAME = br_name)        #TODO - should give these meaningful names based on :from and :to in PSID
+        gen_br.set_parameters(NAME = br_name, RON = 0.0)      
         _add_breaker_logic_peripherals(pscad_canvas, br_name, gen_br_coors)
         new_wire =
             pscad_canvas.create_wire(gen_br.get_port_location("N1"), coorDict[Busname].centerpoint)
@@ -258,7 +258,7 @@ function build_component(
             inv_br_coors[2]
             )
         br_name =  "br_"*replace(pscad_component_name, "-" => "_")*"_1"
-        inv_br.set_parameters(NAME = br_name)        #TODO - should give these meaningful names based on :from and :to in PSID
+        inv_br.set_parameters(NAME = br_name, RON = 0.0)      
         _add_breaker_logic_peripherals(pscad_canvas, br_name, inv_br_coors)
         new_wire =
             pscad_canvas.create_wire(inv_br.get_port_location("N1"), coorDict[Busname].centerpoint)
@@ -335,7 +335,7 @@ function build_component(
             inv_br_coors[2]
             )
         br_name =  "br_"*replace(pscad_component_name, "-" => "_")*"_1"
-        inv_br.set_parameters(NAME = br_name)        #TODO - should give these meaningful names based on :from and :to in PSID
+        inv_br.set_parameters(NAME = br_name, RON = 0.0)       
         _add_breaker_logic_peripherals(pscad_canvas, br_name, inv_br_coors)
         new_wire =
             pscad_canvas.create_wire(inv_br.get_port_location("N1"), coorDict[Busname].centerpoint)
@@ -412,7 +412,7 @@ function build_component(
             inv_br_coors[2]
             )
         br_name =  "br_"*replace(pscad_component_name, "-" => "_")*"_1"
-        inv_br.set_parameters(NAME = br_name)        #TODO - should give these meaningful names based on :from and :to in PSID
+        inv_br.set_parameters(NAME = br_name, RON = 0.0)        
         _add_breaker_logic_peripherals(pscad_canvas, br_name, inv_br_coors)
         new_wire =
             pscad_canvas.create_wire(inv_br.get_port_location("N1"), coorDict[Busname].centerpoint)
@@ -489,7 +489,7 @@ function build_component(
             inv_br_coors[2]
             )
         br_name =  "br_"*replace(pscad_component_name, "-" => "_")*"_1"
-        inv_br.set_parameters(NAME = br_name)        #TODO - should give these meaningful names based on :from and :to in PSID
+        inv_br.set_parameters(NAME = br_name, RON = 0.0)        
         _add_breaker_logic_peripherals(pscad_canvas, br_name, inv_br_coors)
         new_wire =
             pscad_canvas.create_wire(inv_br.get_port_location("N1"), coorDict[Busname].centerpoint)
@@ -539,8 +539,8 @@ function build_component(psid_component::Line, pscad_component_name, pscad_canva
         end
         br1_name =  "br_"*replace(pscad_component_name, "-" => "_")*"_1"
         br2_name =  "br_"*replace(pscad_component_name, "-" => "_")*"_2"
-        new_br1.set_parameters(NAME = br1_name)        #TODO - should give these meaningful names based on :from and :to in PSID
-        new_br2.set_parameters(NAME = br2_name)
+        new_br1.set_parameters(NAME = br1_name, RON = 0.0)        #TODO - should give these meaningful names based on :from and :to in PSID
+        new_br2.set_parameters(NAME = br2_name, RON = 0.0)
         _add_breaker_logic_peripherals(pscad_canvas, br1_name, br_coors1)
         _add_breaker_logic_peripherals(pscad_canvas, br2_name, br_coors2)
     else
@@ -630,7 +630,7 @@ function build_component(
             br_coors[2]
             )
         br_name =  "br_"*replace(pscad_component_name, "-" => "_")*"_1"
-        new_br.set_parameters(NAME = br_name)        #TODO - should give these meaningful names based on :from and :to in PSID
+        new_br.set_parameters(NAME = br_name, RON = 0.0)        
         _add_breaker_logic_peripherals(pscad_canvas, br_name, br_coors)
         new_wire = pscad_canvas.add_wire(new_br.get_port_location("N2"), coorDict[loadbus].centerpoint)
     else
