@@ -21,7 +21,7 @@
     <param name="Warn" value="0" />
     <param name="Check" value="0" />
     <param name="description" value="" />
-    <param name="revisor" value="Matt Bossart, 1680015814" />
+    <param name="revisor" value="Matt Bossart, 1680015848" />
     <param name="sparsity_threshold" value="200" />
   </paramlist>
   <Layers>
@@ -44223,7 +44223,7 @@ Milano, page 359
         <grouping />
       </schematic>
     </Definition>
-    <Definition classid="UserCmpDefn" name="Main" id="1166570604" group="" url="" version="" build="" crc="58573924" view="false" date="0">
+    <Definition classid="UserCmpDefn" name="Main" id="1166570604" group="" url="" version="" build="" crc="117398674" view="false" date="0">
       <paramlist name="">
         <param name="Description" value="" />
       </paramlist>
@@ -46183,7 +46183,7 @@ https://info.ornl.gov/sites/publications/files/Pub47049.pdf]]></Sticky>
           </paramlist>
         </User>
         <User classid="UserCmp" id="417400883" name="PSID_Library:SauerPaiMachine" x="306" y="360" w="215" h="81" z="-1" orient="0" defn="PSID_Library:SauerPaiMachine" link="-1" q="4" disable="false">
-          <paramlist name="" link="-1" crc="12440758">
+          <paramlist name="" link="-1" crc="7727852">
             <param name="Name" value="" />
             <param name="Name_0" value="" />
             <param name="R" value="R" />
@@ -46206,6 +46206,8 @@ https://info.ornl.gov/sites/publications/files/Pub47049.pdf]]></Sticky>
             <param name="x0_5" value="innercontrol_x0_2" />
             <param name="x0_6" value="innercontrol_x0_2" />
             <param name="f_base" value="f_base" />
+            <param name="P_out" value="P" />
+            <param name="Q_out" value="Q" />
           </paramlist>
         </User>
         <User classid="UserCmp" id="1883499949" name="PSID_Library:CurrentSourceInterface" x="306" y="108" w="205" h="92" z="-1" orient="0" defn="PSID_Library:CurrentSourceInterface" link="-1" q="4" disable="false">
@@ -48633,7 +48635,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
         </Wire>
       </schematic>
     </Definition>
-    <Definition classid="UserCmpDefn" name="SauerPaiMachine" build="" crc="76814543" view="false" instances="0" date="1680015037" id="1825217716" w="320" h="400" url="" group="">
+    <Definition classid="UserCmpDefn" name="SauerPaiMachine" build="" crc="73185641" view="false" instances="0" date="1680015037" id="1825217716" w="320" h="400" url="" group="">
       <paramlist>
         <param name="Description" value="" />
       </paramlist>
@@ -49065,6 +49067,21 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
           </parameter>
           <parameter desc="x0_6" name="x0_6" group="General" unit="" min="-1E+308" max="1E+308" content_type="Constant" type="Real" helpmode="Append" intent="Input" dim="1" animate="false">
             <value><![CDATA[innercontrol_x0_2]]></value>
+            <cond />
+            <help />
+            <vis />
+          </parameter>
+        </category>
+        <category name="Monitoring" visible="true">
+          <cond />
+          <parameter desc="Output Power" name="P_out" group="" unit="" min="-1E+308" max="1E+308" content_type="Variable" type="Real" helpmode="Append" intent="Output" dim="1" animate="false">
+            <value><![CDATA[P]]></value>
+            <cond />
+            <help />
+            <vis />
+          </parameter>
+          <parameter desc="Output Reactive Power" name="Q_out" group="General" unit="" min="-1E+308" max="1E+308" content_type="Variable" type="Real" helpmode="Append" intent="Output" dim="1" animate="false">
+            <value><![CDATA[Q]]></value>
             <cond />
             <help />
             <vis />
