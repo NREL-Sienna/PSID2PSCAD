@@ -72,9 +72,26 @@ def basic_pscad_startup():
     version, x64 = sorted(versions)[-1]
     LOG.info("   Selected PSCAD version: %s %d-bit", version, 64 if x64 else 32)
 
+    # Get all installed FORTRAN compiler versions
+    fortrans = mhi.pscad.fortran_versions()
+    LOG.info("FORTRAN Versions: %s", fortrans)
+
+    # Skip 'GFortran' compilers, if other choices exist
+    vers = [ver for ver in fortrans if 'GFortran' not in ver]
+    if len(vers) > 0:
+        fortrans = vers
+
+    LOG.info("   After filtering: %s", fortrans)
+
+    # Order the remaining compilers, choose the last one (highest revision)
+    fortran = sorted(fortrans)[-1]
+    LOG.info("   Selected FORTRAN version: %s", fortran)
+
     # Launch PSCAD
-    LOG.info("Launching: %s", version)
-    pscad = mhi.pscad.launch(version=version, minimize=True, x64=x64)
+    LOG.info("Launching: %s  FORTRAN=%r", version, fortran)
+    settings = { 'fortran_version': fortran }
+    pscad = mhi.pscad.launch(minimize=True, version=version, x64=x64,
+                            settings=settings)
 
     if not pscad:
         ERROR += ERROR
