@@ -325,13 +325,13 @@ function write_parameters(
 end
 
 function write_parameters(psid_component::StandardLoad, pscad_component_name, pscad_project)
-    @warn "Parameterizing based on StandardLoad with only constant impedance -- ensure load modelling assumptions are correct"
+    @error "Parameterizing based on StandardLoad with only constant impedance -- ensure load modelling assumptions are correct"
     pscad_component = pscad_project.find(pscad_component_name)
     pscad_params = pscad_component.parameters()
     pscad_params["PO"] =
-        get_base_power(psid_component) * get_impedance_active_power(psid_component) / 3 #pscad takes per phase
+        get_base_power(psid_component) * (get_impedance_active_power(psid_component) +  get_constant_active_power(psid_component) +  get_current_active_power(psid_component)) / 3 #pscad takes per phase
     pscad_params["QO"] =
-        get_base_power(psid_component) * get_impedance_reactive_power(psid_component) / 3  #pscad takes per phase
+        get_base_power(psid_component) * (get_impedance_reactive_power(psid_component) +  get_constant_reactive_power(psid_component) +  get_current_reactive_power(psid_component)) / 3  #pscad takes per phase
     pscad_params["VBO"] = get_base_voltage(get_bus(psid_component)) / sqrt(3) #pscad takes L-G voltage
     pscad_params["VPU"] = get_magnitude(get_bus(psid_component))
     pscad_params["PQdef"] = "INITIAL_TERMINAL"    #PQ corresponds to initial conditions
