@@ -1,15 +1,28 @@
 <Meta name="PSID_Library_Inverters">
-  <messagelist />
+  <messagelist>
+    <message status="error" label="build" groupid="300503" id="1936536986" classid="CmpNavigator">
+      <User scope="PSID_Library_Inverters" name="PSID_Library:GAST" status="error" link="1645426511" /><![CDATA[Unable to resolve definition 'PSID_Library:GAST']]></message>
+    <message status="error" label="build" groupid="300503" id="1421384800" classid="CmpNavigator">
+      <User scope="PSID_Library_Inverters" name="PSID_Library:GAST" status="error" link="1645426511" /><![CDATA[Unable to resolve definition 'PSID_Library:GAST']]></message>
+    <message status="error" label="build" groupid="300503" id="1963725521" classid="CmpNavigator">
+      <User scope="PSID_Library_Inverters" name="PSID_Library:GAST" status="error" link="1645426511" /><![CDATA[Unable to resolve definition 'PSID_Library:GAST']]></message>
+    <message status="error" label="build" groupid="300503" id="2099996567" classid="CmpNavigator">
+      <User scope="PSID_Library_Inverters" name="PSID_Library:GAST" status="error" link="1645426511" /><![CDATA[Unable to resolve definition 'PSID_Library:GAST']]></message>
+    <message status="error" label="build" groupid="300503" id="73510518" classid="CmpNavigator">
+      <User scope="PSID_Library_Inverters" name="PSID_Library:GAST" status="error" link="1645426511" /><![CDATA[Unable to resolve definition 'PSID_Library:GAST']]></message>
+    <message status="error" label="build" groupid="300503" id="682013078" classid="CmpNavigator">
+      <User scope="PSID_Library_Inverters" name="PSID_Library:GAST" status="error" link="1645426511" /><![CDATA[Unable to resolve definition 'PSID_Library:GAST']]></message>
+  </messagelist>
   <List classid="Settings" />
   <ViewContext>
-    <Window defn="PSID_Library_Inverters:Main" call="0" />
+    <Window defn="PSID_Library:LCLFilter" call="0" />
   </ViewContext>
   <List classid="View">
-    <View name="Main" zoomlevel="4" scrollx="0" scrolly="36" zoomscale="1.5" />
+    <View name="Main" zoomlevel="4" scrollx="0" scrolly="0" zoomscale="1.5" />
     <View name="OuterControl" zoomlevel="4" scrollx="152" scrolly="134" />
     <View name="PSID_VSM" zoomlevel="6" scrollx="0" scrolly="0" />
-    <View name="DARCO_VSM" zoomlevel="6" scrollx="0" scrolly="744" zoomscale="0.96" />
-    <View name="DROOP_GFM" zoomlevel="6" scrollx="0" scrolly="409" zoomscale="1.5" />
+    <View name="DARCO_VSM" zoomlevel="6" scrollx="0" scrolly="0" zoomscale="0.96" />
+    <View name="DROOP_GFM" zoomlevel="6" scrollx="0" scrolly="0" zoomscale="0.96" />
     <View name="GFL" zoomlevel="6" scrollx="0" scrolly="0" zoomscale="0.96" />
     <View name="DEMETRIOUS_SG" zoomlevel="6" scrollx="0" scrolly="0" zoomscale="1.2" />
     <View name="DEMETRIOUS_SC" zoomlevel="4" scrollx="0" scrolly="48" zoomscale="1.5" />
