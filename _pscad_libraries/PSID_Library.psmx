@@ -2,7 +2,7 @@
   <messagelist />
   <List classid="Settings" />
   <ViewContext>
-    <Window defn="PSID_Library:CurrentSourceInterface" call="0" />
+    <Window defn="PSID_Library:timestep_next_angle" call="0" />
   </ViewContext>
   <List classid="View">
     <View name="Main" zoomlevel="4" scrollx="0" scrolly="0" zoomscale="0.768001" />
@@ -59,7 +59,7 @@
     <View name="SteamTurbineGov1" zoomscale="0.96" scrollx="0" scrolly="0" />
     <View name="simple_brk_logic" zoomscale="0.6144" scrollx="0" scrolly="0" />
     <View name="timestep_delay_angle_1" zoomscale="0.768001" scrollx="0" scrolly="0" />
-    <View name="timestep_next_angle" zoomscale="1.5" scrollx="91" scrolly="0" />
+    <View name="timestep_next_angle" zoomscale="1.5" scrollx="0" scrolly="0" />
   </List>
   <Catalog count="0" />
 </Meta>

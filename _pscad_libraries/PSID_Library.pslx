@@ -21,7 +21,7 @@
     <param name="Warn" value="0" />
     <param name="Check" value="0" />
     <param name="description" value="" />
-    <param name="revisor" value="Matt Bossart, 1682160251" />
+    <param name="revisor" value="Matt Bossart, 1682160424" />
     <param name="sparsity_threshold" value="200" />
   </paramlist>
   <Layers>
@@ -16731,7 +16731,7 @@
     </Settings>
   </List>
   <definitions>
-    <Definition classid="UserCmpDefn" name="simple_brk_logic" build="" crc="48880174" view="false" instances="0" date="1681723281" id="407277916" w="320" h="400">
+    <Definition classid="UserCmpDefn" name="simple_brk_logic" build="" crc="48880174" view="false" instances="0" date="1682160376" id="407277916" w="320" h="400">
       <paramlist>
         <param name="Description" value="" />
       </paramlist>
@@ -16871,7 +16871,7 @@
         </Wire>
       </schematic>
     </Definition>
-    <Definition classid="UserCmpDefn" name="LCLFilter" build="" crc="91525309" view="false" instances="0" date="1680015038" id="1618076215" w="320" h="400" url="" group="">
+    <Definition classid="UserCmpDefn" name="LCLFilter" build="" crc="7054163" view="false" instances="0" date="1682160377" id="1618076215" w="320" h="400" url="" group="">
       <paramlist>
         <param name="Description" value="" />
       </paramlist>
@@ -17256,7 +17256,7 @@
             <param name="Name" value="POI" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:varrlc" id="1553951085" x="972" y="234" w="52" h="44" z="1050" orient="5" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:varrlc" id="1553951085" x="972" y="234" w="52" h="44" z="960" orient="5" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="130577312">
             <param name="RLC" value="2" />
             <param name="R" value="1.0 [ohm]" />
@@ -17268,7 +17268,7 @@
             <param name="Name" value="" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:varrlc" id="695042820" x="1152" y="162" w="44" h="52" z="1060" orient="6" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:varrlc" id="695042820" x="1152" y="162" w="44" h="52" z="970" orient="6" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="130577312">
             <param name="RLC" value="1" />
             <param name="R" value="1.0 [ohm]" />
@@ -17280,7 +17280,7 @@
             <param name="Name" value="" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:varrlc" id="225727878" x="1098" y="162" w="50" h="52" z="1080" orient="6" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:varrlc" id="225727878" x="1098" y="162" w="50" h="52" z="1000" orient="6" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="130577312">
             <param name="RLC" value="0" />
             <param name="R" value="Rg_ohm" />
@@ -17292,7 +17292,7 @@
             <param name="Name" value="" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:varrlc" id="234205047" x="900" y="162" w="44" h="52" z="1100" orient="6" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:varrlc" id="234205047" x="900" y="162" w="44" h="52" z="1010" orient="6" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="130577312">
             <param name="RLC" value="1" />
             <param name="R" value="1.0 [ohm]" />
@@ -17304,7 +17304,7 @@
             <param name="Name" value="" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:varrlc" id="1842708176" x="846" y="162" w="47" h="52" z="1110" orient="6" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:varrlc" id="1842708176" x="846" y="162" w="47" h="52" z="1020" orient="6" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="130577312">
             <param name="RLC" value="0" />
             <param name="R" value="rf_ohm" />
@@ -17441,14 +17441,14 @@
             <param name="Name" value="f_base" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:mult" id="2050807036" x="504" y="1206" w="80" h="56" z="710" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:mult" id="2050807036" x="504" y="1206" w="80" h="56" z="640" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="29714769">
             <param name="DPath" value="1" />
             <param name="Name" value="" />
             <param name="Dim" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:emtconst" id="298690237" x="468" y="1242" w="76" h="22" z="490" orient="0" link="-1" layer="" q="4" disable="false">
+        <User classid="UserCmp" defn="master:emtconst" id="298690237" x="468" y="1242" w="76" h="22" z="440" orient="0" link="-1" layer="" q="4" disable="false">
           <paramlist link="-1" name="" crc="116269466">
             <param name="Name" value="" />
             <param name="Value" value="1" />
@@ -17472,7 +17472,7 @@
           <vertex x="0" y="0" />
           <vertex x="18" y="0" />
         </Wire>
-        <User classid="UserCmp" name="master:div" id="1725683810" x="756" y="1026" w="80" h="59" z="760" orient="0" defn="master:div" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:div" id="1725683810" x="756" y="1026" w="80" h="59" z="690" orient="0" defn="master:div" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="74852640">
             <param name="Dim" value="1" />
             <param name="Name" value="" />
@@ -17525,21 +17525,21 @@
             <param name="Name" value="omega_base" />
           </paramlist>
         </User>
-        <User classid="UserCmp" name="master:div" id="2061430365" x="792" y="1134" w="80" h="59" z="740" orient="0" defn="master:div" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:div" id="2061430365" x="792" y="1134" w="80" h="59" z="670" orient="0" defn="master:div" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="74852640">
             <param name="Dim" value="1" />
             <param name="Name" value="" />
             <param name="DPath" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:mult" id="1980086620" x="756" y="1170" w="80" h="56" z="730" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:mult" id="1980086620" x="756" y="1170" w="80" h="56" z="660" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="29714769">
             <param name="DPath" value="1" />
             <param name="Name" value="" />
             <param name="Dim" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" name="master:const" id="663870066" x="684" y="1134" w="76" h="22" z="450" orient="0" defn="master:const" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:const" id="663870066" x="684" y="1134" w="76" h="22" z="410" orient="0" defn="master:const" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="10628662">
             <param name="Name" value="" />
             <param name="Value" value="1.0" />
@@ -17562,7 +17562,7 @@
             <param name="bdr_color_adv" value="#FF95918C" />
           </paramlist><![CDATA[Convert filter components from p.u. to physical units
 ]]></Sticky>
-        <User classid="UserCmp" defn="master:gain" id="1360250149" x="1008" y="1062" w="80" h="36" z="400" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:gain" id="1360250149" x="1008" y="1062" w="80" h="36" z="380" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="34173863">
             <param name="G" value="Z_base" />
             <param name="COM" value="Gain" />
@@ -17571,7 +17571,7 @@
             <param name="DPath" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:gain" id="1101997415" x="1008" y="1008" w="80" h="36" z="890" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:gain" id="1101997415" x="1008" y="1008" w="80" h="36" z="820" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="34173863">
             <param name="G" value="L_base" />
             <param name="COM" value="Gain" />
@@ -17580,7 +17580,7 @@
             <param name="DPath" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:gain" id="1143822568" x="1008" y="1116" w="80" h="36" z="750" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:gain" id="1143822568" x="1008" y="1116" w="80" h="36" z="680" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="34173863">
             <param name="G" value="C_base" />
             <param name="COM" value="Gain" />
@@ -17614,7 +17614,7 @@
             <param name="Name" value="rg" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:gain" id="249210853" x="1008" y="1170" w="80" h="36" z="870" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:gain" id="249210853" x="1008" y="1170" w="80" h="36" z="800" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="34173863">
             <param name="G" value="L_base" />
             <param name="COM" value="Gain" />
@@ -17623,7 +17623,7 @@
             <param name="DPath" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:gain" id="1273111952" x="1008" y="1224" w="80" h="36" z="500" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:gain" id="1273111952" x="1008" y="1224" w="80" h="36" z="450" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="34173863">
             <param name="G" value="Z_base" />
             <param name="COM" value="Gain" />
@@ -17632,7 +17632,7 @@
             <param name="DPath" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:gain" id="291606122" x="1116" y="1116" w="80" h="36" z="880" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:gain" id="291606122" x="1116" y="1116" w="80" h="36" z="810" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="34173863">
             <param name="G" value="1e6" />
             <param name="COM" value="Gain" />
@@ -17741,7 +17741,7 @@
             <param name="Name" value="I_base" />
           </paramlist>
         </User>
-        <User classid="UserCmp" name="master:div" id="1437693543" x="504" y="1116" w="80" h="59" z="410" orient="0" defn="master:div" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:div" id="1437693543" x="504" y="1116" w="80" h="59" z="390" orient="0" defn="master:div" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="74852640">
             <param name="Dim" value="1" />
             <param name="Name" value="" />
@@ -17832,7 +17832,7 @@
           <vertex x="0" y="0" />
           <vertex x="36" y="0" />
         </Wire>
-        <User classid="UserCmp" name="master:export" id="478251662" x="1746" y="288" w="101" h="24" z="1000" orient="2" defn="master:export" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:export" id="478251662" x="1746" y="288" w="101" h="24" z="910" orient="2" defn="master:export" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="68967217">
             <param name="Name" value="I_cnv_abc" />
           </paramlist>
@@ -17961,7 +17961,7 @@
             <param name="Name" value="I_cnv_abc" />
           </paramlist>
         </User>
-        <User classid="UserCmp" name="master:datamerge" id="1049434816" x="594" y="810" w="27" h="80" z="970" orient="4" defn="master:datamerge" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:datamerge" id="1049434816" x="594" y="810" w="27" h="80" z="880" orient="4" defn="master:datamerge" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="43697768">
             <param name="N" value="3" />
             <param name="Type" value="2" />
@@ -17996,14 +17996,14 @@
             <param name="Name" value="I_base" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:div" id="1434291608" x="432" y="756" w="80" h="59" z="620" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:div" id="1434291608" x="432" y="756" w="80" h="59" z="570" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="74852640">
             <param name="Dim" value="1" />
             <param name="Name" value="" />
             <param name="DPath" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:div" id="1168838001" x="432" y="684" w="80" h="59" z="610" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:div" id="1168838001" x="432" y="684" w="80" h="59" z="560" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="74852640">
             <param name="Dim" value="1" />
             <param name="Name" value="" />
@@ -18097,21 +18097,21 @@
           <vertex x="0" y="0" />
           <vertex x="36" y="0" />
         </Wire>
-        <User classid="UserCmp" defn="master:mult" id="222065398" x="1368" y="1008" w="80" h="56" z="690" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:mult" id="222065398" x="1368" y="1008" w="80" h="56" z="620" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="29714769">
             <param name="DPath" value="1" />
             <param name="Name" value="" />
             <param name="Dim" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:emtconst" id="933887319" x="1332" y="1044" w="76" h="22" z="430" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:emtconst" id="933887319" x="1332" y="1044" w="76" h="22" z="400" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="116269466">
             <param name="Name" value="" />
             <param name="Value" value="11" />
             <param name="Dim" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:emtconst" id="2015890486" x="1278" y="1008" w="76" h="22" z="390" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:emtconst" id="2015890486" x="1278" y="1008" w="76" h="22" z="370" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="116269466">
             <param name="Name" value="" />
             <param name="Value" value="10" />
@@ -18127,7 +18127,7 @@
             <param name="Name" value="root3_2" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:gain" id="1812827068" x="504" y="684" w="80" h="36" z="820" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:gain" id="1812827068" x="504" y="684" w="80" h="36" z="750" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="34173863">
             <param name="G" value="root3_2" />
             <param name="COM" value="Gain" />
@@ -18136,7 +18136,7 @@
             <param name="DPath" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:gain" id="327709315" x="504" y="756" w="80" h="36" z="800" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:gain" id="327709315" x="504" y="756" w="80" h="36" z="730" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="34173863">
             <param name="G" value="root3_2" />
             <param name="COM" value="Gain" />
@@ -18170,7 +18170,7 @@
             <param name="Name" value="x0_5" />
           </paramlist>
         </User>
-        <User classid="UserCmp" name="master:import" id="1369436577" x="90" y="1116" w="74" h="25" z="380" orient="0" defn="master:import" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:import" id="1369436577" x="90" y="1116" w="74" h="25" z="360" orient="0" defn="master:import" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="117509081">
             <param name="Name" value="x0_6" />
           </paramlist>
@@ -18195,7 +18195,7 @@
             <param name="Name" value="t_INV" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:breaker3" id="1692999865" x="756" y="198" w="41" h="80" z="1070" orient="1" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:breaker3" id="1692999865" x="756" y="198" w="41" h="80" z="980" orient="1" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="72525059">
             <param name="Ctrl" value="0" />
             <param name="OPCUR" value="1" />
@@ -18241,13 +18241,13 @@
           <vertex x="0" y="0" />
           <vertex x="54" y="0" />
         </Wire>
-        <User classid="UserCmp" name="PSID_Library:ri_abc" id="645843216" x="774" y="450" w="95" h="117" z="980" orient="0" defn="PSID_Library:ri_abc" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="PSID_Library:ri_abc" id="645843216" x="774" y="450" w="95" h="117" z="890" orient="0" defn="PSID_Library:ri_abc" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="83917187">
             <param name="Name" value="" />
             <param name="t_RAMP" value="t_RAMP" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:datamerge" id="1761005055" x="738" y="432" w="62" h="44" z="840" orient="3" link="-1" layer="" q="4" disable="false">
+        <User classid="UserCmp" defn="master:datamerge" id="1761005055" x="738" y="432" w="62" h="44" z="770" orient="3" link="-1" layer="" q="4" disable="false">
           <paramlist link="-1" name="" crc="43697768">
             <param name="N" value="2" />
             <param name="Type" value="2" />
@@ -18273,7 +18273,7 @@
             <param name="Name" value="x0_3" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:sumjct" id="1953140454" x="540" y="378" w="80" h="82" z="720" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:sumjct" id="1953140454" x="540" y="378" w="80" h="82" z="650" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="16672553">
             <param name="DPath" value="1" />
             <param name="A" value="0" />
@@ -18292,7 +18292,7 @@
             <param name="Name" value="x0_1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:gain" id="897143231" x="468" y="342" w="80" h="36" z="570" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:gain" id="897143231" x="468" y="342" w="80" h="36" z="520" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="34173863">
             <param name="G" value="rf" />
             <param name="COM" value="Gain" />
@@ -18301,7 +18301,7 @@
             <param name="DPath" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:gain" id="2138985914" x="396" y="414" w="80" h="36" z="580" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:gain" id="2138985914" x="396" y="414" w="80" h="36" z="530" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="34173863">
             <param name="G" value="lf" />
             <param name="COM" value="Gain" />
@@ -18342,7 +18342,7 @@
             <param name="Name" value="x0_4" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:sumjct" id="509710209" x="540" y="486" w="80" h="82" z="830" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:sumjct" id="509710209" x="540" y="486" w="80" h="82" z="760" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="16672553">
             <param name="DPath" value="1" />
             <param name="A" value="0" />
@@ -18361,7 +18361,7 @@
             <param name="Name" value="x0_1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:gain" id="957250792" x="468" y="450" w="80" h="36" z="590" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:gain" id="957250792" x="468" y="450" w="80" h="36" z="540" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="34173863">
             <param name="G" value="rf" />
             <param name="COM" value="Gain" />
@@ -18370,7 +18370,7 @@
             <param name="DPath" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:gain" id="1054490893" x="396" y="522" w="80" h="36" z="600" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:gain" id="1054490893" x="396" y="522" w="80" h="36" z="550" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="34173863">
             <param name="G" value="lf" />
             <param name="COM" value="Gain" />
@@ -18472,7 +18472,7 @@
             <param name="Name" value="t_RAMP" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:breaker3" id="1578832350" x="720" y="162" w="80" h="41" z="1120" orient="2" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:breaker3" id="1578832350" x="720" y="162" w="80" h="41" z="1030" orient="2" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="72525059">
             <param name="Ctrl" value="0" />
             <param name="OPCUR" value="1" />
@@ -18514,7 +18514,7 @@
             <param name="InitStatus" value="0" />
           </paramlist>
         </User>
-        <User classid="UserCmp" name="master:source_1" id="10640411" x="504" y="144" w="55" h="80" z="1140" orient="1" defn="master:source_1" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:source_1" id="10640411" x="504" y="144" w="55" h="80" z="1050" orient="1" defn="master:source_1" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="49505675">
             <param name="Name" value="Top" />
             <param name="Type" value="6" />
@@ -18546,7 +18546,7 @@
             <param name="Com" value="0" />
           </paramlist>
         </User>
-        <User classid="UserCmp" name="master:source_1" id="2083751526" x="558" y="216" w="55" h="80" z="1090" orient="1" defn="master:source_1" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:source_1" id="2083751526" x="558" y="216" w="55" h="80" z="990" orient="1" defn="master:source_1" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="49505675">
             <param name="Name" value="Top" />
             <param name="Type" value="6" />
@@ -18572,7 +18572,7 @@
             <param name="CUR" value="" />
           </paramlist>
         </User>
-        <User classid="UserCmp" name="master:source_1" id="1111521806" x="612" y="288" w="55" h="80" z="1040" orient="1" defn="master:source_1" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:source_1" id="1111521806" x="612" y="288" w="55" h="80" z="950" orient="1" defn="master:source_1" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="49505675">
             <param name="Name" value="Top" />
             <param name="Type" value="6" />
@@ -18633,7 +18633,7 @@
           <vertex x="0" y="0" />
           <vertex x="36" y="0" />
         </Wire>
-        <User classid="UserCmp" defn="master:gain" id="1403464211" x="126" y="198" w="80" h="36" z="540" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:gain" id="1403464211" x="126" y="198" w="80" h="36" z="490" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="34173863">
             <param name="G" value="V_base" />
             <param name="COM" value="Gain" />
@@ -18647,21 +18647,21 @@
             <param name="Name" value="Va" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:mult" id="1448075876" x="1368" y="1098" w="80" h="56" z="700" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:mult" id="1448075876" x="1368" y="1098" w="80" h="56" z="630" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="29714769">
             <param name="DPath" value="1" />
             <param name="Name" value="" />
             <param name="Dim" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:emtconst" id="380347546" x="1332" y="1134" w="76" h="22" z="480" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:emtconst" id="380347546" x="1332" y="1134" w="76" h="22" z="430" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="116269466">
             <param name="Name" value="" />
             <param name="Value" value="12" />
             <param name="Dim" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:emtconst" id="1926786778" x="1278" y="1098" w="76" h="22" z="460" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:emtconst" id="1926786778" x="1278" y="1098" w="76" h="22" z="420" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="116269466">
             <param name="Name" value="" />
             <param name="Value" value="9" />
@@ -18677,7 +18677,7 @@
             <param name="Name" value="root2_3" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:gain" id="2016704480" x="234" y="198" w="80" h="36" z="1130" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:gain" id="2016704480" x="234" y="198" w="80" h="36" z="1040" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="34173863">
             <param name="G" value="root2_3" />
             <param name="COM" value="Gain" />
@@ -18703,7 +18703,7 @@
           <vertex x="0" y="0" />
           <vertex x="36" y="0" />
         </Wire>
-        <User classid="UserCmp" defn="master:gain" id="1303044091" x="126" y="234" w="80" h="36" z="550" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:gain" id="1303044091" x="126" y="234" w="80" h="36" z="500" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="34173863">
             <param name="G" value="V_base" />
             <param name="COM" value="Gain" />
@@ -18717,7 +18717,7 @@
             <param name="Name" value="Vb" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:gain" id="1385709913" x="234" y="234" w="80" h="36" z="860" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:gain" id="1385709913" x="234" y="234" w="80" h="36" z="790" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="34173863">
             <param name="G" value="root2_3" />
             <param name="COM" value="Gain" />
@@ -18743,7 +18743,7 @@
           <vertex x="0" y="0" />
           <vertex x="36" y="0" />
         </Wire>
-        <User classid="UserCmp" defn="master:gain" id="587482111" x="126" y="270" w="80" h="36" z="560" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:gain" id="587482111" x="126" y="270" w="80" h="36" z="510" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="34173863">
             <param name="G" value="V_base" />
             <param name="COM" value="Gain" />
@@ -18757,7 +18757,7 @@
             <param name="Name" value="Vc" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:gain" id="974260557" x="234" y="270" w="80" h="36" z="850" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:gain" id="974260557" x="234" y="270" w="80" h="36" z="780" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="34173863">
             <param name="G" value="root2_3" />
             <param name="COM" value="Gain" />
@@ -18779,7 +18779,7 @@
           <vertex x="0" y="0" />
           <vertex x="18" y="0" />
         </Wire>
-        <User classid="UserCmp" defn="master:datatap" id="712407541" x="216" y="72" w="28" h="26" z="520" orient="6" link="-1" layer="" q="4" disable="false">
+        <User classid="UserCmp" defn="master:datatap" id="712407541" x="216" y="72" w="28" h="26" z="470" orient="6" link="-1" layer="" q="4" disable="false">
           <paramlist link="-1" name="" crc="38224701">
             <param name="Index" value="2" />
             <param name="Dim" value="1" />
@@ -18789,7 +18789,7 @@
             <param name="Name" value="" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:datatap" id="540413876" x="180" y="72" w="28" h="26" z="510" orient="6" link="-1" layer="" q="4" disable="false">
+        <User classid="UserCmp" defn="master:datatap" id="540413876" x="180" y="72" w="28" h="26" z="460" orient="6" link="-1" layer="" q="4" disable="false">
           <paramlist link="-1" name="" crc="38224701">
             <param name="Index" value="1" />
             <param name="Dim" value="1" />
@@ -18807,7 +18807,7 @@
           <vertex x="0" y="0" />
           <vertex x="18" y="0" />
         </Wire>
-        <User classid="UserCmp" defn="master:datatap" id="1014758850" x="252" y="72" w="28" h="26" z="530" orient="6" link="-1" layer="" q="4" disable="false">
+        <User classid="UserCmp" defn="master:datatap" id="1014758850" x="252" y="72" w="28" h="26" z="480" orient="6" link="-1" layer="" q="4" disable="false">
           <paramlist link="-1" name="" crc="38224701">
             <param name="Index" value="3" />
             <param name="Dim" value="1" />
@@ -18882,14 +18882,14 @@
             <param name="Name" value="I_base" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:div" id="895382152" x="432" y="828" w="80" h="59" z="640" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:div" id="895382152" x="432" y="828" w="80" h="59" z="590" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="74852640">
             <param name="Dim" value="1" />
             <param name="Name" value="" />
             <param name="DPath" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:gain" id="1045324011" x="504" y="828" w="80" h="36" z="960" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:gain" id="1045324011" x="504" y="828" w="80" h="36" z="870" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="34173863">
             <param name="G" value="root3_2" />
             <param name="COM" value="Gain" />
@@ -18941,7 +18941,7 @@
             <param name="Name" value="V_cap_abc" />
           </paramlist>
         </User>
-        <User classid="UserCmp" name="master:datamerge" id="2102964841" x="954" y="810" w="27" h="80" z="950" orient="4" defn="master:datamerge" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:datamerge" id="2102964841" x="954" y="810" w="27" h="80" z="860" orient="4" defn="master:datamerge" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="43697768">
             <param name="N" value="3" />
             <param name="Type" value="2" />
@@ -19079,7 +19079,7 @@
             <param name="Name" value="I_flt_abc" />
           </paramlist>
         </User>
-        <User classid="UserCmp" name="master:datamerge" id="1542584757" x="1332" y="810" w="27" h="80" z="930" orient="4" defn="master:datamerge" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:datamerge" id="1542584757" x="1332" y="810" w="27" h="80" z="840" orient="4" defn="master:datamerge" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="43697768">
             <param name="N" value="3" />
             <param name="Type" value="2" />
@@ -19114,14 +19114,14 @@
             <param name="Name" value="I_base" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:div" id="1751971899" x="1170" y="756" w="80" h="59" z="650" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:div" id="1751971899" x="1170" y="756" w="80" h="59" z="600" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="74852640">
             <param name="Dim" value="1" />
             <param name="Name" value="" />
             <param name="DPath" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:div" id="2086371020" x="1170" y="684" w="80" h="59" z="630" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:div" id="2086371020" x="1170" y="684" w="80" h="59" z="580" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="74852640">
             <param name="Dim" value="1" />
             <param name="Name" value="" />
@@ -19162,7 +19162,7 @@
             <param name="Name" value="" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:gain" id="783466428" x="1242" y="684" w="80" h="36" z="790" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:gain" id="783466428" x="1242" y="684" w="80" h="36" z="720" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="34173863">
             <param name="G" value="root3_2" />
             <param name="COM" value="Gain" />
@@ -19171,7 +19171,7 @@
             <param name="DPath" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:gain" id="822255566" x="1242" y="756" w="80" h="36" z="770" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:gain" id="822255566" x="1242" y="756" w="80" h="36" z="700" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="34173863">
             <param name="G" value="root3_2" />
             <param name="COM" value="Gain" />
@@ -19185,14 +19185,14 @@
             <param name="Name" value="I_base" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:div" id="662840711" x="1170" y="828" w="80" h="59" z="660" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:div" id="662840711" x="1170" y="828" w="80" h="59" z="610" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="74852640">
             <param name="Dim" value="1" />
             <param name="Name" value="" />
             <param name="DPath" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:gain" id="206718651" x="1242" y="828" w="80" h="36" z="920" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:gain" id="206718651" x="1242" y="828" w="80" h="36" z="830" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="34173863">
             <param name="G" value="root3_2" />
             <param name="COM" value="Gain" />
@@ -19250,7 +19250,7 @@
             <param name="Name" value="i_abc_kA" />
           </paramlist>
         </User>
-        <User classid="UserCmp" name="master:export" id="1390612382" x="1746" y="252" w="93" h="24" z="1020" orient="2" defn="master:export" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:export" id="1390612382" x="1746" y="252" w="93" h="24" z="930" orient="2" defn="master:export" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="68967217">
             <param name="Name" value="I_flt_abc" />
           </paramlist>
@@ -19264,7 +19264,7 @@
           <vertex x="0" y="0" />
           <vertex x="54" y="0" />
         </Wire>
-        <User classid="UserCmp" name="master:export" id="122140373" x="1746" y="216" w="97" h="24" z="1030" orient="2" defn="master:export" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:export" id="122140373" x="1746" y="216" w="97" h="24" z="940" orient="2" defn="master:export" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="68967217">
             <param name="Name" value="V_flt_abc" />
           </paramlist>
@@ -19326,7 +19326,7 @@
           <vertex x="0" y="0" />
           <vertex x="36" y="0" />
         </Wire>
-        <User classid="UserCmp" defn="master:gain" id="81523144" x="864" y="684" w="80" h="36" z="810" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:gain" id="81523144" x="864" y="684" w="80" h="36" z="740" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="34173863">
             <param name="G" value="root3_2" />
             <param name="COM" value="Gain" />
@@ -19335,7 +19335,7 @@
             <param name="DPath" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:gain" id="338130506" x="864" y="756" w="80" h="36" z="780" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:gain" id="338130506" x="864" y="756" w="80" h="36" z="710" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="34173863">
             <param name="G" value="root3_2" />
             <param name="COM" value="Gain" />
@@ -19344,7 +19344,7 @@
             <param name="DPath" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:gain" id="1650154232" x="864" y="828" w="80" h="36" z="940" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:gain" id="1650154232" x="864" y="828" w="80" h="36" z="850" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="34173863">
             <param name="G" value="root3_2" />
             <param name="COM" value="Gain" />
@@ -19386,7 +19386,7 @@
         <User classid="UserCmp" name="master:ground" id="1248379929" x="612" y="324" w="26" h="34" z="-1" orient="1" defn="master:ground" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="28206164" />
         </User>
-        <User classid="UserCmp" defn="master:tbreakn" id="842684272" x="1116" y="342" w="78" h="59" z="1010" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:tbreakn" id="842684272" x="1116" y="342" w="78" h="59" z="920" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="130641473">
             <param name="NUMS" value="1" />
             <param name="INIT" value="0" />
@@ -19395,7 +19395,7 @@
             <param name="Name" value="" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:tbreakn" id="2010733654" x="1116" y="414" w="78" h="59" z="990" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:tbreakn" id="2010733654" x="1116" y="414" w="78" h="59" z="900" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="130641473">
             <param name="NUMS" value="1" />
             <param name="INIT" value="1" />
@@ -19666,7 +19666,7 @@
         </Wire>
       </schematic>
     </Definition>
-    <Definition classid="UserCmpDefn" name="ReferenceFrameConversion_INV" build="" crc="51300184" view="false" instances="0" date="1681723281" id="1427823627" w="320" h="400" url="" group="">
+    <Definition classid="UserCmpDefn" name="ReferenceFrameConversion_INV" build="" crc="114732441" view="false" instances="0" date="1682160376" id="1427823627" w="320" h="400" url="" group="">
       <paramlist>
         <param name="Description" value="" />
       </paramlist>
@@ -20239,12 +20239,12 @@
             <param name="Name" value="I_cnv_abc" />
           </paramlist>
         </User>
-        <User id="860888075" classid="UserCmp" defn="master:export" x="702" y="180" h="24" w="96" z="130" q="4" orient="2" link="-1" disable="false">
+        <User id="860888075" classid="UserCmp" defn="master:export" x="702" y="180" h="24" w="96" z="140" q="4" orient="2" link="-1" disable="false">
           <paramlist name="" link="-1" crc="68967217">
             <param name="Name" value="I_cnv_dq" />
           </paramlist>
         </User>
-        <User id="2061985516" classid="UserCmp" defn="master:export" x="270" y="180" h="24" w="105" z="140" q="4" orient="2" link="-1" disable="false">
+        <User id="2061985516" classid="UserCmp" defn="master:export" x="270" y="180" h="24" w="105" z="150" q="4" orient="2" link="-1" disable="false">
           <paramlist name="" link="-1" crc="68967217">
             <param name="Name" value="V_cnv_abc" />
           </paramlist>
@@ -20255,7 +20255,7 @@
             <param name="Name" value="V_flt_abc" />
           </paramlist>
         </User>
-        <User id="290994794" classid="UserCmp" defn="master:export" x="702" y="324" h="24" w="92" z="120" q="4" orient="2" link="-1" disable="false">
+        <User id="290994794" classid="UserCmp" defn="master:export" x="702" y="324" h="24" w="92" z="130" q="4" orient="2" link="-1" disable="false">
           <paramlist name="" link="-1" crc="68967217">
             <param name="Name" value="V_flt_dq" />
           </paramlist>
@@ -20265,7 +20265,7 @@
             <param name="Name" value="I_flt_abc" />
           </paramlist>
         </User>
-        <User id="1427860161" classid="UserCmp" defn="master:export" x="702" y="468" h="24" w="88" z="110" q="4" orient="2" link="-1" disable="false">
+        <User id="1427860161" classid="UserCmp" defn="master:export" x="702" y="468" h="24" w="88" z="120" q="4" orient="2" link="-1" disable="false">
           <paramlist name="" link="-1" crc="68967217">
             <param name="Name" value="I_flt_dq" />
           </paramlist>
@@ -20279,13 +20279,13 @@
           <vertex x="0" y="0" />
           <vertex x="54" y="0" />
         </Wire>
-        <User classid="UserCmp" id="1416558759" name="PSID_Library:abc_dq_psid" x="594" y="162" w="104" h="65" z="80" orient="0" defn="PSID_Library:abc_dq_psid" link="-1" q="4" disable="false">
+        <User classid="UserCmp" id="1416558759" name="PSID_Library:abc_dq_psid" x="594" y="162" w="104" h="65" z="90" orient="0" defn="PSID_Library:abc_dq_psid" link="-1" q="4" disable="false">
           <paramlist name="" link="-1" crc="131120749">
             <param name="Name" value="" />
             <param name="theta" value="0" />
           </paramlist>
         </User>
-        <User classid="UserCmp" id="1115078297" name="PSID_Library:dq_abc_psid" x="162" y="162" w="108" h="67" z="70" orient="0" defn="PSID_Library:dq_abc_psid" link="-1" q="4" disable="false">
+        <User classid="UserCmp" id="1115078297" name="PSID_Library:dq_abc_psid" x="162" y="162" w="108" h="67" z="80" orient="0" defn="PSID_Library:dq_abc_psid" link="-1" q="4" disable="false">
           <paramlist name="" link="-1" crc="131120749">
             <param name="theta" value="0" />
           </paramlist>
@@ -20333,7 +20333,7 @@
           <vertex x="0" y="0" />
           <vertex x="0" y="-18" />
         </Wire>
-        <User classid="UserCmp" id="294237646" name="PSID_Library:abc_dq_psid" x="594" y="306" w="104" h="65" z="90" orient="0" defn="PSID_Library:abc_dq_psid" link="-1" q="4" disable="false">
+        <User classid="UserCmp" id="294237646" name="PSID_Library:abc_dq_psid" x="594" y="306" w="104" h="65" z="100" orient="0" defn="PSID_Library:abc_dq_psid" link="-1" q="4" disable="false">
           <paramlist name="" link="-1" crc="131120749">
             <param name="Name" value="" />
             <param name="theta" value="0" />
@@ -20356,7 +20356,7 @@
           <vertex x="0" y="0" />
           <vertex x="0" y="-18" />
         </Wire>
-        <User classid="UserCmp" id="1142133084" name="PSID_Library:abc_dq_psid" x="594" y="450" w="104" h="65" z="100" orient="0" defn="PSID_Library:abc_dq_psid" link="-1" q="4" disable="false">
+        <User classid="UserCmp" id="1142133084" name="PSID_Library:abc_dq_psid" x="594" y="450" w="104" h="65" z="110" orient="0" defn="PSID_Library:abc_dq_psid" link="-1" q="4" disable="false">
           <paramlist name="" link="-1" crc="131120749">
             <param name="Name" value="" />
             <param name="theta" value="0" />
@@ -20379,7 +20379,7 @@
           <vertex x="0" y="0" />
           <vertex x="0" y="-18" />
         </Wire>
-        <User classid="UserCmp" id="1305307483" name="PSID_Library:timestep_delay_angle" x="396" y="18" w="98" h="52" z="40" orient="0" defn="PSID_Library:timestep_delay_angle" link="-1" q="4" disable="false">
+        <User classid="UserCmp" id="1305307483" name="PSID_Library:timestep_delay_angle" x="396" y="18" w="98" h="52" z="70" orient="0" defn="PSID_Library:timestep_delay_angle" link="-1" q="4" disable="false">
           <paramlist name="" link="-1" crc="131120749">
             <param name="theta" value="0" />
           </paramlist>
@@ -20732,7 +20732,7 @@
         </User>
       </schematic>
     </Definition>
-    <Definition classid="UserCmpDefn" name="ActivePI_ReactivePI" group="" url="" version="" build="" crc="115972276" instances="0" key="" view="false" date="1680015040" id="1023623776">
+    <Definition classid="UserCmpDefn" name="ActivePI_ReactivePI" group="" url="" version="" build="" crc="54903673" instances="0" key="" view="false" date="1682160378" id="1023623776">
       <paramlist name="">
         <param name="Description" value="" />
       </paramlist>
@@ -20922,7 +20922,7 @@
             <param name="Name" value="V_ref_olc" />
           </paramlist>
         </User>
-        <User classid="UserCmp" name="master:export" id="649779980" x="1512" y="432" w="93" h="24" z="590" orient="4" defn="master:export" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:export" id="649779980" x="1512" y="432" w="93" h="24" z="570" orient="4" defn="master:export" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="68967217">
             <param name="Name" value="I_ref_olc" />
           </paramlist>
@@ -21012,7 +21012,7 @@
             <param name="Dim" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:sumjct" id="1890171610" x="936" y="306" w="80" h="63" z="490" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:sumjct" id="1890171610" x="936" y="306" w="80" h="63" z="450" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="16672553">
             <param name="DPath" value="1" />
             <param name="A" value="0" />
@@ -21026,7 +21026,7 @@
             <param name="Dim" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:realpole" id="13584325" x="882" y="378" w="80" h="58" z="470" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:realpole" id="13584325" x="882" y="378" w="80" h="58" z="430" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="96177319">
             <param name="Limit" value="0" />
             <param name="COM" value="Real_Pole" />
@@ -21088,7 +21088,7 @@
             <param name="Dim" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:div" id="842501591" x="234" y="378" w="80" h="59" z="610" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:div" id="842501591" x="234" y="378" w="80" h="59" z="590" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="74852640">
             <param name="Dim" value="1" />
             <param name="Name" value="" />
@@ -21102,7 +21102,7 @@
             <param name="Dim" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:mult" id="1338797365" x="198" y="414" w="80" h="56" z="600" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:mult" id="1338797365" x="198" y="414" w="80" h="56" z="580" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="29714769">
             <param name="DPath" value="1" />
             <param name="Name" value="" />
@@ -21199,7 +21199,7 @@
             <param name="Name" value="I_dq" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:sumjct" id="1770214424" x="702" y="576" w="80" h="82" z="430" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:sumjct" id="1770214424" x="702" y="576" w="80" h="82" z="390" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="16672553">
             <param name="DPath" value="1" />
             <param name="A" value="0" />
@@ -21213,7 +21213,7 @@
             <param name="Dim" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:mult" id="164680857" x="630" y="540" w="80" h="56" z="410" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:mult" id="164680857" x="630" y="540" w="80" h="56" z="370" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="29714769">
             <param name="DPath" value="1" />
             <param name="Name" value="" />
@@ -21227,21 +21227,21 @@
             <param name="Dim" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:mult" id="613434303" x="612" y="360" w="80" h="56" z="400" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:mult" id="613434303" x="612" y="360" w="80" h="56" z="360" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="29714769">
             <param name="DPath" value="1" />
             <param name="Name" value="" />
             <param name="Dim" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:mult" id="504613277" x="612" y="288" w="80" h="56" z="390" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:mult" id="504613277" x="612" y="288" w="80" h="56" z="350" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="29714769">
             <param name="DPath" value="1" />
             <param name="Name" value="" />
             <param name="Dim" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:sumjct" id="1465520143" x="684" y="324" w="80" h="82" z="460" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:sumjct" id="1465520143" x="684" y="324" w="80" h="82" z="420" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="16672553">
             <param name="DPath" value="1" />
             <param name="A" value="0" />
@@ -21305,12 +21305,12 @@
             <param name="Name" value="P" />
           </paramlist>
         </User>
-        <User classid="UserCmp" name="master:export" id="1716367632" x="1566" y="666" w="78" h="24" z="320" orient="4" defn="master:export" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:export" id="1716367632" x="1566" y="666" w="78" h="24" z="530" orient="4" defn="master:export" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="68967217">
             <param name="Name" value="P_out" />
           </paramlist>
         </User>
-        <User classid="UserCmp" name="master:export" id="1472267094" x="1566" y="702" w="80" h="24" z="340" orient="4" defn="master:export" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:export" id="1472267094" x="1566" y="702" w="80" h="24" z="520" orient="4" defn="master:export" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="68967217">
             <param name="Name" value="Q_out" />
           </paramlist>
@@ -21869,17 +21869,17 @@
             <param name="Name" value="P_ref" />
           </paramlist>
         </User>
-        <User classid="UserCmp" name="master:import" id="1469018040" x="144" y="918" w="74" h="25" z="350" orient="0" defn="master:import" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:import" id="1469018040" x="144" y="918" w="74" h="25" z="310" orient="0" defn="master:import" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="117509081">
             <param name="Name" value="x0_1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" name="master:import" id="1656079564" x="144" y="954" w="74" h="25" z="360" orient="0" defn="master:import" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:import" id="1656079564" x="144" y="954" w="74" h="25" z="320" orient="0" defn="master:import" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="117509081">
             <param name="Name" value="x0_2" />
           </paramlist>
         </User>
-        <User classid="UserCmp" name="master:import" id="1209669487" x="144" y="990" w="74" h="25" z="370" orient="0" defn="master:import" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:import" id="1209669487" x="144" y="990" w="74" h="25" z="330" orient="0" defn="master:import" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="117509081">
             <param name="Name" value="x0_3" />
           </paramlist>
@@ -21901,14 +21901,14 @@
             <param name="Dim" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:div" id="1523585354" x="288" y="594" w="80" h="59" z="420" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:div" id="1523585354" x="288" y="594" w="80" h="59" z="380" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="74852640">
             <param name="Dim" value="1" />
             <param name="Name" value="" />
             <param name="DPath" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:div" id="921558749" x="288" y="702" w="80" h="59" z="450" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:div" id="921558749" x="288" y="702" w="80" h="59" z="410" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="74852640">
             <param name="Dim" value="1" />
             <param name="Name" value="" />
@@ -21944,7 +21944,7 @@
           <vertex x="0" y="0" />
           <vertex x="126" y="0" />
         </Wire>
-        <User classid="UserCmp" defn="master:sumjct" id="761203812" x="936" y="540" w="80" h="63" z="480" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:sumjct" id="761203812" x="936" y="540" w="80" h="63" z="440" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="16672553">
             <param name="DPath" value="1" />
             <param name="A" value="0" />
@@ -21958,7 +21958,7 @@
             <param name="Dim" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:realpole" id="1499652905" x="882" y="612" w="80" h="58" z="440" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:realpole" id="1499652905" x="882" y="612" w="80" h="58" z="400" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="96177319">
             <param name="Limit" value="0" />
             <param name="COM" value="Real_Pole" />
@@ -22023,7 +22023,7 @@
             <param name="AL2" value="" />
           </paramlist>
         </User>
-        <User classid="UserCmp" name="master:integral" id="2071166572" x="1116" y="342" w="80" h="73" z="500" orient="0" defn="master:integral" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:integral" id="2071166572" x="1116" y="342" w="80" h="73" z="460" orient="0" defn="master:integral" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="126573893">
             <param name="Extrn" value="0" />
             <param name="Reset" value="1" />
@@ -22038,7 +22038,7 @@
             <param name="Name" value="" />
           </paramlist>
         </User>
-        <User classid="UserCmp" name="master:gain" id="1393072679" x="1152" y="270" w="80" h="36" z="510" orient="0" defn="master:gain" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:gain" id="1393072679" x="1152" y="270" w="80" h="36" z="470" orient="0" defn="master:gain" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="34173863">
             <param name="G" value="Kp_q" />
             <param name="COM" value="Gain" />
@@ -22047,7 +22047,7 @@
             <param name="DPath" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" name="master:gain" id="1463542379" x="1188" y="342" w="80" h="36" z="540" orient="0" defn="master:gain" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:gain" id="1463542379" x="1188" y="342" w="80" h="36" z="500" orient="0" defn="master:gain" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="34173863">
             <param name="G" value="Ki_q" />
             <param name="COM" value="Gain" />
@@ -22056,7 +22056,7 @@
             <param name="DPath" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" name="master:sumjct" id="143608593" x="1260" y="306" w="80" h="82" z="550" orient="0" defn="master:sumjct" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:sumjct" id="143608593" x="1260" y="306" w="80" h="82" z="510" orient="0" defn="master:sumjct" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="16672553">
             <param name="DPath" value="1" />
             <param name="A" value="0" />
@@ -22114,7 +22114,7 @@
           <vertex x="0" y="0" />
           <vertex x="36" y="0" />
         </Wire>
-        <User classid="UserCmp" name="master:sumjct" id="1361906622" x="1278" y="540" w="80" h="82" z="570" orient="0" defn="master:sumjct" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:sumjct" id="1361906622" x="1278" y="540" w="80" h="82" z="550" orient="0" defn="master:sumjct" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="16672553">
             <param name="DPath" value="1" />
             <param name="A" value="0" />
@@ -22128,7 +22128,7 @@
             <param name="Dim" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" name="master:gain" id="2109328029" x="1206" y="576" w="80" h="36" z="560" orient="0" defn="master:gain" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:gain" id="2109328029" x="1206" y="576" w="80" h="36" z="540" orient="0" defn="master:gain" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="34173863">
             <param name="G" value="Ki_p" />
             <param name="COM" value="Gain" />
@@ -22137,7 +22137,7 @@
             <param name="DPath" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" name="master:gain" id="1181711157" x="1170" y="504" w="80" h="36" z="530" orient="0" defn="master:gain" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:gain" id="1181711157" x="1170" y="504" w="80" h="36" z="490" orient="0" defn="master:gain" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="34173863">
             <param name="G" value="Kp_p" />
             <param name="COM" value="Gain" />
@@ -22146,7 +22146,7 @@
             <param name="DPath" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" name="master:integral" id="1544546380" x="1134" y="576" w="80" h="73" z="520" orient="0" defn="master:integral" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:integral" id="1544546380" x="1134" y="576" w="80" h="73" z="480" orient="0" defn="master:integral" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="126573893">
             <param name="Extrn" value="0" />
             <param name="Reset" value="1" />
@@ -22193,12 +22193,12 @@
           <vertex x="0" y="0" />
           <vertex x="18" y="0" />
         </Wire>
-        <User classid="UserCmp" name="master:import" id="609181382" x="144" y="1026" w="74" h="25" z="380" orient="0" defn="master:import" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:import" id="609181382" x="144" y="1026" w="74" h="25" z="340" orient="0" defn="master:import" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="117509081">
             <param name="Name" value="x0_4" />
           </paramlist>
         </User>
-        <User classid="UserCmp" name="master:datamerge" id="1168707545" x="1404" y="450" w="27" h="62" z="580" orient="4" defn="master:datamerge" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:datamerge" id="1168707545" x="1404" y="450" w="27" h="62" z="560" orient="4" defn="master:datamerge" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="43697768">
             <param name="N" value="2" />
             <param name="Type" value="2" />
@@ -22870,7 +22870,7 @@
         </Gfx>
       </graphics>
     </Definition>
-    <Definition classid="UserCmpDefn" name="CurrentModeControl" group="" url="" version="" build="" crc="121687851" instances="0" key="" view="false" date="1680015041" id="700101540">
+    <Definition classid="UserCmpDefn" name="CurrentModeControl" group="" url="" version="" build="" crc="121687851" instances="0" key="" view="false" date="1682160378" id="700101540">
       <paramlist name="">
         <param name="Description" value="" />
       </paramlist>
@@ -25068,7 +25068,7 @@
         </Gfx>
       </graphics>
     </Definition>
-    <Definition classid="UserCmpDefn" name="ActiveDroop_ReactiveDroop" group="" url="" version="" build="" crc="25963495" instances="0" key="" view="false" date="1681723282" id="1143056703">
+    <Definition classid="UserCmpDefn" name="ActiveDroop_ReactiveDroop" group="" url="" version="" build="" crc="25963495" instances="0" key="" view="false" date="1682160378" id="1143056703">
       <paramlist name="">
         <param name="Description" value="" />
       </paramlist>
@@ -26901,7 +26901,7 @@
         </Gfx>
       </graphics>
     </Definition>
-    <Definition classid="UserCmpDefn" name="FixedFrequency" group="" url="" version="" build="" crc="23884893" instances="0" key="" view="false" date="1681723282" id="1637480071">
+    <Definition classid="UserCmpDefn" name="FixedFrequency" group="" url="" version="" build="" crc="23884893" instances="0" key="" view="false" date="1682160378" id="1637480071">
       <paramlist name="">
         <param name="Description" value="" />
       </paramlist>
@@ -34752,7 +34752,7 @@ https://www.powerworld.com/WebHelp/Content/TransientModels_HTML/Exciter%20IEEET1
         </Gfx>
       </graphics>
     </Definition>
-    <Definition classid="UserCmpDefn" name="ri_abc" group="" url="" version="" build="" crc="39743059" instances="0" key="" view="false" date="1681723282" id="1279234079">
+    <Definition classid="UserCmpDefn" name="ri_abc" group="" url="" version="" build="" crc="39743059" instances="0" key="" view="false" date="1682160377" id="1279234079">
       <paramlist name="">
         <param name="Description" value="" />
       </paramlist>
@@ -38212,7 +38212,7 @@ https://www.powerworld.com/WebHelp/Content/TransientModels_HTML/Exciter%20IEEET1
         </Gfx>
       </graphics>
     </Definition>
-    <Definition classid="UserCmpDefn" name="FixedDCSource" group="" url="" version="" build="" crc="54267588" instances="0" key="" view="false" date="1681723281" id="40583395">
+    <Definition classid="UserCmpDefn" name="FixedDCSource" group="" url="" version="" build="" crc="54267588" instances="0" key="" view="false" date="1682160376" id="40583395">
       <paramlist name="">
         <param name="Description" value="" />
       </paramlist>
@@ -38555,7 +38555,7 @@ https://www.powerworld.com/WebHelp/Content/TransientModels_HTML/Exciter%20IEEET1
         </Gfx>
       </graphics>
     </Definition>
-    <Definition classid="UserCmpDefn" name="AverageConverter" group="" url="" version="" build="" crc="59710214" instances="0" key="" view="false" date="1681723283" id="467840428">
+    <Definition classid="UserCmpDefn" name="AverageConverter" group="" url="" version="" build="" crc="59710214" instances="0" key="" view="false" date="1682160378" id="467840428">
       <paramlist name="">
         <param name="Description" value="" />
       </paramlist>
@@ -38957,7 +38957,7 @@ https://www.powerworld.com/WebHelp/Content/TransientModels_HTML/Exciter%20IEEET1
         </Gfx>
       </graphics>
     </Definition>
-    <Definition classid="UserCmpDefn" name="KauraPLL" group="" url="" version="" build="" crc="119769977" instances="0" key="" view="false" date="1681723283" id="1511733146">
+    <Definition classid="UserCmpDefn" name="KauraPLL" group="" url="" version="" build="" crc="119769977" instances="0" key="" view="false" date="1682160377" id="1511733146">
       <paramlist name="">
         <param name="Description" value="" />
       </paramlist>
@@ -40144,7 +40144,7 @@ https://www.powerworld.com/WebHelp/Content/TransientModels_HTML/Exciter%20IEEET1
         </Gfx>
       </graphics>
     </Definition>
-    <Definition classid="UserCmpDefn" name="VoltageModeControl" group="" url="" version="" build="" crc="83082721" instances="0" key="" view="false" date="1681723283" id="248922385">
+    <Definition classid="UserCmpDefn" name="VoltageModeControl" group="" url="" version="" build="" crc="83082721" instances="0" key="" view="false" date="1682160378" id="248922385">
       <paramlist name="">
         <param name="Description" value="" />
       </paramlist>
@@ -49940,7 +49940,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
         </Gfx>
       </graphics>
     </Definition>
-    <Definition classid="UserCmpDefn" name="ReferenceFrameConversion_GEN" build="" crc="21636095" view="false" instances="0" date="1680015036" id="2058478115" w="320" h="400" url="" group="">
+    <Definition classid="UserCmpDefn" name="ReferenceFrameConversion_GEN" build="" crc="118304813" view="false" instances="0" date="1682160379" id="2058478115" w="320" h="400" url="" group="">
       <paramlist>
         <param name="Description" value="" />
       </paramlist>
@@ -50283,28 +50283,28 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
             <param name="Name" value="delta" />
           </paramlist>
         </User>
-        <User id="1687173126" classid="UserCmp" defn="master:import" x="54" y="234" h="25" w="72" z="20" q="4" orient="0" link="-1" disable="false">
+        <User id="1687173126" classid="UserCmp" defn="master:import" x="54" y="234" h="25" w="72" z="30" q="4" orient="0" link="-1" disable="false">
           <paramlist name="" link="-1" crc="117509081">
             <param name="Name" value="I_dq" />
           </paramlist>
         </User>
-        <User id="164671766" classid="UserCmp" defn="master:import" x="414" y="234" h="25" w="81" z="30" q="4" orient="0" link="-1" disable="false">
+        <User id="164671766" classid="UserCmp" defn="master:import" x="414" y="234" h="25" w="81" z="40" q="4" orient="0" link="-1" disable="false">
           <paramlist name="" link="-1" crc="117509081">
             <param name="Name" value="V_abc" />
           </paramlist>
         </User>
-        <User id="1619584430" classid="UserCmp" defn="master:export" x="630" y="234" h="24" w="74" z="70" q="4" orient="2" link="-1" disable="false">
+        <User id="1619584430" classid="UserCmp" defn="master:export" x="630" y="234" h="24" w="74" z="80" q="4" orient="2" link="-1" disable="false">
           <paramlist name="" link="-1" crc="68967217">
             <param name="Name" value="V_dq" />
           </paramlist>
         </User>
-        <User id="467282247" classid="UserCmp" defn="master:export" x="270" y="234" h="24" w="75" z="80" q="4" orient="2" link="-1" disable="false">
+        <User id="467282247" classid="UserCmp" defn="master:export" x="270" y="234" h="24" w="75" z="90" q="4" orient="2" link="-1" disable="false">
           <paramlist name="" link="-1" crc="68967217">
             <param name="Name" value="I_abc" />
           </paramlist>
         </User>
         <grouping />
-        <User classid="UserCmp" id="1050186494" name="PSID_Library:abc_dq_psid" x="522" y="216" w="104" h="65" z="60" orient="0" defn="PSID_Library:abc_dq_psid" link="-1" q="4" disable="false">
+        <User classid="UserCmp" id="1050186494" name="PSID_Library:abc_dq_psid" x="522" y="216" w="104" h="65" z="70" orient="0" defn="PSID_Library:abc_dq_psid" link="-1" q="4" disable="false">
           <paramlist name="" link="-1" crc="131120749">
             <param name="Name" value="" />
             <param name="theta" value="0" />
@@ -50323,12 +50323,12 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
           <vertex x="0" y="0" />
           <vertex x="36" y="0" />
         </Wire>
-        <User classid="UserCmp" id="1136399958" name="PSID_Library:dq_abc_psid" x="162" y="216" w="108" h="67" z="50" orient="0" defn="PSID_Library:dq_abc_psid" link="-1" q="4" disable="false">
+        <User classid="UserCmp" id="1136399958" name="PSID_Library:dq_abc_psid" x="162" y="216" w="108" h="67" z="60" orient="0" defn="PSID_Library:dq_abc_psid" link="-1" q="4" disable="false">
           <paramlist name="" link="-1" crc="131120749">
             <param name="theta" value="0" />
           </paramlist>
         </User>
-        <User classid="UserCmp" id="1659966761" name="PSID_Library:timestep_delay_angle" x="198" y="18" w="98" h="52" z="40" orient="0" defn="PSID_Library:timestep_delay_angle" link="-1" q="4" disable="false">
+        <User classid="UserCmp" id="1659966761" name="PSID_Library:timestep_delay_angle" x="198" y="18" w="98" h="52" z="50" orient="0" defn="PSID_Library:timestep_delay_angle" link="-1" q="4" disable="false">
           <paramlist name="" link="-1" crc="131120749">
             <param name="theta" value="0" />
           </paramlist>
@@ -50358,7 +50358,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
           <vertex x="0" y="0" />
           <vertex x="72" y="0" />
         </Wire>
-        <User classid="UserCmp" id="790317515" name="PSID_Library:timestep_next_angle" x="198" y="72" w="98" h="52" z="-1" orient="0" defn="PSID_Library:timestep_next_angle" link="-1" q="4" disable="false">
+        <User classid="UserCmp" id="790317515" name="PSID_Library:timestep_next_angle" x="198" y="72" w="98" h="52" z="20" orient="0" defn="PSID_Library:timestep_next_angle" link="-1" q="4" disable="false">
           <paramlist name="" link="-1" crc="131120749" />
         </User>
         <User classid="UserCmp" id="1117995503" name="master:datalabel" x="306" y="90" w="64" h="23" z="1" orient="0" defn="master:datalabel" link="-1" q="4" disable="false">
@@ -50382,7 +50382,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
         </User>
       </schematic>
     </Definition>
-    <Definition classid="UserCmpDefn" name="SauerPaiMachine" build="" crc="73185641" view="false" instances="0" date="1680015037" id="1825217716" w="320" h="400" url="" group="">
+    <Definition classid="UserCmpDefn" name="SauerPaiMachine" build="" crc="37667025" view="false" instances="0" date="1682160379" id="1825217716" w="320" h="400" url="" group="">
       <paramlist>
         <param name="Description" value="" />
       </paramlist>
@@ -50855,7 +50855,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
             <param name="Name" value="V_dq" />
           </paramlist>
         </User>
-        <User id="812904535" classid="UserCmp" defn="master:export" x="2898" y="72" h="24" w="77" z="960" q="4" orient="2" link="-1" disable="false">
+        <User id="812904535" classid="UserCmp" defn="master:export" x="2898" y="72" h="24" w="77" z="1040" q="4" orient="2" link="-1" disable="false">
           <paramlist name="" link="-1" crc="68967217">
             <param name="Name" value="tau_e" />
           </paramlist>
@@ -50866,7 +50866,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
             <param name="Name" value="V_f" />
           </paramlist>
         </User>
-        <User id="588793258" classid="UserCmp" defn="master:export" x="2898" y="126" h="24" w="70" z="950" q="4" orient="2" link="-1" disable="false">
+        <User id="588793258" classid="UserCmp" defn="master:export" x="2898" y="126" h="24" w="70" z="1030" q="4" orient="2" link="-1" disable="false">
           <paramlist name="" link="-1" crc="68967217">
             <param name="Name" value="I_dq" />
           </paramlist>
@@ -52392,7 +52392,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
             <param name="Name" value="GEN" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:sumjct" id="1132466698" x="2574" y="72" w="80" h="63" z="940" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:sumjct" id="1132466698" x="2574" y="72" w="80" h="63" z="1000" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="16672553">
             <param name="DPath" value="1" />
             <param name="A" value="0" />
@@ -52411,7 +52411,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
             <param name="Name" value="psi_d" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:mult" id="1261173355" x="2412" y="72" w="80" h="56" z="910" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:mult" id="1261173355" x="2412" y="72" w="80" h="56" z="930" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="29714769">
             <param name="DPath" value="1" />
             <param name="Name" value="" />
@@ -52423,7 +52423,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
             <param name="Name" value="Iq" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:mult" id="469869893" x="2538" y="126" w="80" h="56" z="930" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:mult" id="469869893" x="2538" y="126" w="80" h="56" z="990" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="29714769">
             <param name="DPath" value="1" />
             <param name="Name" value="" />
@@ -52452,7 +52452,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
           <vertex x="0" y="0" />
           <vertex x="252" y="0" />
         </Wire>
-        <User classid="UserCmp" defn="master:datamerge" id="1148580938" x="2880" y="126" w="62" h="27" z="920" orient="7" link="-1" layer="" q="4" disable="false">
+        <User classid="UserCmp" defn="master:datamerge" id="1148580938" x="2880" y="126" w="62" h="27" z="980" orient="7" link="-1" layer="" q="4" disable="false">
           <paramlist link="-1" name="" crc="43697768">
             <param name="N" value="2" />
             <param name="Type" value="2" />
@@ -53090,12 +53090,12 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
           <vertex x="0" y="0" />
           <vertex x="18" y="0" />
         </Wire>
-        <User classid="UserCmp" name="master:export" id="1863905313" x="2826" y="702" w="78" h="24" z="300" orient="4" defn="master:export" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:export" id="1863905313" x="2826" y="702" w="78" h="24" z="1020" orient="4" defn="master:export" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="68967217">
             <param name="Name" value="P_out" />
           </paramlist>
         </User>
-        <User classid="UserCmp" name="master:export" id="1736997548" x="2826" y="864" w="80" h="24" z="330" orient="4" defn="master:export" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:export" id="1736997548" x="2826" y="864" w="80" h="24" z="1010" orient="4" defn="master:export" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="68967217">
             <param name="Name" value="Q_out" />
           </paramlist>
@@ -53106,7 +53106,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
             <param name="AL2" value="" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:sumjct" id="1483647831" x="2754" y="702" w="80" h="82" z="440" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:sumjct" id="1483647831" x="2754" y="702" w="80" h="82" z="970" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="16672553">
             <param name="DPath" value="1" />
             <param name="A" value="0" />
@@ -53120,35 +53120,35 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
             <param name="Dim" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:mult" id="96675770" x="2682" y="666" w="80" h="56" z="430" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:mult" id="96675770" x="2682" y="666" w="80" h="56" z="920" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="29714769">
             <param name="DPath" value="1" />
             <param name="Name" value="" />
             <param name="Dim" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:mult" id="2058489835" x="2682" y="738" w="80" h="56" z="370" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:mult" id="2058489835" x="2682" y="738" w="80" h="56" z="960" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="29714769">
             <param name="DPath" value="1" />
             <param name="Name" value="" />
             <param name="Dim" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:mult" id="1038709882" x="2682" y="900" w="80" h="56" z="410" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:mult" id="1038709882" x="2682" y="900" w="80" h="56" z="940" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="29714769">
             <param name="DPath" value="1" />
             <param name="Name" value="" />
             <param name="Dim" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:mult" id="114572616" x="2682" y="828" w="80" h="56" z="390" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:mult" id="114572616" x="2682" y="828" w="80" h="56" z="910" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="29714769">
             <param name="DPath" value="1" />
             <param name="Name" value="" />
             <param name="Dim" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:sumjct" id="583787707" x="2754" y="864" w="80" h="82" z="470" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:sumjct" id="583787707" x="2754" y="864" w="80" h="82" z="950" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="16672553">
             <param name="DPath" value="1" />
             <param name="A" value="0" />
@@ -53204,7 +53204,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
         </User>
       </schematic>
     </Definition>
-    <Definition classid="UserCmpDefn" name="CurrentSourceInterface" build="" crc="42137545" view="false" instances="0" date="1680015038" id="600557575" w="320" h="400" url="" group="">
+    <Definition classid="UserCmpDefn" name="CurrentSourceInterface" build="" crc="123689441" view="false" instances="0" date="1682160380" id="600557575" w="320" h="400" url="" group="">
       <paramlist>
         <param name="Description" value="" />
       </paramlist>
@@ -53485,7 +53485,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
             <param name="Name" value="f_base" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:mult" id="107144758" x="504" y="1278" w="80" h="56" z="400" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:mult" id="107144758" x="504" y="1278" w="80" h="56" z="340" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="29714769">
             <param name="DPath" value="1" />
             <param name="Name" value="" />
@@ -53516,7 +53516,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
           <vertex x="0" y="0" />
           <vertex x="18" y="0" />
         </Wire>
-        <User classid="UserCmp" name="master:div" id="1458792255" x="756" y="1098" w="80" h="59" z="430" orient="0" defn="master:div" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:div" id="1458792255" x="756" y="1098" w="80" h="59" z="360" orient="0" defn="master:div" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="74852640">
             <param name="Dim" value="1" />
             <param name="Name" value="" />
@@ -53569,14 +53569,14 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
             <param name="Name" value="omega_base" />
           </paramlist>
         </User>
-        <User classid="UserCmp" name="master:div" id="964357591" x="792" y="1206" w="80" h="59" z="420" orient="0" defn="master:div" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:div" id="964357591" x="792" y="1206" w="80" h="59" z="450" orient="0" defn="master:div" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="74852640">
             <param name="Dim" value="1" />
             <param name="Name" value="" />
             <param name="DPath" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:mult" id="593348666" x="756" y="1242" w="80" h="56" z="410" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:mult" id="593348666" x="756" y="1242" w="80" h="56" z="440" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="29714769">
             <param name="DPath" value="1" />
             <param name="Name" value="" />
@@ -53732,7 +53732,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
             <param name="VolILL" value="" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:mult" id="2130667069" x="1080" y="1224" w="80" h="56" z="340" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:mult" id="2130667069" x="1080" y="1224" w="80" h="56" z="350" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="29714769">
             <param name="DPath" value="1" />
             <param name="Name" value="" />
@@ -53780,7 +53780,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
             <param name="Name" value="Ic" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:gain" id="1587445089" x="540" y="486" w="80" h="36" z="370" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:gain" id="1587445089" x="540" y="486" w="80" h="36" z="410" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="34173863">
             <param name="G" value="root2_3" />
             <param name="COM" value="Gain" />
@@ -53855,7 +53855,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
             <param name="Name" value="V_abc" />
           </paramlist>
         </User>
-        <User classid="UserCmp" name="master:datamerge" id="1303986583" x="702" y="972" w="27" h="80" z="450" orient="4" defn="master:datamerge" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:datamerge" id="1303986583" x="702" y="972" w="27" h="80" z="470" orient="4" defn="master:datamerge" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="43697768">
             <param name="N" value="3" />
             <param name="Type" value="2" />
@@ -53988,7 +53988,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
           <vertex x="0" y="0" />
           <vertex x="18" y="0" />
         </Wire>
-        <User classid="UserCmp" name="master:export" id="1784321096" x="1908" y="108" w="79" h="24" z="570" orient="2" defn="master:export" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:export" id="1784321096" x="1908" y="108" w="79" h="24" z="590" orient="2" defn="master:export" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="68967217">
             <param name="Name" value="V_abc" />
           </paramlist>
@@ -54002,7 +54002,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
           <vertex x="0" y="0" />
           <vertex x="54" y="0" />
         </Wire>
-        <User classid="UserCmp" defn="master:gain" id="1978373349" x="612" y="846" w="80" h="36" z="360" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:gain" id="1978373349" x="612" y="846" w="80" h="36" z="390" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="34173863">
             <param name="G" value="root3_2" />
             <param name="COM" value="Gain" />
@@ -54011,7 +54011,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
             <param name="DPath" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:gain" id="1835571170" x="612" y="918" w="80" h="36" z="350" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:gain" id="1835571170" x="612" y="918" w="80" h="36" z="380" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="34173863">
             <param name="G" value="root3_2" />
             <param name="COM" value="Gain" />
@@ -54020,7 +54020,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
             <param name="DPath" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:gain" id="1024958396" x="612" y="990" w="80" h="36" z="440" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:gain" id="1024958396" x="612" y="990" w="80" h="36" z="460" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="34173863">
             <param name="G" value="root3_2" />
             <param name="COM" value="Gain" />
@@ -54032,7 +54032,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
         <User classid="UserCmp" name="master:ground" id="990888670" x="792" y="522" w="26" h="34" z="-1" orient="1" defn="master:ground" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="28206164" />
         </User>
-        <User classid="UserCmp" defn="master:src_ccin_1" id="803459496" x="792" y="486" w="54" h="44" z="500" orient="1" link="-1" layer="" q="4" disable="false">
+        <User classid="UserCmp" defn="master:src_ccin_1" id="803459496" x="792" y="486" w="54" h="44" z="520" orient="1" link="-1" layer="" q="4" disable="false">
           <paramlist link="-1" name="" crc="33948510">
             <param name="Name" value="Source 1" />
             <param name="Cntrl" value="1" />
@@ -54128,7 +54128,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
             </Curve>
           </Graph>
         </Frame>
-        <User classid="UserCmp" defn="master:src_ccin_1" id="1990807680" x="918" y="486" w="54" h="44" z="490" orient="1" link="-1" layer="" q="4" disable="false">
+        <User classid="UserCmp" defn="master:src_ccin_1" id="1990807680" x="918" y="486" w="54" h="44" z="510" orient="1" link="-1" layer="" q="4" disable="false">
           <paramlist link="-1" name="" crc="33948510">
             <param name="Name" value="Source 1" />
             <param name="Cntrl" value="1" />
@@ -54138,7 +54138,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
             <param name="Tc" value="1.0 [s]" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:varrlc" id="650640602" x="1026" y="486" w="52" h="46" z="480" orient="7" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:varrlc" id="650640602" x="1026" y="486" w="52" h="46" z="500" orient="7" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="130577312">
             <param name="RLC" value="0" />
             <param name="R" value="Rcomp" />
@@ -54161,7 +54161,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
             <param name="Name" value="Vc" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:div" id="1306895632" x="630" y="540" w="80" h="59" z="470" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:div" id="1306895632" x="630" y="540" w="80" h="59" z="490" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="74852640">
             <param name="Dim" value="1" />
             <param name="Name" value="" />
@@ -54181,7 +54181,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
         <User classid="UserCmp" defn="master:delta-t" id="430556399" x="414" y="702" w="76" h="22" z="110" orient="0" link="-1" layer="" q="4" disable="false">
           <paramlist link="-1" name="" crc="58660321" />
         </User>
-        <User classid="UserCmp" defn="master:div" id="2037436677" x="450" y="666" w="80" h="59" z="460" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:div" id="2037436677" x="450" y="666" w="80" h="59" z="480" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="74852640">
             <param name="Dim" value="1" />
             <param name="Name" value="" />
@@ -54243,7 +54243,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
             <param name="Name" value="Ib" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:gain" id="633117548" x="540" y="342" w="80" h="36" z="380" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:gain" id="633117548" x="540" y="342" w="80" h="36" z="420" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="34173863">
             <param name="G" value="root2_3" />
             <param name="COM" value="Gain" />
@@ -54259,7 +54259,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
         <User classid="UserCmp" name="master:ground" id="377567275" x="792" y="378" w="26" h="34" z="-1" orient="1" defn="master:ground" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="28206164" />
         </User>
-        <User classid="UserCmp" defn="master:src_ccin_1" id="696671164" x="792" y="342" w="54" h="44" z="540" orient="1" link="-1" layer="" q="4" disable="false">
+        <User classid="UserCmp" defn="master:src_ccin_1" id="696671164" x="792" y="342" w="54" h="44" z="560" orient="1" link="-1" layer="" q="4" disable="false">
           <paramlist link="-1" name="" crc="33948510">
             <param name="Name" value="Source 1" />
             <param name="Cntrl" value="1" />
@@ -54269,7 +54269,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
             <param name="Tc" value="1.0 [s]" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:src_ccin_1" id="852783382" x="918" y="342" w="54" h="44" z="530" orient="1" link="-1" layer="" q="4" disable="false">
+        <User classid="UserCmp" defn="master:src_ccin_1" id="852783382" x="918" y="342" w="54" h="44" z="550" orient="1" link="-1" layer="" q="4" disable="false">
           <paramlist link="-1" name="" crc="33948510">
             <param name="Name" value="Source 1" />
             <param name="Cntrl" value="1" />
@@ -54290,7 +54290,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
             <param name="Name" value="Vb" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:div" id="901105242" x="630" y="396" w="80" h="59" z="510" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:div" id="901105242" x="630" y="396" w="80" h="59" z="530" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="74852640">
             <param name="Dim" value="1" />
             <param name="Name" value="" />
@@ -54432,7 +54432,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
             <param name="Name" value="Ia" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:gain" id="659243961" x="540" y="198" w="80" h="36" z="390" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:gain" id="659243961" x="540" y="198" w="80" h="36" z="430" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="34173863">
             <param name="G" value="root2_3" />
             <param name="COM" value="Gain" />
@@ -54448,7 +54448,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
         <User classid="UserCmp" name="master:ground" id="1084615061" x="792" y="234" w="26" h="34" z="-1" orient="1" defn="master:ground" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="28206164" />
         </User>
-        <User classid="UserCmp" defn="master:src_ccin_1" id="1542892647" x="792" y="198" w="54" h="44" z="590" orient="1" link="-1" layer="" q="4" disable="false">
+        <User classid="UserCmp" defn="master:src_ccin_1" id="1542892647" x="792" y="198" w="54" h="44" z="610" orient="1" link="-1" layer="" q="4" disable="false">
           <paramlist link="-1" name="" crc="33948510">
             <param name="Name" value="Source 1" />
             <param name="Cntrl" value="1" />
@@ -54458,7 +54458,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
             <param name="Tc" value="1.0 [s]" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:src_ccin_1" id="1699182074" x="918" y="198" w="54" h="44" z="580" orient="1" link="-1" layer="" q="4" disable="false">
+        <User classid="UserCmp" defn="master:src_ccin_1" id="1699182074" x="918" y="198" w="54" h="44" z="600" orient="1" link="-1" layer="" q="4" disable="false">
           <paramlist link="-1" name="" crc="33948510">
             <param name="Name" value="Source 1" />
             <param name="Cntrl" value="1" />
@@ -54479,7 +54479,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
             <param name="Name" value="Va" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:div" id="1454624802" x="630" y="252" w="80" h="59" z="550" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:div" id="1454624802" x="630" y="252" w="80" h="59" z="570" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="74852640">
             <param name="Dim" value="1" />
             <param name="Name" value="" />
@@ -54568,7 +54568,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
           <vertex x="144" y="0" />
           <vertex x="144" y="108" />
         </Wire>
-        <User classid="UserCmp" defn="master:varrlc" id="1075549301" x="1026" y="342" w="52" h="46" z="520" orient="7" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:varrlc" id="1075549301" x="1026" y="342" w="52" h="46" z="540" orient="7" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="130577312">
             <param name="RLC" value="0" />
             <param name="R" value="Rcomp" />
@@ -54580,7 +54580,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
             <param name="Name" value="" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:varrlc" id="686536754" x="1026" y="198" w="52" h="46" z="560" orient="7" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:varrlc" id="686536754" x="1026" y="198" w="52" h="46" z="580" orient="7" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="130577312">
             <param name="RLC" value="0" />
             <param name="R" value="Rcomp" />
@@ -54822,12 +54822,12 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
             <param name="Min" value="-2.0" />
           </paramlist>
         </User>
-        <User classid="UserCmp" name="master:import" id="1482179763" x="72" y="666" w="74" h="25" z="80" orient="0" defn="master:import" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:import" id="1482179763" x="72" y="666" w="74" h="25" z="100" orient="0" defn="master:import" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="117509081">
             <param name="Name" value="L_pp" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:div" id="1512008120" x="198" y="666" w="80" h="59" z="150" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:div" id="1512008120" x="198" y="666" w="80" h="59" z="370" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="74852640">
             <param name="Dim" value="1" />
             <param name="Name" value="" />
@@ -54843,7 +54843,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
           <vertex x="0" y="0" />
           <vertex x="54" y="0" />
         </Wire>
-        <User classid="UserCmp" defn="master:gain" id="1757657311" x="270" y="666" w="80" h="36" z="360" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:gain" id="1757657311" x="270" y="666" w="80" h="36" z="400" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="34173863">
             <param name="G" value="2" />
             <param name="COM" value="Gain" />
@@ -55181,7 +55181,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
         </User>
       </schematic>
     </Definition>
-    <Definition classid="UserCmpDefn" name="SingleMass" build="" crc="107558810" view="false" instances="0" date="1680015037" id="1780857034" w="320" h="400" url="" group="">
+    <Definition classid="UserCmpDefn" name="SingleMass" build="" crc="107558810" view="false" instances="0" date="1682160379" id="1780857034" w="320" h="400" url="" group="">
       <paramlist>
         <param name="Description" value="" />
       </paramlist>
@@ -56267,7 +56267,7 @@ Need to test.
         </Wire>
       </schematic>
     </Definition>
-    <Definition classid="UserCmpDefn" name="abc_dq_psid" group="" url="" version="" build="" crc="18298543" instances="0" key="" view="false" date="1681723282" id="1690178130">
+    <Definition classid="UserCmpDefn" name="abc_dq_psid" group="" url="" version="" build="" crc="18298543" instances="0" key="" view="false" date="1682160377" id="1690178130">
       <paramlist name="">
         <param name="Description" value="" />
       </paramlist>
@@ -57013,7 +57013,7 @@ Need to test.
         </Gfx>
       </graphics>
     </Definition>
-    <Definition classid="UserCmpDefn" name="dq_abc_psid" group="" url="" version="" build="" crc="79563412" instances="0" key="" view="false" date="1681723282" id="1213191902">
+    <Definition classid="UserCmpDefn" name="dq_abc_psid" group="" url="" version="" build="" crc="79563412" instances="0" key="" view="false" date="1682160377" id="1213191902">
       <paramlist name="">
         <param name="Description" value="" />
       </paramlist>
@@ -57756,7 +57756,7 @@ Need to test.
         </Gfx>
       </graphics>
     </Definition>
-    <Definition classid="UserCmpDefn" name="timestep_delay_angle" group="" url="" version="" build="" crc="66017651" instances="0" key="" view="false" date="1681723282" id="913401546">
+    <Definition classid="UserCmpDefn" name="timestep_delay_angle" group="" url="" version="" build="" crc="66017651" instances="0" key="" view="false" date="1682160377" id="913401546">
       <paramlist name="">
         <param name="Description" value="" />
       </paramlist>
@@ -57988,7 +57988,7 @@ Need to test.
         </Gfx>
       </graphics>
     </Definition>
-    <Definition classid="UserCmpDefn" name="SEXS" build="" crc="88679521" view="false" instances="0" date="1680015037" id="990107576" w="320" h="400" url="" group="">
+    <Definition classid="UserCmpDefn" name="SEXS" build="" crc="14087883" view="false" instances="0" date="1682160379" id="990107576" w="320" h="400" url="" group="">
       <paramlist>
         <param name="Description" value="" />
       </paramlist>
@@ -58337,7 +58337,7 @@ Need to test.
             <param name="Name" value="V_ref" />
           </paramlist>
         </User>
-        <User id="101247460" classid="UserCmp" defn="master:export" x="1188" y="126" h="24" w="64" z="270" q="4" orient="2" link="-1" disable="false">
+        <User id="101247460" classid="UserCmp" defn="master:export" x="1188" y="126" h="24" w="64" z="280" q="4" orient="2" link="-1" disable="false">
           <paramlist name="" link="-1" crc="68967217">
             <param name="Name" value="V_f" />
           </paramlist>
@@ -58372,12 +58372,12 @@ Need to test.
             <param name="Name" value="x0_1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" name="master:import" id="1246330391" x="72" y="630" w="74" h="25" z="140" orient="0" defn="master:import" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:import" id="1246330391" x="72" y="630" w="74" h="25" z="150" orient="0" defn="master:import" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="117509081">
             <param name="Name" value="x0_2" />
           </paramlist>
         </User>
-        <User id="578065450" classid="UserCmp" defn="master:import" x="72" y="738" h="25" w="70" z="150" q="4" orient="0" link="-1" disable="false">
+        <User id="578065450" classid="UserCmp" defn="master:import" x="72" y="738" h="25" w="70" z="160" q="4" orient="0" link="-1" disable="false">
           <paramlist name="" link="-1" crc="117509081">
             <param name="Name" value="GEN" />
           </paramlist>
@@ -58398,7 +58398,7 @@ Need to test.
             <param name="Dim" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:div" id="1205388433" x="144" y="198" w="80" h="59" z="280" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:div" id="1205388433" x="144" y="198" w="80" h="59" z="290" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="74852640">
             <param name="Dim" value="1" />
             <param name="Name" value="" />
@@ -58412,7 +58412,7 @@ Need to test.
             <param name="Dim" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:mult" id="1524900511" x="108" y="234" w="80" h="56" z="260" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:mult" id="1524900511" x="108" y="234" w="80" h="56" z="270" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="29714769">
             <param name="DPath" value="1" />
             <param name="Name" value="" />
@@ -58424,7 +58424,7 @@ Need to test.
             <param name="Name" value="f_base" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:sumjct" id="200713103" x="774" y="126" w="80" h="82" z="230" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:sumjct" id="200713103" x="774" y="126" w="80" h="82" z="240" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="16672553">
             <param name="DPath" value="1" />
             <param name="A" value="0" />
@@ -58438,7 +58438,7 @@ Need to test.
             <param name="Dim" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:realpole" id="506883605" x="1044" y="126" w="80" h="64" z="250" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:realpole" id="506883605" x="1044" y="126" w="80" h="64" z="260" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="96177319">
             <param name="Limit" value="1" />
             <param name="COM" value="Real_Pole" />
@@ -58452,7 +58452,7 @@ Need to test.
             <param name="Name" value="" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:leadlag" id="1721607065" x="900" y="126" w="80" h="58" z="240" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:leadlag" id="1721607065" x="900" y="126" w="80" h="58" z="250" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="4469631">
             <param name="Limit" value="0" />
             <param name="COM" value="Lead_Lag" />
@@ -58527,7 +58527,7 @@ Need to test.
             <param name="Name" value="GEN" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:mult" id="53707283" x="180" y="360" w="80" h="56" z="200" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:mult" id="53707283" x="180" y="360" w="80" h="56" z="210" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="29714769">
             <param name="DPath" value="1" />
             <param name="Name" value="" />
@@ -58559,7 +58559,7 @@ Need to test.
             <param name="Name" value="Vs" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:sumjct" id="1947309687" x="594" y="126" w="80" h="82" z="210" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:sumjct" id="1947309687" x="594" y="126" w="80" h="82" z="220" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="16672553">
             <param name="DPath" value="1" />
             <param name="A" value="0" />
@@ -58573,21 +58573,21 @@ Need to test.
             <param name="Dim" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:square" id="1369304864" x="522" y="162" w="80" h="36" z="190" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:square" id="1369304864" x="522" y="162" w="80" h="36" z="200" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="123652463">
             <param name="Dim" value="1" />
             <param name="Name" value="" />
             <param name="DPath" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:sqrt" id="1985335408" x="666" y="126" w="80" h="36" z="220" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:sqrt" id="1985335408" x="666" y="126" w="80" h="36" z="230" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="110615855">
             <param name="Dim" value="1" />
             <param name="Name" value="" />
             <param name="DPath" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:datatap" id="208996050" x="144" y="18" w="28" h="26" z="160" orient="6" link="-1" layer="" q="4" disable="false">
+        <User classid="UserCmp" defn="master:datatap" id="208996050" x="144" y="18" w="28" h="26" z="170" orient="6" link="-1" layer="" q="4" disable="false">
           <paramlist link="-1" name="" crc="38224701">
             <param name="Index" value="1" />
             <param name="Dim" value="1" />
@@ -58597,7 +58597,7 @@ Need to test.
             <param name="Name" value="" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:datatap" id="692911077" x="180" y="18" w="28" h="26" z="170" orient="6" link="-1" layer="" q="4" disable="false">
+        <User classid="UserCmp" defn="master:datatap" id="692911077" x="180" y="18" w="28" h="26" z="180" orient="6" link="-1" layer="" q="4" disable="false">
           <paramlist link="-1" name="" crc="38224701">
             <param name="Index" value="2" />
             <param name="Dim" value="1" />
@@ -58630,7 +58630,7 @@ Need to test.
           <vertex x="0" y="0" />
           <vertex x="18" y="0" />
         </Wire>
-        <User classid="UserCmp" defn="master:square" id="2145244" x="522" y="90" w="80" h="36" z="180" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:square" id="2145244" x="522" y="90" w="80" h="36" z="190" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="123652463">
             <param name="Dim" value="1" />
             <param name="Name" value="" />
@@ -58646,7 +58646,7 @@ Need to test.
           <vertex x="0" y="0" />
           <vertex x="18" y="0" />
         </Wire>
-        <User classid="UserCmp" defn="master:div" id="517955988" x="198" y="612" w="80" h="59" z="280" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:div" id="517955988" x="198" y="612" w="80" h="59" z="140" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="74852640">
             <param name="Dim" value="1" />
             <param name="Name" value="" />
@@ -58673,7 +58673,7 @@ Need to test.
         </Wire>
       </schematic>
     </Definition>
-    <Definition classid="UserCmpDefn" name="PSSFixed" build="" crc="133247180" view="false" instances="0" date="1680015037" id="360526612" w="320" h="400" url="" group="">
+    <Definition classid="UserCmpDefn" name="PSSFixed" build="" crc="133247180" view="false" instances="0" date="1682160379" id="360526612" w="320" h="400" url="" group="">
       <paramlist>
         <param name="Description" value="" />
       </paramlist>
@@ -62007,7 +62007,7 @@ Need to test.
         </User>
       </schematic>
     </Definition>
-    <Definition classid="UserCmpDefn" name="SteamTurbineGov1" build="" crc="113613739" view="false" instances="0" date="1680015037" id="1132640844" w="320" h="400" url="" group="">
+    <Definition classid="UserCmpDefn" name="SteamTurbineGov1" build="" crc="17602468" view="false" instances="0" date="1682160379" id="1132640844" w="320" h="400" url="" group="">
       <paramlist>
         <param name="Description" value="" />
       </paramlist>
@@ -62368,7 +62368,7 @@ Need to test.
             <param name="Name" value="P_ref" />
           </paramlist>
         </User>
-        <User id="1153978554" classid="UserCmp" defn="master:export" x="1332" y="90" h="24" w="80" z="250" q="4" orient="2" link="-1" disable="false">
+        <User id="1153978554" classid="UserCmp" defn="master:export" x="1332" y="90" h="24" w="80" z="280" q="4" orient="2" link="-1" disable="false">
           <paramlist name="" link="-1" crc="68967217">
             <param name="Name" value="tau_m" />
           </paramlist>
@@ -62433,7 +62433,7 @@ Need to test.
             <param name="Name" value="GEN" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:sumjct" id="1696110377" x="702" y="90" w="80" h="63" z="180" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:sumjct" id="1696110377" x="702" y="90" w="80" h="63" z="190" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="16672553">
             <param name="DPath" value="1" />
             <param name="A" value="0" />
@@ -62488,7 +62488,7 @@ Need to test.
           <vertex x="0" y="0" />
           <vertex x="54" y="0" />
         </Wire>
-        <User classid="UserCmp" defn="master:gain" id="1714334704" x="828" y="90" w="80" h="36" z="210" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:gain" id="1714334704" x="828" y="90" w="80" h="36" z="230" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="34173863">
             <param name="G" value="KR" />
             <param name="COM" value="Gain" />
@@ -62501,7 +62501,7 @@ Need to test.
           <vertex x="0" y="0" />
           <vertex x="54" y="0" />
         </Wire>
-        <User classid="UserCmp" defn="master:div" id="1623415350" x="198" y="234" w="80" h="59" z="190" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:div" id="1623415350" x="198" y="234" w="80" h="59" z="200" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="74852640">
             <param name="Dim" value="1" />
             <param name="Name" value="" />
@@ -62520,7 +62520,7 @@ Need to test.
             <param name="Name" value="KR" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:realpole" id="209374773" x="936" y="90" w="80" h="64" z="220" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:realpole" id="209374773" x="936" y="90" w="80" h="64" z="250" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="96177319">
             <param name="Limit" value="1" />
             <param name="COM" value="Real_Pole" />
@@ -62539,7 +62539,7 @@ Need to test.
             <param name="Name" value="GEN" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:leadlag" id="1283320370" x="1062" y="90" w="80" h="58" z="230" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:leadlag" id="1283320370" x="1062" y="90" w="80" h="58" z="260" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="4469631">
             <param name="Limit" value="0" />
             <param name="COM" value="Lead_Lag" />
@@ -62566,7 +62566,7 @@ Need to test.
           <vertex x="0" y="0" />
           <vertex x="54" y="0" />
         </Wire>
-        <User classid="UserCmp" defn="master:gain" id="981748409" x="936" y="198" w="80" h="36" z="200" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:gain" id="981748409" x="936" y="198" w="80" h="36" z="210" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="34173863">
             <param name="G" value="D_T" />
             <param name="COM" value="Gain" />
@@ -62584,7 +62584,7 @@ Need to test.
           <vertex x="0" y="0" />
           <vertex x="198" y="0" />
         </Wire>
-        <User classid="UserCmp" defn="master:sumjct" id="1476153293" x="1188" y="90" w="80" h="63" z="240" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:sumjct" id="1476153293" x="1188" y="90" w="80" h="63" z="270" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="16672553">
             <param name="DPath" value="1" />
             <param name="A" value="0" />
@@ -62651,7 +62651,7 @@ Need to test.
             <param name="Name" value="tau" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:sumjct" id="1027065043" x="450" y="522" w="80" h="63" z="70" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:sumjct" id="1027065043" x="450" y="522" w="80" h="63" z="180" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="16672553">
             <param name="DPath" value="1" />
             <param name="A" value="0" />
@@ -62683,7 +62683,7 @@ Need to test.
           <vertex x="0" y="0" />
           <vertex x="0" y="-36" />
         </Wire>
-        <User classid="UserCmp" defn="master:div" id="560469228" x="540" y="468" w="80" h="59" z="190" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:div" id="560469228" x="540" y="468" w="80" h="59" z="220" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="74852640">
             <param name="Dim" value="1" />
             <param name="Name" value="" />
@@ -62709,7 +62709,7 @@ Need to test.
             <param name="Name" value="x0_2" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:mult" id="1134369885" x="594" y="432" w="80" h="56" z="0" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:mult" id="1134369885" x="594" y="432" w="80" h="56" z="240" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="29714769">
             <param name="DPath" value="1" />
             <param name="Name" value="" />
@@ -62731,7 +62731,7 @@ Need to test.
         </Wire>
       </schematic>
     </Definition>
-    <Definition classid="UserCmpDefn" name="timestep_next_angle" group="" url="" version="" build="" crc="66764781" instances="0" key="" view="false" date="1681723282" id="2022624107">
+    <Definition classid="UserCmpDefn" name="timestep_next_angle" group="" url="" version="" build="" crc="44536416" instances="0" key="" view="false" date="1681723282" id="2022624107">
       <paramlist name="">
         <param name="Description" value="" />
       </paramlist>
@@ -62783,9 +62783,9 @@ Need to test.
             <param name="Name" value="theta_in" />
           </paramlist>
         </User>
-        <User classid="UserCmp" name="master:export" id="1579990281" x="396" y="90" w="127" h="24" z="80" orient="4" defn="master:export" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:export" id="1579990281" x="396" y="90" w="107" h="24" z="80" orient="4" defn="master:export" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="68967217">
-            <param name="Name" value="theta_previous" />
+            <param name="Name" value="theta_next" />
           </paramlist>
         </User>
         <grouping />
@@ -62974,82 +62974,82 @@ Need to test.
     </paramlist>
   </GlobalSubstitutions>
   <hierarchy>
-    <call link="2048020494" name="PSID_Library:Station" z="-1" view="false" instance="0">
+    <call link="1622671051" name="PSID_Library:Station" z="-1" view="false" instance="0">
       <call link="1121605733" name="PSID_Library:Main" z="-1" view="false" instance="0">
         <call link="289925425" name="PSID_Library:SEXS_2" z="-1" view="false" instance="0" />
-        <call link="1900225599" name="PSID_Library:TGTypeII" z="-1" view="false" instance="0" />
         <call link="1997484035" name="PSID_Library:VoltageModeControl" z="-1" view="false" instance="0" />
         <call link="791628388" name="PSID_Library:AverageConverter" z="-1" view="false" instance="0" />
+        <call link="117063645" name="PSID_Library:dq_ri" z="-1" view="false" instance="0" />
         <call link="353908200" name="PSID_Library:FixedDCSource" z="-1" view="false" instance="0" />
-        <call link="1935923328" name="PSID_Library:VirtualInertia_ReactiveDroop" z="-1" view="false" instance="0" />
-        <call link="1536472840" name="PSID_Library:ri_dq" z="-1" view="false" instance="0" />
-        <call link="970744943" name="PSID_Library:ri_abc" z="-1" view="false" instance="0" />
-        <call link="1711448333" name="PSID_Library:magangle_ri" z="-1" view="false" instance="0" />
         <call link="920231050" name="PSID_Library:IEEET1" z="-1" view="false" instance="0">
           <call link="1513031148" name="PSID_Library:exciter_saturation" z="140" view="false" instance="0" />
           <call link="746068508" name="PSID_Library:exciter_saturation" z="360" view="false" instance="1" />
         </call>
         <call link="573480777" name="PSID_Library:exciter_saturation" z="-1" view="false" instance="2" />
         <call link="32368114" name="PSID_Library:BPA_GG" z="-1" view="false" instance="0" />
+        <call link="1749606776" name="PSID_Library:AVRSimple" z="-1" view="false" instance="0" />
         <call link="1257164115" name="PSID_Library:GGOV1" z="-1" view="false" instance="0">
           <call link="471511252" name="PSID_Library:DeadBand" z="890" view="false" instance="0" />
         </call>
         <call link="1584018673" name="PSID_Library:DeadBand" z="-1" view="false" instance="1" />
         <call link="1496654770" name="PSID_Library:RateLimiter" z="-1" view="false" instance="0" />
+        <call link="970744943" name="PSID_Library:ri_abc" z="-1" view="false" instance="0" />
         <call link="1868501625" name="PSID_Library:FixedFrequency" z="-1" view="false" instance="0" />
         <call link="1340636822" name="PSID_Library:ActiveDroop_ReactiveDroop" z="-1" view="false" instance="0" />
-        <call link="285503644" name="PSID_Library:ReducedOrderPLL" z="-1" view="false" instance="0">
-          <call link="975203037" name="PSID_Library:abc_dq_psid" z="200" view="false" instance="0" />
-          <call link="1708939662" name="PSID_Library:timestep_delay_angle" z="300" view="false" instance="0" />
+        <call link="1536472840" name="PSID_Library:ri_dq" z="-1" view="false" instance="0" />
+        <call link="1212736682" name="PSID_Library:KauraPLL" z="-1" view="false" instance="0">
+          <call link="2065055101" name="PSID_Library:timestep_delay_angle" z="330" view="false" instance="0" />
+          <call link="1583651100" name="PSID_Library:abc_dq_psid" z="340" view="false" instance="0" />
         </call>
         <call link="771555009" name="PSID_Library:CurrentModeControl" z="-1" view="false" instance="0" />
         <call link="1689773799" name="PSID_Library:ActivePI_ReactivePI" z="-1" view="false" instance="0" />
         <call link="1099669844" name="PSID_Library:GAST_2" z="-1" view="false" instance="0" />
         <call link="302217636" name="PSID_Library:volley_circuit_breaker_logic" z="-1" view="false" instance="0" />
-        <call link="1585140405" name="PSID_Library:LCLFilter" z="-1" view="false" instance="0">
-          <call link="645843216" name="PSID_Library:ri_abc" z="980" view="false" instance="1" />
+        <call link="285503644" name="PSID_Library:ReducedOrderPLL" z="-1" view="false" instance="0">
+          <call link="975203037" name="PSID_Library:abc_dq_psid" z="200" view="false" instance="1" />
+          <call link="1708939662" name="PSID_Library:timestep_delay_angle" z="300" view="false" instance="1" />
         </call>
         <call link="1093407088" name="PSID_Library:ReferenceFrameConversion_INV" z="-1" view="false" instance="0">
-          <call link="1305307483" name="PSID_Library:timestep_delay_angle" z="40" view="false" instance="1" />
-          <call link="1686720077" name="PSID_Library:timestep_delay_angle" z="60" view="false" instance="2" />
-          <call link="1115078297" name="PSID_Library:dq_abc_psid" z="70" view="false" instance="0" />
-          <call link="1416558759" name="PSID_Library:abc_dq_psid" z="80" view="false" instance="1" />
-          <call link="294237646" name="PSID_Library:abc_dq_psid" z="90" view="false" instance="2" />
-          <call link="1142133084" name="PSID_Library:abc_dq_psid" z="100" view="false" instance="3" />
+          <call link="1305307483" name="PSID_Library:timestep_delay_angle" z="70" view="false" instance="2" />
+          <call link="1686720077" name="PSID_Library:timestep_delay_angle" z="60" view="false" instance="3" />
+          <call link="1115078297" name="PSID_Library:dq_abc_psid" z="80" view="false" instance="0" />
+          <call link="1416558759" name="PSID_Library:abc_dq_psid" z="90" view="false" instance="2" />
+          <call link="294237646" name="PSID_Library:abc_dq_psid" z="100" view="false" instance="3" />
+          <call link="1142133084" name="PSID_Library:abc_dq_psid" z="110" view="false" instance="4" />
+        </call>
+        <call link="1585140405" name="PSID_Library:LCLFilter" z="-1" view="false" instance="0">
+          <call link="645843216" name="PSID_Library:ri_abc" z="890" view="false" instance="1" />
+        </call>
+        <call link="1154150259" name="PSID_Library:ReferenceFrameConversion_GEN" z="-1" view="false" instance="0">
+          <call link="790317515" name="PSID_Library:timestep_next_angle" z="20" view="true" instance="0" />
+          <call link="1659966761" name="PSID_Library:timestep_delay_angle" z="50" view="false" instance="4" />
+          <call link="1136399958" name="PSID_Library:dq_abc_psid" z="60" view="false" instance="1" />
+          <call link="1050186494" name="PSID_Library:abc_dq_psid" z="70" view="false" instance="5" />
         </call>
         <call link="417400883" name="PSID_Library:SauerPaiMachine" z="-1" view="false" instance="0" />
-        <call link="1154150259" name="PSID_Library:ReferenceFrameConversion_GEN" z="-1" view="false" instance="0">
-          <call link="790317515" name="PSID_Library:timestep_next_angle" z="-1" view="false" instance="0" />
-          <call link="1659966761" name="PSID_Library:timestep_delay_angle" z="40" view="false" instance="3" />
-          <call link="1136399958" name="PSID_Library:dq_abc_psid" z="50" view="false" instance="1" />
-          <call link="1050186494" name="PSID_Library:abc_dq_psid" z="60" view="false" instance="4" />
-        </call>
-        <call link="1883499949" name="PSID_Library:CurrentSourceInterface" z="-1" view="true" instance="0" />
+        <call link="1883499949" name="PSID_Library:CurrentSourceInterface" z="-1" view="false" instance="0" />
         <call link="85566424" name="PSID_Library:AVRFixed" z="-1" view="false" instance="0" />
-        <call link="117063645" name="PSID_Library:dq_ri" z="-1" view="false" instance="0" />
+        <call link="457892986" name="PSID_Library:SingleMass" z="-1" view="false" instance="0" />
         <call link="1980808861" name="PSID_Library:TGFixed" z="-1" view="false" instance="0" />
+        <call link="1171105701" name="PSID_Library:abc_dq_psid" z="-1" view="false" instance="6" />
+        <call link="1711448333" name="PSID_Library:magangle_ri" z="-1" view="false" instance="0" />
+        <call link="1935923328" name="PSID_Library:VirtualInertia_ReactiveDroop" z="-1" view="false" instance="0" />
+        <call link="812723526" name="PSID_Library:timestep_delay_angle" z="-1" view="false" instance="5" />
+        <call link="1834683724" name="PSID_Library:IEEEST" z="-1" view="false" instance="0">
+          <call link="1589910882" name="PSID_Library:SecOdrPole" z="-1" view="false" instance="0" />
+          <call link="617299442" name="PSID_Library:SecOdrPole" z="-1" view="false" instance="1" />
+        </call>
         <call link="1518507892" name="PSID_Library:dq_abc_psid" z="-1" view="false" instance="2" />
         <call link="1779563302" name="PSID_Library:GASTG" z="-1" view="false" instance="0" />
-        <call link="314200446" name="PSID_Library:SteamTurbineGov1" z="-1" view="false" instance="0" />
-        <call link="691555753" name="PSID_Library:HydroTurbineGov" z="-1" view="false" instance="0" />
-        <call link="590877718" name="PSID_Library:TGOV1" z="-1" view="false" instance="0" />
-        <call link="49018463" name="PSID_Library:SecOdrPole" z="-1" view="false" instance="0" />
-        <call link="1749606776" name="PSID_Library:AVRSimple" z="-1" view="false" instance="0" />
-        <call link="1212736682" name="PSID_Library:KauraPLL" z="-1" view="false" instance="0">
-          <call link="2065055101" name="PSID_Library:timestep_delay_angle" z="330" view="false" instance="4" />
-          <call link="1583651100" name="PSID_Library:abc_dq_psid" z="340" view="false" instance="5" />
-        </call>
-        <call link="1834683724" name="PSID_Library:IEEEST" z="-1" view="false" instance="0">
-          <call link="617299442" name="PSID_Library:SecOdrPole" z="-1" view="false" instance="1" />
-          <call link="1589910882" name="PSID_Library:SecOdrPole" z="-1" view="false" instance="2" />
-        </call>
-        <call link="789112817" name="PSID_Library:simple_brk_logic" z="-1" view="false" instance="0" />
-        <call link="457892986" name="PSID_Library:SingleMass" z="-1" view="false" instance="0" />
         <call link="1728083034" name="PSID_Library:PSSFixed" z="-1" view="false" instance="0" />
-        <call link="812723526" name="PSID_Library:timestep_delay_angle" z="-1" view="false" instance="5" />
         <call link="40718861" name="PSID_Library:SEXS" z="-1" view="false" instance="0" />
-        <call link="1171105701" name="PSID_Library:abc_dq_psid" z="-1" view="false" instance="6" />
+        <call link="789112817" name="PSID_Library:simple_brk_logic" z="-1" view="false" instance="0" />
         <call link="657392822" name="PSID_Library:timestep_next_angle" z="-1" view="false" instance="1" />
+        <call link="1900225599" name="PSID_Library:TGTypeII" z="-1" view="false" instance="0" />
+        <call link="691555753" name="PSID_Library:HydroTurbineGov" z="-1" view="false" instance="0" />
+        <call link="314200446" name="PSID_Library:SteamTurbineGov1" z="-1" view="false" instance="0" />
+        <call link="590877718" name="PSID_Library:TGOV1" z="-1" view="false" instance="0" />
+        <call link="49018463" name="PSID_Library:SecOdrPole" z="-1" view="false" instance="2" />
       </call>
     </call>
   </hierarchy>
