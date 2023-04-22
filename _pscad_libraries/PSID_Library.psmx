@@ -2,7 +2,7 @@
   <messagelist />
   <List classid="Settings" />
   <ViewContext>
-    <Window defn="PSID_Library:SEXS" call="0" />
+    <Window defn="PSID_Library:VoltageModeControl" call="0" />
   </ViewContext>
   <List classid="View">
     <View name="Main" zoomlevel="4" scrollx="0" scrolly="0" zoomscale="0.768001" />

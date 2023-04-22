@@ -21,7 +21,7 @@
     <param name="Warn" value="0" />
     <param name="Check" value="0" />
     <param name="description" value="" />
-    <param name="revisor" value="Matt Bossart, 1682159816" />
+    <param name="revisor" value="Matt Bossart, 1682159921" />
     <param name="sparsity_threshold" value="200" />
   </paramlist>
   <Layers>
@@ -15943,6 +15943,266 @@
       <path>
         <ref link="1121605733" />
         <ref link="1093407088" />
+      </path>
+      <paramlist>
+        <param name="ymin" value="-1" />
+        <param name="ymax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="GraphFrameSettings" id="1662242447" link="707714452">
+      <path>
+        <ref link="1121605733" />
+        <ref link="314200446" />
+      </path>
+      <paramlist>
+        <param name="xmin" value="-1" />
+        <param name="xmax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="OverlayGraphSettings" id="465398495" link="580080222">
+      <path>
+        <ref link="1121605733" />
+        <ref link="314200446" />
+      </path>
+      <paramlist>
+        <param name="ymin" value="-1" />
+        <param name="ymax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="GraphFrameSettings" id="1812049715" link="1820287077">
+      <path>
+        <ref link="1121605733" />
+        <ref link="314200446" />
+      </path>
+      <paramlist>
+        <param name="xmin" value="-1" />
+        <param name="xmax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="OverlayGraphSettings" id="1137813165" link="987675169">
+      <path>
+        <ref link="1121605733" />
+        <ref link="314200446" />
+      </path>
+      <paramlist>
+        <param name="ymin" value="-1" />
+        <param name="ymax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="OverlayGraphSettings" id="2046453211" link="997091285">
+      <path>
+        <ref link="1121605733" />
+        <ref link="314200446" />
+      </path>
+      <paramlist>
+        <param name="ymin" value="-1" />
+        <param name="ymax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="OverlayGraphSettings" id="1774770681" link="1359199024">
+      <path>
+        <ref link="1121605733" />
+        <ref link="314200446" />
+      </path>
+      <paramlist>
+        <param name="ymin" value="-1" />
+        <param name="ymax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="OverlayGraphSettings" id="515831739" link="1019295967">
+      <path>
+        <ref link="1121605733" />
+        <ref link="314200446" />
+      </path>
+      <paramlist>
+        <param name="ymin" value="-1" />
+        <param name="ymax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="GraphFrameSettings" id="1819765613" link="1791746228">
+      <path>
+        <ref link="1121605733" />
+        <ref link="314200446" />
+      </path>
+      <paramlist>
+        <param name="xmin" value="-1" />
+        <param name="xmax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="OverlayGraphSettings" id="720868683" link="676534044">
+      <path>
+        <ref link="1121605733" />
+        <ref link="314200446" />
+      </path>
+      <paramlist>
+        <param name="ymin" value="-1" />
+        <param name="ymax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="OverlayGraphSettings" id="1761784971" link="1854044170">
+      <path>
+        <ref link="1121605733" />
+        <ref link="314200446" />
+      </path>
+      <paramlist>
+        <param name="ymin" value="-1" />
+        <param name="ymax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="GraphFrameSettings" id="1346897267" link="1631671657">
+      <path>
+        <ref link="1121605733" />
+        <ref link="314200446" />
+      </path>
+      <paramlist>
+        <param name="xmin" value="-1" />
+        <param name="xmax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="OverlayGraphSettings" id="661303501" link="836402048">
+      <path>
+        <ref link="1121605733" />
+        <ref link="314200446" />
+      </path>
+      <paramlist>
+        <param name="ymin" value="-1" />
+        <param name="ymax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="OverlayGraphSettings" id="1100536894" link="1493692158">
+      <path>
+        <ref link="1121605733" />
+        <ref link="314200446" />
+      </path>
+      <paramlist>
+        <param name="ymin" value="-1" />
+        <param name="ymax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="OverlayGraphSettings" id="337528884" link="1512811439">
+      <path>
+        <ref link="1121605733" />
+        <ref link="314200446" />
+      </path>
+      <paramlist>
+        <param name="ymin" value="-1" />
+        <param name="ymax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="GraphFrameSettings" id="329413820" link="1971849011">
+      <path>
+        <ref link="1121605733" />
+        <ref link="314200446" />
+      </path>
+      <paramlist>
+        <param name="xmin" value="-1" />
+        <param name="xmax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="OverlayGraphSettings" id="1136848056" link="755815073">
+      <path>
+        <ref link="1121605733" />
+        <ref link="314200446" />
+      </path>
+      <paramlist>
+        <param name="ymin" value="-1" />
+        <param name="ymax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="OverlayGraphSettings" id="810743137" link="855845606">
+      <path>
+        <ref link="1121605733" />
+        <ref link="314200446" />
+      </path>
+      <paramlist>
+        <param name="ymin" value="-1" />
+        <param name="ymax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="OverlayGraphSettings" id="258224353" link="1858901540">
+      <path>
+        <ref link="1121605733" />
+        <ref link="314200446" />
+      </path>
+      <paramlist>
+        <param name="ymin" value="-1" />
+        <param name="ymax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="GraphFrameSettings" id="1176999004" link="851640439">
+      <path>
+        <ref link="1121605733" />
+        <ref link="314200446" />
+      </path>
+      <paramlist>
+        <param name="xmin" value="-1" />
+        <param name="xmax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="OverlayGraphSettings" id="151844943" link="1833049930">
+      <path>
+        <ref link="1121605733" />
+        <ref link="314200446" />
+      </path>
+      <paramlist>
+        <param name="ymin" value="-1" />
+        <param name="ymax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="OverlayGraphSettings" id="941622943" link="1895114917">
+      <path>
+        <ref link="1121605733" />
+        <ref link="314200446" />
+      </path>
+      <paramlist>
+        <param name="ymin" value="-1" />
+        <param name="ymax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="OverlayGraphSettings" id="221701206" link="1387850366">
+      <path>
+        <ref link="1121605733" />
+        <ref link="314200446" />
+      </path>
+      <paramlist>
+        <param name="ymin" value="-1" />
+        <param name="ymax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="OverlayGraphSettings" id="43267770" link="1998000805">
+      <path>
+        <ref link="1121605733" />
+        <ref link="314200446" />
+      </path>
+      <paramlist>
+        <param name="ymin" value="-1" />
+        <param name="ymax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="GraphFrameSettings" id="874956539" link="1028995495">
+      <path>
+        <ref link="1121605733" />
+        <ref link="314200446" />
+      </path>
+      <paramlist>
+        <param name="xmin" value="-1" />
+        <param name="xmax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="OverlayGraphSettings" id="353393725" link="1749212171">
+      <path>
+        <ref link="1121605733" />
+        <ref link="314200446" />
+      </path>
+      <paramlist>
+        <param name="ymin" value="-1" />
+        <param name="ymax" value="1" />
+      </paramlist>
+    </Settings>
+    <Settings classid="OverlayGraphSettings" id="2095428612" link="982281421">
+      <path>
+        <ref link="1121605733" />
+        <ref link="314200446" />
       </path>
       <paramlist>
         <param name="ymin" value="-1" />
@@ -57190,7 +57450,7 @@ Need to test.
         </Gfx>
       </graphics>
     </Definition>
-    <Definition classid="UserCmpDefn" name="SEXS" build="" crc="12173782" view="false" instances="0" date="1680015037" id="990107576" w="320" h="400" url="" group="">
+    <Definition classid="UserCmpDefn" name="SEXS" build="" crc="88679521" view="false" instances="0" date="1680015037" id="990107576" w="320" h="400" url="" group="">
       <paramlist>
         <param name="Description" value="" />
       </paramlist>
@@ -57659,7 +57919,7 @@ Need to test.
             <param name="Limit" value="0" />
             <param name="COM" value="Lead_Lag" />
             <param name="Reset" value="1" />
-            <param name="YO" value="x0_2" />
+            <param name="YO" value="x0_2_calc" />
             <param name="G" value="1.0" />
             <param name="T1" value="Ta" />
             <param name="T2" value="Tb" />
@@ -57845,6 +58105,31 @@ Need to test.
           </paramlist>
         </User>
         <Wire classid="WireOrthogonal" id="1380906728" name="" x="468" y="90" w="28" h="10" orient="0" disable="false">
+          <vertex x="0" y="0" />
+          <vertex x="18" y="0" />
+        </Wire>
+        <User classid="UserCmp" defn="master:div" id="517955988" x="198" y="612" w="80" h="59" z="280" orient="0" link="-1" q="4" disable="false">
+          <paramlist link="-1" name="" crc="74852640">
+            <param name="Dim" value="1" />
+            <param name="Name" value="" />
+            <param name="DPath" value="1" />
+          </paramlist>
+        </User>
+        <User classid="UserCmp" name="master:datalabel" id="1256535405" x="198" y="648" w="12" h="23" z="1" orient="0" defn="master:datalabel" link="-1" q="4" disable="false">
+          <paramlist link="-1" name="" crc="127230955">
+            <param name="Name" value="K" />
+          </paramlist>
+        </User>
+        <Wire classid="WireOrthogonal" id="306705750" name="" x="108" y="612" w="64" h="10" orient="0" disable="false">
+          <vertex x="0" y="0" />
+          <vertex x="54" y="0" />
+        </Wire>
+        <User classid="UserCmp" name="master:datalabel" id="107850771" x="252" y="612" w="60" h="23" z="1" orient="0" defn="master:datalabel" link="-1" q="4" disable="false">
+          <paramlist link="-1" name="" crc="127230955">
+            <param name="Name" value="x0_2_calc" />
+          </paramlist>
+        </User>
+        <Wire classid="WireOrthogonal" id="1029057827" name="" x="234" y="612" w="28" h="10" orient="0" disable="false">
           <vertex x="0" y="0" />
           <vertex x="18" y="0" />
         </Wire>
@@ -62151,20 +62436,17 @@ Need to test.
     </paramlist>
   </GlobalSubstitutions>
   <hierarchy>
-    <call link="1704139392" name="PSID_Library:Station" z="-1" view="false" instance="0">
+    <call link="974557893" name="PSID_Library:Station" z="-1" view="false" instance="0">
       <call link="1121605733" name="PSID_Library:Main" z="-1" view="false" instance="0">
         <call link="1900225599" name="PSID_Library:TGTypeII" z="-1" view="false" instance="0" />
-        <call link="289925425" name="PSID_Library:SEXS_2" z="-1" view="false" instance="0" />
-        <call link="1997484035" name="PSID_Library:VoltageModeControl" z="-1" view="false" instance="0" />
-        <call link="791628388" name="PSID_Library:AverageConverter" z="-1" view="false" instance="0" />
-        <call link="353908200" name="PSID_Library:FixedDCSource" z="-1" view="false" instance="0" />
+        <call link="590877718" name="PSID_Library:TGOV1" z="-1" view="false" instance="0" />
         <call link="1212736682" name="PSID_Library:KauraPLL" z="-1" view="false" instance="0">
           <call link="2065055101" name="PSID_Library:timestep_delay_angle" z="330" view="false" instance="0" />
           <call link="1583651100" name="PSID_Library:abc_dq_psid" z="340" view="false" instance="0" />
         </call>
+        <call link="353908200" name="PSID_Library:FixedDCSource" z="-1" view="false" instance="0" />
         <call link="1935923328" name="PSID_Library:VirtualInertia_ReactiveDroop" z="-1" view="false" instance="0" />
         <call link="117063645" name="PSID_Library:dq_ri" z="-1" view="false" instance="0" />
-        <call link="1536472840" name="PSID_Library:ri_dq" z="-1" view="false" instance="0" />
         <call link="970744943" name="PSID_Library:ri_abc" z="-1" view="false" instance="0" />
         <call link="1711448333" name="PSID_Library:magangle_ri" z="-1" view="false" instance="0" />
         <call link="1749606776" name="PSID_Library:AVRSimple" z="-1" view="false" instance="0" />
@@ -62172,61 +62454,64 @@ Need to test.
           <call link="1513031148" name="PSID_Library:exciter_saturation" z="140" view="false" instance="0" />
           <call link="746068508" name="PSID_Library:exciter_saturation" z="360" view="false" instance="1" />
         </call>
+        <call link="573480777" name="PSID_Library:exciter_saturation" z="-1" view="false" instance="2" />
         <call link="32368114" name="PSID_Library:BPA_GG" z="-1" view="false" instance="0" />
         <call link="1257164115" name="PSID_Library:GGOV1" z="-1" view="false" instance="0">
           <call link="471511252" name="PSID_Library:DeadBand" z="890" view="false" instance="0" />
         </call>
+        <call link="289925425" name="PSID_Library:SEXS_2" z="-1" view="false" instance="0" />
         <call link="1584018673" name="PSID_Library:DeadBand" z="-1" view="false" instance="1" />
         <call link="1496654770" name="PSID_Library:RateLimiter" z="-1" view="false" instance="0" />
         <call link="1868501625" name="PSID_Library:FixedFrequency" z="-1" view="false" instance="0" />
-        <call link="573480777" name="PSID_Library:exciter_saturation" z="-1" view="false" instance="2" />
         <call link="771555009" name="PSID_Library:CurrentModeControl" z="-1" view="false" instance="0" />
-        <call link="1689773799" name="PSID_Library:ActivePI_ReactivePI" z="-1" view="false" instance="0" />
+        <call link="285503644" name="PSID_Library:ReducedOrderPLL" z="-1" view="false" instance="0">
+          <call link="975203037" name="PSID_Library:abc_dq_psid" z="200" view="false" instance="1" />
+          <call link="1708939662" name="PSID_Library:timestep_delay_angle" z="300" view="false" instance="1" />
+        </call>
         <call link="1099669844" name="PSID_Library:GAST_2" z="-1" view="false" instance="0" />
+        <call link="1536472840" name="PSID_Library:ri_dq" z="-1" view="false" instance="0" />
+        <call link="302217636" name="PSID_Library:volley_circuit_breaker_logic" z="-1" view="false" instance="0" />
+        <call link="1340636822" name="PSID_Library:ActiveDroop_ReactiveDroop" z="-1" view="false" instance="0" />
+        <call link="1093407088" name="PSID_Library:ReferenceFrameConversion_INV" z="-1" view="false" instance="0">
+          <call link="1305307483" name="PSID_Library:timestep_delay_angle" z="40" view="false" instance="2" />
+          <call link="1686720077" name="PSID_Library:timestep_delay_angle" z="60" view="false" instance="3" />
+          <call link="1115078297" name="PSID_Library:dq_abc_psid" z="70" view="false" instance="0" />
+          <call link="1416558759" name="PSID_Library:abc_dq_psid" z="80" view="false" instance="2" />
+          <call link="294237646" name="PSID_Library:abc_dq_psid" z="90" view="false" instance="3" />
+          <call link="1142133084" name="PSID_Library:abc_dq_psid" z="100" view="false" instance="4" />
+        </call>
         <call link="1585140405" name="PSID_Library:LCLFilter" z="-1" view="false" instance="0">
           <call link="645843216" name="PSID_Library:ri_abc" z="980" view="false" instance="1" />
         </call>
-        <call link="1340636822" name="PSID_Library:ActiveDroop_ReactiveDroop" z="-1" view="false" instance="0" />
+        <call link="1689773799" name="PSID_Library:ActivePI_ReactivePI" z="-1" view="false" instance="0" />
         <call link="1154150259" name="PSID_Library:ReferenceFrameConversion_GEN" z="-1" view="false" instance="0">
           <call link="790317515" name="PSID_Library:timestep_next_angle" z="-1" view="false" instance="0" />
-          <call link="1659966761" name="PSID_Library:timestep_delay_angle" z="40" view="false" instance="1" />
-          <call link="1136399958" name="PSID_Library:dq_abc_psid" z="50" view="false" instance="0" />
-          <call link="1050186494" name="PSID_Library:abc_dq_psid" z="60" view="false" instance="1" />
+          <call link="1659966761" name="PSID_Library:timestep_delay_angle" z="40" view="false" instance="4" />
+          <call link="1136399958" name="PSID_Library:dq_abc_psid" z="50" view="false" instance="1" />
+          <call link="1050186494" name="PSID_Library:abc_dq_psid" z="60" view="false" instance="5" />
         </call>
-        <call link="590877718" name="PSID_Library:TGOV1" z="-1" view="false" instance="0" />
+        <call link="1997484035" name="PSID_Library:VoltageModeControl" z="-1" view="false" instance="0" />
+        <call link="417400883" name="PSID_Library:SauerPaiMachine" z="-1" view="false" instance="0" />
+        <call link="85566424" name="PSID_Library:AVRFixed" z="-1" view="false" instance="0" />
+        <call link="457892986" name="PSID_Library:SingleMass" z="-1" view="false" instance="0" />
+        <call link="1980808861" name="PSID_Library:TGFixed" z="-1" view="false" instance="0" />
         <call link="1883499949" name="PSID_Library:CurrentSourceInterface" z="-1" view="false" instance="0" />
-        <call link="302217636" name="PSID_Library:volley_circuit_breaker_logic" z="-1" view="false" instance="0" />
-        <call link="1171105701" name="PSID_Library:abc_dq_psid" z="-1" view="false" instance="2" />
-        <call link="789112817" name="PSID_Library:simple_brk_logic" z="-1" view="false" instance="0" />
-        <call link="812723526" name="PSID_Library:timestep_delay_angle" z="-1" view="false" instance="2" />
-        <call link="1518507892" name="PSID_Library:dq_abc_psid" z="-1" view="false" instance="1" />
-        <call link="691555753" name="PSID_Library:HydroTurbineGov" z="-1" view="false" instance="0" />
-        <call link="314200446" name="PSID_Library:SteamTurbineGov1" z="-1" view="true" instance="0" />
+        <call link="1171105701" name="PSID_Library:abc_dq_psid" z="-1" view="false" instance="6" />
+        <call link="1518507892" name="PSID_Library:dq_abc_psid" z="-1" view="false" instance="2" />
         <call link="49018463" name="PSID_Library:SecOdrPole" z="-1" view="false" instance="0" />
         <call link="1834683724" name="PSID_Library:IEEEST" z="-1" view="false" instance="0">
           <call link="617299442" name="PSID_Library:SecOdrPole" z="-1" view="false" instance="1" />
           <call link="1589910882" name="PSID_Library:SecOdrPole" z="-1" view="false" instance="2" />
         </call>
-        <call link="417400883" name="PSID_Library:SauerPaiMachine" z="-1" view="false" instance="0" />
         <call link="1779563302" name="PSID_Library:GASTG" z="-1" view="false" instance="0" />
-        <call link="1980808861" name="PSID_Library:TGFixed" z="-1" view="false" instance="0" />
-        <call link="457892986" name="PSID_Library:SingleMass" z="-1" view="false" instance="0" />
         <call link="1728083034" name="PSID_Library:PSSFixed" z="-1" view="false" instance="0" />
-        <call link="85566424" name="PSID_Library:AVRFixed" z="-1" view="false" instance="0" />
-        <call link="40718861" name="PSID_Library:SEXS" z="-1" view="false" instance="0" />
         <call link="657392822" name="PSID_Library:timestep_next_angle" z="-1" view="false" instance="1" />
-        <call link="1093407088" name="PSID_Library:ReferenceFrameConversion_INV" z="-1" view="false" instance="0">
-          <call link="1305307483" name="PSID_Library:timestep_delay_angle" z="40" view="false" instance="3" />
-          <call link="1686720077" name="PSID_Library:timestep_delay_angle" z="60" view="false" instance="4" />
-          <call link="1115078297" name="PSID_Library:dq_abc_psid" z="70" view="false" instance="2" />
-          <call link="1416558759" name="PSID_Library:abc_dq_psid" z="80" view="false" instance="3" />
-          <call link="294237646" name="PSID_Library:abc_dq_psid" z="90" view="false" instance="4" />
-          <call link="1142133084" name="PSID_Library:abc_dq_psid" z="100" view="false" instance="5" />
-        </call>
-        <call link="285503644" name="PSID_Library:ReducedOrderPLL" z="-1" view="false" instance="0">
-          <call link="975203037" name="PSID_Library:abc_dq_psid" z="200" view="false" instance="6" />
-          <call link="1708939662" name="PSID_Library:timestep_delay_angle" z="300" view="false" instance="5" />
-        </call>
+        <call link="314200446" name="PSID_Library:SteamTurbineGov1" z="-1" view="false" instance="0" />
+        <call link="812723526" name="PSID_Library:timestep_delay_angle" z="-1" view="false" instance="5" />
+        <call link="691555753" name="PSID_Library:HydroTurbineGov" z="-1" view="false" instance="0" />
+        <call link="791628388" name="PSID_Library:AverageConverter" z="-1" view="false" instance="0" />
+        <call link="40718861" name="PSID_Library:SEXS" z="-1" view="true" instance="0" />
+        <call link="789112817" name="PSID_Library:simple_brk_logic" z="-1" view="false" instance="0" />
       </call>
     </call>
   </hierarchy>
