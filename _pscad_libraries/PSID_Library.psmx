@@ -2,7 +2,7 @@
   <messagelist />
   <List classid="Settings" />
   <ViewContext>
-    <Window defn="PSID_Library:VoltageModeControl" call="0" />
+    <Window defn="PSID_Library:CurrentSourceInterface" call="0" />
   </ViewContext>
   <List classid="View">
     <View name="Main" zoomlevel="4" scrollx="0" scrolly="0" zoomscale="0.768001" />
@@ -40,7 +40,7 @@
     <View name="LCLFilter2" zoomscale="0.768" scrollx="0" scrolly="0" />
     <View name="ReferenceFrameConversion_GEN" zoomscale="0.960001" scrollx="0" scrolly="0" />
     <View name="SauerPaiMachine" zoomscale="0.768" scrollx="0" scrolly="0" />
-    <View name="CurrentSourceInterface" zoomscale="0.6144" scrollx="0" scrolly="51" />
+    <View name="CurrentSourceInterface" zoomscale="0.96" scrollx="0" scrolly="0" />
     <View name="LCLFilter" zoomscale="1.2" scrollx="100" scrolly="0" />
     <View name="AVRFixed" zoomscale="0.96" scrollx="27" scrolly="0" />
     <View name="SingleMass" zoomscale="1.5" scrollx="203" scrolly="112" />
