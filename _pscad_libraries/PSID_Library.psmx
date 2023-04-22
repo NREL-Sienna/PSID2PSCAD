@@ -2,10 +2,10 @@
   <messagelist />
   <List classid="Settings" />
   <ViewContext>
-    <Window defn="PSID_Library:ReferenceFrameConversion_INV" call="0" />
+    <Window defn="PSID_Library:SteamTurbineGov1" call="0" />
   </ViewContext>
   <List classid="View">
-    <View name="Main" zoomlevel="4" scrollx="147" scrolly="0" zoomscale="0.768001" />
+    <View name="Main" zoomlevel="4" scrollx="0" scrolly="0" zoomscale="0.768001" />
     <View name="TGTypeII" zoomlevel="4" scrollx="0" scrolly="252" zoomscale="0.96" />
     <View name="TGOV1" zoomlevel="4" scrollx="184" scrolly="185" zoomscale="1.5" />
     <View name="SEXS" zoomlevel="1" scrollx="0" scrolly="0" zoomscale="1.5" />
@@ -56,7 +56,7 @@
     <View name="SecOdrPole" zoomscale="1.2" scrollx="0" scrolly="18" />
     <View name="GASTG_1" zoomscale="0.6144" scrollx="0" scrolly="0" />
     <View name="HydroTurbineGov" zoomscale="1.2" scrollx="0" scrolly="0" />
-    <View name="SteamTurbineGov1" zoomscale="0.96" scrollx="0" scrolly="0" />
+    <View name="SteamTurbineGov1" zoomscale="0.96" scrollx="223" scrolly="0" />
     <View name="simple_brk_logic" zoomscale="0.6144" scrollx="0" scrolly="0" />
     <View name="timestep_delay_angle_1" zoomscale="0.768001" scrollx="0" scrolly="0" />
     <View name="timestep_next_angle" zoomscale="1.5" scrollx="91" scrolly="0" />
