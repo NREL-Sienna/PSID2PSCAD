@@ -500,7 +500,7 @@ function build_component(
 end
 
 
-function build_component(psid_component::Line, pscad_component_name, pscad_canvas, coorDict, sys; add_gen_breakers = false, add_load_breakers = false, add_line_breakers = false, add_multimeters = false)
+function build_component(psid_component::Union{DynamicBranch, Line}, pscad_component_name, pscad_canvas, coorDict, sys; add_gen_breakers = false, add_load_breakers = false, add_line_breakers = false, add_multimeters = false)
     split_parts = split(pscad_component_name, "-")
     midpoint =
         floor(Int, (coorDict[split_parts[1]].centerpoint[1] + coorDict[split_parts[2]].centerpoint[1]) / 2),

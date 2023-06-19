@@ -1,0 +1,46 @@
+{
+    "name": "",
+    "description": "",
+    "frequency": 60,
+    "time_series_resolution_milliseconds": 0,
+    "component_counts": [
+        {
+            "type": "Arc",
+            "count": 3
+        },
+        {
+            "type": "Area",
+            "count": 1
+        },
+        {
+            "type": "Bus",
+            "count": 3
+        },
+        {
+            "type": "DynamicBranch",
+            "count": 2
+        },
+        {
+            "type": "DynamicInverter",
+            "count": 1
+        },
+        {
+            "type": "Line",
+            "count": 1
+        },
+        {
+            "type": "LoadZone",
+            "count": 1
+        },
+        {
+            "type": "StandardLoad",
+            "count": 1
+        },
+        {
+            "type": "ThermalStandard",
+            "count": 2
+        }
+    ],
+    "time_series_counts": [
+    ]
+}

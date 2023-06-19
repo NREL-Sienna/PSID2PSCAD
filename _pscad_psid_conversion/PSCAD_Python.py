@@ -84,7 +84,7 @@ def basic_pscad_startup():
     LOG.info("   After filtering: %s", fortrans)
 
     # Order the remaining compilers, choose the last one (highest revision)
-    fortran = sorted(fortrans)[-1]
+    fortran = sorted(fortrans)[0]
     LOG.info("   Selected FORTRAN version: %s", fortran)
 
     # Launch PSCAD

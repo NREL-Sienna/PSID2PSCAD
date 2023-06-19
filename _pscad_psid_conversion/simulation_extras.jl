@@ -2,20 +2,20 @@ function pscad_compat_name(psid_name)
     return replace(psid_name, "-" => "_")
 end 
 
-function setup_breaker_operations(project, perturbation::PowerSimulationsDynamics.BranchTrip)
+function setup_breaker_operations(project, perturbation::PowerSimulationsDynamics.BranchTrip, t_offset)
     breaker_name =string("br_", pscad_compat_name(perturbation.branch_name), "_1") 
     breaker_logic = project.find("PSID_Library:simple_brk_logic", breaker_name )
-    breaker_logic.set_parameters(enable = 1, t_break = perturbation.time)
+    breaker_logic.set_parameters(enable = 1, t_break = perturbation.time+t_offset)
     breaker_name =string("br_", pscad_compat_name(perturbation.branch_name), "_2") 
     breaker_logic = project.find("PSID_Library:simple_brk_logic", breaker_name )
-    breaker_logic.set_parameters(enable = 1, t_break = perturbation.time)
+    breaker_logic.set_parameters(enable = 1, t_break = perturbation.time+t_offset)
 end  
 
-function setup_breaker_operations(project, perturbation::PowerSimulationsDynamics.GeneratorTrip)
+function setup_breaker_operations(project, perturbation::PowerSimulationsDynamics.GeneratorTrip, t_offset)
     perturbation_name = get_name(perturbation.device)
     breaker_name =string("br_", pscad_compat_name(perturbation_name), "_1") 
     breaker_logic = project.find("PSID_Library:simple_brk_logic", breaker_name )
-    breaker_logic.set_parameters(enable = 1, t_break = perturbation.time)
+    breaker_logic.set_parameters(enable = 1, t_break = perturbation.time+t_offset)
 end  
 
 function setup_output_channnels(project, quantities_to_record::Vector{Tuple{Symbol, String}}, starting_coord; force = true)
