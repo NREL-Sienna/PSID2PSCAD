@@ -4,14 +4,14 @@
 
 ################ OPTIONS #################
 #GENERAL PARAMETERS WHICH APPLY TO BOTH PSID AND PSCAD 
-base_name = "psid_paper"
+base_name = "three_bus_inv_gen"
 line_to_trip = "Bus_1-Bus_2-i_1" 
 t_sample =  5.0e-4 #* 1e6 
 t_dynamic_sim = 5.0
 
 #PSCAD SPECIFIC PARAMETERS
 build_from_scratch = true 
-time_step_pscad = 20e-6 * 1e6
+time_step_pscad = 2e-6 * 1e6    #unstable @ 5us timestep 
 t_initialization_pscad = 3.0
 t_inv_release_pscad = 1.0
 t_gen_release_pscad = 1.0
@@ -84,7 +84,7 @@ plotting = true
                 push!(quantities_to_record, (:f, pscad_compat_name(get_name(g))))
                 push!(quantities_to_record, (:P, pscad_compat_name(get_name(g))))
                 push!(quantities_to_record, (:Q, pscad_compat_name(get_name(g))))
-            end 
+            end  
             for g in collect(get_components(DynamicInverter, sys))
                 push!(quantities_to_record, (:V_cnv_d, pscad_compat_name(get_name(g))))
                 push!(quantities_to_record, (:V_cnv_q, pscad_compat_name(get_name(g))))
@@ -130,7 +130,7 @@ plotting = true
         end 
         sim_time = @timed project.run()
 
-
+        #Add a diagnostic error here for the simulation not running 
         df = collect_pscad_outputs(pscad_output_folder_path)[1]  
         open(joinpath(base_path, "pscad_results_init.csv"), "w") do io
             CSV.write(io, df)

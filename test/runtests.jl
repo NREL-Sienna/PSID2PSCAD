@@ -9,6 +9,7 @@ using PowerSystems
 using PowerSimulationsDynamics
 using PyCall
 using OrdinaryDiffEq
+using Statistics 
 using Sundials
 using Test
 using Logging
@@ -52,9 +53,11 @@ logger = PSY.configure_logging(;
     file_level =  Logging.Warn,
 )
 with_logger(logger) do
-    include("test_psid_paper.jl")
-
-end
+    #include("test_psid_paper.jl")            #3bus system with all inverters
+    #include("test_three_bus_inv_gen.jl")    #3bus system with inverter and machine - this should work as is without further changes 
+    include("test_nine_bus_inv_gen.jl")                                         #9bus system with multiple devices per bus - need to add sources to ensure good PF match   
+                                             #144bus system - should be same as 9 bus, no additional changes needed 
+end     
 flush(logger)
 close(logger)
 

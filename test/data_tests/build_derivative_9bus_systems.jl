@@ -1,9 +1,9 @@
 
-using PowerSimulationsDynamicsSurrogates
+using PowerSimulationsDynamicsSurrogates    #need to add package to rebuild systems
 const PSIDS = PowerSimulationsDynamicsSurrogates
 
 
-sys_144 = System(joinpath(@__DIR__, "psid_files", "144Bus.json"))
+sys_144 = System(joinpath(@__DIR__, "..", "systems_tests", "144Bus.json"))
 sys_9, _ = PSIDS.create_train_system_from_buses(sys_144, collect(1:9))
 sources = collect(get_components(Source, sys_9))
 for s in sources
@@ -19,9 +19,10 @@ sim = Simulation!(
     (0.0, 1.0),
 )
 
-to_json(sys_9, joinpath(@__DIR__, "psid_files", "9bus.json"), force = true)
+to_json(sys_9, joinpath(@__DIR__, "..", "systems_tests", "nine_bus_inv_gen.json"), force = true)
 ##
-sys_9 = System(joinpath(@__DIR__, "psid_files", "9bus.json"))
+#Below here are untested since the old code was moved
+sys_9 = System(joinpath(@__DIR__, "psid_files", "nine_bus_inv_gen.json"))
 
  lv_buses = get_components(x->get_base_voltage(x) < 100.0, Bus, sys_9)
 for b in lv_buses

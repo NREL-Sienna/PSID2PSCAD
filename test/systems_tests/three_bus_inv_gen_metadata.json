@@ -6,7 +6,7 @@
     "component_counts": [
         {
             "type": "Arc",
-            "count": 9
+            "count": 3
         },
         {
             "type": "Area",
@@ -14,19 +14,23 @@
         },
         {
             "type": "Bus",
-            "count": 9
-        },
-        {
-            "type": "DynamicInverter",
-            "count": 2
-        },
-        {
-            "type": "GenericBattery",
             "count": 3
         },
         {
+            "type": "DynamicBranch",
+            "count": 2
+        },
+        {
+            "type": "DynamicGenerator",
+            "count": 1
+        },
+        {
+            "type": "DynamicInverter",
+            "count": 1
+        },
+        {
             "type": "Line",
-            "count": 6
+            "count": 1
         },
         {
             "type": "LoadZone",
@@ -34,11 +38,11 @@
         },
         {
             "type": "StandardLoad",
-            "count": 3
+            "count": 1
         },
         {
-            "type": "Transformer2W",
-            "count": 3
+            "type": "ThermalStandard",
+            "count": 2
         }
     ],
     "time_series_counts": [

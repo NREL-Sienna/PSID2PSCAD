@@ -1,6 +1,6 @@
         using PowerSystems
         using PowerSimulationsDynamics
-        # 1. Build the system in PSID. 
+
         line_to_trip = "Bus_1-Bus_2-i_1" 
 
         sys = System(joinpath(@__DIR__, "ThreeBusPSCAD.raw"), runchecks = false)
@@ -12,9 +12,9 @@
             if get_number(get_bus(g)) == 101
                 add_inv_case78!(sys, g)
             elseif get_number(get_bus(g)) == 102
-                add_inv_darco_droop!(sys, g)
+                add_sauerpai_sexs_tgov1_fixed!(sys, g)   #same generator in 144 bus
             end
         end
         transform_all_lines_dynamic_except_one!(sys, line_to_trip)
 
-        to_json(sys, joinpath(@__DIR__, "..", "systems_tests", "psid_paper.json"))
+        to_json(sys, joinpath(@__DIR__, "..", "systems_tests", "three_bus_inv_gen.json"))

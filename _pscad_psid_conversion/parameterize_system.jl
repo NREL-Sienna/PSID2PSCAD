@@ -1,7 +1,7 @@
 function parameterize_system(sys::System, project)
     sim = Simulation!(MassMatrixModel, sys, pwd(), (0.0, 0.0))
     ss = small_signal_analysis(sim)
-    @warn ss.stable
+    @warn "stable?", ss.stable
     x0_dict = read_initial_conditions(sim)
     setpoints_dict = get_setpoints(sim)
 
@@ -390,7 +390,6 @@ function write_parameters(
 )
     pscad_component_name = filter(x -> !isspace(x), pscad_component_name)
     pscad_component = pscad_project.find(pscad_component_name)
-    @error "IN LINE"
     pscad_params = pscad_component.parameters()
     pscad_params["PU"] = 3 #Enter impedances in PU
     pscad_params["VR2"] = get_base_voltage(get_from(get_arc(psid_component)))
@@ -491,6 +490,10 @@ function write_parameters(
     pscad_params["t_L2N"] = "t_L2N"
     pscad_params["t_RAMP"] = "t_RAMP"
 
+    pscad_params["Vd"] = string("Vd_", pscad_compat_name(get_name(psid_component))) 
+    pscad_params["Vq"] = string("Vq_", pscad_compat_name(get_name(psid_component))) 
+    pscad_params["Id"] = string("Id_", pscad_compat_name(get_name(psid_component))) 
+    pscad_params["Iq"] = string("Iq_", pscad_compat_name(get_name(psid_component))) 
     PP.update_parameter_by_dictionary(pscad_component, pscad_params)
 end
 
@@ -517,6 +520,14 @@ function write_parameters(
     pscad_params["t_INV"] = "t_INV"
     pscad_params["t_RAMP"] = "t_RAMP"
 
+    pscad_params["v_cnv_d"] = string("v_cnv_d_", pscad_compat_name(get_name(psid_component))) 
+    pscad_params["v_cnv_q"] = string("v_cnv_q_", pscad_compat_name(get_name(psid_component))) 
+    pscad_params["i_cnv_d"] = string("i_cnv_d_", pscad_compat_name(get_name(psid_component))) 
+    pscad_params["i_cnv_q"] = string("i_cnv_q_", pscad_compat_name(get_name(psid_component))) 
+    pscad_params["v_flt_d"] = string("v_flt_d_", pscad_compat_name(get_name(psid_component))) 
+    pscad_params["v_flt_q"] = string("v_flt_q_", pscad_compat_name(get_name(psid_component))) 
+    pscad_params["i_flt_d"] = string("i_flt_d_", pscad_compat_name(get_name(psid_component))) 
+    pscad_params["i_flt_q"] = string("i_flt_q_", pscad_compat_name(get_name(psid_component))) 
     PP.update_parameter_by_dictionary(pscad_component, pscad_params)
 end
 
