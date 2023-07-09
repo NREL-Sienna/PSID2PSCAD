@@ -108,7 +108,7 @@ function plot_psid_pscad_initialization_comparison(sys, psid_results, pscad_resu
         t, f = get_frequency_series(psid_results, psid_name)    #this errors 
         PlotlyJS.add_trace!(
             p,
-            PlotlyJS.scatter(; x = pscad_results_initialization[!, :time], y = pscad_results_initialization[!, "P_$pscad_name"], name = "PSCAD_$pscad_name"),
+            PlotlyJS.scatter(; x = pscad_results_initialization[!, :time], y = pscad_results_initialization[!, "P_$pscad_name"] ./ 100.0, name = "PSCAD_$pscad_name"),
             row = 1,
             col = 2,
         )
@@ -120,7 +120,7 @@ function plot_psid_pscad_initialization_comparison(sys, psid_results, pscad_resu
         )
         PlotlyJS.add_trace!(
             p,
-            PlotlyJS.scatter(; x = pscad_results_initialization[!, :time], y = pscad_results_initialization[!, "Q_$pscad_name"], name = "PSCAD_$pscad_name"),
+            PlotlyJS.scatter(; x = pscad_results_initialization[!, :time], y = pscad_results_initialization[!, "Q_$pscad_name"] ./ 100.0, name = "PSCAD_$pscad_name"),
             row = 2,
             col = 1,
         )
@@ -355,8 +355,8 @@ function psid_pscad_initialization_comparison(sys, psid_results, pscad_results_i
         _, P_psid = get_activepower_series(psid_results, psid_name)
         _, Q_psid = get_reactivepower_series(psid_results, psid_name)
        # _, f_psid = get_frequency_series(psid_results, psid_name)
-        P_pscad = pscad_results_initialization[!, "P_$pscad_name"]
-        Q_pscad = pscad_results_initialization[!, "Q_$pscad_name"]
+        P_pscad = pscad_results_initialization[!, "P_$pscad_name"] ./ 100.0
+        Q_pscad = pscad_results_initialization[!, "Q_$pscad_name"] ./ 100.0
         #f_pscad = pscad_results_initialization[!, "f_$pscad_name"]
         res_P = P_psid[1] .- P_pscad[end]
         res_Q = Q_psid[end] .- Q_pscad[end]
@@ -495,7 +495,7 @@ function plot_psid_pscad_fault_comparison(sys, psid_results, pscad_results_initi
         t, P = get_activepower_series(psid_results, psid_name)
         PlotlyJS.add_trace!(
             p,
-            PlotlyJS.scatter(; x = pscad_results_initialization[!, :time], y = pscad_results_initialization[!, "P_$pscad_name"], name = "PSCAD_$pscad_name"),
+            PlotlyJS.scatter(; x = pscad_results_initialization[!, :time], y = pscad_results_initialization[!, "P_$pscad_name"] ./ 100.0, name = "PSCAD_$pscad_name"),
             row = 1,
             col = 2,
         )
@@ -513,7 +513,7 @@ function plot_psid_pscad_fault_comparison(sys, psid_results, pscad_results_initi
         t, Q = get_reactivepower_series(psid_results, psid_name)
         PlotlyJS.add_trace!(
             p,
-            PlotlyJS.scatter(; x = pscad_results_initialization[!, :time], y = pscad_results_initialization[!, "Q_$pscad_name"], name = "PSCAD_$pscad_name"),
+            PlotlyJS.scatter(; x = pscad_results_initialization[!, :time], y = pscad_results_initialization[!, "Q_$pscad_name"] ./ 100.0, name = "PSCAD_$pscad_name"),
             row = 2,
             col = 1,
         )
@@ -562,8 +562,8 @@ function psid_pscad_fault_comparison(sys, psid_results, pscad_results_initializa
         _, P_psid = get_activepower_series(psid_results, psid_name)
         _, Q_psid = get_reactivepower_series(psid_results, psid_name)
         _, f_psid = get_frequency_series(psid_results, psid_name)
-        P_pscad = pscad_results_initialization[!, "P_$pscad_name"]
-        Q_pscad = pscad_results_initialization[!, "Q_$pscad_name"]
+        P_pscad = pscad_results_initialization[!, "P_$pscad_name"] ./ 100.0
+        Q_pscad = pscad_results_initialization[!, "Q_$pscad_name"] ./ 100.0
         f_pscad = pscad_results_initialization[!, "f_$pscad_name"]
         res_P = P_psid .- P_pscad
         res_Q = Q_psid .- Q_pscad

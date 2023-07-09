@@ -1,7 +1,7 @@
 
 bus_length_const = 6
 
-function build_system(sys::System, project, coorDict; add_gen_breakers = false, add_load_breakers = false, add_line_breakers = false, add_multimeters = false)
+function build_system(sys::System, project, coorDict; add_gen_breakers = false, add_load_breakers = false, add_line_breakers = false, add_multimeters = false, add_pvbus_sources = false)
     main = project.user_canvas("Main")
     y_coord = 2
     for signal in ["t_INV", "t_GEN", "t_L2N", "t_S2M", "t_RAMP"]
@@ -14,11 +14,11 @@ function build_system(sys::System, project, coorDict; add_gen_breakers = false, 
     components = collect(get_components(Component, sys))
     for c in components
         @info "building component: $(get_name(c)) of type $(typeof(c))"
-        build_component(c, get_name(c), main, coorDict, sys; add_gen_breakers, add_load_breakers, add_line_breakers, add_multimeters)
+        build_component(c, get_name(c), main, coorDict, sys; add_gen_breakers, add_load_breakers, add_line_breakers, add_multimeters, add_pvbus_sources)
     end 
 end
 
-function build_component(psid_component::Bus, pscad_component_name, pscad_canvas, coorDict, sys; add_gen_breakers = false, add_load_breakers = false, add_line_breakers = false, add_multimeters = false)
+function build_component(psid_component::Bus, pscad_component_name, pscad_canvas, coorDict, sys; add_gen_breakers = false, add_load_breakers = false, add_line_breakers = false, add_multimeters = false, add_pvbus_sources = false)
     BusDict = Dict()
     for (key, value) in coorDict
         if value.orientation == "tall"
@@ -35,6 +35,29 @@ function build_component(psid_component::Bus, pscad_component_name, pscad_canvas
     )
     new_bus.parameters(Name = pscad_component_name)
 
+    if add_pvbus_sources == true 
+        if get_bustype(psid_component) == BusTypes.PV || get_bustype(psid_component) == BusTypes.REF
+            if coorDict[pscad_component_name].orientation == "tall"
+                multimeter_offset_x = 0
+                multimeter_offset_y = -6 
+            else    
+                multimeter_offset_x = -6
+                multimeter_offset_y = 0 
+            end
+            new_source = pscad_canvas.add_component(
+                "PSID_Library",
+                "PVBusSource",   
+                coorDict[pscad_component_name].centerpoint[1] + multimeter_offset_x,
+                coorDict[pscad_component_name].centerpoint[2] + multimeter_offset_y
+                )
+            source_name = "s_"*pscad_component_name
+            new_source.set_parameters(
+                Name = source_name,
+                BasekV = get_base_voltage(psid_component),
+                I_rms = "isource_"*pscad_component_name
+                )
+        end 
+    end 
     if add_multimeters == true
         if coorDict[pscad_component_name].orientation == "tall"
             multimeter_offset_x = 1
@@ -71,7 +94,8 @@ function build_component(
     add_gen_breakers = false,
     add_load_breakers = false,
     add_line_breakers = false,
-    add_multimeters = false
+    add_multimeters = false,
+    add_pvbus_sources = false,
 )
     Busname = get_name(get_bus(psid_component))
     if coorDict[Busname].devices_location == "s"
@@ -130,7 +154,8 @@ function build_component(
     add_gen_breakers = false,
     add_load_breakers = false,
     add_line_breakers = false,
-    add_multimeters = false
+    add_multimeters = false,
+    add_pvbus_sources = false,
 )
     static_injector = get_component(StaticInjection, sys, pscad_component_name)
     Busname = get_name(get_bus(static_injector))
@@ -207,7 +232,8 @@ function build_component(
     add_gen_breakers = false,
     add_load_breakers = false,
     add_line_breakers = false, 
-    add_multimeters = false
+    add_multimeters = false,
+    add_pvbus_sources = false,
 )
     static_injector = get_component(StaticInjection, sys, pscad_component_name)
     Busname = get_name(get_bus(static_injector))
@@ -284,7 +310,8 @@ function build_component(
     add_gen_breakers = false,
     add_load_breakers = false,
     add_line_breakers = false, 
-    add_multimeters = false
+    add_multimeters = false,
+    add_pvbus_sources = false,
 )
     static_injector = get_component(StaticInjection, sys, pscad_component_name)
     Busname = get_name(get_bus(static_injector))
@@ -361,7 +388,8 @@ function build_component(
     add_gen_breakers = false,
     add_load_breakers = false,
     add_line_breakers = false, 
-    add_multimeters = false
+    add_multimeters = false,
+    add_pvbus_sources = false,
 )
     static_injector = get_component(StaticInjection, sys, pscad_component_name)
     Busname = get_name(get_bus(static_injector))
@@ -438,7 +466,8 @@ function build_component(
     add_gen_breakers = false,
     add_load_breakers = false,
     add_line_breakers = false, 
-    add_multimeters = false
+    add_multimeters = false,
+    add_pvbus_sources = false,
 )
     static_injector = get_component(StaticInjection, sys, pscad_component_name)
     Busname = get_name(get_bus(static_injector))
@@ -500,7 +529,7 @@ function build_component(
 end
 
 
-function build_component(psid_component::Union{DynamicBranch, Line}, pscad_component_name, pscad_canvas, coorDict, sys; add_gen_breakers = false, add_load_breakers = false, add_line_breakers = false, add_multimeters = false)
+function build_component(psid_component::Union{DynamicBranch, Line}, pscad_component_name, pscad_canvas, coorDict, sys; add_gen_breakers = false, add_load_breakers = false, add_line_breakers = false, add_multimeters = false, add_pvbus_sources = false,)
     split_parts = split(pscad_component_name, "-")
     midpoint =
         floor(Int, (coorDict[split_parts[1]].centerpoint[1] + coorDict[split_parts[2]].centerpoint[1]) / 2),
@@ -575,7 +604,8 @@ function build_component(
     add_gen_breakers= false,
     add_load_breakers = false,
     add_line_breakers = false, 
-    add_multimeters = false
+    add_multimeters = false,
+    add_pvbus_sources = false,
 )
     #Winding #1 => from bus, Winding #2 => to bus  
     from_bus_name = get_name(get_from(get_arc(psid_component)))
@@ -610,7 +640,8 @@ function build_component(
     add_gen_breakers = false,
     add_load_breakers = false,
     add_line_breakers = false, 
-    add_multimeters = false
+    add_multimeters = false,
+    add_pvbus_sources = false,
 )
     loadbus = get_name(get_bus(psid_component))
     load_coors = (coorDict[loadbus].centerpoint[1] + 4, coorDict[loadbus].centerpoint[2] + 2)
@@ -638,7 +669,7 @@ function build_component(
     end
 end
 
-function build_component(psid_component::Arc, pscad_component_name, pscad_canvas, coorDict, sys; add_gen_breakers = false, add_load_breakers = false, add_line_breakers = false, add_multimeters = false)
+function build_component(psid_component::Arc, pscad_component_name, pscad_canvas, coorDict, sys; add_gen_breakers = false, add_load_breakers = false, add_line_breakers = false, add_multimeters = false, add_pvbus_sources = false)
     @info "Skipping build for type Arc"
 end
 
@@ -651,12 +682,13 @@ function build_component(
     add_gen_breakers = false,
     add_load_breakers = false,
     add_line_breakers = false, 
-    add_multimeters = false
+    add_multimeters = false,
+    add_pvbus_sources = false,
 )
     @info "Skipping build for type LoadZone"
 end
 
-function build_component(psid_component::Area, pscad_component_name, pscad_canvas, coorDict, sys; add_gen_breakers = false, add_load_breakers = false, add_line_breakers = false, add_multimeters = false)
+function build_component(psid_component::Area, pscad_component_name, pscad_canvas, coorDict, sys; add_gen_breakers = false, add_load_breakers = false, add_line_breakers = false, add_multimeters = false, add_pvbus_sources = false)
     @info "Skipping build for type Area"
 end
 
@@ -669,7 +701,8 @@ function build_component(
     add_gen_breakers = false,
     add_load_breakers = false,
     add_line_breakers = false, 
-    add_multimeters = false
+    add_multimeters = false,
+    add_pvbus_sources = false,
 )
     @info "Skipping build for type GenericBattery"
 end
@@ -683,7 +716,8 @@ function build_component(
     add_gen_breakers = false,
     add_load_breakers = false,
     add_line_breakers = false, 
-    add_multimeters = false
+    add_multimeters = false,
+    add_pvbus_sources = false,
 )
     @info "Skipping build for type ThermalStandard"
 end

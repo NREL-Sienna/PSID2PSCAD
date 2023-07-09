@@ -13,8 +13,10 @@ t_dynamic_sim = 5.0
 build_from_scratch = true 
 time_step_pscad = 20e-6 * 1e6
 t_initialization_pscad = 3.0
-t_inv_release_pscad = 1.0
-t_gen_release_pscad = 1.0
+t_inv_release_pscad = 2.0
+t_gen_release_pscad = 2.0
+add_pvbus_sources = true  
+t_pvbussource_release_pscad = 1.0
 fortran_version = ".gf46"
 
 #PSID SPECIFIC PARAMETERS 
@@ -71,6 +73,7 @@ plotting = true
                 add_load_breakers = true,
                 add_line_breakers = true,
                 add_multimeters = true,
+                add_pvbus_sources = add_pvbus_sources, 
             )
             parameterize_system(sys, project) 
             quantities_to_record = Tuple{Symbol, String}[]
@@ -84,7 +87,7 @@ plotting = true
                 push!(quantities_to_record, (:f, pscad_compat_name(get_name(g))))
                 push!(quantities_to_record, (:P, pscad_compat_name(get_name(g))))
                 push!(quantities_to_record, (:Q, pscad_compat_name(get_name(g))))
-            end 
+            end  
             for g in collect(get_components(DynamicInverter, sys))
                 push!(quantities_to_record, (:V_cnv_d, pscad_compat_name(get_name(g))))
                 push!(quantities_to_record, (:V_cnv_q, pscad_compat_name(get_name(g))))
@@ -101,6 +104,11 @@ plotting = true
                 push!(quantities_to_record, (:Id, pscad_compat_name(get_name(g))))
                 push!(quantities_to_record, (:Iq, pscad_compat_name(get_name(g))))
             end 
+            if add_pvbus_sources
+                for b in collect(get_components(x -> (PowerSystems.get_bustype(x) == BusTypes.REF || PowerSystems.get_bustype(x) == BusTypes.PV), Bus, sys))
+                    push!(quantities_to_record, (:isource, pscad_compat_name(get_name(b)))) 
+                end 
+            end
             setup_output_channnels(project, quantities_to_record, (15, 2)) 
             project.save()   
             pscad.save_workspace()
@@ -112,6 +120,9 @@ plotting = true
         PP.update_parameter_by_name(project.find("master:const", "t_INV"), "Value", t_inv_release_pscad)
         PP.update_parameter_by_name(project.find("master:const", "t_GEN"), "Value", t_gen_release_pscad)
         PP.update_parameter_by_name(project.find("master:const", "t_RAMP"), "Value", 0.1)
+        for x in project.find_all("PSID_Library:PVBusSource")
+            PP.update_parameter_by_name(x, "t_breaker", t_pvbussource_release_pscad)
+        end 
 
         set_project_parameters!(
             project;

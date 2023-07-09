@@ -4,14 +4,14 @@
 
 ################ OPTIONS #################
 #GENERAL PARAMETERS WHICH APPLY TO BOTH PSID AND PSCAD 
-base_name = "three_bus_inv_gen"
-line_to_trip = "Bus_1-Bus_2-i_1" 
+base_name = "onefortyfour_bus"
+line_to_trip = "Bus_7-Bus_5-i_1" 
 t_sample =  5.0e-4 #* 1e6 
 t_dynamic_sim = 5.0
 
 #PSCAD SPECIFIC PARAMETERS
 build_from_scratch = true 
-time_step_pscad = 2e-6 * 1e6    #unstable @ 5us timestep 
+time_step_pscad = 10e-6 * 1e6  
 t_initialization_pscad = 3.0
 t_inv_release_pscad = 2.0
 t_gen_release_pscad = 2.0
@@ -31,7 +31,7 @@ plotting = true
     !isdir(base_path) && mkdir(base_path)
    # try 
         # 1. Build the system in PSID. 
-        sys = System(joinpath(@__DIR__, "systems_tests", string(base_name, ".json")), runchecks = false)
+        sys = System(joinpath(@__DIR__, "systems_tests", string("144Bus", ".json")), runchecks = false)
 
         # 2. Simulate the PSID system.
         perturbation = BranchTrip(0.1, Line, line_to_trip)
@@ -68,7 +68,7 @@ plotting = true
             build_system(
                 sys,
                 project,
-                bus_coords_3;
+                bus_coords_144;
                 add_gen_breakers = true,
                 add_load_breakers = true,
                 add_line_breakers = true,

@@ -540,8 +540,18 @@ function write_initial_conditions(
     pscad_component_name = filter(x -> !isspace(x), pscad_component_name)
     pscad_component = pscad_project.find("Bus", pscad_component_name)
     pscad_params = pscad_component.parameters()
-    pscad_params["VA"] = get_angle(psid_component)
-    pscad_params["VM"] = get_magnitude(psid_component)
+    VM =  get_magnitude(psid_component)
+    VA = get_angle(psid_component)
+    pscad_params["VA"] = VA
+    pscad_params["VM"] = VM 
+    pscad_component_pvbus_source = pscad_project.find(string("s_", pscad_component_name))
+    if pscad_component_pvbus_source !== nothing 
+        pvbus_source_params = pscad_component_pvbus_source.parameters() 
+        pvbus_source_params["Vr"] = VM * cos(VA)
+        pvbus_source_params["Vi"] = VM * sin(VA)
+        pvbus_source_params["VA"] = VA
+        PP.update_parameter_by_dictionary(pscad_component_pvbus_source, pvbus_source_params)
+    end 
     PP.update_parameter_by_dictionary(pscad_component, pscad_params)
 end
 
