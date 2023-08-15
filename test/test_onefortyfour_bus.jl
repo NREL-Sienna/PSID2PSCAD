@@ -10,22 +10,23 @@ t_sample =  5.0e-4 #* 1e6
 t_dynamic_sim = 5.0
 
 #PSCAD SPECIFIC PARAMETERS
-build_from_scratch = true 
-time_step_pscad = 10e-6 * 1e6  
-t_initialization_pscad = 3.0
-t_inv_release_pscad = 2.0
-t_gen_release_pscad = 2.0
+build_from_scratch = false 
+time_step_pscad = 25e-6 * 1e6  
+t_initialization_pscad = 4.0 
+t_inv_release_pscad = 3.0
+t_gen_release_pscad = 3.0
 add_pvbus_sources = true  
-t_pvbussource_release_pscad = 1.0
-fortran_version = ".gf46"
+t_pvbussource_release_pscad = 3.0
+fortran_version = ".if18_x86"
 
 #PSID SPECIFIC PARAMETERS 
-solver_psid = Rodas5()
-abstol_psid = 1e-14
+solver_psid = IDA(linear_solver = :KLU)#FBDF()
+abstol_psid = 1e-9
+reltol_psid = 1e-9
 
 plotting = true   
 ##########################################
-
+@info "144"
 # @testset "test_psid_paper" begin
     base_path = (joinpath(pwd(), string("test_", base_name)))
     !isdir(base_path) && mkdir(base_path)
@@ -33,22 +34,38 @@ plotting = true
         # 1. Build the system in PSID. 
         sys = System(joinpath(@__DIR__, "systems_tests", string("144Bus", ".json")), runchecks = false)
 
+        for b in get_components(Line, sys)
+            @error get_name(b)
+            if get_name(b) != line_to_trip
+                dyn_branch = PowerSystems.DynamicBranch(b)
+                add_component!(sys, dyn_branch)
+            end
+        end
         # 2. Simulate the PSID system.
         perturbation = BranchTrip(0.1, Line, line_to_trip)
         sim = Simulation!(
-            MassMatrixModel,
+            ResidualModel,
             sys,
             pwd(),
             (0.0, t_dynamic_sim),
             perturbation;
-            file_level = Logging.Error,
+            file_level =  Logging.Error,
+            frequency_reference = ReferenceBus(),
+        )
+        sim = Simulation!(
+            ResidualModel,
+            sys,
+            pwd(),
+            (0.0, t_dynamic_sim),
+            perturbation;
+            file_level =  Logging.Error,
             frequency_reference = ReferenceBus(),
         )
         inner_vars_map = export_inner_vars(sim)
         @assert small_signal_analysis(sim).stable
-        execute!(sim, solver_psid; saveat=0:t_sample:t_dynamic_sim, abstol = abstol_psid)
-        psid_results = read_results(sim)
-
+        execute!(sim, solver_psid; saveat=0:t_sample:t_dynamic_sim, abstol = abstol_psid, reltol = reltol_psid)
+        psid_results = read_results(sim) 
+##
         # 3. Build the system in PSCAD (based on the PSID system)
         PP = pyimport("PSCAD_Python")
         pscad = PP.basic_pscad_startup()
@@ -88,7 +105,7 @@ plotting = true
                 push!(quantities_to_record, (:P, pscad_compat_name(get_name(g))))
                 push!(quantities_to_record, (:Q, pscad_compat_name(get_name(g))))
             end  
-            for g in collect(get_components(DynamicInverter, sys))
+#=             for g in collect(get_components(DynamicInverter, sys))
                 push!(quantities_to_record, (:V_cnv_d, pscad_compat_name(get_name(g))))
                 push!(quantities_to_record, (:V_cnv_q, pscad_compat_name(get_name(g))))
                 push!(quantities_to_record, (:I_cnv_d, pscad_compat_name(get_name(g))))
@@ -103,7 +120,7 @@ plotting = true
                 push!(quantities_to_record, (:Vq, pscad_compat_name(get_name(g))))
                 push!(quantities_to_record, (:Id, pscad_compat_name(get_name(g))))
                 push!(quantities_to_record, (:Iq, pscad_compat_name(get_name(g))))
-            end 
+            end  =#
             if add_pvbus_sources
                 for b in collect(get_components(x -> (PowerSystems.get_bustype(x) == BusTypes.REF || PowerSystems.get_bustype(x) == BusTypes.PV), Bus, sys))
                     push!(quantities_to_record, (:isource, pscad_compat_name(get_name(b)))) 
@@ -139,7 +156,8 @@ plotting = true
         if isdir(pscad_output_folder_path)
             foreach(rm, filter(!endswith(".snp") , readdir(pscad_output_folder_path,join=true))) #Don't delete snapshot file.
         end 
-        sim_time = @timed project.run()
+        sim_time_init = @timed project.run()
+        @show sim_time_init
 
 
         df = collect_pscad_outputs(pscad_output_folder_path)[1]  
@@ -153,7 +171,7 @@ plotting = true
             p = plot_psid_pscad_initialization_comparison(sys, psid_results, pscad_results, inner_vars_map)
             display(p)
         end 
-        psid_pscad_initialization_comparison(sys, psid_results, pscad_results, inner_vars_map)
+        #psid_pscad_initialization_comparison(sys, psid_results, pscad_results, inner_vars_map)
         project.save()   
         pscad.save_workspace()
 
@@ -179,7 +197,8 @@ plotting = true
             foreach(rm, filter(!endswith(".snp") , readdir(pscad_output_folder_path,join=true))) #Don't delete snapshot file.
         end 
 
-        sim_time = @timed project.run()
+        sim_time_dyn = @timed project.run()
+        @show sim_time_dyn
         df = collect_pscad_outputs(pscad_output_folder_path)[1]  
         open(joinpath(base_path, "pscad_results_dynamics.csv"), "w") do io
             CSV.write(io, df)

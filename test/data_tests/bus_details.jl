@@ -73,7 +73,7 @@ bus_coords_144 = Dict(
         (centerpoint = (150, 220), orientation = "tall", devices_location = "none"),
     "Bus_43" =>
         (centerpoint = (170, 220), orientation = "tall", devices_location = "e"),
-    "Bus_8" => (centerpoint = (100, 260), orientation = "tall", devices_location = "e"),
+    "Bus_8" => (centerpoint = (86, 260), orientation = "tall", devices_location = "e"),
     "Bus_9" =>
         (centerpoint = (150, 260), orientation = "tall", devices_location = "none"),
     "Bus_3" => (centerpoint = (170, 260), orientation = "tall", devices_location = "e"),

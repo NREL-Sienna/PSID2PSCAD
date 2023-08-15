@@ -10,14 +10,14 @@ t_sample =  5.0e-4 #* 1e6
 t_dynamic_sim = 5.0
 
 #PSCAD SPECIFIC PARAMETERS
-build_from_scratch = true 
-time_step_pscad = 10e-6 * 1e6  
-t_initialization_pscad = 3.0
-t_inv_release_pscad = 2.0
-t_gen_release_pscad = 2.0
+build_from_scratch = false 
+time_step_pscad = 25e-6 * 1e6  
+t_initialization_pscad = 4.0
+t_inv_release_pscad = 3.0
+t_gen_release_pscad = 3.0
 add_pvbus_sources = true  
-t_pvbussource_release_pscad = 1.0
-fortran_version = ".gf46"
+t_pvbussource_release_pscad = 3.0
+fortran_version = ".if18_x86"
 
 #PSID SPECIFIC PARAMETERS 
 solver_psid = Rodas5()
@@ -32,7 +32,8 @@ plotting = true
    # try 
         # 1. Build the system in PSID. 
         sys = System(joinpath(@__DIR__, "systems_tests", string(base_name, ".json")), runchecks = false)
-
+        #b = get_component(Bus, sys, "Bus_1")   #added these two lines in a prior version, not sure why 
+        #set_angle!(b, -0.1)                    #added these two lines in a prior version, not sure why 
         # 2. Simulate the PSID system.
         perturbation = BranchTrip(0.1, Line, line_to_trip)
         sim = Simulation!(
