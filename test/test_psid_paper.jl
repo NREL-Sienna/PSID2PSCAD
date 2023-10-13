@@ -15,9 +15,11 @@ time_step_pscad = 20e-6 * 1e6
 t_initialization_pscad = 3.0
 t_inv_release_pscad = 2.0
 t_gen_release_pscad = 2.0
-add_pvbus_sources = true  
+add_pvbus_sources = false  
 t_pvbussource_release_pscad = 1.0
-fortran_version = ".gf46"
+fortran_version = ".gf46"        #laptop
+#fortran_version = ".if18_x86"   #remote desktop
+#TODO - add check for fortran version 
 
 #PSID SPECIFIC PARAMETERS 
 solver_psid = Rodas5()

@@ -302,6 +302,14 @@ function write_rating!(pscad_params, static::S, dynamic::DynamicGenerator) where
 end
 
 function write_parameters(
+    psid_component::FixedAdmittance,
+    pscad_component_name,
+    pscad_project,
+)  
+    @warn "not parameterizing FixedAdmittance in PSCAD"
+end
+
+function write_parameters(
     psid_component::S,
     pscad_component_name,
     pscad_project,

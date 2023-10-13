@@ -86,6 +86,21 @@ function build_component(psid_component::Bus, pscad_component_name, pscad_canvas
 end
 
 function build_component(
+    psid_component::FixedAdmittance,
+    pscad_component_name,
+    pscad_canvas,
+    coorDict,
+    sys;
+    add_gen_breakers = false,
+    add_load_breakers = false,
+    add_line_breakers = false,
+    add_multimeters = false,
+    add_pvbus_sources = false,
+)
+    @warn "Not building fixed admittance in PSCAD"
+end 
+
+function build_component(
     psid_component::Source,
     pscad_component_name,
     pscad_canvas,

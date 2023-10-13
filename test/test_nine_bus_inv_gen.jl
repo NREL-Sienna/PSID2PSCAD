@@ -17,7 +17,9 @@ t_inv_release_pscad = 3.0
 t_gen_release_pscad = 3.0
 add_pvbus_sources = true  
 t_pvbussource_release_pscad = 3.0
-fortran_version = ".if18_x86"
+fortran_version = ".gf46"        #laptop
+#fortran_version = ".if18_x86"   #remote desktop
+#TODO - add check for fortran version 
 
 #PSID SPECIFIC PARAMETERS 
 solver_psid = Rodas5()

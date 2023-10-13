@@ -23,7 +23,7 @@ function setup_output_channnels(project, quantities_to_record::Vector{Tuple{Symb
     if force == true 
         #TODO: find_output_channels on the main canvas and delete them along with any connected component (if possible)
     end
-    for q in quantities_to_record
+    for (ix, q) in enumerate(quantities_to_record)
         channel_name = string(q[1], "_", q[2])
         new_channel = pscad_canvas.add_component(
             "master",
@@ -40,7 +40,11 @@ function setup_output_channnels(project, quantities_to_record::Vector{Tuple{Symb
     
         #new_channel.set_parameters(Name = channel_name)
         new_signal.set_parameters(Name = channel_name)
-        starting_coord = (starting_coord[1] + 1, starting_coord[2])
+        if ix%600 == 0
+            starting_coord = (starting_coord[1] - 600, starting_coord[2]+3)
+        else 
+            starting_coord = (starting_coord[1] + 1, starting_coord[2])
+        end 
     end 
 end 
 
