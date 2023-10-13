@@ -21,7 +21,7 @@
     <param name="Warn" value="0" />
     <param name="Check" value="0" />
     <param name="description" value="" />
-    <param name="revisor" value="Matt Bossart, 1688898299" />
+    <param name="revisor" value="Matt Bossart, 1697237619" />
     <param name="sparsity_threshold" value="200" />
   </paramlist>
   <Layers>
@@ -26553,7 +26553,7 @@
     </Settings>
   </List>
   <definitions>
-    <Definition classid="UserCmpDefn" name="DEMETRIOUS_SC" group="" url="" version="" build="" crc="11536369" instances="0" key="" view="false" date="1635958333" id="550429289">
+    <Definition classid="UserCmpDefn" name="DEMETRIOUS_SC" group="" url="" version="" build="" crc="134199221" instances="0" key="" view="false" date="1635958333" id="550429289">
       <paramlist name="">
         <param name="Description" value="" />
       </paramlist>
@@ -27205,7 +27205,7 @@
             <param name="Dim" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:emtconst" id="1666996408" x="162" y="234" w="76" h="21" z="60" orient="0" link="-1" layer="" q="4" disable="false">
+        <User classid="UserCmp" defn="master:emtconst" id="1666996408" x="162" y="234" w="76" h="22" z="60" orient="0" link="-1" layer="" q="4" disable="false">
           <paramlist link="-1" name="" crc="116269466">
             <param name="Name" value="" />
             <param name="Value" value="10" />
@@ -27235,7 +27235,7 @@
             <param name="Dim" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:emtconst" id="1328050911" x="306" y="234" w="76" h="21" z="80" orient="0" link="-1" layer="" q="4" disable="false">
+        <User classid="UserCmp" defn="master:emtconst" id="1328050911" x="306" y="234" w="76" h="22" z="80" orient="0" link="-1" layer="" q="4" disable="false">
           <paramlist link="-1" name="" crc="116269466">
             <param name="Name" value="" />
             <param name="Value" value="10" />
@@ -27283,7 +27283,7 @@
           <vertex x="0" y="0" />
           <vertex x="0" y="-18" />
         </Wire>
-        <User classid="UserCmp" name="master:time-sig" id="1673032996" x="72" y="540" w="76" h="21" z="130" orient="0" defn="master:time-sig" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:time-sig" id="1673032996" x="72" y="540" w="76" h="22" z="130" orient="0" defn="master:time-sig" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="20913136" />
         </User>
         <User classid="UserCmp" name="master:compare" id="1042051205" x="144" y="540" w="80" h="59" z="140" orient="0" defn="master:compare" link="-1" q="4" disable="false">
@@ -27326,7 +27326,7 @@
             <param name="Name" value="" />
           </paramlist>
         </User>
-        <User classid="UserCmp" name="master:time-sig" id="1712035913" x="72" y="612" w="76" h="21" z="150" orient="0" defn="master:time-sig" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:time-sig" id="1712035913" x="72" y="612" w="76" h="22" z="150" orient="0" defn="master:time-sig" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="20913136" />
         </User>
         <User classid="UserCmp" name="master:import" id="1504397114" x="90" y="954" w="61" h="25" z="200" orient="0" defn="master:import" link="-1" q="4" disable="false">
@@ -27643,7 +27643,7 @@
         </Gfx>
       </graphics>
     </Definition>
-    <Definition classid="UserCmpDefn" name="DEMETRIOUS_SG" group="" url="" version="" build="" crc="115596105" instances="0" key="" view="false" date="1635958332" id="499806405">
+    <Definition classid="UserCmpDefn" name="DEMETRIOUS_SG" group="" url="" version="" build="" crc="132743533" instances="0" key="" view="false" date="1635958332" id="499806405">
       <paramlist name="">
         <param name="Description" value="" />
       </paramlist>
@@ -28407,7 +28407,7 @@
             <param name="Dim" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:emtconst" id="857002208" x="162" y="234" w="76" h="21" z="60" orient="0" link="-1" layer="" q="4" disable="false">
+        <User classid="UserCmp" defn="master:emtconst" id="857002208" x="162" y="234" w="76" h="22" z="60" orient="0" link="-1" layer="" q="4" disable="false">
           <paramlist link="-1" name="" crc="116269466">
             <param name="Name" value="" />
             <param name="Value" value="10" />
@@ -28437,7 +28437,7 @@
             <param name="Dim" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:emtconst" id="1571134999" x="306" y="234" w="76" h="21" z="80" orient="0" link="-1" layer="" q="4" disable="false">
+        <User classid="UserCmp" defn="master:emtconst" id="1571134999" x="306" y="234" w="76" h="22" z="80" orient="0" link="-1" layer="" q="4" disable="false">
           <paramlist link="-1" name="" crc="116269466">
             <param name="Name" value="" />
             <param name="Value" value="10" />
@@ -28498,7 +28498,7 @@
           <vertex x="0" y="0" />
           <vertex x="0" y="-18" />
         </Wire>
-        <User classid="UserCmp" name="master:time-sig" id="446481655" x="72" y="540" w="76" h="21" z="130" orient="0" defn="master:time-sig" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:time-sig" id="446481655" x="72" y="540" w="76" h="22" z="130" orient="0" defn="master:time-sig" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="20913136" />
         </User>
         <User classid="UserCmp" name="master:compare" id="2103752751" x="144" y="540" w="80" h="59" z="140" orient="0" defn="master:compare" link="-1" q="4" disable="false">
@@ -28541,7 +28541,7 @@
             <param name="Name" value="" />
           </paramlist>
         </User>
-        <User classid="UserCmp" name="master:time-sig" id="1135539339" x="72" y="612" w="76" h="21" z="150" orient="0" defn="master:time-sig" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:time-sig" id="1135539339" x="72" y="612" w="76" h="22" z="150" orient="0" defn="master:time-sig" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="20913136" />
         </User>
         <User classid="UserCmp" name="master:import" id="1172205813" x="90" y="954" w="61" h="25" z="200" orient="0" defn="master:import" link="-1" q="4" disable="false">
@@ -29040,7 +29040,7 @@
         </Gfx>
       </graphics>
     </Definition>
-    <Definition classid="UserCmpDefn" name="GFL_REDUCED_PLL" group="" url="" version="" build="" crc="130573877" instances="0" key="" view="false" date="1671135954" id="946268654">
+    <Definition classid="UserCmpDefn" name="GFL_REDUCED_PLL" group="" url="" version="" build="" crc="80908507" instances="0" key="" view="false" date="1671135954" id="946268654">
       <paramlist name="">
         <param name="Description" value="" />
       </paramlist>
@@ -29765,7 +29765,7 @@
             <param name="ymax" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" name="PSID_Library:ReducedOrderPLL" id="1494865977" x="468" y="522" w="164" h="63" z="510" orient="0" defn="PSID_Library:ReducedOrderPLL" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="PSID_Library:ReducedOrderPLL" id="1494865977" x="468" y="522" w="164" h="64" z="510" orient="0" defn="PSID_Library:ReducedOrderPLL" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="87678228">
             <param name="Name" value="" />
             <param name="omega_lp" value="omega_lp" />
@@ -29932,7 +29932,7 @@
             <param name="Name" value="t_INV" />
           </paramlist>
         </User>
-        <User classid="UserCmp" name="master:time-sig" id="841511412" x="90" y="486" w="76" h="21" z="120" orient="0" defn="master:time-sig" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:time-sig" id="841511412" x="90" y="486" w="76" h="22" z="120" orient="0" defn="master:time-sig" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="20913136" />
         </User>
         <User classid="UserCmp" name="master:compare" id="1301967753" x="162" y="486" w="80" h="59" z="130" orient="0" defn="master:compare" link="-1" q="4" disable="false">
@@ -30406,7 +30406,7 @@
           <vertex x="0" y="0" />
           <vertex x="0" y="90" />
         </Wire>
-        <User classid="UserCmp" id="1822229676" name="PSID_Library:LCLFilter" x="486" y="72" w="215" h="91" z="500" orient="0" defn="PSID_Library:LCLFilter" link="-1" q="4" disable="false">
+        <User classid="UserCmp" id="1822229676" name="PSID_Library:LCLFilter" x="486" y="72" w="215" h="92" z="500" orient="0" defn="PSID_Library:LCLFilter" link="-1" q="4" disable="false">
           <paramlist name="" link="-1" crc="57376948">
             <param name="Name" value="" />
             <param name="Name_0" value="" />
@@ -30429,7 +30429,7 @@
             <param name="x0_6" value="filter_x0_6" />
           </paramlist>
         </User>
-        <User classid="UserCmp" id="1229355875" name="PSID_Library:ReferenceFrameConversion_INV" x="486" y="198" w="250" h="82" z="490" orient="0" defn="PSID_Library:ReferenceFrameConversion_INV" link="-1" q="4" disable="false">
+        <User classid="UserCmp" id="1229355875" name="PSID_Library:ReferenceFrameConversion_INV" x="486" y="198" w="250" h="81" z="490" orient="0" defn="PSID_Library:ReferenceFrameConversion_INV" link="-1" q="4" disable="false">
           <paramlist name="" link="-1" crc="28307411">
             <param name="Name" value="" />
           </paramlist>
@@ -30832,7 +30832,7 @@
         </Gfx>
       </graphics>
     </Definition>
-    <Definition classid="UserCmpDefn" name="DROOP_GFM" group="" url="" version="" build="" crc="73030094" instances="0" key="" view="false" date="1688653193" id="744715342">
+    <Definition classid="UserCmpDefn" name="DROOP_GFM" group="" url="" version="" build="" crc="77481065" instances="0" key="" view="false" date="1688653193" id="744715342">
       <paramlist name="">
         <param name="Description" value="" />
       </paramlist>
@@ -31622,7 +31622,7 @@
           <vertex x="0" y="0" />
           <vertex x="36" y="0" />
         </Wire>
-        <User classid="UserCmp" name="PSID_Library:FixedFrequency" id="822903436" x="432" y="648" w="164" h="68" z="500" orient="0" defn="PSID_Library:FixedFrequency" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="PSID_Library:FixedFrequency" id="822903436" x="432" y="648" w="164" h="69" z="500" orient="0" defn="PSID_Library:FixedFrequency" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="85637438">
             <param name="Name" value="" />
             <param name="omega_lp" value="omega_lp" />
@@ -31778,7 +31778,7 @@
             <param name="Name" value="t_INV" />
           </paramlist>
         </User>
-        <User classid="UserCmp" name="master:time-sig" id="2085283869" x="90" y="468" w="76" h="21" z="120" orient="0" defn="master:time-sig" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:time-sig" id="2085283869" x="90" y="468" w="76" h="22" z="120" orient="0" defn="master:time-sig" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="20913136" />
         </User>
         <User classid="UserCmp" name="master:compare" id="1412246850" x="162" y="468" w="80" h="59" z="130" orient="0" defn="master:compare" link="-1" q="4" disable="false">
@@ -32386,7 +32386,7 @@
             </Curve>
           </Graph>
         </Frame>
-        <User classid="UserCmp" id="1670526590" name="PSID_Library:LCLFilter" x="468" y="144" w="215" h="91" z="510" orient="0" defn="PSID_Library:LCLFilter" link="-1" q="4" disable="false">
+        <User classid="UserCmp" id="1670526590" name="PSID_Library:LCLFilter" x="468" y="144" w="215" h="92" z="510" orient="0" defn="PSID_Library:LCLFilter" link="-1" q="4" disable="false">
           <paramlist name="" link="-1" crc="57376948">
             <param name="Name" value="" />
             <param name="Name_0" value="" />
@@ -32409,7 +32409,7 @@
             <param name="x0_6" value="filter_x0_6" />
           </paramlist>
         </User>
-        <User classid="UserCmp" id="1660439571" name="PSID_Library:ReferenceFrameConversion_INV" x="468" y="288" w="250" h="82" z="530" orient="0" defn="PSID_Library:ReferenceFrameConversion_INV" link="-1" q="4" disable="false">
+        <User classid="UserCmp" id="1660439571" name="PSID_Library:ReferenceFrameConversion_INV" x="468" y="288" w="250" h="81" z="530" orient="0" defn="PSID_Library:ReferenceFrameConversion_INV" link="-1" q="4" disable="false">
           <paramlist name="" link="-1" crc="28307411">
             <param name="Name" value="" />
           </paramlist>
@@ -32802,7 +32802,7 @@
         </Gfx>
       </graphics>
     </Definition>
-    <Definition classid="UserCmpDefn" name="DARCO_VSM" group="" url="" version="" build="" crc="62762900" instances="0" key="" view="false" date="1688651189" id="949599670">
+    <Definition classid="UserCmpDefn" name="DARCO_VSM" group="" url="" version="" build="" crc="56722114" instances="0" key="" view="false" date="1688651189" id="949599670">
       <paramlist name="">
         <param name="Description" value="" />
       </paramlist>
@@ -33748,7 +33748,7 @@
             <param name="Name" value="t_INV" />
           </paramlist>
         </User>
-        <User classid="UserCmp" name="master:time-sig" id="350726710" x="90" y="504" w="76" h="21" z="120" orient="0" defn="master:time-sig" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:time-sig" id="350726710" x="90" y="504" w="76" h="22" z="120" orient="0" defn="master:time-sig" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="20913136" />
         </User>
         <User classid="UserCmp" name="master:compare" id="2087889996" x="162" y="504" w="80" h="59" z="130" orient="0" defn="master:compare" link="-1" q="4" disable="false">
@@ -33925,12 +33925,12 @@
           <vertex x="0" y="0" />
           <vertex x="0" y="-18" />
         </Wire>
-        <User classid="UserCmp" id="537476440" name="PSID_Library:ReferenceFrameConversion_INV" x="450" y="306" w="250" h="82" z="610" orient="0" defn="PSID_Library:ReferenceFrameConversion_INV" link="-1" q="4" disable="false">
+        <User classid="UserCmp" id="537476440" name="PSID_Library:ReferenceFrameConversion_INV" x="450" y="306" w="250" h="81" z="610" orient="0" defn="PSID_Library:ReferenceFrameConversion_INV" link="-1" q="4" disable="false">
           <paramlist name="" link="-1" crc="28307411">
             <param name="Name" value="" />
           </paramlist>
         </User>
-        <User classid="UserCmp" id="1674048550" name="PSID_Library:LCLFilter" x="450" y="162" w="215" h="91" z="600" orient="0" defn="PSID_Library:LCLFilter" link="-1" q="4" disable="false">
+        <User classid="UserCmp" id="1674048550" name="PSID_Library:LCLFilter" x="450" y="162" w="215" h="92" z="600" orient="0" defn="PSID_Library:LCLFilter" link="-1" q="4" disable="false">
           <paramlist name="" link="-1" crc="57376948">
             <param name="Name" value="" />
             <param name="Name_0" value="" />
@@ -34218,6 +34218,10 @@
             <param name="Vd" value="0.0" />
           </paramlist>
         </User>
+        <Wire classid="WireOrthogonal" id="1626480588" name="" x="450" y="36" w="10" h="28" orient="0" disable="false">
+          <vertex x="0" y="0" />
+          <vertex x="0" y="18" />
+        </Wire>
       </schematic>
       <references>
         <using namespace="master" />
@@ -36039,7 +36043,7 @@
         </Gfx>
       </graphics>
     </Definition>
-    <Definition classid="UserCmpDefn" name="SEXS_GAST" group="" url="" version="" build="" crc="30716446" instances="0" key="" view="false" date="1637272917" id="765820899">
+    <Definition classid="UserCmpDefn" name="SEXS_GAST" group="" url="" version="" build="" crc="134213485" instances="0" key="" view="false" date="1637272917" id="765820899">
       <paramlist name="">
         <param name="Description" value="" />
       </paramlist>
@@ -36702,7 +36706,7 @@
             <param name="Dim" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:emtconst" id="728463061" x="162" y="234" w="76" h="21" z="60" orient="0" link="-1" layer="" q="4" disable="false">
+        <User classid="UserCmp" defn="master:emtconst" id="728463061" x="162" y="234" w="76" h="22" z="60" orient="0" link="-1" layer="" q="4" disable="false">
           <paramlist link="-1" name="" crc="116269466">
             <param name="Name" value="" />
             <param name="Value" value="10" />
@@ -36732,7 +36736,7 @@
             <param name="Dim" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:emtconst" id="420998395" x="306" y="234" w="76" h="21" z="80" orient="0" link="-1" layer="" q="4" disable="false">
+        <User classid="UserCmp" defn="master:emtconst" id="420998395" x="306" y="234" w="76" h="22" z="80" orient="0" link="-1" layer="" q="4" disable="false">
           <paramlist link="-1" name="" crc="116269466">
             <param name="Name" value="" />
             <param name="Value" value="10" />
@@ -36800,7 +36804,7 @@
             <param name="Name" value="" />
           </paramlist>
         </User>
-        <User classid="UserCmp" name="master:time-sig" id="1090470398" x="72" y="720" w="76" h="21" z="180" orient="0" defn="master:time-sig" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:time-sig" id="1090470398" x="72" y="720" w="76" h="22" z="180" orient="0" defn="master:time-sig" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="20913136" />
         </User>
         <User classid="UserCmp" name="master:import" id="1991771552" x="90" y="954" w="61" h="25" z="250" orient="0" defn="master:import" link="-1" q="4" disable="false">
@@ -37116,7 +37120,7 @@
             <param name="Name" value="" />
           </paramlist>
         </User>
-        <User classid="UserCmp" name="master:time-sig" id="669542940" x="288" y="720" w="76" h="21" z="200" orient="0" defn="master:time-sig" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:time-sig" id="669542940" x="288" y="720" w="76" h="22" z="200" orient="0" defn="master:time-sig" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="20913136" />
         </User>
         <Wire classid="WireOrthogonal" id="1629948662" name="" x="540" y="414" w="28" h="10" orient="0" disable="false">
@@ -37133,7 +37137,7 @@
           <vertex x="0" y="0" />
           <vertex x="18" y="0" />
         </Wire>
-        <User classid="UserCmp" name="master:time-sig" id="1816901779" x="54" y="558" w="76" h="21" z="160" orient="0" defn="master:time-sig" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:time-sig" id="1816901779" x="54" y="558" w="76" h="22" z="160" orient="0" defn="master:time-sig" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="20913136" />
         </User>
         <User classid="UserCmp" name="master:compare" id="1596572851" x="126" y="558" w="80" h="59" z="170" orient="0" defn="master:compare" link="-1" q="4" disable="false">
@@ -37284,7 +37288,7 @@
         </Gfx>
       </graphics>
     </Definition>
-    <Definition classid="UserCmpDefn" name="SEXS" group="" url="" version="" build="" crc="123624085" instances="0" key="" view="false" date="1637273563" id="687377839">
+    <Definition classid="UserCmpDefn" name="SEXS" group="" url="" version="" build="" crc="58321879" instances="0" key="" view="false" date="1637273563" id="687377839">
       <paramlist name="">
         <param name="Description" value="" />
       </paramlist>
@@ -37527,7 +37531,7 @@ https://www.powerworld.com/WebHelp/Content/TransientModels_HTML/Exciter%20SEXS_P
             <param name="Name" value="E_MAX" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:sumjct" id="681455428" x="450" y="216" w="80" h="83" z="270" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:sumjct" id="681455428" x="450" y="216" w="80" h="82" z="270" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="16672553">
             <param name="DPath" value="1" />
             <param name="A" value="0" />
@@ -37805,7 +37809,7 @@ https://www.powerworld.com/WebHelp/Content/TransientModels_HTML/Exciter%20SEXS_P
             <param name="Name" value="V_in" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:div" id="100766320" x="612" y="432" w="80" h="60" z="90" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:div" id="100766320" x="612" y="432" w="80" h="59" z="90" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="74852640">
             <param name="Dim" value="1" />
             <param name="Name" value="" />
@@ -37840,7 +37844,7 @@ https://www.powerworld.com/WebHelp/Content/TransientModels_HTML/Exciter%20SEXS_P
             <param name="Name" value="E_C" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:sumjct" id="668544324" x="792" y="432" w="80" h="83" z="110" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:sumjct" id="668544324" x="792" y="432" w="80" h="82" z="110" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="16672553">
             <param name="DPath" value="1" />
             <param name="A" value="0" />
@@ -38223,7 +38227,7 @@ https://www.powerworld.com/WebHelp/Content/TransientModels_HTML/Exciter%20SEXS_P
             <param name="Name" value="V_ref_pscad" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:select" id="1318800055" x="486" y="630" w="82" h="90" z="240" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:select" id="1318800055" x="486" y="630" w="82" h="91" z="240" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="108938206">
             <param name="A" value="0" />
             <param name="DPath" value="1" />
@@ -38264,7 +38268,7 @@ https://www.powerworld.com/WebHelp/Content/TransientModels_HTML/Exciter%20SEXS_P
             <param name="Name" value="x0_1_pscad" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:select" id="1950295199" x="702" y="630" w="82" h="90" z="250" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:select" id="1950295199" x="702" y="630" w="82" h="91" z="250" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="108938206">
             <param name="A" value="0" />
             <param name="DPath" value="1" />
@@ -38305,7 +38309,7 @@ https://www.powerworld.com/WebHelp/Content/TransientModels_HTML/Exciter%20SEXS_P
             <param name="Name" value="x0_2_pscad" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:select" id="66746736" x="918" y="630" w="82" h="90" z="260" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:select" id="66746736" x="918" y="630" w="82" h="91" z="260" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="108938206">
             <param name="A" value="0" />
             <param name="DPath" value="1" />
@@ -38351,7 +38355,7 @@ https://www.powerworld.com/WebHelp/Content/TransientModels_HTML/Exciter%20SEXS_P
             <param name="Name" value="S2M" />
           </paramlist>
         </User>
-        <User classid="UserCmp" name="master:time-sig" id="1388585996" x="162" y="756" w="76" h="21" z="180" orient="0" defn="master:time-sig" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:time-sig" id="1388585996" x="162" y="756" w="76" h="22" z="180" orient="0" defn="master:time-sig" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="20913136" />
         </User>
         <User classid="UserCmp" name="master:compare" id="299913993" x="234" y="756" w="80" h="59" z="190" orient="0" defn="master:compare" link="-1" q="4" disable="false">
@@ -38378,7 +38382,7 @@ https://www.powerworld.com/WebHelp/Content/TransientModels_HTML/Exciter%20SEXS_P
           <vertex x="0" y="0" />
           <vertex x="18" y="0" />
         </Wire>
-        <User classid="UserCmp" name="master:time-sig" id="1142244912" x="162" y="684" w="76" h="21" z="150" orient="0" defn="master:time-sig" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:time-sig" id="1142244912" x="162" y="684" w="76" h="22" z="150" orient="0" defn="master:time-sig" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="20913136" />
         </User>
         <User classid="UserCmp" name="master:compare" id="1954704512" x="234" y="684" w="80" h="59" z="160" orient="0" defn="master:compare" link="-1" q="4" disable="false">
@@ -38685,7 +38689,7 @@ https://www.powerworld.com/WebHelp/Content/TransientModels_HTML/Exciter%20SEXS_P
         </Gfx>
       </graphics>
     </Definition>
-    <Definition classid="UserCmpDefn" name="GAST" group="" url="" version="" build="" crc="55247851" instances="0" key="" view="false" date="1637273564" id="403491505">
+    <Definition classid="UserCmpDefn" name="GAST" group="" url="" version="" build="" crc="36956232" instances="0" key="" view="false" date="1637273564" id="403491505">
       <paramlist name="">
         <param name="Description" value="" />
       </paramlist>
@@ -38942,14 +38946,14 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
             <param name="Name" value="InitGv" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:div" id="1050068624" x="432" y="270" w="80" h="60" z="260" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:div" id="1050068624" x="432" y="270" w="80" h="59" z="260" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="74852640">
             <param name="Dim" value="1" />
             <param name="Name" value="" />
             <param name="DPath" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:sumjct" id="467633868" x="540" y="270" w="80" h="64" z="270" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:sumjct" id="467633868" x="540" y="270" w="80" h="63" z="270" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="16672553">
             <param name="DPath" value="1" />
             <param name="A" value="0" />
@@ -39000,7 +39004,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
             <param name="Dim" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:sumjct" id="1350888805" x="360" y="270" w="80" h="64" z="50" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:sumjct" id="1350888805" x="360" y="270" w="80" h="63" z="50" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="16672553">
             <param name="DPath" value="1" />
             <param name="A" value="0" />
@@ -39309,7 +39313,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
             <param name="Name" value="AT" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:maxmin" id="808172948" x="666" y="270" w="80" h="60" z="320" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:maxmin" id="808172948" x="666" y="270" w="80" h="59" z="320" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="103689034">
             <param name="DPath" value="1" />
             <param name="Type" value="0" />
@@ -39360,7 +39364,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
           <vertex x="0" y="0" />
           <vertex x="54" y="0" />
         </Wire>
-        <User classid="UserCmp" defn="master:sumjct" id="1486375339" x="684" y="396" w="80" h="64" z="310" orient="4" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:sumjct" id="1486375339" x="684" y="396" w="80" h="63" z="310" orient="4" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="16672553">
             <param name="DPath" value="1" />
             <param name="A" value="0" />
@@ -39388,7 +39392,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
           <vertex x="0" y="90" />
           <vertex x="18" y="90" />
         </Wire>
-        <User classid="UserCmp" defn="master:sumjct" id="1791468107" x="882" y="396" w="80" h="64" z="360" orient="4" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:sumjct" id="1791468107" x="882" y="396" w="80" h="63" z="360" orient="4" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="16672553">
             <param name="DPath" value="1" />
             <param name="A" value="0" />
@@ -39866,7 +39870,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
             <param name="Name" value="P_ref_pscad" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:select" id="1142193397" x="504" y="918" w="82" h="90" z="210" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:select" id="1142193397" x="504" y="918" w="82" h="91" z="210" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="108938206">
             <param name="A" value="0" />
             <param name="DPath" value="1" />
@@ -39928,7 +39932,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
             <param name="Name" value="x0_1_pscad" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:select" id="762324482" x="720" y="918" w="82" h="90" z="280" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:select" id="762324482" x="720" y="918" w="82" h="91" z="280" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="108938206">
             <param name="A" value="0" />
             <param name="DPath" value="1" />
@@ -39969,7 +39973,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
             <param name="Name" value="x0_2_pscad" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:select" id="1802633093" x="936" y="918" w="82" h="90" z="290" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:select" id="1802633093" x="936" y="918" w="82" h="91" z="290" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="108938206">
             <param name="A" value="0" />
             <param name="DPath" value="1" />
@@ -40010,7 +40014,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
             <param name="Name" value="x0_3_pscad" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:select" id="1037588653" x="1152" y="918" w="82" h="90" z="300" orient="0" link="-1" q="4" disable="false">
+        <User classid="UserCmp" defn="master:select" id="1037588653" x="1152" y="918" w="82" h="91" z="300" orient="0" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="108938206">
             <param name="A" value="0" />
             <param name="DPath" value="1" />
@@ -40423,7 +40427,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
         </Gfx>
       </graphics>
     </Definition>
-    <Definition classid="UserCmpDefn" name="SIMPLE_MACHINE" group="" url="" version="" build="" crc="87805937" instances="0" key="" view="false" date="1665770150" id="749716552">
+    <Definition classid="UserCmpDefn" name="SIMPLE_MACHINE" group="" url="" version="" build="" crc="66639314" instances="0" key="" view="false" date="1665770150" id="749716552">
       <paramlist name="">
         <param name="Description" value="" />
       </paramlist>
@@ -41015,7 +41019,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
             <param name="Dim" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:emtconst" id="1206696594" x="162" y="234" w="76" h="21" z="50" orient="0" link="-1" layer="" q="4" disable="false">
+        <User classid="UserCmp" defn="master:emtconst" id="1206696594" x="162" y="234" w="76" h="22" z="50" orient="0" link="-1" layer="" q="4" disable="false">
           <paramlist link="-1" name="" crc="116269466">
             <param name="Name" value="" />
             <param name="Value" value="10" />
@@ -41045,7 +41049,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
             <param name="Dim" value="1" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:emtconst" id="1827806961" x="306" y="234" w="76" h="21" z="70" orient="0" link="-1" layer="" q="4" disable="false">
+        <User classid="UserCmp" defn="master:emtconst" id="1827806961" x="306" y="234" w="76" h="22" z="70" orient="0" link="-1" layer="" q="4" disable="false">
           <paramlist link="-1" name="" crc="116269466">
             <param name="Name" value="" />
             <param name="Value" value="10" />
@@ -41101,7 +41105,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
             <param name="Name" value="" />
           </paramlist>
         </User>
-        <User classid="UserCmp" name="master:time-sig" id="308382161" x="72" y="720" w="76" h="21" z="310" orient="0" defn="master:time-sig" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:time-sig" id="308382161" x="72" y="720" w="76" h="22" z="310" orient="0" defn="master:time-sig" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="20913136" />
         </User>
         <User classid="UserCmp" name="master:import" id="117356284" x="90" y="954" w="56" h="25" z="380" orient="0" defn="master:import" link="-1" q="4" disable="false">
@@ -41240,14 +41244,14 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
             <param name="Name" value="" />
           </paramlist>
         </User>
-        <User classid="UserCmp" name="master:time-sig" id="1244663952" x="288" y="720" w="76" h="21" z="330" orient="0" defn="master:time-sig" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:time-sig" id="1244663952" x="288" y="720" w="76" h="22" z="330" orient="0" defn="master:time-sig" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="20913136" />
         </User>
         <Wire classid="WireOrthogonal" id="1937614700" name="" x="108" y="558" w="28" h="10" orient="0" disable="false">
           <vertex x="0" y="0" />
           <vertex x="18" y="0" />
         </Wire>
-        <User classid="UserCmp" name="master:time-sig" id="906910895" x="54" y="558" w="76" h="21" z="240" orient="0" defn="master:time-sig" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:time-sig" id="906910895" x="54" y="558" w="76" h="22" z="240" orient="0" defn="master:time-sig" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="20913136" />
         </User>
         <User classid="UserCmp" name="master:compare" id="222837372" x="126" y="558" w="80" h="59" z="260" orient="0" defn="master:compare" link="-1" q="4" disable="false">
@@ -41700,7 +41704,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
         </Gfx>
       </graphics>
     </Definition>
-    <Definition classid="UserCmpDefn" name="FIXED_SAUER_PAI" group="" url="" version="" build="" crc="22525607" instances="0" key="" view="false" date="1667760422" id="772834702">
+    <Definition classid="UserCmpDefn" name="FIXED_SAUER_PAI" group="" url="" version="" build="" crc="5487200" instances="0" key="" view="false" date="1667760422" id="772834702">
       <paramlist name="">
         <param name="Description" value="" />
       </paramlist>
@@ -42170,7 +42174,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
           <vertex x="0" y="0" />
           <vertex x="18" y="0" />
         </Wire>
-        <User classid="UserCmp" name="master:time-sig" id="1961616027" x="72" y="486" w="76" h="21" z="160" orient="0" defn="master:time-sig" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:time-sig" id="1961616027" x="72" y="486" w="76" h="22" z="160" orient="0" defn="master:time-sig" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="20913136" />
         </User>
         <User classid="UserCmp" name="master:compare" id="1284490890" x="144" y="486" w="80" h="59" z="170" orient="0" defn="master:compare" link="-1" q="4" disable="false">
@@ -42233,12 +42237,12 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
             <param name="Name" value="machine_x0_6" />
           </paramlist>
         </User>
-        <User classid="UserCmp" id="361948377" name="PSID_Library:ReferenceFrameConversion_GEN" x="504" y="216" w="224" h="82" z="460" orient="0" defn="PSID_Library:ReferenceFrameConversion_GEN" link="-1" q="4" disable="false">
+        <User classid="UserCmp" id="361948377" name="PSID_Library:ReferenceFrameConversion_GEN" x="504" y="216" w="224" h="81" z="460" orient="0" defn="PSID_Library:ReferenceFrameConversion_GEN" link="-1" q="4" disable="false">
           <paramlist name="" link="-1" crc="28307411">
             <param name="Name" value="" />
           </paramlist>
         </User>
-        <User classid="UserCmp" id="1967639684" name="PSID_Library:CurrentSourceInterface" x="504" y="90" w="205" h="91" z="500" orient="0" defn="PSID_Library:CurrentSourceInterface" link="-1" q="4" disable="false">
+        <User classid="UserCmp" id="1967639684" name="PSID_Library:CurrentSourceInterface" x="504" y="90" w="205" h="92" z="500" orient="0" defn="PSID_Library:CurrentSourceInterface" link="-1" q="4" disable="false">
           <paramlist name="" link="-1" crc="4231858">
             <param name="Name_0" value="" />
             <param name="V_base" value="V_base" />
@@ -42260,7 +42264,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
             <param name="L_pp" value="0" />
           </paramlist>
         </User>
-        <User classid="UserCmp" id="1018815231" name="PSID_Library:AVRFixed" x="756" y="360" w="237" h="81" z="450" orient="0" defn="PSID_Library:AVRFixed" link="-1" q="4" disable="false">
+        <User classid="UserCmp" id="1018815231" name="PSID_Library:AVRFixed" x="756" y="360" w="237" h="80" z="450" orient="0" defn="PSID_Library:AVRFixed" link="-1" q="4" disable="false">
           <paramlist name="" link="-1" crc="28307411">
             <param name="Name" value="" />
           </paramlist>
@@ -42318,7 +42322,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
           <vertex x="-18" y="270" />
           <vertex x="18" y="270" />
         </Wire>
-        <User classid="UserCmp" id="1589381465" name="PSID_Library:TGFixed" x="504" y="594" w="267" h="73" z="470" orient="0" defn="PSID_Library:TGFixed" link="-1" q="4" disable="false">
+        <User classid="UserCmp" id="1589381465" name="PSID_Library:TGFixed" x="504" y="594" w="267" h="72" z="470" orient="0" defn="PSID_Library:TGFixed" link="-1" q="4" disable="false">
           <paramlist name="" link="-1" crc="28307411">
             <param name="Name" value="" />
           </paramlist>
@@ -42362,7 +42366,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
             <param name="x0_2" value="shaft_x0_2" />
           </paramlist>
         </User>
-        <User classid="UserCmp" id="1522084081" name="PSID_Library:SauerPaiMachine" x="504" y="360" w="215" h="82" z="490" orient="0" defn="PSID_Library:SauerPaiMachine" link="-1" q="4" disable="false">
+        <User classid="UserCmp" id="1522084081" name="PSID_Library:SauerPaiMachine" x="504" y="360" w="215" h="81" z="490" orient="0" defn="PSID_Library:SauerPaiMachine" link="-1" q="4" disable="false">
           <paramlist name="" link="-1" crc="7727852">
             <param name="Name" value="" />
             <param name="Name_0" value="" />
@@ -42449,7 +42453,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
             <param name="AL2" value="" />
           </paramlist>
         </User>
-        <User classid="UserCmp" id="2060554581" name="PSID_Library:PSSFixed" x="756" y="468" w="196" h="81" z="-1" orient="0" defn="PSID_Library:PSSFixed" link="-1" q="4" disable="false">
+        <User classid="UserCmp" id="2060554581" name="PSID_Library:PSSFixed" x="756" y="468" w="196" h="82" z="-1" orient="0" defn="PSID_Library:PSSFixed" link="-1" q="4" disable="false">
           <paramlist name="" link="-1" crc="28307411">
             <param name="Name" value="" />
           </paramlist>
@@ -42782,7 +42786,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
         </Gfx>
       </graphics>
     </Definition>
-    <Definition classid="UserCmpDefn" name="INFINITE_BUS" group="" url="" version="" build="" crc="6053961" instances="0" key="" view="false" date="1670615456" id="466161421">
+    <Definition classid="UserCmpDefn" name="INFINITE_BUS" group="" url="" version="" build="" crc="63594581" instances="0" key="" view="false" date="1670615456" id="466161421">
       <paramlist name="">
         <param name="Description" value="" />
       </paramlist>
@@ -42949,7 +42953,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
           <vertex x="0" y="0" />
           <vertex x="0" y="-18" />
         </Wire>
-        <User classid="UserCmp" defn="master:source_3" id="1314634133" x="504" y="162" w="40" h="105" z="90" orient="3" link="-1" layer="" q="4" disable="false">
+        <User classid="UserCmp" defn="master:source_3" id="1314634133" x="504" y="162" w="41" h="105" z="90" orient="3" link="-1" layer="" q="4" disable="false">
           <paramlist link="-1" name="" crc="111699524">
             <param name="Name" value="" />
             <param name="Type" value="6" />
@@ -43177,7 +43181,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
         </Gfx>
       </graphics>
     </Definition>
-    <Definition classid="UserCmpDefn" name="SAUERPAI_SEXS_GASTG_IEEEST" group="" url="" version="" build="" crc="49047791" instances="0" key="" view="false" date="1667760422" id="597249014">
+    <Definition classid="UserCmpDefn" name="SAUERPAI_SEXS_GASTG_IEEEST" group="" url="" version="" build="" crc="123680515" instances="0" key="" view="false" date="1667760422" id="597249014">
       <paramlist name="">
         <param name="Description" value="" />
       </paramlist>
@@ -43993,7 +43997,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
           <vertex x="0" y="0" />
           <vertex x="18" y="0" />
         </Wire>
-        <User classid="UserCmp" name="master:time-sig" id="10739634" x="72" y="486" w="76" h="21" z="160" orient="0" defn="master:time-sig" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:time-sig" id="10739634" x="72" y="486" w="76" h="22" z="160" orient="0" defn="master:time-sig" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="20913136" />
         </User>
         <User classid="UserCmp" name="master:compare" id="165142741" x="144" y="486" w="80" h="59" z="170" orient="0" defn="master:compare" link="-1" q="4" disable="false">
@@ -44056,12 +44060,12 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
             <param name="Name" value="machine_x0_6" />
           </paramlist>
         </User>
-        <User classid="UserCmp" id="544287701" name="PSID_Library:ReferenceFrameConversion_GEN" x="504" y="216" w="224" h="82" z="460" orient="0" defn="PSID_Library:ReferenceFrameConversion_GEN" link="-1" q="4" disable="false">
+        <User classid="UserCmp" id="544287701" name="PSID_Library:ReferenceFrameConversion_GEN" x="504" y="216" w="224" h="81" z="460" orient="0" defn="PSID_Library:ReferenceFrameConversion_GEN" link="-1" q="4" disable="false">
           <paramlist name="" link="-1" crc="28307411">
             <param name="Name" value="" />
           </paramlist>
         </User>
-        <User classid="UserCmp" id="832841914" name="PSID_Library:CurrentSourceInterface" x="504" y="90" w="205" h="91" z="500" orient="0" defn="PSID_Library:CurrentSourceInterface" link="-1" q="4" disable="false">
+        <User classid="UserCmp" id="832841914" name="PSID_Library:CurrentSourceInterface" x="504" y="90" w="205" h="92" z="500" orient="0" defn="PSID_Library:CurrentSourceInterface" link="-1" q="4" disable="false">
           <paramlist name="" link="-1" crc="4231858">
             <param name="Name_0" value="" />
             <param name="V_base" value="V_base" />
@@ -44358,7 +44362,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
             <param name="Name" value="primemover_D_turb" />
           </paramlist>
         </User>
-        <User classid="UserCmp" id="1002398144" name="PSID_Library:IEEEST" x="756" y="486" w="196" h="81" z="-1" orient="0" defn="PSID_Library:IEEEST" link="-1" q="4" disable="false">
+        <User classid="UserCmp" id="1002398144" name="PSID_Library:IEEEST" x="756" y="486" w="196" h="82" z="-1" orient="0" defn="PSID_Library:IEEEST" link="-1" q="4" disable="false">
           <paramlist name="" link="-1" crc="24191716">
             <param name="Name" value="" />
             <param name="f_base" value="f_base" />
@@ -44562,7 +44566,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
             <param name="fg_color" value="0" />
             <param name="bg_color" value="15792890" />
           </paramlist><![CDATA[pss_]]></Sticky>
-        <User classid="UserCmp" id="1929561076" name="PSID_Library:SauerPaiMachine" x="504" y="360" w="215" h="82" z="670" orient="0" defn="PSID_Library:SauerPaiMachine" link="-1" q="4" disable="false">
+        <User classid="UserCmp" id="1929561076" name="PSID_Library:SauerPaiMachine" x="504" y="360" w="215" h="81" z="670" orient="0" defn="PSID_Library:SauerPaiMachine" link="-1" q="4" disable="false">
           <paramlist name="" link="-1" crc="7727852">
             <param name="Name" value="" />
             <param name="Name_0" value="" />
@@ -44604,7 +44608,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
             <param name="x0_2" value="avr_x0_2" />
           </paramlist>
         </User>
-        <User classid="UserCmp" id="1673503645" name="PSID_Library:GASTG" x="504" y="594" w="267" h="73" z="660" orient="0" defn="PSID_Library:GASTG" link="-1" q="4" disable="false">
+        <User classid="UserCmp" id="1673503645" name="PSID_Library:GASTG" x="504" y="594" w="267" h="72" z="660" orient="0" defn="PSID_Library:GASTG" link="-1" q="4" disable="false">
           <paramlist name="" link="-1" crc="83796228">
             <param name="Name" value="" />
             <param name="f_base" value="f_base" />
@@ -44895,7 +44899,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
         </Gfx>
       </graphics>
     </Definition>
-    <Definition classid="UserCmpDefn" name="SAUERPAI_SEXS_GASTG_PSSFIXED" group="" url="" version="" build="" crc="78677460" instances="0" key="" view="false" date="1671129210" id="144819711">
+    <Definition classid="UserCmpDefn" name="SAUERPAI_SEXS_GASTG_PSSFIXED" group="" url="" version="" build="" crc="3803401" instances="0" key="" view="false" date="1671129210" id="144819711">
       <paramlist name="">
         <param name="Description" value="" />
       </paramlist>
@@ -45485,7 +45489,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
           <vertex x="0" y="0" />
           <vertex x="18" y="0" />
         </Wire>
-        <User classid="UserCmp" name="master:time-sig" id="624774679" x="72" y="486" w="76" h="21" z="160" orient="0" defn="master:time-sig" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:time-sig" id="624774679" x="72" y="486" w="76" h="22" z="160" orient="0" defn="master:time-sig" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="20913136" />
         </User>
         <User classid="UserCmp" name="master:compare" id="1030315807" x="144" y="486" w="80" h="59" z="170" orient="0" defn="master:compare" link="-1" q="4" disable="false">
@@ -45548,12 +45552,12 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
             <param name="Name" value="machine_x0_6" />
           </paramlist>
         </User>
-        <User classid="UserCmp" id="2074342879" name="PSID_Library:ReferenceFrameConversion_GEN" x="504" y="216" w="224" h="82" z="650" orient="0" defn="PSID_Library:ReferenceFrameConversion_GEN" link="-1" q="4" disable="false">
+        <User classid="UserCmp" id="2074342879" name="PSID_Library:ReferenceFrameConversion_GEN" x="504" y="216" w="224" h="81" z="650" orient="0" defn="PSID_Library:ReferenceFrameConversion_GEN" link="-1" q="4" disable="false">
           <paramlist name="" link="-1" crc="28307411">
             <param name="Name" value="" />
           </paramlist>
         </User>
-        <User classid="UserCmp" id="218071143" name="PSID_Library:CurrentSourceInterface" x="504" y="90" w="205" h="91" z="710" orient="0" defn="PSID_Library:CurrentSourceInterface" link="-1" q="4" disable="false">
+        <User classid="UserCmp" id="218071143" name="PSID_Library:CurrentSourceInterface" x="504" y="90" w="205" h="92" z="710" orient="0" defn="PSID_Library:CurrentSourceInterface" link="-1" q="4" disable="false">
           <paramlist name="" link="-1" crc="4231858">
             <param name="Name_0" value="" />
             <param name="V_base" value="V_base" />
@@ -45667,7 +45671,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
             <param name="x0_2" value="shaft_x0_2" />
           </paramlist>
         </User>
-        <User classid="UserCmp" id="1735400806" name="PSID_Library:SauerPaiMachine" x="504" y="360" w="215" h="82" z="670" orient="0" defn="PSID_Library:SauerPaiMachine" link="-1" q="4" disable="false">
+        <User classid="UserCmp" id="1735400806" name="PSID_Library:SauerPaiMachine" x="504" y="360" w="215" h="81" z="670" orient="0" defn="PSID_Library:SauerPaiMachine" link="-1" q="4" disable="false">
           <paramlist name="" link="-1" crc="7727852">
             <param name="Name" value="" />
             <param name="Name_0" value="" />
@@ -45796,7 +45800,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
           <vertex x="0" y="108" />
           <vertex x="-18" y="108" />
         </Wire>
-        <User classid="UserCmp" id="1111673280" name="PSID_Library:GASTG" x="504" y="594" w="267" h="73" z="660" orient="0" defn="PSID_Library:GASTG" link="-1" q="4" disable="false">
+        <User classid="UserCmp" id="1111673280" name="PSID_Library:GASTG" x="504" y="594" w="267" h="72" z="660" orient="0" defn="PSID_Library:GASTG" link="-1" q="4" disable="false">
           <paramlist name="" link="-1" crc="83796228">
             <param name="Name" value="" />
             <param name="f_base" value="f_base" />
@@ -45855,7 +45859,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
             <param name="AL2" value="" />
           </paramlist>
         </User>
-        <User classid="UserCmp" id="1910789646" name="PSID_Library:PSSFixed" x="756" y="486" w="196" h="81" z="690" orient="0" defn="PSID_Library:PSSFixed" link="-1" q="4" disable="false">
+        <User classid="UserCmp" id="1910789646" name="PSID_Library:PSSFixed" x="756" y="486" w="196" h="82" z="690" orient="0" defn="PSID_Library:PSSFixed" link="-1" q="4" disable="false">
           <paramlist name="" link="-1" crc="28307411">
             <param name="Name" value="" />
           </paramlist>
@@ -46273,7 +46277,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
         </Gfx>
       </graphics>
     </Definition>
-    <Definition classid="UserCmpDefn" name="SAUERPAI_SEXS_HYGOV_IEEEST" group="" url="" version="" build="" crc="84534851" instances="0" key="" view="false" date="1667760422" id="1821821357">
+    <Definition classid="UserCmpDefn" name="SAUERPAI_SEXS_HYGOV_IEEEST" group="" url="" version="" build="" crc="61906112" instances="0" key="" view="false" date="1667760422" id="1821821357">
       <paramlist name="">
         <param name="Description" value="" />
       </paramlist>
@@ -47043,7 +47047,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
           <vertex x="0" y="0" />
           <vertex x="18" y="0" />
         </Wire>
-        <User classid="UserCmp" name="master:time-sig" id="843083717" x="72" y="486" w="76" h="21" z="160" orient="0" defn="master:time-sig" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:time-sig" id="843083717" x="72" y="486" w="76" h="22" z="160" orient="0" defn="master:time-sig" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="20913136" />
         </User>
         <User classid="UserCmp" name="master:compare" id="878447663" x="144" y="486" w="80" h="59" z="170" orient="0" defn="master:compare" link="-1" q="4" disable="false">
@@ -47106,12 +47110,12 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
             <param name="Name" value="machine_x0_6" />
           </paramlist>
         </User>
-        <User classid="UserCmp" id="438661711" name="PSID_Library:ReferenceFrameConversion_GEN" x="504" y="216" w="224" h="82" z="460" orient="0" defn="PSID_Library:ReferenceFrameConversion_GEN" link="-1" q="4" disable="false">
+        <User classid="UserCmp" id="438661711" name="PSID_Library:ReferenceFrameConversion_GEN" x="504" y="216" w="224" h="81" z="460" orient="0" defn="PSID_Library:ReferenceFrameConversion_GEN" link="-1" q="4" disable="false">
           <paramlist name="" link="-1" crc="28307411">
             <param name="Name" value="" />
           </paramlist>
         </User>
-        <User classid="UserCmp" id="1881609797" name="PSID_Library:CurrentSourceInterface" x="504" y="90" w="205" h="91" z="500" orient="0" defn="PSID_Library:CurrentSourceInterface" link="-1" q="4" disable="false">
+        <User classid="UserCmp" id="1881609797" name="PSID_Library:CurrentSourceInterface" x="504" y="90" w="205" h="92" z="500" orient="0" defn="PSID_Library:CurrentSourceInterface" link="-1" q="4" disable="false">
           <paramlist name="" link="-1" crc="4231858">
             <param name="Name_0" value="" />
             <param name="V_base" value="V_base" />
@@ -47616,7 +47620,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
             <param name="Name" value="pss_Vcl" />
           </paramlist>
         </User>
-        <User classid="UserCmp" id="282512531" name="PSID_Library:SauerPaiMachine" x="504" y="360" w="215" h="82" z="670" orient="0" defn="PSID_Library:SauerPaiMachine" link="-1" q="4" disable="false">
+        <User classid="UserCmp" id="282512531" name="PSID_Library:SauerPaiMachine" x="504" y="360" w="215" h="81" z="670" orient="0" defn="PSID_Library:SauerPaiMachine" link="-1" q="4" disable="false">
           <paramlist name="" link="-1" crc="7727852">
             <param name="Name" value="" />
             <param name="Name_0" value="" />
@@ -47675,7 +47679,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
             <param name="x0_2" value="shaft_x0_2" />
           </paramlist>
         </User>
-        <User classid="UserCmp" id="1229824629" name="PSID_Library:IEEEST" x="756" y="486" w="196" h="81" z="-1" orient="0" defn="PSID_Library:IEEEST" link="-1" q="4" disable="false">
+        <User classid="UserCmp" id="1229824629" name="PSID_Library:IEEEST" x="756" y="486" w="196" h="82" z="-1" orient="0" defn="PSID_Library:IEEEST" link="-1" q="4" disable="false">
           <paramlist name="" link="-1" crc="24191716">
             <param name="Name" value="" />
             <param name="f_base" value="f_base" />
@@ -47730,7 +47734,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
             <param name="Name" value="primemover_R_temp" />
           </paramlist>
         </User>
-        <User classid="UserCmp" id="247362444" name="PSID_Library:HydroTurbineGov" x="504" y="594" w="267" h="73" z="-1" orient="0" defn="PSID_Library:HydroTurbineGov" link="-1" q="4" disable="false">
+        <User classid="UserCmp" id="247362444" name="PSID_Library:HydroTurbineGov" x="504" y="594" w="267" h="72" z="-1" orient="0" defn="PSID_Library:HydroTurbineGov" link="-1" q="4" disable="false">
           <paramlist name="" link="-1" crc="65004739">
             <param name="f_base" value="f_base" />
             <param name="R" value="primemover_R" />
@@ -48028,7 +48032,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
         </Gfx>
       </graphics>
     </Definition>
-    <Definition classid="UserCmpDefn" name="SAUERPAI_SEXS_HYGOV_PSSFIXED" group="" url="" version="" build="" crc="73632147" instances="0" key="" view="false" date="1667760422" id="107403884">
+    <Definition classid="UserCmpDefn" name="SAUERPAI_SEXS_HYGOV_PSSFIXED" group="" url="" version="" build="" crc="69753751" instances="0" key="" view="false" date="1667760422" id="107403884">
       <paramlist name="">
         <param name="Description" value="" />
       </paramlist>
@@ -48642,7 +48646,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
           <vertex x="0" y="0" />
           <vertex x="18" y="0" />
         </Wire>
-        <User classid="UserCmp" name="master:time-sig" id="443451259" x="72" y="486" w="76" h="21" z="160" orient="0" defn="master:time-sig" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:time-sig" id="443451259" x="72" y="486" w="76" h="22" z="160" orient="0" defn="master:time-sig" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="20913136" />
         </User>
         <User classid="UserCmp" name="master:compare" id="1504185937" x="144" y="486" w="80" h="59" z="170" orient="0" defn="master:compare" link="-1" q="4" disable="false">
@@ -48705,12 +48709,12 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
             <param name="Name" value="machine_x0_6" />
           </paramlist>
         </User>
-        <User classid="UserCmp" id="1986881265" name="PSID_Library:ReferenceFrameConversion_GEN" x="504" y="216" w="224" h="82" z="460" orient="0" defn="PSID_Library:ReferenceFrameConversion_GEN" link="-1" q="4" disable="false">
+        <User classid="UserCmp" id="1986881265" name="PSID_Library:ReferenceFrameConversion_GEN" x="504" y="216" w="224" h="81" z="460" orient="0" defn="PSID_Library:ReferenceFrameConversion_GEN" link="-1" q="4" disable="false">
           <paramlist name="" link="-1" crc="28307411">
             <param name="Name" value="" />
           </paramlist>
         </User>
-        <User classid="UserCmp" id="1079232214" name="PSID_Library:CurrentSourceInterface" x="504" y="90" w="205" h="91" z="500" orient="0" defn="PSID_Library:CurrentSourceInterface" link="-1" q="4" disable="false">
+        <User classid="UserCmp" id="1079232214" name="PSID_Library:CurrentSourceInterface" x="504" y="90" w="205" h="92" z="500" orient="0" defn="PSID_Library:CurrentSourceInterface" link="-1" q="4" disable="false">
           <paramlist name="" link="-1" crc="4231858">
             <param name="Name_0" value="" />
             <param name="V_base" value="V_base" />
@@ -48909,7 +48913,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
             <param name="AL2" value="" />
           </paramlist>
         </User>
-        <User classid="UserCmp" id="2098509671" name="PSID_Library:PSSFixed" x="756" y="486" w="196" h="81" z="-1" orient="0" defn="PSID_Library:PSSFixed" link="-1" q="4" disable="false">
+        <User classid="UserCmp" id="2098509671" name="PSID_Library:PSSFixed" x="756" y="486" w="196" h="82" z="-1" orient="0" defn="PSID_Library:PSSFixed" link="-1" q="4" disable="false">
           <paramlist name="" link="-1" crc="28307411">
             <param name="Name" value="" />
           </paramlist>
@@ -48940,7 +48944,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
             <param name="Name" value="tg_x0_4" />
           </paramlist>
         </User>
-        <User classid="UserCmp" id="522972756" name="PSID_Library:HydroTurbineGov" x="504" y="594" w="267" h="73" z="-1" orient="0" defn="PSID_Library:HydroTurbineGov" link="-1" q="4" disable="false">
+        <User classid="UserCmp" id="522972756" name="PSID_Library:HydroTurbineGov" x="504" y="594" w="267" h="72" z="-1" orient="0" defn="PSID_Library:HydroTurbineGov" link="-1" q="4" disable="false">
           <paramlist name="" link="-1" crc="65004739">
             <param name="f_base" value="f_base" />
             <param name="R" value="primemover_R" />
@@ -48970,7 +48974,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
             <param name="R_temp" value="primemover_R_temp" />
           </paramlist>
         </User>
-        <User classid="UserCmp" id="1909323435" name="PSID_Library:SauerPaiMachine" x="504" y="360" w="215" h="82" z="670" orient="0" defn="PSID_Library:SauerPaiMachine" link="-1" q="4" disable="false">
+        <User classid="UserCmp" id="1909323435" name="PSID_Library:SauerPaiMachine" x="504" y="360" w="215" h="81" z="670" orient="0" defn="PSID_Library:SauerPaiMachine" link="-1" q="4" disable="false">
           <paramlist name="" link="-1" crc="7727852">
             <param name="Name" value="" />
             <param name="Name_0" value="" />
@@ -49457,7 +49461,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
         </Gfx>
       </graphics>
     </Definition>
-    <Definition classid="UserCmpDefn" name="SAUERPAI_SEXS_TGOV1_IEEEST" group="" url="" version="" build="" crc="44923427" instances="0" key="" view="false" date="1667760422" id="561211968">
+    <Definition classid="UserCmpDefn" name="SAUERPAI_SEXS_TGOV1_IEEEST" group="" url="" version="" build="" crc="75901679" instances="0" key="" view="false" date="1667760422" id="561211968">
       <paramlist name="">
         <param name="Description" value="" />
       </paramlist>
@@ -50191,7 +50195,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
           <vertex x="0" y="0" />
           <vertex x="18" y="0" />
         </Wire>
-        <User classid="UserCmp" name="master:time-sig" id="1956998349" x="72" y="486" w="76" h="21" z="160" orient="0" defn="master:time-sig" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:time-sig" id="1956998349" x="72" y="486" w="76" h="22" z="160" orient="0" defn="master:time-sig" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="20913136" />
         </User>
         <User classid="UserCmp" name="master:compare" id="1346369089" x="144" y="486" w="80" h="59" z="170" orient="0" defn="master:compare" link="-1" q="4" disable="false">
@@ -50254,12 +50258,12 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
             <param name="Name" value="machine_x0_6" />
           </paramlist>
         </User>
-        <User classid="UserCmp" id="827418965" name="PSID_Library:ReferenceFrameConversion_GEN" x="504" y="216" w="224" h="82" z="460" orient="0" defn="PSID_Library:ReferenceFrameConversion_GEN" link="-1" q="4" disable="false">
+        <User classid="UserCmp" id="827418965" name="PSID_Library:ReferenceFrameConversion_GEN" x="504" y="216" w="224" h="81" z="460" orient="0" defn="PSID_Library:ReferenceFrameConversion_GEN" link="-1" q="4" disable="false">
           <paramlist name="" link="-1" crc="28307411">
             <param name="Name" value="" />
           </paramlist>
         </User>
-        <User classid="UserCmp" id="1006761352" name="PSID_Library:CurrentSourceInterface" x="504" y="90" w="205" h="91" z="500" orient="0" defn="PSID_Library:CurrentSourceInterface" link="-1" q="4" disable="false">
+        <User classid="UserCmp" id="1006761352" name="PSID_Library:CurrentSourceInterface" x="504" y="90" w="205" h="92" z="500" orient="0" defn="PSID_Library:CurrentSourceInterface" link="-1" q="4" disable="false">
           <paramlist name="" link="-1" crc="4231858">
             <param name="Name_0" value="" />
             <param name="V_base" value="V_base" />
@@ -50509,7 +50513,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
             <param name="Name" value="pss_x0_7" />
           </paramlist>
         </User>
-        <User classid="UserCmp" id="1429635466" name="PSID_Library:SteamTurbineGov1" x="504" y="594" w="267" h="73" z="-1" orient="0" defn="PSID_Library:SteamTurbineGov1" link="-1" q="4" disable="false">
+        <User classid="UserCmp" id="1429635466" name="PSID_Library:SteamTurbineGov1" x="504" y="594" w="267" h="72" z="-1" orient="0" defn="PSID_Library:SteamTurbineGov1" link="-1" q="4" disable="false">
           <paramlist name="" link="-1" crc="81617822">
             <param name="f_base" value="f_base" />
             <param name="R" value="primemover_R" />
@@ -50576,7 +50580,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
             <param name="Name" value="primemover_T_rate" />
           </paramlist>
         </User>
-        <User classid="UserCmp" id="1888152530" name="PSID_Library:SauerPaiMachine" x="504" y="360" w="215" h="82" z="670" orient="0" defn="PSID_Library:SauerPaiMachine" link="-1" q="4" disable="false">
+        <User classid="UserCmp" id="1888152530" name="PSID_Library:SauerPaiMachine" x="504" y="360" w="215" h="81" z="670" orient="0" defn="PSID_Library:SauerPaiMachine" link="-1" q="4" disable="false">
           <paramlist name="" link="-1" crc="7727852">
             <param name="Name" value="" />
             <param name="Name_0" value="" />
@@ -50618,7 +50622,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
             <param name="x0_2" value="avr_x0_2" />
           </paramlist>
         </User>
-        <User classid="UserCmp" id="170218251" name="PSID_Library:IEEEST" x="756" y="486" w="196" h="81" z="-1" orient="0" defn="PSID_Library:IEEEST" link="-1" q="4" disable="false">
+        <User classid="UserCmp" id="170218251" name="PSID_Library:IEEEST" x="756" y="486" w="196" h="82" z="-1" orient="0" defn="PSID_Library:IEEEST" link="-1" q="4" disable="false">
           <paramlist name="" link="-1" crc="24191716">
             <param name="Name" value="" />
             <param name="f_base" value="f_base" />
@@ -51143,7 +51147,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
         </Gfx>
       </graphics>
     </Definition>
-    <Definition classid="UserCmpDefn" name="SAUERPAI_SEXS_TGOV1_PSSFIXED" group="" url="" version="" build="" crc="64068791" instances="0" key="" view="false" date="1688653196" id="887792995">
+    <Definition classid="UserCmpDefn" name="SAUERPAI_SEXS_TGOV1_PSSFIXED" group="" url="" version="" build="" crc="37598495" instances="0" key="" view="false" date="1688653196" id="887792995">
       <paramlist name="">
         <param name="Description" value="" />
       </paramlist>
@@ -51721,7 +51725,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
           <vertex x="0" y="0" />
           <vertex x="18" y="0" />
         </Wire>
-        <User classid="UserCmp" name="master:time-sig" id="1979939181" x="72" y="486" w="76" h="21" z="120" orient="0" defn="master:time-sig" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:time-sig" id="1979939181" x="72" y="486" w="76" h="22" z="120" orient="0" defn="master:time-sig" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="20913136" />
         </User>
         <User classid="UserCmp" name="master:compare" id="651264882" x="144" y="486" w="80" h="59" z="130" orient="0" defn="master:compare" link="-1" q="4" disable="false">
@@ -51784,12 +51788,12 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
             <param name="Name" value="machine_x0_6" />
           </paramlist>
         </User>
-        <User classid="UserCmp" id="841156577" name="PSID_Library:ReferenceFrameConversion_GEN" x="504" y="216" w="224" h="82" z="590" orient="0" defn="PSID_Library:ReferenceFrameConversion_GEN" link="-1" q="4" disable="false">
+        <User classid="UserCmp" id="841156577" name="PSID_Library:ReferenceFrameConversion_GEN" x="504" y="216" w="224" h="81" z="590" orient="0" defn="PSID_Library:ReferenceFrameConversion_GEN" link="-1" q="4" disable="false">
           <paramlist name="" link="-1" crc="28307411">
             <param name="Name" value="" />
           </paramlist>
         </User>
-        <User classid="UserCmp" id="1931655674" name="PSID_Library:CurrentSourceInterface" x="504" y="90" w="205" h="91" z="650" orient="0" defn="PSID_Library:CurrentSourceInterface" link="-1" q="4" disable="false">
+        <User classid="UserCmp" id="1931655674" name="PSID_Library:CurrentSourceInterface" x="504" y="90" w="205" h="92" z="650" orient="0" defn="PSID_Library:CurrentSourceInterface" link="-1" q="4" disable="false">
           <paramlist name="" link="-1" crc="4231858">
             <param name="Name_0" value="" />
             <param name="V_base" value="V_base" />
@@ -51886,7 +51890,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
           <vertex x="0" y="0" />
           <vertex x="54" y="0" />
         </Wire>
-        <User classid="UserCmp" name="master:xnode" id="66215521" x="504" y="36" w="26" h="33" z="1" orient="2" defn="master:xnode" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:xnode" id="66215521" x="540" y="36" w="26" h="33" z="1" orient="2" defn="master:xnode" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="37312176">
             <param name="Name" value="POI" />
           </paramlist>
@@ -51990,12 +51994,12 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
             <param name="AL2" value="" />
           </paramlist>
         </User>
-        <User classid="UserCmp" id="102653321" name="PSID_Library:PSSFixed" x="756" y="486" w="196" h="81" z="640" orient="0" defn="PSID_Library:PSSFixed" link="-1" q="4" disable="false">
+        <User classid="UserCmp" id="102653321" name="PSID_Library:PSSFixed" x="756" y="486" w="196" h="82" z="640" orient="0" defn="PSID_Library:PSSFixed" link="-1" q="4" disable="false">
           <paramlist name="" link="-1" crc="28307411">
             <param name="Name" value="" />
           </paramlist>
         </User>
-        <User classid="UserCmp" id="1206345089" name="PSID_Library:SteamTurbineGov1" x="504" y="594" w="267" h="73" z="610" orient="0" defn="PSID_Library:SteamTurbineGov1" link="-1" q="4" disable="false">
+        <User classid="UserCmp" id="1206345089" name="PSID_Library:SteamTurbineGov1" x="504" y="594" w="267" h="72" z="610" orient="0" defn="PSID_Library:SteamTurbineGov1" link="-1" q="4" disable="false">
           <paramlist name="" link="-1" crc="81617822">
             <param name="f_base" value="f_base" />
             <param name="R" value="primemover_R" />
@@ -52039,7 +52043,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
             <param name="x0_2" value="shaft_x0_2" />
           </paramlist>
         </User>
-        <User classid="UserCmp" id="1490332835" name="PSID_Library:SauerPaiMachine" x="504" y="360" w="215" h="82" z="630" orient="0" defn="PSID_Library:SauerPaiMachine" link="-1" q="4" disable="false">
+        <User classid="UserCmp" id="1490332835" name="PSID_Library:SauerPaiMachine" x="504" y="360" w="215" h="81" z="630" orient="0" defn="PSID_Library:SauerPaiMachine" link="-1" q="4" disable="false">
           <paramlist name="" link="-1" crc="7727852">
             <param name="Name" value="" />
             <param name="Name_0" value="" />
@@ -52221,14 +52225,14 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
             <param name="Name" value="primemover_valve_position_max" />
           </paramlist>
         </User>
-        <User classid="UserCmp" name="master:datalabel" id="216945061" x="882" y="108" w="12" h="23" z="1" orient="0" defn="master:datalabel" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:datalabel" id="216945061" x="882" y="108" w="48" h="23" z="1" orient="0" defn="master:datalabel" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="127230955">
-            <param name="Name" value="P" />
+            <param name="Name" value="P_meas" />
           </paramlist>
         </User>
-        <User classid="UserCmp" name="master:datalabel" id="532814664" x="882" y="126" w="14" h="23" z="1" orient="0" defn="master:datalabel" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:datalabel" id="532814664" x="882" y="126" w="50" h="23" z="1" orient="0" defn="master:datalabel" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="127230955">
-            <param name="Name" value="Q" />
+            <param name="Name" value="Q_meas" />
           </paramlist>
         </User>
         <User classid="UserCmp" name="master:datalabel" id="701439023" x="864" y="198" w="34" h="23" z="1" orient="0" defn="master:datalabel" link="-1" q="4" disable="false">
@@ -52336,6 +52340,37 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
         <User classid="UserCmp" name="master:datalabel" id="1908516332" x="558" y="288" w="23" h="30" z="1" orient="1" defn="master:datalabel" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="127230955">
             <param name="Name" value="I_dq" />
+          </paramlist>
+        </User>
+        <User classid="UserCmp" id="2124238363" name="master:multimeter" x="522" y="36" w="44" h="54" z="-1" orient="0" defn="master:multimeter" link="-1" q="4" disable="false">
+          <paramlist name="" link="-1" crc="27440011">
+            <param name="MeasV" value="0" />
+            <param name="MeasI" value="0" />
+            <param name="MeasP" value="1" />
+            <param name="MeasQ" value="1" />
+            <param name="RMS" value="0" />
+            <param name="IRMS" value="0" />
+            <param name="MeasPh" value="0" />
+            <param name="S" value="1.0 [MVA]" />
+            <param name="BaseV" value="1.0 [kV]" />
+            <param name="BaseA" value="1.0 [kA]" />
+            <param name="TS" value="0.000 [s]" />
+            <param name="Freq" value="60.0 [Hz]" />
+            <param name="Name" value="" />
+            <param name="Dis" value="0" />
+            <param name="VolI" value="" />
+            <param name="VolILL" value="" />
+            <param name="CurI" value="" />
+            <param name="P" value="P_meas" />
+            <param name="Q" value="Q_meas" />
+            <param name="Vrms" value="" />
+            <param name="Crms" value="" />
+            <param name="Ph" value="" />
+            <param name="hide1" value="0" />
+            <param name="hide2" value="0" />
+            <param name="Pd" value="0.0" />
+            <param name="Qd" value="0.0" />
+            <param name="Vd" value="0.0" />
           </paramlist>
         </User>
       </schematic>
@@ -52499,7 +52534,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
         </Gfx>
       </graphics>
     </Definition>
-    <Definition classid="UserCmpDefn" name="GFL_KAURA_PLL" group="" url="" version="" build="" crc="21684688" instances="0" key="" view="false" date="1680015040" id="1255707902">
+    <Definition classid="UserCmpDefn" name="GFL_KAURA_PLL" group="" url="" version="" build="" crc="74627837" instances="0" key="" view="false" date="1680015040" id="1255707902">
       <paramlist name="">
         <param name="Description" value="" />
       </paramlist>
@@ -53326,7 +53361,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
             <param name="Name" value="t_INV" />
           </paramlist>
         </User>
-        <User classid="UserCmp" name="master:time-sig" id="33569294" x="90" y="486" w="76" h="21" z="160" orient="0" defn="master:time-sig" link="-1" q="4" disable="false">
+        <User classid="UserCmp" name="master:time-sig" id="33569294" x="90" y="486" w="76" h="22" z="160" orient="0" defn="master:time-sig" link="-1" q="4" disable="false">
           <paramlist link="-1" name="" crc="20913136" />
         </User>
         <User classid="UserCmp" name="master:compare" id="175724105" x="162" y="486" w="80" h="59" z="170" orient="0" defn="master:compare" link="-1" q="4" disable="false">
@@ -53800,7 +53835,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
           <vertex x="0" y="0" />
           <vertex x="0" y="90" />
         </Wire>
-        <User classid="UserCmp" id="1559633434" name="PSID_Library:LCLFilter" x="486" y="72" w="215" h="91" z="590" orient="0" defn="PSID_Library:LCLFilter" link="-1" q="4" disable="false">
+        <User classid="UserCmp" id="1559633434" name="PSID_Library:LCLFilter" x="486" y="72" w="215" h="92" z="590" orient="0" defn="PSID_Library:LCLFilter" link="-1" q="4" disable="false">
           <paramlist name="" link="-1" crc="57376948">
             <param name="Name" value="" />
             <param name="Name_0" value="" />
@@ -53823,7 +53858,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
             <param name="x0_6" value="filter_x0_6" />
           </paramlist>
         </User>
-        <User classid="UserCmp" id="817365154" name="PSID_Library:ReferenceFrameConversion_INV" x="486" y="198" w="250" h="82" z="560" orient="0" defn="PSID_Library:ReferenceFrameConversion_INV" link="-1" q="4" disable="false">
+        <User classid="UserCmp" id="817365154" name="PSID_Library:ReferenceFrameConversion_INV" x="486" y="198" w="250" h="81" z="560" orient="0" defn="PSID_Library:ReferenceFrameConversion_INV" link="-1" q="4" disable="false">
           <paramlist name="" link="-1" crc="28307411">
             <param name="Name" value="" />
           </paramlist>
@@ -54290,7 +54325,7 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
     </paramlist>
   </GlobalSubstitutions>
   <hierarchy>
-    <call link="2004758792" name="PSID_Library_Inverters:Station" z="-1" view="false" instance="0">
+    <call link="993727261" name="PSID_Library_Inverters:Station" z="-1" view="false" instance="0">
       <call link="223495102" name="PSID_Library_Inverters:Main" z="-1" view="false" instance="0">
         <call link="238600983" name="PSID_Library_Inverters:DARCO_VSM" z="-1" view="false" instance="0">
           <call link="356470831" name="PSID_Library:KauraPLL" z="580" view="false" instance="0">
@@ -54316,192 +54351,144 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
           <call link="1730679757" name="PSID_Library:FixedDCSource" z="630" view="false" instance="0" />
           <call link="764540826" name="PSID_Library:AverageConverter" z="640" view="false" instance="0" />
         </call>
-        <call link="408889240" name="PSID_Library_Inverters:DEMETRIOUS_SC" z="-1" view="false" instance="0">
-          <call link="1253756838" name="PSID_Library:IEEET1" z="460" view="false" instance="0">
+        <call link="461198950" name="PSID_Library_Inverters:DROOP_GFM" z="-1" view="false" instance="0">
+          <call link="822903436" name="PSID_Library:FixedFrequency" z="500" view="false" instance="0" />
+          <call link="1670526590" name="PSID_Library:LCLFilter" z="510" view="false" instance="1">
+            <call link="18435842" name="PSID_Library:timestep_next_angle" z="150" view="false" instance="2" />
+            <call link="1284826394" name="PSID_Library:ri_dq" z="730" view="false" instance="1" />
+            <call link="1226443393" name="PSID_Library:dq_abc_psid" z="740" view="false" instance="2" />
+          </call>
+          <call link="966491600" name="PSID_Library:ActiveDroop_ReactiveDroop" z="520" view="false" instance="0" />
+          <call link="1660439571" name="PSID_Library:ReferenceFrameConversion_INV" z="530" view="false" instance="1">
+            <call link="1642388637" name="PSID_Library:timestep_next_angle" z="30" view="false" instance="3" />
+            <call link="1686720077" name="PSID_Library:timestep_delay_angle" z="70" view="false" instance="3" />
+            <call link="1115078297" name="PSID_Library:dq_abc_psid" z="80" view="false" instance="3" />
+            <call link="1416558759" name="PSID_Library:abc_dq_psid" z="90" view="false" instance="4" />
+            <call link="294237646" name="PSID_Library:abc_dq_psid" z="100" view="false" instance="5" />
+            <call link="1142133084" name="PSID_Library:abc_dq_psid" z="110" view="false" instance="6" />
+            <call link="1305307483" name="PSID_Library:timestep_delay_angle" z="160" view="false" instance="4" />
+          </call>
+          <call link="219331248" name="PSID_Library:FixedDCSource" z="540" view="false" instance="1" />
+          <call link="2079101627" name="PSID_Library:VoltageModeControl" z="550" view="false" instance="1" />
+          <call link="2040622412" name="PSID_Library:AverageConverter" z="560" view="false" instance="1" />
+        </call>
+        <call link="788221067" name="PSID_Library_Inverters:DEMETRIOUS_SG" z="-1" view="false" instance="0">
+          <call link="13104666" name="PSID_Library:BPA_GG" z="540" view="false" instance="0" />
+          <call link="1559344279" name="PSID_Library:IEEET1" z="550" view="false" instance="0">
             <call link="1513031148" name="PSID_Library:exciter_saturation" z="140" view="false" instance="0" />
             <call link="746068508" name="PSID_Library:exciter_saturation" z="360" view="false" instance="1" />
+          </call>
+        </call>
+        <call link="408889240" name="PSID_Library_Inverters:DEMETRIOUS_SC" z="-1" view="false" instance="0">
+          <call link="1253756838" name="PSID_Library:IEEET1" z="460" view="false" instance="1">
+            <call link="1513031148" name="PSID_Library:exciter_saturation" z="140" view="false" instance="2" />
+            <call link="746068508" name="PSID_Library:exciter_saturation" z="360" view="false" instance="3" />
           </call>
         </call>
         <call link="1923570403" name="PSID_Library_Inverters:SEXS_GAST" z="-1" view="false" instance="0">
           <call link="1585206052" name="PSID_Library:SEXS" z="580" view="false" instance="0" />
         </call>
         <call link="938464238" name="PSID_Library_Inverters:SIMPLE_MACHINE" z="-1" view="false" instance="0" />
-        <call link="1467477007" name="PSID_Library_Inverters:INFINITE_BUS" z="-1" view="false" instance="0" />
-        <call link="439422545" name="PSID_Library_Inverters:GFL_REDUCED_PLL" z="-1" view="false" instance="0">
-          <call link="1760640988" name="PSID_Library:FixedDCSource" z="480" view="false" instance="1" />
-          <call link="1229355875" name="PSID_Library:ReferenceFrameConversion_INV" z="490" view="false" instance="1">
-            <call link="1642388637" name="PSID_Library:timestep_next_angle" z="30" view="false" instance="2" />
-            <call link="1686720077" name="PSID_Library:timestep_delay_angle" z="70" view="false" instance="3" />
-            <call link="1115078297" name="PSID_Library:dq_abc_psid" z="80" view="false" instance="2" />
-            <call link="1416558759" name="PSID_Library:abc_dq_psid" z="90" view="false" instance="4" />
-            <call link="294237646" name="PSID_Library:abc_dq_psid" z="100" view="false" instance="5" />
-            <call link="1142133084" name="PSID_Library:abc_dq_psid" z="110" view="false" instance="6" />
-            <call link="1305307483" name="PSID_Library:timestep_delay_angle" z="160" view="false" instance="4" />
-          </call>
-          <call link="1822229676" name="PSID_Library:LCLFilter" z="500" view="false" instance="1">
-            <call link="18435842" name="PSID_Library:timestep_next_angle" z="150" view="false" instance="3" />
-            <call link="1284826394" name="PSID_Library:ri_dq" z="730" view="false" instance="1" />
-            <call link="1226443393" name="PSID_Library:dq_abc_psid" z="740" view="false" instance="3" />
-          </call>
-          <call link="1494865977" name="PSID_Library:ReducedOrderPLL" z="510" view="false" instance="0">
-            <call link="975203037" name="PSID_Library:abc_dq_psid" z="200" view="false" instance="7" />
-            <call link="1708939662" name="PSID_Library:timestep_delay_angle" z="300" view="false" instance="5" />
-          </call>
-          <call link="815459201" name="PSID_Library:ActivePI_ReactivePI" z="520" view="false" instance="0" />
-          <call link="2051780060" name="PSID_Library:CurrentModeControl" z="530" view="false" instance="0" />
-          <call link="784303139" name="PSID_Library:AverageConverter" z="540" view="false" instance="1" />
-        </call>
         <call link="66594642" name="PSID_Library_Inverters:FIXED_SAUER_PAI" z="-1" view="false" instance="0">
           <call link="2060554581" name="PSID_Library:PSSFixed" z="-1" view="false" instance="0" />
           <call link="1018815231" name="PSID_Library:AVRFixed" z="450" view="false" instance="0" />
           <call link="361948377" name="PSID_Library:ReferenceFrameConversion_GEN" z="460" view="false" instance="0">
             <call link="790317515" name="PSID_Library:timestep_next_angle" z="20" view="false" instance="4" />
-            <call link="1659966761" name="PSID_Library:timestep_delay_angle" z="50" view="false" instance="6" />
+            <call link="1659966761" name="PSID_Library:timestep_delay_angle" z="50" view="false" instance="5" />
             <call link="1136399958" name="PSID_Library:dq_abc_psid" z="60" view="false" instance="4" />
-            <call link="1050186494" name="PSID_Library:abc_dq_psid" z="70" view="false" instance="8" />
+            <call link="1050186494" name="PSID_Library:abc_dq_psid" z="70" view="false" instance="7" />
           </call>
           <call link="1589381465" name="PSID_Library:TGFixed" z="470" view="false" instance="0" />
           <call link="1624598015" name="PSID_Library:SingleMass" z="480" view="false" instance="0" />
           <call link="1522084081" name="PSID_Library:SauerPaiMachine" z="490" view="false" instance="0" />
-          <call link="1967639684" name="PSID_Library:CurrentSourceInterface" z="500" view="false" instance="0" />
-        </call>
-        <call link="788221067" name="PSID_Library_Inverters:DEMETRIOUS_SG" z="-1" view="false" instance="0">
-          <call link="13104666" name="PSID_Library:BPA_GG" z="540" view="false" instance="0" />
-          <call link="1559344279" name="PSID_Library:IEEET1" z="550" view="false" instance="1">
-            <call link="1513031148" name="PSID_Library:exciter_saturation" z="140" view="false" instance="2" />
-            <call link="746068508" name="PSID_Library:exciter_saturation" z="360" view="false" instance="3" />
-          </call>
-        </call>
-        <call link="461198950" name="PSID_Library_Inverters:DROOP_GFM" z="-1" view="false" instance="0">
-          <call link="822903436" name="PSID_Library:FixedFrequency" z="500" view="false" instance="0" />
-          <call link="1670526590" name="PSID_Library:LCLFilter" z="510" view="false" instance="2">
-            <call link="18435842" name="PSID_Library:timestep_next_angle" z="150" view="false" instance="5" />
-            <call link="1284826394" name="PSID_Library:ri_dq" z="730" view="false" instance="2" />
-            <call link="1226443393" name="PSID_Library:dq_abc_psid" z="740" view="false" instance="5" />
-          </call>
-          <call link="966491600" name="PSID_Library:ActiveDroop_ReactiveDroop" z="520" view="false" instance="0" />
-          <call link="1660439571" name="PSID_Library:ReferenceFrameConversion_INV" z="530" view="false" instance="2">
-            <call link="1642388637" name="PSID_Library:timestep_next_angle" z="30" view="false" instance="6" />
-            <call link="1686720077" name="PSID_Library:timestep_delay_angle" z="70" view="false" instance="7" />
-            <call link="1115078297" name="PSID_Library:dq_abc_psid" z="80" view="false" instance="6" />
-            <call link="1416558759" name="PSID_Library:abc_dq_psid" z="90" view="false" instance="9" />
-            <call link="294237646" name="PSID_Library:abc_dq_psid" z="100" view="false" instance="10" />
-            <call link="1142133084" name="PSID_Library:abc_dq_psid" z="110" view="false" instance="11" />
-            <call link="1305307483" name="PSID_Library:timestep_delay_angle" z="160" view="false" instance="8" />
-          </call>
-          <call link="219331248" name="PSID_Library:FixedDCSource" z="540" view="false" instance="2" />
-          <call link="2079101627" name="PSID_Library:VoltageModeControl" z="550" view="false" instance="1" />
-          <call link="2040622412" name="PSID_Library:AverageConverter" z="560" view="false" instance="2" />
+          <call link="1967639684" name="PSID_Library:CurrentSourceInterface" z="500" view="true" instance="0" />
         </call>
         <call link="108144603" name="PSID_Library_Inverters:SAUERPAI_SEXS_HYGOV_IEEEST" z="-1" view="false" instance="0">
-          <call link="1229824629" name="PSID_Library:IEEEST" z="-1" view="false" instance="0">
-            <call link="617299442" name="PSID_Library:SecOdrPole" z="-1" view="false" instance="0" />
-            <call link="1589910882" name="PSID_Library:SecOdrPole" z="-1" view="false" instance="1" />
-          </call>
           <call link="247362444" name="PSID_Library:HydroTurbineGov" z="-1" view="false" instance="0" />
+          <call link="1229824629" name="PSID_Library:IEEEST" z="-1" view="false" instance="0">
+            <call link="1589910882" name="PSID_Library:SecOdrPole" z="-1" view="false" instance="0" />
+            <call link="617299442" name="PSID_Library:SecOdrPole" z="-1" view="false" instance="1" />
+          </call>
           <call link="438661711" name="PSID_Library:ReferenceFrameConversion_GEN" z="460" view="false" instance="1">
-            <call link="790317515" name="PSID_Library:timestep_next_angle" z="20" view="false" instance="7" />
-            <call link="1659966761" name="PSID_Library:timestep_delay_angle" z="50" view="false" instance="9" />
-            <call link="1136399958" name="PSID_Library:dq_abc_psid" z="60" view="false" instance="7" />
-            <call link="1050186494" name="PSID_Library:abc_dq_psid" z="70" view="false" instance="12" />
+            <call link="790317515" name="PSID_Library:timestep_next_angle" z="20" view="false" instance="5" />
+            <call link="1659966761" name="PSID_Library:timestep_delay_angle" z="50" view="false" instance="6" />
+            <call link="1136399958" name="PSID_Library:dq_abc_psid" z="60" view="false" instance="5" />
+            <call link="1050186494" name="PSID_Library:abc_dq_psid" z="70" view="false" instance="8" />
           </call>
           <call link="124871949" name="PSID_Library:SingleMass" z="480" view="false" instance="1" />
           <call link="1881609797" name="PSID_Library:CurrentSourceInterface" z="500" view="false" instance="1" />
           <call link="282512531" name="PSID_Library:SauerPaiMachine" z="670" view="false" instance="1" />
           <call link="1762595493" name="PSID_Library:SEXS" z="700" view="false" instance="1" />
         </call>
-        <call link="798203330" name="PSID_Library_Inverters:SAUERPAI_SEXS_GASTG_PSSFIXED" z="-1" view="false" instance="0">
-          <call link="2074342879" name="PSID_Library:ReferenceFrameConversion_GEN" z="650" view="false" instance="2">
-            <call link="790317515" name="PSID_Library:timestep_next_angle" z="20" view="false" instance="8" />
-            <call link="1659966761" name="PSID_Library:timestep_delay_angle" z="50" view="false" instance="10" />
-            <call link="1136399958" name="PSID_Library:dq_abc_psid" z="60" view="false" instance="8" />
-            <call link="1050186494" name="PSID_Library:abc_dq_psid" z="70" view="false" instance="13" />
-          </call>
-          <call link="1111673280" name="PSID_Library:GASTG" z="660" view="false" instance="0" />
-          <call link="1735400806" name="PSID_Library:SauerPaiMachine" z="670" view="false" instance="2" />
-          <call link="1842009857" name="PSID_Library:SingleMass" z="680" view="false" instance="2" />
-          <call link="1910789646" name="PSID_Library:PSSFixed" z="690" view="false" instance="1" />
-          <call link="12004893" name="PSID_Library:SEXS" z="700" view="false" instance="2" />
-          <call link="218071143" name="PSID_Library:CurrentSourceInterface" z="710" view="false" instance="2" />
-        </call>
-        <call link="750910413" name="PSID_Library_Inverters:SAUERPAI_SEXS_GASTG_IEEEST" z="-1" view="false" instance="0">
-          <call link="1002398144" name="PSID_Library:IEEEST" z="-1" view="false" instance="1">
-            <call link="617299442" name="PSID_Library:SecOdrPole" z="-1" view="false" instance="2" />
-            <call link="1589910882" name="PSID_Library:SecOdrPole" z="-1" view="false" instance="3" />
-          </call>
-          <call link="544287701" name="PSID_Library:ReferenceFrameConversion_GEN" z="460" view="false" instance="3">
-            <call link="790317515" name="PSID_Library:timestep_next_angle" z="20" view="false" instance="9" />
-            <call link="1659966761" name="PSID_Library:timestep_delay_angle" z="50" view="false" instance="11" />
-            <call link="1136399958" name="PSID_Library:dq_abc_psid" z="60" view="false" instance="9" />
-            <call link="1050186494" name="PSID_Library:abc_dq_psid" z="70" view="false" instance="14" />
-          </call>
-          <call link="736631037" name="PSID_Library:SingleMass" z="480" view="false" instance="3" />
-          <call link="832841914" name="PSID_Library:CurrentSourceInterface" z="500" view="false" instance="3" />
-          <call link="1673503645" name="PSID_Library:GASTG" z="660" view="false" instance="1" />
-          <call link="1929561076" name="PSID_Library:SauerPaiMachine" z="670" view="false" instance="3" />
-          <call link="287247289" name="PSID_Library:SEXS" z="700" view="false" instance="3" />
-        </call>
         <call link="1213387110" name="PSID_Library_Inverters:SAUERPAI_SEXS_TGOV1_IEEEST" z="-1" view="false" instance="0">
           <call link="1429635466" name="PSID_Library:SteamTurbineGov1" z="-1" view="false" instance="0" />
-          <call link="170218251" name="PSID_Library:IEEEST" z="-1" view="false" instance="2">
-            <call link="617299442" name="PSID_Library:SecOdrPole" z="-1" view="false" instance="4" />
-            <call link="1589910882" name="PSID_Library:SecOdrPole" z="-1" view="false" instance="5" />
+          <call link="170218251" name="PSID_Library:IEEEST" z="-1" view="false" instance="1">
+            <call link="1589910882" name="PSID_Library:SecOdrPole" z="-1" view="false" instance="2" />
+            <call link="617299442" name="PSID_Library:SecOdrPole" z="-1" view="false" instance="3" />
           </call>
-          <call link="827418965" name="PSID_Library:ReferenceFrameConversion_GEN" z="460" view="false" instance="4">
-            <call link="790317515" name="PSID_Library:timestep_next_angle" z="20" view="false" instance="10" />
-            <call link="1659966761" name="PSID_Library:timestep_delay_angle" z="50" view="false" instance="12" />
-            <call link="1136399958" name="PSID_Library:dq_abc_psid" z="60" view="false" instance="10" />
-            <call link="1050186494" name="PSID_Library:abc_dq_psid" z="70" view="false" instance="15" />
+          <call link="827418965" name="PSID_Library:ReferenceFrameConversion_GEN" z="460" view="false" instance="2">
+            <call link="790317515" name="PSID_Library:timestep_next_angle" z="20" view="false" instance="6" />
+            <call link="1659966761" name="PSID_Library:timestep_delay_angle" z="50" view="false" instance="7" />
+            <call link="1136399958" name="PSID_Library:dq_abc_psid" z="60" view="false" instance="6" />
+            <call link="1050186494" name="PSID_Library:abc_dq_psid" z="70" view="false" instance="9" />
           </call>
-          <call link="1943350089" name="PSID_Library:SingleMass" z="480" view="false" instance="4" />
-          <call link="1006761352" name="PSID_Library:CurrentSourceInterface" z="500" view="false" instance="4" />
-          <call link="1888152530" name="PSID_Library:SauerPaiMachine" z="670" view="false" instance="4" />
-          <call link="862504165" name="PSID_Library:SEXS" z="700" view="false" instance="4" />
+          <call link="1943350089" name="PSID_Library:SingleMass" z="480" view="false" instance="2" />
+          <call link="1006761352" name="PSID_Library:CurrentSourceInterface" z="500" view="false" instance="2" />
+          <call link="1888152530" name="PSID_Library:SauerPaiMachine" z="670" view="false" instance="2" />
+          <call link="862504165" name="PSID_Library:SEXS" z="700" view="false" instance="2" />
+        </call>
+        <call link="798203330" name="PSID_Library_Inverters:SAUERPAI_SEXS_GASTG_PSSFIXED" z="-1" view="false" instance="0">
+          <call link="2074342879" name="PSID_Library:ReferenceFrameConversion_GEN" z="650" view="false" instance="3">
+            <call link="790317515" name="PSID_Library:timestep_next_angle" z="20" view="false" instance="7" />
+            <call link="1659966761" name="PSID_Library:timestep_delay_angle" z="50" view="false" instance="8" />
+            <call link="1136399958" name="PSID_Library:dq_abc_psid" z="60" view="false" instance="7" />
+            <call link="1050186494" name="PSID_Library:abc_dq_psid" z="70" view="false" instance="10" />
+          </call>
+          <call link="1111673280" name="PSID_Library:GASTG" z="660" view="false" instance="0" />
+          <call link="1735400806" name="PSID_Library:SauerPaiMachine" z="670" view="false" instance="3" />
+          <call link="1842009857" name="PSID_Library:SingleMass" z="680" view="false" instance="3" />
+          <call link="1910789646" name="PSID_Library:PSSFixed" z="690" view="false" instance="1" />
+          <call link="12004893" name="PSID_Library:SEXS" z="700" view="false" instance="3" />
+          <call link="218071143" name="PSID_Library:CurrentSourceInterface" z="710" view="false" instance="3" />
         </call>
         <call link="1980245536" name="PSID_Library_Inverters:SAUERPAI_SEXS_HYGOV_PSSFIXED" z="-1" view="false" instance="0">
           <call link="2098509671" name="PSID_Library:PSSFixed" z="-1" view="false" instance="2" />
           <call link="522972756" name="PSID_Library:HydroTurbineGov" z="-1" view="false" instance="1" />
-          <call link="1986881265" name="PSID_Library:ReferenceFrameConversion_GEN" z="460" view="false" instance="5">
-            <call link="790317515" name="PSID_Library:timestep_next_angle" z="20" view="false" instance="11" />
-            <call link="1659966761" name="PSID_Library:timestep_delay_angle" z="50" view="false" instance="13" />
-            <call link="1136399958" name="PSID_Library:dq_abc_psid" z="60" view="false" instance="11" />
-            <call link="1050186494" name="PSID_Library:abc_dq_psid" z="70" view="false" instance="16" />
+          <call link="1986881265" name="PSID_Library:ReferenceFrameConversion_GEN" z="460" view="false" instance="4">
+            <call link="790317515" name="PSID_Library:timestep_next_angle" z="20" view="false" instance="8" />
+            <call link="1659966761" name="PSID_Library:timestep_delay_angle" z="50" view="false" instance="9" />
+            <call link="1136399958" name="PSID_Library:dq_abc_psid" z="60" view="false" instance="8" />
+            <call link="1050186494" name="PSID_Library:abc_dq_psid" z="70" view="false" instance="11" />
           </call>
-          <call link="1342319537" name="PSID_Library:SingleMass" z="480" view="false" instance="5" />
-          <call link="1079232214" name="PSID_Library:CurrentSourceInterface" z="500" view="false" instance="5" />
-          <call link="1909323435" name="PSID_Library:SauerPaiMachine" z="670" view="false" instance="5" />
-          <call link="1765319643" name="PSID_Library:SEXS" z="700" view="false" instance="5" />
+          <call link="1342319537" name="PSID_Library:SingleMass" z="480" view="false" instance="4" />
+          <call link="1079232214" name="PSID_Library:CurrentSourceInterface" z="500" view="false" instance="4" />
+          <call link="1909323435" name="PSID_Library:SauerPaiMachine" z="670" view="false" instance="4" />
+          <call link="1765319643" name="PSID_Library:SEXS" z="700" view="false" instance="4" />
         </call>
-        <call link="621267136" name="PSID_Library_Inverters:GFL_KAURA_PLL" z="-1" view="true" instance="0">
-          <call link="1462166105" name="PSID_Library:KauraPLL" z="530" view="false" instance="1">
-            <call link="1760616745" name="PSID_Library:timestep_delay_angle" z="330" view="false" instance="14" />
-            <call link="1583651100" name="PSID_Library:abc_dq_psid" z="340" view="false" instance="17" />
+        <call link="750910413" name="PSID_Library_Inverters:SAUERPAI_SEXS_GASTG_IEEEST" z="-1" view="false" instance="0">
+          <call link="1002398144" name="PSID_Library:IEEEST" z="-1" view="false" instance="2">
+            <call link="1589910882" name="PSID_Library:SecOdrPole" z="-1" view="false" instance="4" />
+            <call link="617299442" name="PSID_Library:SecOdrPole" z="-1" view="false" instance="5" />
           </call>
-          <call link="539411229" name="PSID_Library:FixedDCSource" z="540" view="false" instance="3" />
-          <call link="1168180068" name="PSID_Library:ActivePI_ReactivePI" z="550" view="false" instance="1" />
-          <call link="817365154" name="PSID_Library:ReferenceFrameConversion_INV" z="560" view="false" instance="3">
-            <call link="1642388637" name="PSID_Library:timestep_next_angle" z="30" view="false" instance="12" />
-            <call link="1686720077" name="PSID_Library:timestep_delay_angle" z="70" view="false" instance="15" />
-            <call link="1115078297" name="PSID_Library:dq_abc_psid" z="80" view="false" instance="12" />
-            <call link="1416558759" name="PSID_Library:abc_dq_psid" z="90" view="false" instance="18" />
-            <call link="294237646" name="PSID_Library:abc_dq_psid" z="100" view="false" instance="19" />
-            <call link="1142133084" name="PSID_Library:abc_dq_psid" z="110" view="false" instance="20" />
-            <call link="1305307483" name="PSID_Library:timestep_delay_angle" z="160" view="false" instance="16" />
+          <call link="544287701" name="PSID_Library:ReferenceFrameConversion_GEN" z="460" view="false" instance="5">
+            <call link="790317515" name="PSID_Library:timestep_next_angle" z="20" view="false" instance="9" />
+            <call link="1659966761" name="PSID_Library:timestep_delay_angle" z="50" view="false" instance="10" />
+            <call link="1136399958" name="PSID_Library:dq_abc_psid" z="60" view="false" instance="9" />
+            <call link="1050186494" name="PSID_Library:abc_dq_psid" z="70" view="false" instance="12" />
           </call>
-          <call link="2075316472" name="PSID_Library:CurrentModeControl" z="570" view="false" instance="1" />
-          <call link="2046628562" name="PSID_Library:AverageConverter" z="580" view="false" instance="3" />
-          <call link="1559633434" name="PSID_Library:LCLFilter" z="590" view="false" instance="3">
-            <call link="18435842" name="PSID_Library:timestep_next_angle" z="150" view="false" instance="13" />
-            <call link="1284826394" name="PSID_Library:ri_dq" z="730" view="false" instance="3" />
-            <call link="1226443393" name="PSID_Library:dq_abc_psid" z="740" view="false" instance="13" />
-          </call>
+          <call link="736631037" name="PSID_Library:SingleMass" z="480" view="false" instance="5" />
+          <call link="832841914" name="PSID_Library:CurrentSourceInterface" z="500" view="false" instance="5" />
+          <call link="1673503645" name="PSID_Library:GASTG" z="660" view="false" instance="1" />
+          <call link="1929561076" name="PSID_Library:SauerPaiMachine" z="670" view="false" instance="5" />
+          <call link="287247289" name="PSID_Library:SEXS" z="700" view="false" instance="5" />
         </call>
+        <call link="1467477007" name="PSID_Library_Inverters:INFINITE_BUS" z="-1" view="false" instance="0" />
         <call link="1765688990" name="PSID_Library_Inverters:SAUERPAI_SEXS_TGOV1_PSSFIXED" z="-1" view="false" instance="0">
           <call link="841156577" name="PSID_Library:ReferenceFrameConversion_GEN" z="590" view="false" instance="6">
-            <call link="790317515" name="PSID_Library:timestep_next_angle" z="20" view="false" instance="14" />
-            <call link="1659966761" name="PSID_Library:timestep_delay_angle" z="50" view="false" instance="17" />
-            <call link="1136399958" name="PSID_Library:dq_abc_psid" z="60" view="false" instance="14" />
-            <call link="1050186494" name="PSID_Library:abc_dq_psid" z="70" view="false" instance="21" />
+            <call link="790317515" name="PSID_Library:timestep_next_angle" z="20" view="false" instance="10" />
+            <call link="1659966761" name="PSID_Library:timestep_delay_angle" z="50" view="false" instance="11" />
+            <call link="1136399958" name="PSID_Library:dq_abc_psid" z="60" view="false" instance="10" />
+            <call link="1050186494" name="PSID_Library:abc_dq_psid" z="70" view="false" instance="13" />
           </call>
           <call link="492516549" name="PSID_Library:SEXS" z="600" view="false" instance="6" />
           <call link="1206345089" name="PSID_Library:SteamTurbineGov1" z="610" view="false" instance="1" />
@@ -54509,6 +54496,54 @@ https://www.phasetophase.nl/pdf/SynchronousMachineTurbineGoverningSystems.pdf]]>
           <call link="1490332835" name="PSID_Library:SauerPaiMachine" z="630" view="false" instance="6" />
           <call link="102653321" name="PSID_Library:PSSFixed" z="640" view="false" instance="3" />
           <call link="1931655674" name="PSID_Library:CurrentSourceInterface" z="650" view="false" instance="6" />
+        </call>
+        <call link="439422545" name="PSID_Library_Inverters:GFL_REDUCED_PLL" z="-1" view="false" instance="0">
+          <call link="1760640988" name="PSID_Library:FixedDCSource" z="480" view="false" instance="2" />
+          <call link="1229355875" name="PSID_Library:ReferenceFrameConversion_INV" z="490" view="false" instance="2">
+            <call link="1642388637" name="PSID_Library:timestep_next_angle" z="30" view="false" instance="11" />
+            <call link="1686720077" name="PSID_Library:timestep_delay_angle" z="70" view="false" instance="12" />
+            <call link="1115078297" name="PSID_Library:dq_abc_psid" z="80" view="false" instance="11" />
+            <call link="1416558759" name="PSID_Library:abc_dq_psid" z="90" view="false" instance="14" />
+            <call link="294237646" name="PSID_Library:abc_dq_psid" z="100" view="false" instance="15" />
+            <call link="1142133084" name="PSID_Library:abc_dq_psid" z="110" view="false" instance="16" />
+            <call link="1305307483" name="PSID_Library:timestep_delay_angle" z="160" view="false" instance="13" />
+          </call>
+          <call link="1822229676" name="PSID_Library:LCLFilter" z="500" view="false" instance="2">
+            <call link="18435842" name="PSID_Library:timestep_next_angle" z="150" view="false" instance="12" />
+            <call link="1284826394" name="PSID_Library:ri_dq" z="730" view="false" instance="2" />
+            <call link="1226443393" name="PSID_Library:dq_abc_psid" z="740" view="false" instance="12" />
+          </call>
+          <call link="1494865977" name="PSID_Library:ReducedOrderPLL" z="510" view="false" instance="0">
+            <call link="975203037" name="PSID_Library:abc_dq_psid" z="200" view="false" instance="17" />
+            <call link="1708939662" name="PSID_Library:timestep_delay_angle" z="300" view="false" instance="14" />
+          </call>
+          <call link="815459201" name="PSID_Library:ActivePI_ReactivePI" z="520" view="false" instance="0" />
+          <call link="2051780060" name="PSID_Library:CurrentModeControl" z="530" view="false" instance="0" />
+          <call link="784303139" name="PSID_Library:AverageConverter" z="540" view="false" instance="2" />
+        </call>
+        <call link="621267136" name="PSID_Library_Inverters:GFL_KAURA_PLL" z="-1" view="false" instance="0">
+          <call link="1462166105" name="PSID_Library:KauraPLL" z="530" view="false" instance="1">
+            <call link="1760616745" name="PSID_Library:timestep_delay_angle" z="330" view="false" instance="15" />
+            <call link="1583651100" name="PSID_Library:abc_dq_psid" z="340" view="false" instance="18" />
+          </call>
+          <call link="539411229" name="PSID_Library:FixedDCSource" z="540" view="false" instance="3" />
+          <call link="1168180068" name="PSID_Library:ActivePI_ReactivePI" z="550" view="false" instance="1" />
+          <call link="817365154" name="PSID_Library:ReferenceFrameConversion_INV" z="560" view="false" instance="3">
+            <call link="1642388637" name="PSID_Library:timestep_next_angle" z="30" view="false" instance="13" />
+            <call link="1686720077" name="PSID_Library:timestep_delay_angle" z="70" view="false" instance="16" />
+            <call link="1115078297" name="PSID_Library:dq_abc_psid" z="80" view="false" instance="13" />
+            <call link="1416558759" name="PSID_Library:abc_dq_psid" z="90" view="false" instance="19" />
+            <call link="294237646" name="PSID_Library:abc_dq_psid" z="100" view="false" instance="20" />
+            <call link="1142133084" name="PSID_Library:abc_dq_psid" z="110" view="false" instance="21" />
+            <call link="1305307483" name="PSID_Library:timestep_delay_angle" z="160" view="false" instance="17" />
+          </call>
+          <call link="2075316472" name="PSID_Library:CurrentModeControl" z="570" view="false" instance="1" />
+          <call link="2046628562" name="PSID_Library:AverageConverter" z="580" view="false" instance="3" />
+          <call link="1559633434" name="PSID_Library:LCLFilter" z="590" view="false" instance="3">
+            <call link="18435842" name="PSID_Library:timestep_next_angle" z="150" view="false" instance="14" />
+            <call link="1284826394" name="PSID_Library:ri_dq" z="730" view="false" instance="3" />
+            <call link="1226443393" name="PSID_Library:dq_abc_psid" z="740" view="false" instance="14" />
+          </call>
         </call>
       </call>
     </call>

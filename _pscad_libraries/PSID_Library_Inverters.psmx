@@ -1,19 +1,19 @@
 <Meta name="PSID_Library_Inverters">
   <messagelist>
-    <message status="error" label="build" groupid="300503" id="1143988852" classid="CmpNavigator">
+    <message status="error" label="build" groupid="300503" id="937359232" classid="CmpNavigator">
       <User scope="PSID_Library_Inverters" name="PSID_Library:GAST" status="error" link="1645426511" /><![CDATA[Unable to resolve definition 'PSID_Library:GAST']]></message>
-    <message status="error" label="build" groupid="300503" id="288608609" classid="CmpNavigator">
+    <message status="error" label="build" groupid="300503" id="312938419" classid="CmpNavigator">
       <User scope="PSID_Library_Inverters" name="PSID_Library:GAST" status="error" link="1645426511" /><![CDATA[Unable to resolve definition 'PSID_Library:GAST']]></message>
   </messagelist>
   <List classid="Settings" />
   <ViewContext>
-    <Window defn="PSID_Library_Inverters:SAUERPAI_SEXS_TGOV1_PSSFIXED" call="0" />
+    <Window defn="PSID_Library:CurrentSourceInterface" call="0" />
   </ViewContext>
   <List classid="View">
-    <View name="Main" zoomlevel="4" scrollx="197" scrolly="0" zoomscale="1.5" />
+    <View name="Main" zoomlevel="4" scrollx="33" scrolly="0" zoomscale="0.96" />
     <View name="OuterControl" zoomlevel="4" scrollx="152" scrolly="134" />
     <View name="PSID_VSM" zoomlevel="6" scrollx="0" scrolly="0" />
-    <View name="DARCO_VSM" zoomlevel="6" scrollx="96" scrolly="0" zoomscale="0.96" />
+    <View name="DARCO_VSM" zoomlevel="6" scrollx="902" scrolly="56" zoomscale="3.66211" />
     <View name="DROOP_GFM" zoomlevel="6" scrollx="0" scrolly="0" zoomscale="0.96" />
     <View name="GFL" zoomlevel="6" scrollx="0" scrolly="0" zoomscale="0.96" />
     <View name="DEMETRIOUS_SG" zoomlevel="6" scrollx="0" scrolly="0" zoomscale="1.2" />
