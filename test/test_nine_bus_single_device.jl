@@ -17,9 +17,6 @@ t_inv_release_pscad = 3.0
 t_gen_release_pscad = 3.0
 add_pvbus_sources = true  
 t_pvbussource_release_pscad = 3.0
-fortran_version = ".gf46"        #laptop
-#fortran_version = ".if18_x86"   #remote desktop
-#TODO - add check for fortran version 
 
 #PSID SPECIFIC PARAMETERS 
 solver_psid = Rodas5()
@@ -34,14 +31,8 @@ plotting = true
    # try 
         # 1. Build the system in PSID. 
         sys = System(joinpath(@__DIR__, "systems_tests", string(base_name, ".json")), runchecks = false)
-        #b = get_component(Bus, sys, "Bus_1")   #added these two lines in a prior version, not sure why 
-        #set_angle!(b, -0.1)                    #added these two lines in a prior version, not sure why 
+
         # 2. Simulate the PSID system.
-
-        b = get_component(Bus, sys, "Bus_1")
-        gen_shunt = FixedAdmittance(name="gen-shunt", available=true, bus = b, Y =0.1+0.0*im, dynamic_injector=nothing)
-        add_component!(sys, gen_shunt)
-
         perturbation = BranchTrip(0.1, Line, line_to_trip)
         sim = Simulation!(
             MassMatrixModel,
@@ -121,6 +112,7 @@ plotting = true
             project.save()   
             pscad.save_workspace()
         end 
+        ##
         # 4. Run the PSCAD system to steady state.
         pscad.load(PyObject(joinpath(base_path, string(base_name, ".pswx"))))  
         project = pscad.project(base_name)

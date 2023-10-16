@@ -17,8 +17,6 @@ t_inv_release_pscad = 3.0
 t_gen_release_pscad = 3.0
 add_pvbus_sources = true  
 t_pvbussource_release_pscad = 3.0
-fortran_version = ".if18_x86"
-#TODO - add other fortran version or add check for fortran version (better)
 
 #PSID SPECIFIC PARAMETERS 
 solver_psid = IDA(linear_solver = :KLU)#FBDF()

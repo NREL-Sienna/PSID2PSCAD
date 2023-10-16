@@ -25,6 +25,10 @@
             "count": 1
         },
         {
+            "type": "FixedAdmittance",
+            "count": 1
+        },
+        {
             "type": "GenericBattery",
             "count": 2
         },

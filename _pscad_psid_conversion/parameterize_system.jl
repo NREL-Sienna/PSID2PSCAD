@@ -306,7 +306,18 @@ function write_parameters(
     pscad_component_name,
     pscad_project,
 )  
-    @warn "not parameterizing FixedAdmittance in PSCAD"
+    base_voltage = get_base_voltage(get_bus(psid_component))
+    display(base_voltage)
+    pscad_component = pscad_project.find(pscad_component_name)
+    display(pscad_component)
+    pscad_params = pscad_component.parameters()
+    display(pscad_params)
+    pscad_params["Y_real"] = real(get_Y(psid_component))
+    pscad_params["Y_imag"] = imag(get_Y(psid_component))
+    pscad_params["V_base"] = base_voltage
+
+    PP.update_parameter_by_dictionary(pscad_component, pscad_params)
+
 end
 
 function write_parameters(

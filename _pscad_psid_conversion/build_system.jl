@@ -97,8 +97,47 @@ function build_component(
     add_multimeters = false,
     add_pvbus_sources = false,
 )
-    @warn "Not building fixed admittance in PSCAD"
-end 
+    fixed_admittance = get_component(FixedAdmittance, sys, pscad_component_name)
+    Busname = get_name(get_bus(fixed_admittance))
+    if coorDict[Busname].devices_location == "s"
+        mach_coors = (coorDict[Busname].centerpoint[1] - 16, coorDict[Busname].centerpoint[2] + 7)
+        new_mach = pscad_canvas.add_component(
+            "PSID_Library",
+            "FixedAdmittance",
+            mach_coors[1],
+            mach_coors[2],
+        )
+    elseif coorDict[Busname].devices_location == "n"
+        mach_coors = (coorDict[Busname].centerpoint[1] - 16, coorDict[Busname].centerpoint[2] + 7)
+        new_mach = pscad_canvas.add_component(
+            "PSID_Library",
+            "FixedAdmittance",
+            mach_coors[1],
+            mach_coors[2],
+        )
+    elseif coorDict[Busname].devices_location == "e"
+        mach_coors = (coorDict[Busname].centerpoint[1] - 16, coorDict[Busname].centerpoint[2] + 7)
+        new_mach = pscad_canvas.add_component(
+            "PSID_Library",
+            "FixedAdmittance",
+            mach_coors[1],
+            mach_coors[2],
+        )
+    elseif coorDict[Busname].devices_location == "w"
+        mach_coors = (coorDict[Busname].centerpoint[1] - 16, coorDict[Busname].centerpoint[2] + 7)
+        new_mach = pscad_canvas.add_component(
+            "PSID_Library",
+            "FixedAdmittance",
+            mach_coors[1],
+            mach_coors[2],
+        )
+    else
+        @error "No direction specified for component placement"
+        println(Busname)
+    end
+    new_mach.set_parameters(Name = pscad_component_name)
+    pscad_canvas.create_wire(new_mach.get_port_location("N"), coorDict[Busname].centerpoint)
+end
 
 function build_component(
     psid_component::Source,
