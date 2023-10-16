@@ -2,10 +2,10 @@
   <messagelist />
   <List classid="Settings" />
   <ViewContext>
-    <Window defn="PSID_Library:Main" call="0" />
+    <Window defn="PSID_Library:FixedAdmittance" call="0" />
   </ViewContext>
   <List classid="View">
-    <View name="Main" zoomlevel="4" scrollx="0" scrolly="0" zoomscale="0.768" />
+    <View name="Main" zoomlevel="4" scrollx="1283" scrolly="0" zoomscale="0.96" />
     <View name="TGTypeII" zoomlevel="4" scrollx="0" scrolly="252" zoomscale="0.96" />
     <View name="TGOV1" zoomlevel="4" scrollx="184" scrolly="185" zoomscale="1.5" />
     <View name="SEXS" zoomlevel="1" scrollx="0" scrolly="0" zoomscale="1.5" />
@@ -40,8 +40,8 @@
     <View name="LCLFilter2" zoomscale="0.768" scrollx="0" scrolly="0" />
     <View name="ReferenceFrameConversion_GEN" zoomscale="0.960001" scrollx="0" scrolly="0" />
     <View name="SauerPaiMachine" zoomscale="0.768" scrollx="0" scrolly="36" />
-    <View name="CurrentSourceInterface" zoomscale="0.768001" scrollx="22" scrolly="0" />
-    <View name="LCLFilter" zoomscale="1.2" scrollx="306" scrolly="499" />
+    <View name="CurrentSourceInterface" zoomscale="0.768001" scrollx="43" scrolly="0" />
+    <View name="LCLFilter" zoomscale="0.96" scrollx="153" scrolly="446" />
     <View name="AVRFixed" zoomscale="0.96" scrollx="27" scrolly="0" />
     <View name="SingleMass" zoomscale="1.5" scrollx="203" scrolly="112" />
     <View name="TGFixed" zoomscale="1.2" scrollx="0" scrolly="0" />
@@ -61,6 +61,7 @@
     <View name="timestep_delay_angle_1" zoomscale="0.768001" scrollx="0" scrolly="0" />
     <View name="timestep_next_angle" zoomscale="1.5" scrollx="0" scrolly="0" />
     <View name="PVBusSource" zoomscale="0.960001" scrollx="282" scrolly="0" />
+    <View name="FixedAdmittance" zoomscale="0.768" scrollx="0" scrolly="0" />
   </List>
   <Catalog count="0" />
 </Meta>
