@@ -6,24 +6,24 @@
 #GENERAL PARAMETERS WHICH APPLY TO BOTH PSID AND PSCAD 
 base_name = "onefortyfour_bus"
 line_to_trip = "Bus_7-Bus_5-i_1" 
-t_sample =  5.0e-4 #* 1e6 
-t_dynamic_sim = 5.0
+t_sample =  25.0e-6 #* 1e6 
+t_dynamic_sim = 10.0
 
 #PSCAD SPECIFIC PARAMETERS
-build_from_scratch = false 
+build_from_scratch = true 
 time_step_pscad = 25e-6 * 1e6  
-t_initialization_pscad = 4.0 
+t_initialization_pscad = 10.0 #10.0  
 t_inv_release_pscad = 3.0
 t_gen_release_pscad = 3.0
-add_pvbus_sources = true  
+add_pvbus_sources = false  
 t_pvbussource_release_pscad = 3.0
 
 #PSID SPECIFIC PARAMETERS 
-solver_psid = IDA(linear_solver = :KLU)#FBDF()
+solver_psid = IDA()#FBDF() linear_solver = :KLU
 abstol_psid = 1e-9
 reltol_psid = 1e-9
 
-plotting = true   
+plotting = false   
 ##########################################
 @info "144"
 # @testset "test_psid_paper" begin
@@ -31,7 +31,7 @@ plotting = true
     !isdir(base_path) && mkdir(base_path)
    # try 
         # 1. Build the system in PSID. 
-        sys = System(joinpath(@__DIR__, "systems_tests", string("144Bus", ".json")), runchecks = false)
+        sys = System(joinpath(@__DIR__, "systems_tests", string("144Bus_with_shunts", ".json")), runchecks = false)
 
         for b in get_components(Line, sys)
             @error get_name(b)
@@ -129,7 +129,7 @@ plotting = true
             project.save()   
             pscad.save_workspace()
         end 
-        # 4. Run the PSCAD system to steady state.
+         # 4. Run the PSCAD system to steady state.
         pscad.load(PyObject(joinpath(base_path, string(base_name, ".pswx"))))  
         project = pscad.project(base_name)
             
@@ -167,12 +167,12 @@ plotting = true
         # 5. Check the result against PSID (options for plotting to debug)     
         pscad_results = CSV.read(joinpath(base_path, "pscad_results_init.csv"), DataFrame)
         if plotting 
-            p = plot_psid_pscad_initialization_comparison(sys, psid_results, pscad_results, inner_vars_map)
-            display(p)
+            #p = plot_psid_pscad_initialization_comparison(sys, psid_results, pscad_results, inner_vars_map)
+            #display(p)
         end 
         #psid_pscad_initialization_comparison(sys, psid_results, pscad_results, inner_vars_map)
         project.save()   
-        pscad.save_workspace()
+        pscad.save_workspace() 
 
         # 6. Run the dynamics in PSCAD (use snapshot)
         pscad.load(PyObject(joinpath(base_path, string(base_name, ".pswx"))))  
@@ -206,8 +206,8 @@ plotting = true
         # 7. Check the result against PSID (options for plotting to debug)     
         pscad_results = CSV.read(joinpath(base_path, "pscad_results_dynamics.csv"), DataFrame)
         if plotting 
-            p = plot_psid_pscad_fault_comparison(sys, psid_results, pscad_results)
-            display(p)
+            #p = plot_psid_pscad_fault_comparison(sys, psid_results, pscad_results)
+            #display(p)
         end 
         #psid_pscad_fault_comparison(sys, psid_results, pscad_results)  #TODO - check the results numerically 
 

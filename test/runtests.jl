@@ -26,10 +26,10 @@ include(joinpath(pwd(), "PSID2PSCAD", "_pscad_psid_conversion", "simulation_extr
 include(joinpath(pwd(), "PSID2PSCAD", "_pscad_psid_conversion", "collect_data.jl"))
 
 
-PYTHON_PATH = "C:\\Users\\Matt Bossart\\.conda\\envs\\pscad_v5\\python.exe" #laptop 
-#TODO - add in PYTHON_PATH for remote desktop 
-fortran_version = ".gf46"        #laptop
-#fortran_version = ".if18_x86"   #remote desktop
+#PYTHON_PATH = "C:\\Users\\Matt Bossart\\.conda\\envs\\pscad_v5\\python.exe"  #laptop 
+PYTHON_PATH = "C:\\Users\\Matt\\anaconda3\\envs\\pscad_v5\\python.exe"       #remote desktop 
+#fortran_version = ".gf46"        #laptop
+fortran_version = ".if18_x86"   #remote desktop
 #TODO - add check for fortran version 
 
 #Issue with path in windows per: https://github.com/JuliaPy/PyCall.jl/issues/730
@@ -59,8 +59,8 @@ logger = PSY.configure_logging(;
 with_logger(logger) do
     #include("test_psid_paper.jl")            #3bus system with all inverters
     #include("test_three_bus_inv_gen.jl")    #3bus system with inverter and machine - this should work as is without further changes 
-    include("test_nine_bus_single_device.jl")                                         #9bus system with multiple devices per bus - need to add sources to ensure good PF match      
-    #include("test_onefortyfour_bus.jl")                                        #144bus system - should be same as 9 bus, no additional changes needed 
+    #include("test_nine_bus_single_device.jl")                                         #9bus system with multiple devices per bus - need to add sources to ensure good PF match      
+    include("test_onefortyfour_bus.jl")                                        #144bus system - should be same as 9 bus, no additional changes needed 
 end     
 flush(logger)
 close(logger)
