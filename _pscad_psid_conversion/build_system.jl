@@ -75,11 +75,12 @@ function build_component(psid_component::Bus, pscad_component_name, pscad_canvas
         multi_name = "m_"*pscad_component_name
         new_multi.set_parameters(
             Name = multi_name,
-            RMS = 2,    # 2 -> digital measurement 
+            RMS = 2,    # 2 -> digital measurement, #1 -> analog measurement 
             MeasPh = 1, # 1 -> measure in radians 
             Vrms = "v_"*pscad_component_name,
             Ph = "ph_"*pscad_component_name,
             Freq = 30000.0, #frequency for digital measurement 
+            #TS = 0.0, 
             BaseV = get_base_voltage(psid_component)
             )
     end
@@ -100,7 +101,7 @@ function build_component(
     fixed_admittance = get_component(FixedAdmittance, sys, pscad_component_name)
     Busname = get_name(get_bus(fixed_admittance))
     if coorDict[Busname].devices_location == "s"
-        mach_coors = (coorDict[Busname].centerpoint[1] - 16, coorDict[Busname].centerpoint[2] + 7)
+        mach_coors = (coorDict[Busname].centerpoint[1] - 2, coorDict[Busname].centerpoint[2] + 2)
         new_mach = pscad_canvas.add_component(
             "PSID_Library",
             "FixedAdmittance",
@@ -108,7 +109,7 @@ function build_component(
             mach_coors[2],
         )
     elseif coorDict[Busname].devices_location == "n"
-        mach_coors = (coorDict[Busname].centerpoint[1] - 16, coorDict[Busname].centerpoint[2] + 7)
+        mach_coors = (coorDict[Busname].centerpoint[1] - 2, coorDict[Busname].centerpoint[2] + 7)
         new_mach = pscad_canvas.add_component(
             "PSID_Library",
             "FixedAdmittance",
@@ -116,7 +117,7 @@ function build_component(
             mach_coors[2],
         )
     elseif coorDict[Busname].devices_location == "e"
-        mach_coors = (coorDict[Busname].centerpoint[1] - 16, coorDict[Busname].centerpoint[2] + 7)
+        mach_coors = (coorDict[Busname].centerpoint[1] +7, coorDict[Busname].centerpoint[2] + 10)
         new_mach = pscad_canvas.add_component(
             "PSID_Library",
             "FixedAdmittance",
@@ -124,7 +125,7 @@ function build_component(
             mach_coors[2],
         )
     elseif coorDict[Busname].devices_location == "w"
-        mach_coors = (coorDict[Busname].centerpoint[1] - 16, coorDict[Busname].centerpoint[2] + 7)
+        mach_coors = (coorDict[Busname].centerpoint[1] - 13, coorDict[Busname].centerpoint[2] + 10)
         new_mach = pscad_canvas.add_component(
             "PSID_Library",
             "FixedAdmittance",
